@@ -56,6 +56,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Backend\UnitTests\UnitTests.csproj">
+      <Project>{06237727-aea0-4e42-85c0-c0886f425352}</Project>
+      <Name>UnitTests</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Capture\Capture.csproj">
       <Project>{4F383EAB-5002-4B0F-9089-DB22B485EE09}</Project>
       <Name>Capture</Name>
@@ -67,10 +71,6 @@
     <ProjectReference Include="..\..\Backend\Store\Store.csproj">
       <Project>{BD330A44-DABF-43E9-83B4-0750F8F1DB9D}</Project>
       <Name>Store</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Backend\UnitTests\Backend.UnitTests.csproj">
-      <Project>{06237727-AEA0-4E42-85C0-C0886F425352}</Project>
-      <Name>Backend.UnitTests</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
