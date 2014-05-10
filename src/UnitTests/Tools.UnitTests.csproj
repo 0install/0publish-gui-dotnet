@@ -51,9 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Backend\UnitTests\UnitTests.csproj">
+    <ProjectReference Include="..\..\Backend\UnitTests\Backend.UnitTests.csproj">
       <Project>{06237727-AEA0-4E42-85C0-C0886F425352}</Project>
-      <Name>UnitTests</Name>
+      <Name>Backend.UnitTests</Name>
     </ProjectReference>
     <ProjectReference Include="..\Capture\Capture.csproj">
       <Project>{4F383EAB-5002-4B0F-9089-DB22B485EE09}</Project>
