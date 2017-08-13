@@ -1,0 +1,16 @@
+/build/
+/src/.vs/
+/src/_ReSharper*/
+/src/packages/
+/release/*.xml
+/release/*.tar.gz
+obj/
+bin/
+*.bak
+*.cache
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.resources
+*.filtered.resx

@@ -23,7 +23,6 @@ using NanoByte.Common.Streams;
 using NanoByte.Common.Tasks;
 using NanoByte.Common.Undo;
 using Xunit;
-using ZeroInstall.Store.Implementations.Archives;
 using ZeroInstall.Store.Model;
 
 namespace ZeroInstall.Publish
@@ -42,7 +41,7 @@ namespace ZeroInstall.Publish
         [Fact]
         public void DownloadAndApplyArchive()
         {
-            using (var stream = typeof(ArchiveExtractorTest).GetEmbeddedStream("testArchive.zip"))
+            using (var stream = typeof(RetrievalMethodUtilsTest).GetEmbeddedStream("testArchive.zip"))
             using (var microServer = new MicroServer("archive.zip", stream))
             {
                 var archive = new Archive {Href = microServer.FileUri};
@@ -75,7 +74,7 @@ namespace ZeroInstall.Publish
         [Fact]
         public void DownloadAndApplyRecipe()
         {
-            using (var stream = typeof(ArchiveExtractorTest).GetEmbeddedStream("testArchive.zip"))
+            using (var stream = typeof(RetrievalMethodUtilsTest).GetEmbeddedStream("testArchive.zip"))
             using (var microServer = new MicroServer("archive.zip", stream))
             {
                 var archive = new Archive {Href = microServer.FileUri};
@@ -96,7 +95,7 @@ namespace ZeroInstall.Publish
             using (var tempDir = new TemporaryDirectory("0install-unit-tests"))
             {
                 string tempFile = Path.Combine(tempDir, "archive.zip");
-                typeof(ArchiveExtractorTest).CopyEmbeddedToFile("testArchive.zip", tempFile);
+                typeof(RetrievalMethodUtilsTest).CopyEmbeddedToFile("testArchive.zip", tempFile);
 
                 var archive = new Archive();
                 using (var extractedDir = archive.LocalApply(tempFile, new SilentTaskHandler()))

@@ -26,10 +26,7 @@ using NanoByte.Common.Streams;
 using NanoByte.Common.Tasks;
 using NanoByte.Common.Undo;
 using Xunit;
-using ZeroInstall.FileSystem;
-using ZeroInstall.Services;
 using ZeroInstall.Store.Implementations;
-using ZeroInstall.Store.Implementations.Archives;
 using ZeroInstall.Store.Implementations.Manifests;
 using ZeroInstall.Store.Model;
 
@@ -54,7 +51,7 @@ namespace ZeroInstall.Publish
         [Fact]
         public void BuildArchive()
         {
-            using (var stream = typeof(ArchiveExtractorTest).GetEmbeddedStream("testArchive.zip"))
+            using (var stream = typeof(RetrievalMethodUtilsTest).GetEmbeddedStream("testArchive.zip"))
             using (var microServer = new MicroServer("archive.zip", stream))
             {
                 var implementation = ImplementationUtils.Build(new Archive {Href = microServer.FileUri}, new SilentTaskHandler());
@@ -89,7 +86,7 @@ namespace ZeroInstall.Publish
         [Fact]
         public void BuildRecipe()
         {
-            using (var stream = typeof(ArchiveExtractorTest).GetEmbeddedStream("testArchive.zip"))
+            using (var stream = typeof(RetrievalMethodUtilsTest).GetEmbeddedStream("testArchive.zip"))
             using (var microServer = new MicroServer("archive.zip", stream))
             {
                 var implementation = ImplementationUtils.Build(new Recipe {Steps = {new Archive {Href = microServer.FileUri}}}, new SilentTaskHandler());
@@ -107,7 +104,7 @@ namespace ZeroInstall.Publish
         [Fact]
         public void AddMissingArchive()
         {
-            using (var stream = typeof(ArchiveExtractorTest).GetEmbeddedStream("testArchive.zip"))
+            using (var stream = typeof(RetrievalMethodUtilsTest).GetEmbeddedStream("testArchive.zip"))
             using (var microServer = new MicroServer("archive.zip", stream))
             {
                 var implementation = new Implementation {RetrievalMethods = {new Archive {Href = microServer.FileUri}}};
@@ -145,7 +142,7 @@ namespace ZeroInstall.Publish
         [Fact]
         public void AddMissingRecipe()
         {
-            using (var stream = typeof(ArchiveExtractorTest).GetEmbeddedStream("testArchive.zip"))
+            using (var stream = typeof(RetrievalMethodUtilsTest).GetEmbeddedStream("testArchive.zip"))
             using (var microServer = new MicroServer("archive.zip", stream))
             {
                 var implementation = new Implementation {RetrievalMethods = {new Recipe {Steps = {new Archive {Href = microServer.FileUri}}}}};
@@ -189,7 +186,7 @@ namespace ZeroInstall.Publish
         [Fact]
         public void AddMissingExceptions()
         {
-            using (var stream = typeof(ArchiveExtractorTest).GetEmbeddedStream("testArchive.zip"))
+            using (var stream = typeof(RetrievalMethodUtilsTest).GetEmbeddedStream("testArchive.zip"))
             using (var microServer = new MicroServer("archive.zip", stream))
             {
                 var implementation = new Implementation {ManifestDigest = new ManifestDigest(sha1New: "invalid"), RetrievalMethods = {new Archive {Href = microServer.FileUri}}};
@@ -202,18 +199,15 @@ namespace ZeroInstall.Publish
         {
             using (var testDir = new TemporaryDirectory("0install-unit-tests"))
             {
-                new TestRoot
-                {
-                    new TestDirectory("subdir") {new TestFile("file")}
-                }.Build(testDir);
+                File.WriteAllText(Path.Combine(testDir, "file"), @"data");
 
-                ManifestDigest digest1 = ImplementationUtils.GenerateDigest(testDir, new MockTaskHandler());
+                var digest1 = ImplementationUtils.GenerateDigest(testDir, new SilentTaskHandler());
                 digest1.Sha1.Should().BeNullOrEmpty(because: "sha1 is deprecated");
                 digest1.Sha1New.Should().NotBeNullOrEmpty();
                 digest1.Sha256.Should().NotBeNullOrEmpty();
                 digest1.Sha256New.Should().NotBeNullOrEmpty();
 
-                ManifestDigest digest2 = ImplementationUtils.GenerateDigest(testDir, new MockTaskHandler());
+                var digest2 = ImplementationUtils.GenerateDigest(testDir, new SilentTaskHandler());
                 digest2.Should().Be(digest1);
             }
         }
