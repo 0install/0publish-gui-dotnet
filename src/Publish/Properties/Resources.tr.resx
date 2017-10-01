@@ -166,7 +166,7 @@ Kaydedilmemiş değişiklikleri yoksay</value>
     <value>Önizleme için görsel indiriliyor...</value>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Bir bildirim özeti bir boş dizin için tasarlandı. &quot;extract&quot; değerinin arşiv için doğru şekilde ayarlandığını denetleyin.</value>
+    <value>Bir bildirim özeti bir boş dizin için tasarlandı. "extract" değerinin arşiv için doğru şekilde ayarlandığını denetleyin.</value>
   </data>
   <data name="EntryPointNotFound" xml:space="preserve">
     <value>Uygulamaların giriş noktaları bulunamıyor.
@@ -176,13 +176,13 @@ Giriş noktalarını el ile belirtmeyi deneyin.</value>
     <value>Akış geçerli bir biçime sahip değil.</value>
   </data>
   <data name="FetchingExternal" xml:space="preserve">
-    <value> &apos;{0}&apos; Zero Install kullanılarak indiriliyor</value>
+    <value> '{0}' Zero Install kullanılarak indiriliyor</value>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
     <value>Akış dosyaları (*.xml)|*.xml|Geçici dosyalar (*.xml.template)|*.xml.template|Tüm dosyalar|*</value>
   </data>
   <data name="FileNotFound" xml:space="preserve">
-    <value>&apos;{0}&apos; dosyası bulunamıyor.</value>
+    <value>'{0}' dosyası bulunamıyor.</value>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
     <value>Büyük olasılıkla çok satırlı tam bir açıklama</value>
@@ -191,7 +191,7 @@ Giriş noktalarını el ile belirtmeyi deneyin.</value>
     <value>Görsel dosyası Zero Install tarafından desteklenmiyor.</value>
   </data>
   <data name="InstallationDirDetected" xml:space="preserve">
-    <value>&apos;{0}&apos; bir yükleme dizini olarak algılandı.</value>
+    <value>'{0}' bir yükleme dizini olarak algılandı.</value>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
     <value>Yükleyici ile ilgili olan bir arşiv ayıklanamadı.</value>
@@ -231,7 +231,7 @@ GNU Kısıtlı Genel Kamu Lisansı altında bu program ve bu programın kopyalar
     <value>Yeni anahtar...</value>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Hiçbir giriş noktası (EXE&apos;ler, JAR&apos;lar, Python komutları, vb.) bulunamadı. Lütfen seçtiğiniz arşivin geçerliliğinden ve dizine çıkartılmış olduğundan emin olun.</value>
+    <value>Hiçbir giriş noktası (EXE'ler, JAR'lar, Python komutları, vb.) bulunamadı. Lütfen seçtiğiniz arşivin geçerliliğinden ve dizine çıkartılmış olduğundan emin olun.</value>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Eşleşen herhangi bir akış dosyası bulunamadı.</value>
@@ -242,7 +242,7 @@ El ile belirtmeyi deneyin.</value>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Hayır, uygulamanın kendisi
-yalnız bir EXE&apos;den oluşur</value>
+yalnız bir EXE'den oluşur</value>
   </data>
   <data name="OnlyAvailableOnWindows" xml:space="preserve">
     <value>Bu yöntem yalnız Windows üzerinde kullanılabilir.</value>

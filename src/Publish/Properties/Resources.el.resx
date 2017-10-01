@@ -166,7 +166,7 @@
     <value>Λήψη εικόνας για προεπισκόπηση...</value>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Δηλωτικό υπολογίστηκε για ένα άδειο κατάλογο. Βεβαιωθείτε ότι έχετε ορίσει το σωστό &quot;απόσπασμα&quot; αξίας για το αρχείο.</value>
+    <value>Δηλωτικό υπολογίστηκε για ένα άδειο κατάλογο. Βεβαιωθείτε ότι έχετε ορίσει το σωστό "απόσπασμα" αξίας για το αρχείο.</value>
   </data>
   <data name="EntryPointNotFound" xml:space="preserve">
     <value>Το σημείο εισόδου της εφαρμογής δεν βρέθηκε.
@@ -176,7 +176,7 @@
     <value>Η τροφοδοσία δεν έχει τη σωστή μορφή.</value>
   </data>
   <data name="FileNotFound" xml:space="preserve">
-    <value>Το αρχείο &apos;{0}&apos; δεν θα μπορεσε να βρεθεί.</value>
+    <value>Το αρχείο '{0}' δεν θα μπορεσε να βρεθεί.</value>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
     <value>Μια πλήρης περιγραφή πιθανόν πολλαπλών γραμμών</value>
@@ -185,7 +185,7 @@
     <value>Η μορφή της εικόνας δεν υποστηρίζεται από το Zero Install.</value>
   </data>
   <data name="InstallationDirDetected" xml:space="preserve">
-    <value>Εντοπίστηκε &apos;{0}&apos; ως κατάλογος εγκατάστασης.</value>
+    <value>Εντοπίστηκε '{0}' ως κατάλογος εγκατάστασης.</value>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
     <value>Αποτυχία εξαγωγής του προγράμματος εγκατάστασης ως αρχείο.</value>
