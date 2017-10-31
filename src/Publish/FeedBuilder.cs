@@ -26,7 +26,6 @@ using NanoByte.Common.Tasks;
 using ZeroInstall.Publish.EntryPoints;
 using ZeroInstall.Publish.Properties;
 using ZeroInstall.Store;
-using ZeroInstall.Store.Implementations;
 using ZeroInstall.Store.Implementations.Manifests;
 using ZeroInstall.Store.Model;
 using ZeroInstall.Store.Model.Capabilities;
@@ -172,36 +171,32 @@ namespace ZeroInstall.Publish
 
         #region Manifest digest
         /// <summary>
+        /// The value used for <see cref="ImplementationBase.ID"/>.
+        /// </summary>
+        public string ID { get; private set; }
+
+        /// <summary>
         /// The value used for <see cref="ImplementationBase.ManifestDigest"/>.
         /// </summary>
         public ManifestDigest ManifestDigest { get; private set; }
 
         /// <summary>
-        /// Calculates the <see cref="ManifestDigest"/>.
+        /// Generates the <see cref="ID"/> and <see cref="ManifestDigest"/>.
         /// </summary>
         /// <param name="handler">A callback object used when the the user needs to be informed about IO tasks.</param>
         /// <exception cref="InvalidOperationException"><see cref="ImplementationDirectory"/> is <c>null</c> or empty.</exception>
         /// <exception cref="OperationCanceledException">The user canceled the task.</exception>
         /// <exception cref="IOException">There was a problem generating the manifest.</exception>
         /// <exception cref="UnauthorizedAccessException">Write access to temporary files was not permitted.</exception>
-        public void CalculateDigest(ITaskHandler handler)
+        public void GenerateDigest(ITaskHandler handler)
         {
             #region Sanity checks
             if (handler == null) throw new ArgumentNullException(nameof(handler));
             if (string.IsNullOrEmpty(ImplementationDirectory)) throw new InvalidOperationException("Implementation directory is not set.");
             #endregion
 
-            var newDigest = new ManifestDigest();
-
-            // Generate manifest for each available format...
-            foreach (var generator in ManifestFormat.All.Select(format => new ManifestGenerator(ImplementationDirectory, format)))
-            {
-                // ... and add the resulting digest to the return value
-                handler.RunTask(generator);
-                newDigest.ParseID(generator.Manifest.CalculateDigest());
-            }
-
-            ManifestDigest = newDigest;
+            ID = ManifestUtils.CalculateDigest(ImplementationDirectory, ManifestFormat.Sha1New, handler);
+            ManifestDigest = ManifestUtils.GenerateDigest(ImplementationDirectory, handler);
         }
         #endregion
 
@@ -246,7 +241,7 @@ namespace ZeroInstall.Publish
 
             var implementation = new Implementation
             {
-                ID = @"sha1new=" + ManifestDigest.Sha1New,
+                ID = ID,
                 ManifestDigest = ManifestDigest,
                 Version = MainCandidate.Version,
                 Architecture = MainCandidate.Architecture

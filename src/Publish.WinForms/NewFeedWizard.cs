@@ -171,7 +171,7 @@ namespace ZeroInstall.Publish.WinForms
             using (var handler = new DialogTaskHandler(this))
             {
                 _feedBuilder.DetectCandidates(handler);
-                _feedBuilder.CalculateDigest(handler);
+                _feedBuilder.GenerateDigest(handler);
             }
             if (_feedBuilder.MainCandidate == null) throw new NotSupportedException(Resources.NoEntryPointsFound);
             else
@@ -252,7 +252,7 @@ namespace ZeroInstall.Publish.WinForms
                     if (_installerCapture.CaptureSession == null)
                         _feedBuilder.DetectCandidates(handler);
 
-                    _feedBuilder.CalculateDigest(handler);
+                    _feedBuilder.GenerateDigest(handler);
                 }
                     #region Error handling
                 catch (OperationCanceledException)

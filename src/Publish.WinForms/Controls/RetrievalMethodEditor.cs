@@ -190,7 +190,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
         {
             ManifestDigest digest;
             using (var tempDir = Target.DownloadAndApply(handler, executor))
-                digest = ImplementationUtils.GenerateDigest(tempDir, handler);
+                digest = ManifestUtils.GenerateDigest(tempDir, handler);
 
             if (digest.PartialEquals(ManifestDigest.Empty))
                 Msg.Inform(this, Resources.EmptyImplementation, MsgSeverity.Warn);

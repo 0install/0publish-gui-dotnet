@@ -193,23 +193,5 @@ namespace ZeroInstall.Publish
                 Assert.Throws<DigestMismatchException>(() => implementation.AddMissing(new SilentTaskHandler()));
             }
         }
-
-        [Fact]
-        public void GenerateDigest()
-        {
-            using (var testDir = new TemporaryDirectory("0install-unit-tests"))
-            {
-                File.WriteAllText(Path.Combine(testDir, "file"), @"data");
-
-                var digest1 = ImplementationUtils.GenerateDigest(testDir, new SilentTaskHandler());
-                digest1.Sha1.Should().BeNullOrEmpty(because: "sha1 is deprecated");
-                digest1.Sha1New.Should().NotBeNullOrEmpty();
-                digest1.Sha256.Should().NotBeNullOrEmpty();
-                digest1.Sha256New.Should().NotBeNullOrEmpty();
-
-                var digest2 = ImplementationUtils.GenerateDigest(testDir, new SilentTaskHandler());
-                digest2.Should().Be(digest1);
-            }
-        }
     }
 }

@@ -129,7 +129,7 @@ namespace ZeroInstall.Publish.Capture
         /// <summary>
         /// Creates a archive containing the <see cref="InstallationDir"/>.
         /// </summary>
-        /// <remarks>Sets <see cref="FeedBuilder.RetrievalMethod"/> and calls <see cref="FeedBuilder.CalculateDigest"/>.</remarks>
+        /// <remarks>Sets <see cref="FeedBuilder.RetrievalMethod"/> and calls <see cref="FeedBuilder.GenerateDigest"/>.</remarks>
         /// <param name="archivePath">The path of the archive file to create.</param>
         /// <param name="archiveUrl">The URL where the archive will be uploaded.</param>
         /// <param name="handler">A callback object used when the the user needs to be informed about IO tasks.</param>
@@ -148,7 +148,7 @@ namespace ZeroInstall.Publish.Capture
             if (InstallationDir == null) throw new InvalidOperationException("Diff() must be called first.");
 
             _feedBuilder.ImplementationDirectory = InstallationDir;
-            _feedBuilder.CalculateDigest(handler);
+            _feedBuilder.GenerateDigest(handler);
 
             var mimeType = Archive.GuessMimeType(archivePath) ?? Archive.MimeTypeZip;
             using (var generator = ArchiveGenerator.Create(InstallationDir, archivePath, mimeType))

@@ -44,11 +44,12 @@ namespace ZeroInstall.Publish
         }
 
         [Fact]
-        public void TestCalculateDigest()
+        public void TestGenerateDigest()
         {
             _builder.ImplementationDirectory = _implementationDir;
-            _builder.CalculateDigest(new SilentTaskHandler());
-            _builder.ManifestDigest.Should().Be(ManifestDigest.Empty);
+            _builder.GenerateDigest(new SilentTaskHandler());
+            _builder.ID.Should().Be($"sha1new={ManifestDigest.Empty.Sha1New}");
+            _builder.ManifestDigest.PartialEquals(ManifestDigest.Empty).Should().BeTrue();
         }
 
         [Fact]
@@ -75,7 +76,7 @@ namespace ZeroInstall.Publish
         [Fact]
         public void TestBuild()
         {
-            TestCalculateDigest();
+            TestGenerateDigest();
             TestDetectCandidates();
             TestGenerateCommands();
 
@@ -94,7 +95,7 @@ namespace ZeroInstall.Publish
                 new Implementation
                 {
                     ID = "sha1new=" + ManifestDigest.Empty.Sha1New,
-                    ManifestDigest = ManifestDigest.Empty,
+                    ManifestDigest = new ManifestDigest(sha256New: ManifestDigest.Empty.Sha256New),
                     Version = _builder.MainCandidate.Version,
                     Architecture = _builder.MainCandidate.Architecture,
                     Commands = {new Command {Name = Command.NameRun, Path = "test"}},

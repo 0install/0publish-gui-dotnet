@@ -24,7 +24,6 @@ using JetBrains.Annotations;
 using NanoByte.Common;
 using NanoByte.Common.Tasks;
 using NanoByte.Common.Undo;
-using ZeroInstall.Publish.Properties;
 using ZeroInstall.Store.Implementations;
 using ZeroInstall.Store.Implementations.Archives;
 using ZeroInstall.Store.Implementations.Manifests;
@@ -61,8 +60,9 @@ namespace ZeroInstall.Publish
             var implementationDir = retrievalMethod.DownloadAndApply(handler);
             try
             {
-                var digest = GenerateDigest(implementationDir, handler, keepDownloads);
-                return new Implementation {ID = @"sha1new=" + digest.Sha1New, ManifestDigest = digest, RetrievalMethods = {retrievalMethod}};
+                var digest = new Implementation {RetrievalMethods = {retrievalMethod}};
+                digest.UpdateDigest(implementationDir, handler, new SimpleCommandExecutor(), keepDownloads);
+                return digest;
             }
             finally
             {
@@ -104,8 +104,6 @@ namespace ZeroInstall.Publish
                         implementation.UpdateDigest(tempDir, handler, executor, keepDownloads);
                 }
             }
-
-            if (string.IsNullOrEmpty(implementation.ID)) implementation.ID = @"sha1new=" + implementation.ManifestDigest.Sha1New;
         }
 
         private static void GenerateMissingArchive([NotNull] Implementation implementation, [NotNull] ITaskHandler handler, [NotNull] ICommandExecutor executor)
@@ -182,45 +180,18 @@ namespace ZeroInstall.Publish
         /// <exception cref="DigestMismatchException">An existing digest does not match the newly calculated one.</exception>
         private static void UpdateDigest([NotNull] this Implementation implementation, [NotNull] string path, [NotNull] ITaskHandler handler, [NotNull] ICommandExecutor executor, [CanBeNull] IStore keepDownloads = null)
         {
-            var digest = GenerateDigest(path, handler, keepDownloads);
+            var digest = ManifestUtils.GenerateDigest(path, handler);
 
             if (implementation.ManifestDigest == default(ManifestDigest))
                 executor.Execute(new SetValueCommand<ManifestDigest>(() => implementation.ManifestDigest, value => implementation.ManifestDigest = value, digest));
             else if (!digest.PartialEquals(implementation.ManifestDigest))
                 throw new DigestMismatchException(expectedDigest: implementation.ManifestDigest.ToString(), actualDigest: digest.ToString());
-        }
 
-        /// <summary>
-        /// Generates the <see cref="ManifestDigest"/> for a directory.
-        /// </summary>
-        /// <param name="path">The path of the directory to generate the digest for.</param>
-        /// <param name="handler">A callback object used when the the user is to be informed about progress.</param>
-        /// <param name="keepDownloads">Used to retain downloaded implementations; can be <c>null</c>.</param>
-        /// <returns>The newly generated digest.</returns>
-        /// <exception cref="OperationCanceledException">The user canceled the task.</exception>
-        /// <exception cref="IOException">There is a problem access a temporary file.</exception>
-        /// <exception cref="UnauthorizedAccessException">Read or write access to a temporary file is not permitted.</exception>
-        [Pure]
-        public static ManifestDigest GenerateDigest([NotNull] string path, [NotNull] ITaskHandler handler, [CanBeNull] IStore keepDownloads = null)
-        {
-            #region Sanity checks
-            if (string.IsNullOrEmpty(path)) throw new ArgumentNullException(nameof(path));
-            if (handler == null) throw new ArgumentNullException(nameof(handler));
-            #endregion
-
-            var digest = new ManifestDigest();
-
-            // Generate manifest for each available format...
-            foreach (var format in ManifestFormat.All)
-                // ... and add the resulting digest to the return value
+            if (string.IsNullOrEmpty(implementation.ID))
             {
-                var generator = new ManifestGenerator(path, format);
-                handler.RunTask(generator);
-                digest.ParseID(generator.Manifest.CalculateDigest());
+                string id = ManifestUtils.CalculateDigest(path, ManifestFormat.Sha1New, handler);
+                executor.Execute(new SetValueCommand<string>(() => implementation.ID, value => implementation.ID = value, id));
             }
-
-            if (digest.PartialEquals(ManifestDigest.Empty))
-                Log.Warn(Resources.EmptyImplementation);
 
             if (keepDownloads != null)
             {
@@ -228,11 +199,13 @@ namespace ZeroInstall.Publish
                 {
                     keepDownloads.AddDirectory(path, digest, handler);
                 }
-                catch (ImplementationAlreadyInStoreException)
-                {}
+                    #region Error handling
+                catch (Exception ex)
+                {
+                    Log.Warn(ex);
+                }
+                #endregion
             }
-
-            return digest;
         }
         #endregion
     }
