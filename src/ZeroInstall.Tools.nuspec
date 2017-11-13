@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>ZeroInstall.Tools</id>
+        <version>$version$</version>
+        <authors>Bastian Eicher</authors>
+        <projectUrl>https://0install.de/docs/publishing/tools/</projectUrl>
+        <licenseUrl>http://opensource.org/licenses/LGPL-3.0</licenseUrl>
+        <iconUrl>https://0install.de/wp-content/uploads/icon.png</iconUrl>
+        <description>This package is used to provide debugging symbols for Zero Install Publishing Tools executables.</description>
+        <summary>Zero Install Publishing Tools executables</summary>
+    </metadata>
+
+    <files>
+        <!-- Binaries -->
+        <file src="..\build\Release\0publish.*" target="lib\net20" />
+        <file src="..\build\Release\0publish-win.*" target="lib\net20" />
+
+        <!-- Source code -->
+        <file src="**\*.cs" target="src" />
+    </files>
+</package>

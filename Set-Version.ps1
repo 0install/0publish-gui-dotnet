@@ -10,5 +10,4 @@ function SearchAndReplace($FilePath, $PatternLeft, $PatternRight)
 }
 
 [System.IO.File]::WriteAllText("$ScriptDir\VERSION", $NewVersion)
-SearchAndReplace doc\Doxyfile -PatternLeft 'PROJECT_NUMBER = "' -PatternRight '"'
 SearchAndReplace src\GlobalAssemblyInfo.cs -PatternLeft 'AssemblyVersion\("' -PatternRight '"\)'

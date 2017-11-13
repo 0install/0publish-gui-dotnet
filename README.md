@@ -1,21 +1,17 @@
 Zero Install Publishing Tools
 =============================
 
-The Zero Install Publishing Tools contain the .NET version of the `0publish` command-line tool and a graphical feed editor.
+The Zero Install Publishing Tools contain the Windows version of the `0publish` command-line tool and a graphical feed editor.
 
-**[Tool documentation](https://0install.de/docs/publishing/tools/)**
+[![TeamCity Build status](https://0install.de/teamcity/app/rest/builds/buildType:(id:ZeroInstall_PublishingTools_Build)/statusIcon)](https://0install.de/teamcity/viewType.html?buildTypeId=ZeroInstall_PublishingTools_Build&guest=1)
 
-They also provide the **[ZeroInstall.Publish](https://www.nuget.org/packages/ZeroInstall.Publish/)** NuGet package which these tools are based on. This allows developers to create their own feed authoring tools.
-
-**[API documentation](http://0install.de/api/tools/)**
+**[Documentation and download instructions](http://0install.de/docs/publishing/tools/)**
 
 Directory structure
 -------------------
 - `src` contains source code.
 - `lib` contains pre-compiled 3rd party libraries which are not available via NuGet.
-- `doc` contains a Doxyfile project for generation the API documentation.
 - `build` contains the results of various compilation processes. It is created on first usage.
-- `samples` contains code snippets in different languages illustrating how to use the Zero Install Backend.
 - `release` contains scripts for creating a Zero Install feed and archive for publishing a build.
 
 Building
