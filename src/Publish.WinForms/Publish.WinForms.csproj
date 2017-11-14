@@ -235,13 +235,6 @@
     <None Include="Resources\OpenButton.png" />
     <None Include="Resources\SaveButton.png" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Publish\Publish.csproj">
-      <Project>{841CD750-F9D0-4A2D-98C7-7A340C781F41}</Project>
-      <Name>Publish</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\ZeroInstall.Store.2.14.0\build\ZeroInstall.Store.targets" Condition="Exists('..\packages\ZeroInstall.Store.2.14.0\build\ZeroInstall.Store.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
