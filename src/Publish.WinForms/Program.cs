@@ -46,7 +46,7 @@ namespace ZeroInstall.Publish.WinForms
             Application.SetCompatibleTextRenderingDefault(false);
             ErrorReportForm.SetupMonitoring(new Uri("https://0install.de/error-report/"));
 
-            var openPgp = OpenPgpFactory.CreateDefault();
+            IOpenPgp openPgp = new BouncyCastle();
 
             if (args == null || args.Length == 0) Application.Run(new WelcomeForm(openPgp));
             else

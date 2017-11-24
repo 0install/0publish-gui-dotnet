@@ -239,7 +239,7 @@ namespace ZeroInstall.Publish.Cli
             }
             else
             {
-                var openPgp = OpenPgpFactory.CreateDefault();
+                IOpenPgp openPgp = new BouncyCastle();
                 if (_xmlSign)
                 { // Signing explicitly requested
                     if (feedEditing.SignedFeed.SecretKey == null)
@@ -291,7 +291,7 @@ namespace ZeroInstall.Publish.Cli
         {
             if (_xmlSign)
             {
-                var openPgp = OpenPgpFactory.CreateDefault();
+                IOpenPgp openPgp = new BouncyCastle();
                 var signedCatalog = new SignedCatalog(catalog, openPgp.GetSecretKey(_key));
 
                 while (true)
