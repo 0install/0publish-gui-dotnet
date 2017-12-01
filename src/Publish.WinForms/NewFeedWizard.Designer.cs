@@ -87,7 +87,7 @@
             this.textBoxUploadUrl = new NanoByte.Common.Controls.UriTextBox();
             this.buttonSelectArchivePath = new System.Windows.Forms.Button();
             this.textBoxArchivePath = new NanoByte.Common.Controls.HintTextBox();
-            this.installerAltDownloadPage = new AeroWizard.WizardPage();
+            this.pageInstallerAltDownload = new AeroWizard.WizardPage();
             this.checkAltLocalCopy = new System.Windows.Forms.CheckBox();
             this.groupAltLocalCopy = new System.Windows.Forms.GroupBox();
             this.buttonSelectAltLocalPath = new System.Windows.Forms.Button();
@@ -109,7 +109,7 @@
             this.groupInstallationDir.SuspendLayout();
             this.pageInstallerCollectFiles.SuspendLayout();
             this.groupCreateArchive.SuspendLayout();
-            this.installerAltDownloadPage.SuspendLayout();
+            this.pageInstallerAltDownload.SuspendLayout();
             this.groupAltLocalCopy.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -122,7 +122,7 @@
             this.wizardControl.Pages.Add(this.pageIstallerCaptureStart);
             this.wizardControl.Pages.Add(this.pageInstallerCaptureDiff);
             this.wizardControl.Pages.Add(this.pageInstallerCollectFiles);
-            this.wizardControl.Pages.Add(this.installerAltDownloadPage);
+            this.wizardControl.Pages.Add(this.pageInstallerAltDownload);
             this.wizardControl.Pages.Add(this.pageEntryPoint);
             this.wizardControl.Pages.Add(this.pageDetails);
             this.wizardControl.Pages.Add(this.pageIcon);
@@ -761,17 +761,18 @@
             this.textBoxArchivePath.TabIndex = 1;
             this.textBoxArchivePath.TextChanged += new System.EventHandler(this.pageInstallerCollectFiles_ToggleControls);
             // 
-            // installerAltDownloadPage
+            // pageInstallerAltDownload
             // 
-            this.installerAltDownloadPage.Controls.Add(this.checkAltLocalCopy);
-            this.installerAltDownloadPage.Controls.Add(this.groupAltLocalCopy);
-            this.installerAltDownloadPage.Controls.Add(this.textBoxAltDownloadUrl);
-            this.installerAltDownloadPage.Controls.Add(this.labelAltDownloadUrl);
-            this.installerAltDownloadPage.Name = "installerAltDownloadPage";
-            this.installerAltDownloadPage.Size = new System.Drawing.Size(527, 262);
-            this.installerAltDownloadPage.TabIndex = 10;
-            this.installerAltDownloadPage.Text = "Alternative download";
-            this.installerAltDownloadPage.Commit += new System.EventHandler<AeroWizard.WizardPageConfirmEventArgs>(this.pageInstallerAltDownload_Commit);
+            this.pageInstallerAltDownload.Controls.Add(this.checkAltLocalCopy);
+            this.pageInstallerAltDownload.Controls.Add(this.groupAltLocalCopy);
+            this.pageInstallerAltDownload.Controls.Add(this.textBoxAltDownloadUrl);
+            this.pageInstallerAltDownload.Controls.Add(this.labelAltDownloadUrl);
+            this.pageInstallerAltDownload.AllowNext = false;
+            this.pageInstallerAltDownload.Name = "pageInstallerAltDownload";
+            this.pageInstallerAltDownload.Size = new System.Drawing.Size(527, 262);
+            this.pageInstallerAltDownload.TabIndex = 10;
+            this.pageInstallerAltDownload.Text = "Alternative download";
+            this.pageInstallerAltDownload.Commit += new System.EventHandler<AeroWizard.WizardPageConfirmEventArgs>(this.pageInstallerAltDownload_Commit);
             // 
             // checkAltLocalCopy
             // 
@@ -874,8 +875,8 @@
             this.pageInstallerCollectFiles.ResumeLayout(false);
             this.groupCreateArchive.ResumeLayout(false);
             this.groupCreateArchive.PerformLayout();
-            this.installerAltDownloadPage.ResumeLayout(false);
-            this.installerAltDownloadPage.PerformLayout();
+            this.pageInstallerAltDownload.ResumeLayout(false);
+            this.pageInstallerAltDownload.PerformLayout();
             this.groupAltLocalCopy.ResumeLayout(false);
             this.groupAltLocalCopy.PerformLayout();
             this.ResumeLayout(false);
@@ -938,7 +939,7 @@
         private NanoByte.Common.Controls.UriTextBox textBoxInterfaceUri;
         private System.Windows.Forms.Label labelDone2;
         private System.Windows.Forms.Label labelDone;
-        private AeroWizard.WizardPage installerAltDownloadPage;
+        private AeroWizard.WizardPage pageInstallerAltDownload;
         private System.Windows.Forms.CheckBox checkAltLocalCopy;
         private System.Windows.Forms.GroupBox groupAltLocalCopy;
         private System.Windows.Forms.Button buttonSelectAltLocalPath;

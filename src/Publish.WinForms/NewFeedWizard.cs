@@ -484,7 +484,7 @@ namespace ZeroInstall.Publish.WinForms
 
         private void buttonExistingArchive_Click(object sender, EventArgs e)
         {
-            wizardControl.NextPage(installerAltDownloadPage);
+            wizardControl.NextPage(pageInstallerAltDownload);
         }
         #endregion
 
@@ -493,7 +493,7 @@ namespace ZeroInstall.Publish.WinForms
         {
             groupAltLocalCopy.Enabled = checkAltLocalCopy.Checked;
 
-            installerAltDownloadPage.AllowNext =
+            pageInstallerAltDownload.AllowNext =
                 (textBoxAltDownloadUrl.Text.Length > 0) && textBoxAltDownloadUrl.IsValid &&
                 (!checkAltLocalCopy.Checked || textBoxAltLocalPath.Text.Length > 0);
         }
@@ -514,7 +514,7 @@ namespace ZeroInstall.Publish.WinForms
                 Retrieve(
                     new Archive {Href = textBoxAltDownloadUrl.Uri},
                     checkAltLocalCopy.Checked ? textBoxAltLocalPath.Text : null);
-                installerAltDownloadPage.NextPage = pageArchiveExtract;
+                pageInstallerAltDownload.NextPage = pageArchiveExtract;
             }
                 #region Error handling
             catch (OperationCanceledException)
