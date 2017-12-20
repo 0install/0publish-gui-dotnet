@@ -1,7 +1,8 @@
 Zero Install Publishing Tools
 =============================
 
-The Zero Install Publishing Tools contain the Windows version of the `0publish` command-line tool and a graphical feed editor.
+The Zero Install Publishing Tools contain the Windows version of the `0publish` command-line tool and a graphical feed editor.  
+The Zero Install Publishing Tools are built upon the **[Zero Install .NET Backend](https://github.com/0install/0install-dotnet)**.
 
 [![TeamCity Build status](https://0install.de/teamcity/app/rest/builds/buildType:(id:ZeroInstall_PublishingTools_Build)/statusIcon)](https://0install.de/teamcity/viewType.html?buildTypeId=ZeroInstall_PublishingTools_Build&guest=1)
 
@@ -10,7 +11,6 @@ The Zero Install Publishing Tools contain the Windows version of the `0publish` 
 Directory structure
 -------------------
 - `src` contains source code.
-- `lib` contains pre-compiled 3rd party libraries which are not available via NuGet.
 - `build` contains the results of various compilation processes. It is created on first usage.
 - `release` contains scripts for creating a Zero Install feed and archive for publishing a build.
 
