@@ -1,0 +1,14 @@
+image: Visual Studio 2017
+
+before_build:
+  - ps: Update-AppveyorBuild -Version "$(Get-Content VERSION).build.$env:APPVEYOR_BUILD_NUMBER"
+
+build_script:
+  - ps: src\build.ps1
+  - ps: release\build.ps1
+
+artifacts:
+  - path: release\ZeroInstall_Tools-*.*
+    name: Release
+  - path: build\*.symbols.nupkg
+    name: Symbols
