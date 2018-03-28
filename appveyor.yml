@@ -9,6 +9,6 @@ build_script:
 
 artifacts:
   - path: release\ZeroInstall_Tools-*.*
-    name: Release
+    name: Feeds
   - path: build\*.symbols.nupkg
     name: Symbols
