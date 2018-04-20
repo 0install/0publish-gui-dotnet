@@ -1,19 +1,5 @@
-﻿/*
- * Copyright 2010-2017 Bastian Eicher
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Lesser Public License for more details.
- *
- * You should have received a copy of the GNU Lesser Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
+// Copyright Bastian Eicher et al.
+// Licensed under the GNU Lesser Public License
 
 using System;
 using System.Diagnostics.CodeAnalysis;
@@ -82,7 +68,7 @@ namespace ZeroInstall.Publish.WinForms
         [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "System.Drawing exceptions are not clearly documented")]
         private void buttonSavePng_Click(object sender, EventArgs e)
         {
-            using (var saveFileDialog = new SaveFileDialog { Filter = "PNG image files|*.png|All files|*.*" })
+            using (var saveFileDialog = new SaveFileDialog {Filter = "PNG image files|*.png|All files|*.*"})
             {
                 if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
                 {
@@ -105,8 +91,8 @@ namespace ZeroInstall.Publish.WinForms
             _feedBuilder.Icons.Clear();
             try
             {
-                if (textBoxHrefIco.Uri != null) _feedBuilder.Icons.Add(new Store.Model.Icon { Href = textBoxHrefIco.Uri, MimeType = Store.Model.Icon.MimeTypeIco });
-                if (textBoxHrefPng.Uri != null) _feedBuilder.Icons.Add(new Store.Model.Icon { Href = textBoxHrefPng.Uri, MimeType = Store.Model.Icon.MimeTypePng });
+                if (textBoxHrefIco.Uri != null) _feedBuilder.Icons.Add(new Store.Model.Icon {Href = textBoxHrefIco.Uri, MimeType = Store.Model.Icon.MimeTypeIco});
+                if (textBoxHrefPng.Uri != null) _feedBuilder.Icons.Add(new Store.Model.Icon {Href = textBoxHrefPng.Uri, MimeType = Store.Model.Icon.MimeTypePng});
             }
             #region Error handling
             catch (UriFormatException ex)
@@ -118,7 +104,10 @@ namespace ZeroInstall.Publish.WinForms
             #endregion
 
             if (_feedBuilder.Icons.Count != 2)
-                if (!Msg.YesNo(this, Resources.AskSkipIcon, MsgSeverity.Info)) e.Cancel = true;
+            {
+                if (!Msg.YesNo(this, Resources.AskSkipIcon, MsgSeverity.Info))
+                    e.Cancel = true;
+            }
         }
     }
 }

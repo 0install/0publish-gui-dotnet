@@ -1,4 +1,4 @@
-﻿namespace ZeroInstall.Publish.WinForms
+namespace ZeroInstall.Publish.WinForms
 {
     partial class NewFeedWizard
     {

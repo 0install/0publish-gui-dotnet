@@ -1,19 +1,5 @@
-﻿/*
- * Copyright 2010-2017 Bastian Eicher
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Lesser Public License for more details.
- *
- * You should have received a copy of the GNU Lesser Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
+// Copyright Bastian Eicher et al.
+// Licensed under the GNU Lesser Public License
 
 using System;
 using System.IO;
@@ -40,7 +26,7 @@ namespace ZeroInstall.Publish.WinForms
 
         private void buttonSelectLocalPath_Click(object sender, EventArgs e)
         {
-            using (var openFileDialog = new OpenFileDialog { FileName = textBoxLocalPath.Text })
+            using (var openFileDialog = new OpenFileDialog {FileName = textBoxLocalPath.Text})
             {
                 if (openFileDialog.ShowDialog(this) == DialogResult.OK)
                     textBoxLocalPath.Text = openFileDialog.FileName;
@@ -49,7 +35,7 @@ namespace ZeroInstall.Publish.WinForms
 
         private void pageDownload_Commit(object sender, WizardPageConfirmEventArgs e)
         {
-            var fileName = checkLocalCopy.Checked ? textBoxLocalPath.Text : textBoxDownloadUrl.Text;
+            string fileName = checkLocalCopy.Checked ? textBoxLocalPath.Text : textBoxDownloadUrl.Text;
 
             try
             {
@@ -120,7 +106,7 @@ namespace ZeroInstall.Publish.WinForms
         private void OnSingleFile()
         {
             Retrieve(
-                new SingleFile { Href = textBoxDownloadUrl.Uri },
+                new SingleFile {Href = textBoxDownloadUrl.Uri},
                 checkLocalCopy.Checked ? textBoxLocalPath.Text : null);
             _feedBuilder.ImplementationDirectory = _feedBuilder.TemporaryDirectory;
             using (var handler = new DialogTaskHandler(this))

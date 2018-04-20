@@ -1,4 +1,4 @@
-﻿namespace ZeroInstall.Publish.WinForms.Controls
+namespace ZeroInstall.Publish.WinForms.Controls
 {
     partial class RecipeEditor
     {

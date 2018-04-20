@@ -1,19 +1,5 @@
-﻿/*
- * Copyright 2010-2016 Bastian Eicher
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Lesser Public License for more details.
- *
- * You should have received a copy of the GNU Lesser Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
+// Copyright Bastian Eicher et al.
+// Licensed under the GNU Lesser Public License
 
 using System;
 using System.Collections.Generic;
@@ -175,30 +161,15 @@ namespace ZeroInstall.Publish.WinForms
             {}
         }
 
-        private void menuExit_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
+        private void menuExit_Click(object sender, EventArgs e) => Close();
 
-        private void menuUndo_Click(object sender, EventArgs e)
-        {
-            feedStructureEditor.Undo();
-        }
+        private void menuUndo_Click(object sender, EventArgs e) => feedStructureEditor.Undo();
 
-        private void menuRedo_Click(object sender, EventArgs e)
-        {
-            feedStructureEditor.Redo();
-        }
+        private void menuRedo_Click(object sender, EventArgs e) => feedStructureEditor.Redo();
 
-        private void menuRemove_Click(object sender, EventArgs e)
-        {
-            feedStructureEditor.Remove();
-        }
+        private void menuRemove_Click(object sender, EventArgs e) => feedStructureEditor.Remove();
 
-        private void menuAbout_Click(object sender, EventArgs e)
-        {
-            Msg.Inform(this, AppInfo.Current.Name + " " + AppInfo.Current.Version, MsgSeverity.Info);
-        }
+        private void menuAbout_Click(object sender, EventArgs e) => Msg.Inform(this, AppInfo.Current.Name + " " + AppInfo.Current.Version, MsgSeverity.Info);
         #endregion
 
         #region Storage
@@ -211,7 +182,7 @@ namespace ZeroInstall.Publish.WinForms
                 {
                     return FeedEditing.Load(openFileDialog.FileName);
                 }
-                    #region Error handling
+                #region Error handling
                 catch (IOException ex)
                 {
                     Msg.Inform(null, ex.Message, MsgSeverity.Warn);
@@ -267,7 +238,7 @@ namespace ZeroInstall.Publish.WinForms
                     FeedEditing.Passphrase = InputBox.Show(this, Text, string.Format(Resources.AskForPassphrase, FeedEditing.SignedFeed.SecretKey), password: true);
                     if (FeedEditing.Passphrase == null) throw new OperationCanceledException();
                 }
-                    #region Error handling
+                #region Error handling
                 catch (ArgumentException ex)
                 {
                     Msg.Inform(this, ex.Message, MsgSeverity.Warn);
@@ -332,7 +303,7 @@ namespace ZeroInstall.Publish.WinForms
             {
                 process = GnuPG.GenerateKey();
             }
-                #region Error handling
+            #region Error handling
             catch (IOException ex)
             {
                 Log.Error(ex);
@@ -350,7 +321,7 @@ namespace ZeroInstall.Publish.WinForms
                 {
                     Invoke(new Action(ListKeys));
                 }
-                    #region Sanity checks
+                #region Sanity checks
                 catch (InvalidOperationException)
                 {
                     // Ignore if window has been dispoed
@@ -366,10 +337,7 @@ namespace ZeroInstall.Publish.WinForms
 
             public static readonly NewKeyAction Instance = new NewKeyAction();
 
-            public override string ToString()
-            {
-                return Resources.NewKey;
-            }
+            public override string ToString() => Resources.NewKey;
         }
         #endregion
     }
