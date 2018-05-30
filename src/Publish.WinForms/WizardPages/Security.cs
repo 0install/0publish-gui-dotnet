@@ -7,7 +7,7 @@ using System.IO;
 using System.Linq;
 using AeroWizard;
 using NanoByte.Common;
-using ZeroInstall.Publish.Properties;
+using ZeroInstall.Publish.WinForms.Properties;
 using ZeroInstall.Store;
 using ZeroInstall.Store.Trust;
 

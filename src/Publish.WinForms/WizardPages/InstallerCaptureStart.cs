@@ -7,7 +7,7 @@ using AeroWizard;
 using NanoByte.Common;
 using NanoByte.Common.Tasks;
 using ZeroInstall.Publish.Capture;
-using ZeroInstall.Publish.Properties;
+using ZeroInstall.Publish.WinForms.Properties;
 
 namespace ZeroInstall.Publish.WinForms
 {

@@ -112,135 +112,116 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="AddMissing" xml:space="preserve">
-    <value>Add missing</value>
+    <value>Lücken füllen</value>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>This path points outside of the archive.</value>
+    <value>Dieser Pfad zeigt außerhalb des Archivs.</value>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Please enter the GnuPG passphrase for {0}:</value>
+    <value>Bitte geben Sie die GnuPG Passphrase für {0} ein:</value>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Is this an installer EXE?</value>
+    <value>Ist dies eine Installations EXE?</value>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Are you sure you want to skip capturing?
-Information about the application's desktop integration (e.g. file associations) will not be added to the feed.</value>
+    <value>Sind Sie sicher, dass Sie den Capture Schritt überspringen möchten?
+Informationen über die Desktopintegration der Anwendung (z.B. Dateityp-Assoziationen) werden nicht zum Feed hinzugefügt.</value>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Are you sure you want to continue without adding icons?
-Zero Install will only be able to display a generic placeholder icon in the catalog as well as for any desktop integration shortcuts.</value>
+    <value>Sind Sie sicher, dass Sie fortfahren möchten ohne Icons hinzuzufügen?
+Zero Install wird nur ein generisches Platzhalter-Symbol im Katalog wie auch bei Desktopintergations-Verknüpfungen verwenden können.</value>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Are you sure you want to continue without completing these settings?
-Your feed will only work locally and not online.</value>
+    <value>Sind Sie sicher, dass Sie fortfahren möchten ohne diese Einstellung zu vervollständigen?
+Ihr Feed wird nur lokal und nicht online funktionieren.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Keep
-The implementation was supposed to stay the same</value>
+    <value>Behalten
+Die Implementierung sollte gleich bleiben</value>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>The manifest digest has changed. Do you wish to replace the existing one?</value>
+    <value>Der Manifest Digest hat sich geändert. Möchten Sie den bestehenden ersetzen?</value>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>All other retrieval methods for this implementation must match the new digest as well!</value>
+    <value>Alle anderen Retrieval-Methoden für diese Implementierung müssen auch zum neuen Digest passen!</value>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Replace
-I changed the implementation on purpose</value>
+    <value>Ersetzen
+Ich habe die Implementierung absichtlich verändert</value>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Discard
-Discard unsaved changes</value>
+    <value>Verwerfen
+Ungespeicherte Änderungen verwerfen</value>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Downloading image for preview...</value>
+    <value>Das Bild wird zur Vorschau heruntergeladen...</value>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>A manifest digest was calculated for an empty directory. Check that you have set the correct "extract" value for the archive.</value>
+    <value>Ein Manifest Digest wurde für ein leeres Verzeichnis berechnet. Überprüfen Sie, ob Sie den korrekten "extract" Wert für das Archiv angegeben haben.</value>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Feed files (*.xml)|*.xml|Template files (*.xml.template)|*.xml.template|All files|*</value>
+    <value>Feed Dateien (*.xml)|*.xml|Vorlagen Dateien (*.xml.template)|*.xml.template|Alle Dateien|*</value>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>A complete possibly multi-line description</value>
+    <value>Eine komplette, u.U. mehrzeilige Beschreibung.</value>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>The image format is not supported by Zero Install.</value>
+    <value>Das Bildformat wird von Zero Install nicht unterstützt.</value>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Failed to extract the installer as an archive.</value>
+    <value>Entpacken des Installers als ein Archiv fehlgeschlagen.</value>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>You need to provide an alternative download source for the application, e.g. a ZIP archive. We will still use the desktop integration information captured from the installer!</value>
+    <value>Sie müssen eine alternative Downloadquelle für die Anwendung, z.B. ein ZIP Archiv, angeben. Wir werden dennoch die Desktopintegration-Informationen, die vom Installer erfasst wurden, verwenden!</value>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Invalid capabilities registry path: {0}</value>
+    <value>Ungültiger Capabilities Registrierungspfad: {0}</value>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Manifest digest may have changed.</value>
+    <value>Manifest Digest hat sich eventuell geändert.</value>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Manifest digest not calculated yet.</value>
-  </data>
-  <data name="NewButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NewButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Manifest Digest noch nicht berechnet.</value>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>New key...</value>
-  </data>
-  <data name="NewWizardButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NewWizardButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Neuer Schlüssel...</value>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>No entry points (EXEs, JARs, Python scripts, etc.) were found. Please make sure you selected the correct archive and extract directory.</value>
+    <value>Es wurden keine Einstiegspunkte (EXEs, JARs, Python Skripts, etc.) gefunden. Bitte überprüfen Sie, ob Sie das korrekte Archiv und das korrekte Unterverzeichnis ausgewählt haben.</value>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Unable to find any matching feed files.</value>
+    <value>Konnte keine passenden Feed-Dateien finden.</value>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>No, the application itself
-consists only of one EXE</value>
-  </data>
-  <data name="OpenButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OpenButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Nein, die Anwendung selbst
+besteht aus nur einer EXE</value>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Please click:</value>
-  </data>
-  <data name="RedoButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RedoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SaveButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SaveButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Bitte klicken Sie:</value>
   </data>
   <data name="SaveChanges" xml:space="preserve">
-    <value>Save
-Save changes</value>
+    <value>Speichern
+Änderungen speichern</value>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Do you want to save the changes?</value>
+    <value>Möchten Sie die Änderungen speichern?</value>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>File size not determined yet.</value>
-  </data>
-  <data name="UndoButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UndoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Dateigröße noch nicht bestimmt.</value>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Waiting for installer to complete</value>
+    <value>Warte bis Installater beendet ist</value>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Wrong MIME type! Should be {0}.</value>
+    <value>Falscher MIME Typ! Sollte {0} sein.</value>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Yes, installer EXE</value>
+    <value>Ja, Installations EXE</value>
   </data>
 </root>

@@ -10,7 +10,7 @@ using NanoByte.Common;
 using NanoByte.Common.Controls;
 using NanoByte.Common.Tasks;
 using NanoByte.Common.Undo;
-using ZeroInstall.Publish.Properties;
+using ZeroInstall.Publish.WinForms.Properties;
 using ZeroInstall.Store.Implementations.Manifests;
 using ZeroInstall.Store.Model;
 using ICommandExecutor = NanoByte.Common.Undo.ICommandExecutor;

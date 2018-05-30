@@ -11,7 +11,7 @@ using NanoByte.Common.Net;
 using NanoByte.Common.Storage;
 using NanoByte.Common.Tasks;
 using ZeroInstall.Publish.Capture;
-using ZeroInstall.Publish.Properties;
+using ZeroInstall.Publish.WinForms.Properties;
 using ZeroInstall.Store.Model;
 
 namespace ZeroInstall.Publish.WinForms

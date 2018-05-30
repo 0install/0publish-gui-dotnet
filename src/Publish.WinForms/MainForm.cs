@@ -12,7 +12,7 @@ using NanoByte.Common;
 using NanoByte.Common.Controls;
 using NanoByte.Common.Info;
 using NanoByte.Common.Tasks;
-using ZeroInstall.Publish.Properties;
+using ZeroInstall.Publish.WinForms.Properties;
 using ZeroInstall.Store.Implementations;
 using ZeroInstall.Store.Trust;
 
