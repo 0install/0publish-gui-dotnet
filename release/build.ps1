@@ -3,8 +3,15 @@ pushd $(Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
 
 $Version = Get-Content ..\VERSION
 
+# Ensure 0install is in the PATH
+if (!(Get-Command 0install -ErrorAction SilentlyContinue)) {
+    mkdir -Force "$env:TEMP\zero-install" | Out-Null
+    Invoke-WebRequest "https://0install.de/files/0install.exe" -OutFile "$env:TEMP\zero-install\0install.exe"
+    $env:PATH = "$env:TEMP\zero-install;$env:PATH"
+}
+
 # Do not include .NET XML documentation in release
-rm -Force ..\build\Release\*.xml -Exclude *.VisualElementsManifest.xml
+rm -Force ..\build\Release\*.xml
 
 # Do not include debug symbols in release
 rm -Force ..\build\Release\*.pdb
