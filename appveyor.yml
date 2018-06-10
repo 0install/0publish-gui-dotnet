@@ -9,17 +9,15 @@ build_script:
 
 artifacts:
   - path: release\ZeroInstall_Tools-*.*
-    name: Feeds
   - path: build\*.symbols.nupkg
-    name: Symbols
+    name: symbols
 
 deploy:
   - provider: Environment
-    name: github.com
+    name: GitHub Releases
     on:
       appveyor_repo_tag: true
   - provider: Environment
-    name: SymbolSource.org
-    artifact: Symbols
+    name: SymbolSource
     on:
       appveyor_repo_tag: true
