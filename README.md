@@ -2,7 +2,7 @@ Zero Install Publishing Tools
 =============================
 
 The Zero Install Publishing Tools contain the Windows version of the `0publish` command-line tool and a graphical feed editor.  
-The Zero Install Publishing Tools are built upon the **[Zero Install .NET Backend](https://github.com/0install/0install-dotnet)**.
+The Zero Install Publishing Tools are built upon **[Zero Install .NET](https://github.com/0install/0install-dotnet)**.
 
 [![Build status](https://img.shields.io/appveyor/ci/0install/0publish-win.svg)](https://ci.appveyor.com/project/0install/0publish-win)
 
