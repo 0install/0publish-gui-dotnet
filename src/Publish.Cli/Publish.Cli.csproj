@@ -37,7 +37,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="NDesk.Options" Version="0.2.1" />
+    <PackageReference Include="NDesk.Options.Patched" Version="0.3.1" />
     <PackageReference Include="ZeroInstall.Store" Version="2.15.1" />
     <PackageReference Include="ZeroInstall.Publish" Version="2.15.1" />
     <PackageReference Include="ZeroInstall.Services" Version="2.15.1" />

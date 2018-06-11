@@ -123,7 +123,7 @@ namespace ZeroInstall.Publish.Cli
             {
                 // Version information
                 {
-                    "V|version", Resources.OptionVersion, _ =>
+                    "V|version", () => Resources.OptionVersion, _ =>
                     {
                         Console.WriteLine(AppInfo.Current.Name + @" " + AppInfo.Current.Version + Environment.NewLine + AppInfo.Current.Copyright + Environment.NewLine + Resources.LicenseInfo);
                         throw new OperationCanceledException(); // Don't handle any of the other arguments
@@ -132,7 +132,7 @@ namespace ZeroInstall.Publish.Cli
 
                 // Mode selection
                 {
-                    "catalog=", Resources.OptionCatalog, delegate(string catalogFile)
+                    "catalog=", () => Resources.OptionCatalog, delegate(string catalogFile)
                     {
                         if (string.IsNullOrEmpty(catalogFile)) return;
                         _mode = OperationMode.Catalog;
@@ -141,16 +141,16 @@ namespace ZeroInstall.Publish.Cli
                 },
 
                 // Modifications
-                {"add-missing", Resources.OptionAddMissing, _ => _addMissing = true},
-                {"keep-downloads", Resources.OptionsKeepDownloads, _ => _keepDownloads = StoreFactory.CreateDefault()},
+                {"add-missing", () => Resources.OptionAddMissing, _ => _addMissing = true},
+                {"keep-downloads", () => Resources.OptionsKeepDownloads, _ => _keepDownloads = StoreFactory.CreateDefault()},
 
                 // Signatures
-                {"x|xmlsign", Resources.OptionXmlSign, _ => _xmlSign = true},
-                {"u|unsign", Resources.OptionUnsign, _ => _unsign = true},
-                {"k|key=", Resources.OptionKey, user => _key = user},
-                {"gpg-passphrase=", Resources.OptionGnuPGPassphrase, passphrase => _openPgpPassphrase = passphrase}
+                {"x|xmlsign", () => Resources.OptionXmlSign, _ => _xmlSign = true},
+                {"u|unsign", () => Resources.OptionUnsign, _ => _unsign = true},
+                {"k|key=", () => Resources.OptionKey, user => _key = user},
+                {"gpg-passphrase=", () => Resources.OptionGnuPGPassphrase, passphrase => _openPgpPassphrase = passphrase}
             };
-            options.Add("h|help|?", Resources.OptionHelp, _ =>
+            options.Add("h|help|?", () => Resources.OptionHelp, _ =>
             {
                 Console.WriteLine(Resources.Usage);
                 Console.WriteLine("\t0publish [OPTIONS] feed.xml");
