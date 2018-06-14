@@ -23,7 +23,7 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
     <command name="0publish" path="0publish.exe">
       <runner interface="http://repo.roscidus.com/dotnet/clr" version="4.0.." command="run" />
     </command>
-    <implementation version="{version}" stability="stable" local-path="../build/Release">
+    <implementation version="{version}" stability="{stability}" local-path="../build/Release">
       <manifest-digest />
       <archive href="ZeroInstall_Tools-{version}.tar.gz" />
     </implementation>
