@@ -8,7 +8,8 @@ build_script:
   - ps: release\build.ps1 -GitHubRelease:$($env:APPVEYOR_REPO_TAG -eq "true")
 
 artifacts:
-  - path: release\ZeroInstall_Tools-*.*
+  - path: release\*.xml
+  - path: release\*.tar.gz
   - path: build\*.symbols.nupkg
     name: symbols
 
