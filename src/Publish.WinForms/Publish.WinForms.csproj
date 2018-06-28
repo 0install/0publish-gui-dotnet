@@ -22,8 +22,8 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\build\Debug\</OutputPath>
-    <DocumentationFile>..\..\build\Debug\0publish.xml</DocumentationFile>
+    <OutputPath>..\..\artifacts\Debug\</OutputPath>
+    <DocumentationFile>..\..\artifacts\Debug\0publish.xml</DocumentationFile>
     <DefineConstants>DEBUG;TRACE;CODE_ANALYSIS</DefineConstants>
     <WarningLevel>4</WarningLevel>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
@@ -32,7 +32,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\build\Release\</OutputPath>
+    <OutputPath>..\..\artifacts\Release\</OutputPath>
     <DefineConstants>TRACE;ERROR_REPORT</DefineConstants>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>

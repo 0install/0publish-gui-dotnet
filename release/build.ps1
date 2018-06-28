@@ -13,7 +13,7 @@ if (!(Get-Command 0install -ErrorAction SilentlyContinue)) {
 }
 
 # Exclude .NET XML Documentation and Debug Symbols from release
-rm -Force ..\build\Release\*.xml,..\build\Release\*.pdb
+rm -Force ..\artifacts\Release\*.xml,..\artifacts\Release\*.pdb
 
 # Build feed and archive
 $stability = if($Version.Contains('-')) {'developer'} else {'stable'}

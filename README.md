@@ -11,7 +11,7 @@ The Zero Install Publishing Tools are built upon **[Zero Install .NET](https://g
 Directory structure
 -------------------
 - `src` contains source code.
-- `build` contains the results of various compilation processes. It is created on first usage.
+- `artifacts` contains the results of various compilation processes. It is created on first usage.
 - `release` contains scripts for creating a Zero Install feed and archive for publishing a build.
 
 Building

@@ -13,8 +13,8 @@
 
     <files>
         <!-- Binaries -->
-        <file src="..\build\Release\0publish.*" target="lib\net20" />
-        <file src="..\build\Release\0publish-win.*" target="lib\net20" />
+        <file src="..\artifacts\Release\0publish.*" target="lib\net20" />
+        <file src="..\artifacts\Release\0publish-win.*" target="lib\net20" />
 
         <!-- Source code -->
         <file src="**\*.cs" target="src" />

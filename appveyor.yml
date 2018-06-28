@@ -10,7 +10,7 @@ build_script:
 artifacts:
   - path: release\*.xml
   - path: release\*.tar.gz
-  - path: build\*.symbols.nupkg
+  - path: artifacts\*.symbols.nupkg
     name: symbols
 
 deploy:
