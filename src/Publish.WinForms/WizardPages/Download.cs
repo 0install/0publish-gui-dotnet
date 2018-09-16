@@ -115,11 +115,7 @@ namespace ZeroInstall.Publish.WinForms
                 _feedBuilder.GenerateDigest(handler);
             }
             if (_feedBuilder.MainCandidate == null) throw new NotSupportedException(Resources.NoEntryPointsFound);
-            else
-            {
-                _feedBuilder.GenerateCommands();
-                pageDownload.NextPage = pageDetails;
-            }
+            else  pageDownload.NextPage = pageDetails;
         }
 
         private void OnArchive()

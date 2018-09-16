@@ -25,10 +25,7 @@ namespace ZeroInstall.Publish.WinForms
                 return;
             }
 
-            if (_installerCapture.CaptureSession == null)
-                _feedBuilder.GenerateCommands();
-            else
-                _installerCapture.CaptureSession.Finish(); // internally calls _feedBuilder.GenerateCommands()
+            _installerCapture.CaptureSession?.Finish();
         }
     }
 }

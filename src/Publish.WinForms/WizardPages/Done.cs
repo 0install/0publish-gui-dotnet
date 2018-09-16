@@ -7,10 +7,15 @@ namespace ZeroInstall.Publish.WinForms
 {
     partial class NewFeedWizard
     {
-        /// <summary>The result retrurned by <see cref="Run"/>.</summary>
+        /// <summary>The result returned by <see cref="Run"/>.</summary>
         private SignedFeed _signedFeed;
 
         private void pageDone_Commit(object sender, WizardPageConfirmEventArgs e)
-            => _signedFeed = _feedBuilder.Build();
+        {
+            if (_installerCapture.CaptureSession != null)
+                _feedBuilder.GenerateCommands();
+
+            _signedFeed = _feedBuilder.Build();
+        }
     }
 }
