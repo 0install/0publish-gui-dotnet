@@ -11,7 +11,7 @@
     <AssemblyName>0publish-win</AssemblyName>
     <ApplicationIcon>..\..\icon.ico</ApplicationIcon>
     <ApplicationManifest>..\app.winforms.manifest</ApplicationManifest>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <NoWarn>1591</NoWarn>
     <RestorePackages>true</RestorePackages>
     <RunCodeAnalysis>false</RunCodeAnalysis>
