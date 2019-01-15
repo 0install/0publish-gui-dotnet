@@ -6,7 +6,7 @@ NuGet package: ICSharpCode.SharpZipLib.Patched
 ICSharpCode.TextEditor
 http://www.icsharpcode.net/OpenSource/SD/
 GNU LGPL 2.1: http://opensource.org/licenses/LGPL-2.1
-NuGet package: NanoByte.Common.WinForms
+NuGet package: NanoByte.StructureEditor
 
 TaskDialog
 http://www.codeproject.com/KB/vista/TaskDialogWinForms.aspx

@@ -41,7 +41,7 @@ namespace ZeroInstall.Publish.WinForms
                     _feedEditing.UndoEnabledChanged += OnFeedChange;
                     _feedEditing.RedoEnabledChanged += OnFeedChange;
 
-                    feedStructureEditor.CommandManager = _feedEditing;
+                    feedStructureEditor.Open(_feedEditing);
                     OnFeedChange();
                 }
 
@@ -265,7 +265,7 @@ namespace ZeroInstall.Publish.WinForms
 
         private void AskForChangeSave()
         {
-            if (FeedEditing.Changed)
+            if (FeedEditing.UnsavedChanges)
             {
                 switch (Msg.YesNoCancel(this, Resources.SaveQuestion, MsgSeverity.Warn, Resources.SaveChanges, Resources.DiscardChanges))
                 {

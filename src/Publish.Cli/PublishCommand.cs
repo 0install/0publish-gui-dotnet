@@ -244,8 +244,8 @@ namespace ZeroInstall.Publish.Cli
             }
 
             // If no signing or unsigning was explicitly requested and the content did not change
-            // there is no need to overwrite (and potentiall resign) the file
-            if (!_xmlSign && !_unsign && !feedEditing.Changed) return;
+            // there is no need to overwrite (and potential resign) the file
+            if (!_xmlSign && !_unsign && !feedEditing.UnsavedChanges) return;
 
             while (true)
             {
@@ -257,7 +257,7 @@ namespace ZeroInstall.Publish.Cli
                 }
                 catch (WrongPassphraseException ex)
                 {
-                    // Continue loop if passhrase is incorrect
+                    // Continue loop if passphrase is incorrect
                     if (!string.IsNullOrEmpty(_openPgpPassphrase)) Log.Error(ex);
                 }
 

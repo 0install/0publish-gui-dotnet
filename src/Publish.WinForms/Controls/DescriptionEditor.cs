@@ -3,7 +3,7 @@
 
 using System.Drawing;
 using System.Windows.Forms;
-using NanoByte.Common.Controls;
+using NanoByte.StructureEditor.WinForms;
 using ZeroInstall.Store.Model;
 
 namespace ZeroInstall.Publish.WinForms.Controls
@@ -16,7 +16,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
         where T : class, IDescriptionContainer
     {
         protected readonly LocalizableTextBox TextBoxDescription;
-        protected readonly GenericEditorControl<T> EditorControl;
+        protected readonly PropertyGridEditor<T> EditorControl;
 
         public DescriptionEditor()
         {
@@ -30,7 +30,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
             };
             RegisterControl(TextBoxDescription, () => Target.Descriptions);
 
-            EditorControl = new GenericEditorControl<T>(showDescriptionBox: false)
+            EditorControl = new PropertyGridEditor<T>
             {
                 Location = new Point(0, TextBoxDescription.Bottom + 6),
                 Size = new Size(Width, Height - TextBoxDescription.Bottom - 6),

@@ -3,7 +3,7 @@
 
 using System.Drawing;
 using System.Windows.Forms;
-using NanoByte.Common.Controls;
+using NanoByte.StructureEditor.WinForms;
 using ZeroInstall.Store.Model;
 
 namespace ZeroInstall.Publish.WinForms.Controls

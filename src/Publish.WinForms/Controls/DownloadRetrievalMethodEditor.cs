@@ -39,7 +39,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 AllowRelative = true
             };
             textBoxHref.TextChanged += delegate { ShowUpdateHint(Resources.ManifestDigestChanged); };
-            RegisterControl(textBoxHref, new PropertyPointer<Uri>(() => Target.Href, value => Target.Href = value));
+            RegisterControl(textBoxHref, PropertyPointer.For(() => Target.Href));
 
             Controls.Add(new Label
             {
@@ -57,7 +57,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 TabIndex = 3,
                 HintText = "in bytes (required)"
             };
-            RegisterControl(textBoxSize, new PropertyPointer<long>(() => Target.Size, value => Target.Size = value).ToStringPointer());
+            RegisterControl(textBoxSize, PropertyPointer.For(() => Target.Size).ToStringPointer());
         }
         #endregion
 

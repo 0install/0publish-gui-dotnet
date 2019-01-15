@@ -1,5 +1,3 @@
-using NanoByte.Common.Controls;
-
 namespace ZeroInstall.Publish.WinForms.Controls
 {
     partial class FeedEditor
@@ -31,12 +29,12 @@ namespace ZeroInstall.Publish.WinForms.Controls
         private void InitializeComponent()
         {
             this.labelName = new System.Windows.Forms.Label();
-            this.textBoxName = new HintTextBox();
+            this.textBoxName = new NanoByte.Common.Controls.HintTextBox();
             this.labelUri = new System.Windows.Forms.Label();
-            this.textBoxUri = new UriTextBox();
-            this.textBoxSummary = new LocalizableTextBox();
-            this.textBoxDescription = new LocalizableTextBox();
-            this.textBoxHomepage = new UriTextBox();
+            this.textBoxUri = new NanoByte.Common.Controls.UriTextBox();
+            this.textBoxSummary = new NanoByte.StructureEditor.WinForms.LocalizableTextBox();
+            this.textBoxDescription = new NanoByte.StructureEditor.WinForms.LocalizableTextBox();
+            this.textBoxHomepage = new NanoByte.Common.Controls.UriTextBox();
             this.labelHomepage = new System.Windows.Forms.Label();
             this.checkBoxNeedTerminal = new System.Windows.Forms.CheckBox();
             this.labelMinZeroInstallVersion = new System.Windows.Forms.Label();
@@ -196,12 +194,12 @@ namespace ZeroInstall.Publish.WinForms.Controls
         #endregion
 
         private System.Windows.Forms.Label labelName;
-        private HintTextBox textBoxName;
+        private NanoByte.Common.Controls.HintTextBox textBoxName;
         private System.Windows.Forms.Label labelUri;
-        private UriTextBox textBoxUri;
-        private LocalizableTextBox textBoxSummary;
-        private LocalizableTextBox textBoxDescription;
-        private UriTextBox textBoxHomepage;
+        private NanoByte.Common.Controls.UriTextBox textBoxUri;
+        private NanoByte.StructureEditor.WinForms.LocalizableTextBox textBoxSummary;
+        private NanoByte.StructureEditor.WinForms.LocalizableTextBox textBoxDescription;
+        private NanoByte.Common.Controls.UriTextBox textBoxHomepage;
         private System.Windows.Forms.Label labelHomepage;
         private System.Windows.Forms.CheckBox checkBoxNeedTerminal;
         private System.Windows.Forms.Label labelMinZeroInstallVersion;

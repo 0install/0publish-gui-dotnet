@@ -7,9 +7,10 @@ using System.IO;
 using System.Net;
 using System.Windows.Forms;
 using NanoByte.Common;
-using NanoByte.Common.Controls;
 using NanoByte.Common.Tasks;
 using NanoByte.Common.Undo;
+using NanoByte.StructureEditor;
+using NanoByte.StructureEditor.WinForms;
 using ZeroInstall.Publish.WinForms.Properties;
 using ZeroInstall.Store.Implementations.Manifests;
 using ZeroInstall.Store.Model;
@@ -163,10 +164,10 @@ namespace ZeroInstall.Publish.WinForms.Controls
 
                 void SetDigest()
                 {
-                    executor.Execute(new SetValueCommand<ManifestDigest>(() => ContainerRef.ManifestDigest, value => ContainerRef.ManifestDigest = value, digest));
+                    executor.Execute(SetValueCommand.For(() => ContainerRef.ManifestDigest, digest));
 
                     if (string.IsNullOrEmpty(ContainerRef.ID) || ContainerRef.ID.StartsWith("sha1new="))
-                        executor.Execute(new SetValueCommand<string>(() => ContainerRef.ID, value => ContainerRef.ID = value, ManifestUtils.CalculateDigest(tempDir, ManifestFormat.Sha1New, handler)));
+                        executor.Execute(SetValueCommand.For(() => ContainerRef.ID, ManifestUtils.CalculateDigest(tempDir, ManifestFormat.Sha1New, handler)));
                 }
 
                 if (ContainerRef.ManifestDigest == default(ManifestDigest)) SetDigest();

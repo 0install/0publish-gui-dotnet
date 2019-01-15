@@ -17,7 +17,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
         {
             InitializeComponent();
 
-            RegisterControl(textBoxDestination, new PropertyPointer<string>(() => Target.Destination, value => Target.Destination = value));
+            RegisterControl(textBoxDestination, PropertyPointer.For(() => Target.Destination));
         }
 
         private void textBox_TextChanged(object sender, EventArgs e) => ShowUpdateHint(Resources.ManifestDigestChanged);

@@ -3,7 +3,7 @@
 
 using System;
 using NanoByte.Common;
-using NanoByte.Common.Controls;
+using NanoByte.StructureEditor.WinForms;
 using ZeroInstall.Store;
 using ZeroInstall.Store.Model;
 
@@ -18,13 +18,13 @@ namespace ZeroInstall.Publish.WinForms.Controls
         {
             InitializeComponent();
 
-            RegisterControl(textBoxName, new PropertyPointer<string>(() => Target.Name, value => Target.Name = value));
+            RegisterControl(textBoxName, PropertyPointer.For(() => Target.Name));
             RegisterControl(textBoxUri, new PropertyPointer<Uri>(() => Target.Uri, value => Target.Uri = (value == null) ? null : new FeedUri(value)));
             RegisterControl(textBoxDescription, () => Target.Descriptions);
             RegisterControl(textBoxSummary, () => Target.Summaries);
-            RegisterControl(textBoxHomepage, new PropertyPointer<Uri>(() => Target.Homepage, value => Target.Homepage = value));
-            RegisterControl(checkBoxNeedTerminal, new PropertyPointer<bool>(() => Target.NeedsTerminal, value => Target.NeedsTerminal = value));
-            RegisterControl(comboBoxMinimumZeroInstallVersion, new PropertyPointer<string>(() => Target.MinInjectorVersionString, value => Target.MinInjectorVersionString = value));
+            RegisterControl(textBoxHomepage, PropertyPointer.For(() => Target.Homepage));
+            RegisterControl(checkBoxNeedTerminal, PropertyPointer.For(() => Target.NeedsTerminal));
+            RegisterControl(comboBoxMinimumZeroInstallVersion, PropertyPointer.For(() => Target.MinInjectorVersionString));
         }
     }
 

@@ -3,31 +3,29 @@
 
 using NanoByte.Common;
 using NanoByte.Common.Storage;
-using NanoByte.Common.StructureEditor;
+using NanoByte.StructureEditor.WinForms;
 using ZeroInstall.Store.Model;
 using ZeroInstall.Store.Model.Capabilities;
 
 namespace ZeroInstall.Publish.WinForms.Controls
 {
     /// <summary>
-    /// A hierarchial <see cref="Feed"/> editor with Undo support.
+    /// A hierarchical <see cref="Feed"/> editor with Undo support.
     /// </summary>
-    public class FeedStructureEditor : StructureEditorControl<Feed>
+    public class FeedStructureEditor : StructureEditor<Feed>
     {
         public FeedStructureEditor()
         {
-            DescribeRoot<FeedEditor>("interface");
-
-            Describe<IIconContainer>()
-               .AddPlainList<Icon, IconEditor>("icon", x => x.Icons);
-
-            Describe<Feed>()
+            DescribeRoot<FeedEditor>("interface")
                .AddPlainList("category", x => x.Categories)
                .AddPlainList("feed", x => x.Feeds)
                .AddPlainList("feed-for", x => x.FeedFor)
-               .AddProperty("replaced-by", x => new PropertyPointer<InterfaceReference>(() => x.ReplacedBy, value => x.ReplacedBy = value))
-               .AddPlainList<EntryPoint, EntryPointEditor>("entry-point", x => x.EntryPoints)
+               .AddProperty("replaced-by", x => PropertyPointer.For(() => x.ReplacedBy))
+               .AddPlainList("entry-point", x => x.EntryPoints, new EntryPointEditor())
                .AddPlainList("capabilities", x => x.CapabilityLists);
+
+            Describe<IIconContainer>()
+               .AddPlainList("icon", x => x.Icons, new IconEditor());
 
             Describe<IDependencyContainer>()
                .AddPlainList("requires", x => x.Dependencies)
@@ -35,67 +33,68 @@ namespace ZeroInstall.Publish.WinForms.Controls
 
             Describe<IBindingContainer>()
                .AddList(x => x.Bindings)
-               .AddElement<GenericBinding>("binding")
-               .AddElement<EnvironmentBinding>("environment")
-               .AddElement<OverlayBinding>("overlay")
-               .AddElement<ExecutableInVar>("executable-in-var")
-               .AddElement<ExecutableInPath>("executable-in-path");
+               .AddElement("binding", new GenericBinding())
+               .AddElement("environment", new EnvironmentBinding())
+               .AddElement("overlay", new OverlayBinding())
+               .AddElement("executable-in-var", new ExecutableInVar())
+               .AddElement("executable-in-path", new ExecutableInPath());
 
             Describe<Element>()
                .AddPlainList("command", x => x.Commands);
 
             Describe<Implementation>()
                .AddList(implementation => implementation.RetrievalMethods)
-               .AddElementContainerRef<Archive, ArchiveEditor>("archive")
-               .AddElementContainerRef<SingleFile, SingleFileEditor>("file")
-               .AddElementContainerRef<Recipe, RecipeEditor>("recipe");
+               .AddElementContainerRef("archive", new Archive(), new ArchiveEditor())
+               .AddElementContainerRef("file", new SingleFile(), new SingleFileEditor())
+               .AddElementContainerRef("recipe", new Recipe(), new RecipeEditor());
 
             Describe<IElementContainer>()
                .AddList(x => x.Elements)
-               .AddElement<Implementation>("implementation")
-               .AddElement<PackageImplementation>("package-implementation")
-               .AddElement<Group>("group");
+               .AddElement("implementation", new Implementation())
+               .AddElement("package-implementation", new PackageImplementation())
+               .AddElement("group", new Group());
 
             Describe<Restriction>()
                .AddPlainList("version", x => x.Constraints);
 
             Describe<Command>()
-               .AddProperty("runner", x => new PropertyPointer<Runner>(() => x.Runner, value => x.Runner = value))
-               .AddProperty("working-dir", x => new PropertyPointer<WorkingDir>(() => x.WorkingDir, value => x.WorkingDir = value));
+               .AddProperty("runner", x => PropertyPointer.For(() => x.Runner))
+               .AddProperty("working-dir", x => PropertyPointer.For(() => x.WorkingDir));
 
             Describe<IArgBaseContainer>()
                .AddList(x => x.Arguments)
-               .AddElement<Arg>("arg")
-               .AddElement<ForEachArgs>("for-each");
-            Describe<ForEachArgs>().AddPlainList("arg", x => x.Arguments);
+               .AddElement("arg", new Arg())
+               .AddElement("for-each", new ForEachArgs());
+            Describe<ForEachArgs>()
+               .AddPlainList("arg", x => x.Arguments);
 
             Describe<Recipe>()
                .AddList(x => x.Steps)
-               .AddElement<Archive, ArchiveEditor>("archive")
-               .AddElement<SingleFile, SingleFileEditor>("file")
-               .AddElement<RenameStep>("rename")
-               .AddElement<RemoveStep>("remove")
-               .AddElement<CopyFromStep>("copy-from");
+               .AddElement("archive", new Archive(), new ArchiveEditor())
+               .AddElement("file", new SingleFile(), new SingleFileEditor())
+               .AddElement("rename", new RenameStep())
+               .AddElement("remove", new RemoveStep())
+               .AddElement("copy-from", new CopyFromStep());
 
             Describe<CapabilityList>()
                .AddList(x => x.Entries)
-               .AddElement<AppRegistration>("registration")
-               .AddElement<AutoPlay, DescriptionEditor<AutoPlay>>("auto-play")
-               .AddElement<ComServer>("com-server")
-               .AddElement<ContextMenu>("context-menu")
-               .AddElement<DefaultProgram, DescriptionEditor<DefaultProgram>>("default-program")
-               .AddElement<FileType, DescriptionEditor<FileType>>("file-type")
-               .AddElement<UrlProtocol, DescriptionEditor<UrlProtocol>>("url-protocol");
+               .AddElement("registration", new AppRegistration())
+               .AddElement("auto-play", new AutoPlay(), new DescriptionEditor<AutoPlay>())
+               .AddElement("com-server", new ComServer())
+               .AddElement("context-menu", new ContextMenu())
+               .AddElement("default-program", new DefaultProgram(), new DescriptionEditor<DefaultProgram>())
+               .AddElement("file-type", new FileType(), new DescriptionEditor<FileType>())
+               .AddElement("url-protocol", new UrlProtocol(), new DescriptionEditor<UrlProtocol>());
             Describe<AutoPlay>()
                .AddPlainList("event", x => x.Events);
             Describe<ISingleVerb>()
-               .AddProperty<Verb, DescriptionEditor<Verb>>("verb", x => new PropertyPointer<Verb>(() => x.Verb, value => x.Verb = value));
+               .AddProperty("verb", x => PropertyPointer.For(() => x.Verb), new DescriptionEditor<Verb>());
             Describe<FileType>()
                .AddPlainList("extension", x => x.Extensions);
             Describe<UrlProtocol>()
                .AddPlainList("known-prefix", x => x.KnownPrefixes);
             Describe<VerbCapability>()
-               .AddPlainList<Verb, DescriptionEditor<Verb>>("verb", x => x.Verbs);
+               .AddPlainList("verb", x => x.Verbs, new DescriptionEditor<Verb>());
         }
 
         /// <inheritdoc/>

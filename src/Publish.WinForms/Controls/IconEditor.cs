@@ -8,7 +8,7 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Net;
 using NanoByte.Common;
-using NanoByte.Common.Controls;
+using NanoByte.StructureEditor.WinForms;
 using ZeroInstall.Publish.WinForms.Properties;
 using Icon = ZeroInstall.Store.Model.Icon;
 
@@ -23,8 +23,8 @@ namespace ZeroInstall.Publish.WinForms.Controls
         public IconEditor()
         {
             InitializeComponent();
-            RegisterControl(textBoxHref, new PropertyPointer<Uri>(() => Target.Href, value => Target.Href = value));
-            RegisterControl(comboBoxMimeType, new PropertyPointer<string>(() => Target.MimeType, value => Target.MimeType = value));
+            RegisterControl(textBoxHref, PropertyPointer.For(() => Target.Href));
+            RegisterControl(comboBoxMimeType, PropertyPointer.For(() => Target.MimeType));
 
             // ReSharper disable once CoVariantArrayConversion
             comboBoxMimeType.Items.AddRange(Icon.KnownMimeTypes);
