@@ -17,7 +17,7 @@ artifacts:
   - path: feed\*.tar.gz
 
 deploy:
-  - provider: Environment
-    name: GitHub Releases
-    on:
-      appveyor_repo_tag: true
+  provider: Environment
+  name: GitHub Releases
+  on:
+    appveyor_repo_tag: true
