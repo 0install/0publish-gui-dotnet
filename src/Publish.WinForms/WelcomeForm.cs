@@ -54,10 +54,10 @@ namespace ZeroInstall.Publish.WinForms
         {
             using (var form = new MainForm(feedEditing, _openPgp))
             {
-                Hide();
+                form.Shown += delegate { Hide(); };
                 form.ShowDialog();
-                Close();
             }
+            Close();
         }
     }
 }

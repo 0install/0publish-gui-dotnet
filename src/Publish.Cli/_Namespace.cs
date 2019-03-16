@@ -1,11 +1,2 @@
-
-#pragma warning disable 1587
-// ReSharper disable EmptyNamespace
-
-/// <summary>
-/// A command-line tool for editing Zero Install feeds.
-/// </summary>
-
-namespace ZeroInstall.Publish.Cli
-{
-}
+//! \namespace ZeroInstall.Publish.Cli
+//! \brief A command-line tool for editing Zero Install feeds.
