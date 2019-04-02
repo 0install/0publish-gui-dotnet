@@ -2,7 +2,6 @@
 // Licensed under the GNU Lesser Public License
 
 using NanoByte.Common;
-using NanoByte.Common.Storage;
 using NanoByte.StructureEditor.WinForms;
 using ZeroInstall.Store.Model;
 using ZeroInstall.Store.Model.Capabilities;
@@ -44,9 +43,9 @@ namespace ZeroInstall.Publish.WinForms.Controls
 
             Describe<Implementation>()
                .AddList(implementation => implementation.RetrievalMethods)
-               .AddElementContainerRef("archive", new Archive(), new ArchiveEditor())
-               .AddElementContainerRef("file", new SingleFile(), new SingleFileEditor())
-               .AddElementContainerRef("recipe", new Recipe(), new RecipeEditor());
+               .AddElement("archive", new Archive(), new ArchiveEditor())
+               .AddElement("file", new SingleFile(), new SingleFileEditor())
+               .AddElement("recipe", new Recipe(), new RecipeEditor());
 
             Describe<IElementContainer>()
                .AddList(x => x.Elements)
@@ -97,9 +96,5 @@ namespace ZeroInstall.Publish.WinForms.Controls
                .AddPlainList("verb", x => x.Verbs, new DescriptionEditor<Verb>());
         }
 
-        /// <inheritdoc/>
-        protected override string ToXmlString()
-            => base.ToXmlString()
-                   .Replace(" xmlns:xsi=\"" + XmlStorage.XsiNamespace + "\" xsi:schemaLocation=\"" + Feed.XsiSchemaLocation + "\"", "");
     }
 }

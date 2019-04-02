@@ -31,6 +31,6 @@ namespace ZeroInstall.Publish.WinForms.Controls
     /// <summary>
     /// Non-generic base class for <see cref="FeedEditor"/>, because WinForms editor cannot handle generics.
     /// </summary>
-    public class FeedEditorShim : EditorControlBase<Feed>
+    public class FeedEditorShim : NodeEditorBase<Feed>
     {}
 }

@@ -22,19 +22,19 @@ namespace ZeroInstall.Publish.WinForms.Controls
     /// A common base for <see cref="RetrievalMethod"/> editors.
     /// </summary>
     /// <typeparam name="T">The type of <see cref="RetrievalMethod"/> to edit.</typeparam>
-    public abstract class RetrievalMethodEditor<T> : EditorControlBase<T>, IEditorControlContainerRef<T, Implementation>
+    public abstract class RetrievalMethodEditor<T> : NodeEditorBase<T>, ITargetContainerInject<Implementation>
         where T : RetrievalMethod
     {
         #region Properties
-        private Implementation _containerRef;
+        private Implementation _targetContainer;
 
         /// <inheritdoc/>
-        public virtual Implementation ContainerRef
+        public virtual Implementation TargetContainer
         {
-            get => _containerRef;
+            get => _targetContainer;
             set
             {
-                _containerRef = value;
+                _targetContainer = value;
                 _buttonAddMissing.Visible = (value != null);
 
                 UpdateHint();
@@ -79,7 +79,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
         /// </summary>
         protected virtual void UpdateHint()
         {
-            if (ContainerRef != null && ContainerRef.ManifestDigest == default(ManifestDigest))
+            if (TargetContainer != null && TargetContainer.ManifestDigest == default(ManifestDigest))
                 ShowUpdateHint(Resources.ManifestDigestMissing);
             else _labelUpdateHint.Visible = false;
         }
@@ -149,7 +149,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
 
         #region Manifest digest
         /// <summary>
-        /// Checks whether the <see cref="ManifestDigest"/> in <see cref="ContainerRef"/> matches the generated value.
+        /// Checks whether the <see cref="ManifestDigest"/> in <see cref="TargetContainer"/> matches the generated value.
         /// </summary>
         /// <param name="handler">A callback object used when the the user is to be informed about progress.</param>
         /// <param name="executor">Used to apply properties in an undoable fashion.</param>
@@ -164,16 +164,16 @@ namespace ZeroInstall.Publish.WinForms.Controls
 
                 void SetDigest()
                 {
-                    executor.Execute(SetValueCommand.For(() => ContainerRef.ManifestDigest, digest));
+                    executor.Execute(SetValueCommand.For(() => TargetContainer.ManifestDigest, digest));
 
-                    if (string.IsNullOrEmpty(ContainerRef.ID) || ContainerRef.ID.StartsWith("sha1new="))
-                        executor.Execute(SetValueCommand.For(() => ContainerRef.ID, ManifestUtils.CalculateDigest(tempDir, ManifestFormat.Sha1New, handler)));
+                    if (string.IsNullOrEmpty(TargetContainer.ID) || TargetContainer.ID.StartsWith("sha1new="))
+                        executor.Execute(SetValueCommand.For(() => TargetContainer.ID, ManifestUtils.CalculateDigest(tempDir, ManifestFormat.Sha1New, handler)));
                 }
 
-                if (ContainerRef.ManifestDigest == default(ManifestDigest)) SetDigest();
-                else if (digest != ContainerRef.ManifestDigest)
+                if (TargetContainer.ManifestDigest == default(ManifestDigest)) SetDigest();
+                else if (digest != TargetContainer.ManifestDigest)
                 {
-                    bool warnOtherImplementations = (ContainerRef.RetrievalMethods.Count > 1);
+                    bool warnOtherImplementations = (TargetContainer.RetrievalMethods.Count > 1);
                     if (Msg.YesNo(this,
                         warnOtherImplementations ? Resources.DigestMismatch + Environment.NewLine + Resources.DigestOtherImplementations : Resources.DigestMismatch,
                         warnOtherImplementations ? MsgSeverity.Warn : MsgSeverity.Info,

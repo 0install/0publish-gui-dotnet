@@ -53,8 +53,6 @@ namespace ZeroInstall.Publish.WinForms
             this.menuEdit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuUndo = new System.Windows.Forms.ToolStripMenuItem();
             this.menuRedo = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.menuRemove = new System.Windows.Forms.ToolStripMenuItem();
             this.menuHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.feedStructureEditor = new ZeroInstall.Publish.WinForms.Controls.FeedStructureEditor();
@@ -250,9 +248,7 @@ namespace ZeroInstall.Publish.WinForms
             // 
             this.menuEdit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuUndo,
-            this.menuRedo,
-            this.menuSeparator3,
-            this.menuRemove});
+            this.menuRedo});
             this.menuEdit.Name = "menuEdit";
             this.menuEdit.Size = new System.Drawing.Size(39, 20);
             this.menuEdit.Text = "&Edit";
@@ -275,19 +271,6 @@ namespace ZeroInstall.Publish.WinForms
             this.menuRedo.Text = "&Redo";
             this.menuRedo.Click += new System.EventHandler(this.menuRedo_Click);
             // 
-            // menuSeparator3
-            // 
-            this.menuSeparator3.Name = "menuSeparator3";
-            this.menuSeparator3.Size = new System.Drawing.Size(170, 6);
-            // 
-            // menuRemove
-            // 
-            this.menuRemove.Name = "menuRemove";
-            this.menuRemove.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.Delete)));
-            this.menuRemove.Size = new System.Drawing.Size(173, 22);
-            this.menuRemove.Text = "&Remove";
-            this.menuRemove.Click += new System.EventHandler(this.menuRemove_Click);
-            // 
             // menuHelp
             // 
             this.menuHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -306,10 +289,8 @@ namespace ZeroInstall.Publish.WinForms
             // feedStructureEditor
             // 
             this.feedStructureEditor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.feedStructureEditor.Location = new System.Drawing.Point(0, 49);
             this.feedStructureEditor.Name = "feedStructureEditor";
-            this.feedStructureEditor.Padding = new System.Windows.Forms.Padding(12);
-            this.feedStructureEditor.Size = new System.Drawing.Size(584, 502);
+            this.feedStructureEditor.Padding = new System.Windows.Forms.Padding(6);
             this.feedStructureEditor.TabIndex = 1;
             // 
             // MainForm
@@ -362,8 +343,6 @@ namespace ZeroInstall.Publish.WinForms
         private System.Windows.Forms.ToolStripMenuItem menuRedo;
         private System.Windows.Forms.ToolStripSeparator menuSeparator2;
         private System.Windows.Forms.ToolStripMenuItem menuExit;
-        private System.Windows.Forms.ToolStripSeparator menuSeparator3;
-        private System.Windows.Forms.ToolStripMenuItem menuRemove;
         private System.Windows.Forms.ToolStripButton buttonNewWizard;
         private System.Windows.Forms.ToolStripMenuItem menuNewWizard;
         private System.Windows.Forms.ToolStripMenuItem menuHelp;

@@ -12,11 +12,11 @@ namespace ZeroInstall.Publish.WinForms.Controls
     /// A common base for <see cref="IDependencyContainer"/> editors.
     /// </summary>
     /// <typeparam name="T">The type of <see cref="IDependencyContainer"/> to edit.</typeparam>
-    public class DescriptionEditor<T> : EditorControlBase<T>
+    public class DescriptionEditor<T> : NodeEditorBase<T>
         where T : class, IDescriptionContainer
     {
         protected readonly LocalizableTextBox TextBoxDescription;
-        protected readonly PropertyGridEditor<T> EditorControl;
+        protected readonly PropertyGridNodeEditor<T> EditorControl;
 
         public DescriptionEditor()
         {
@@ -30,7 +30,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
             };
             RegisterControl(TextBoxDescription, () => Target.Descriptions);
 
-            EditorControl = new PropertyGridEditor<T>
+            EditorControl = new PropertyGridNodeEditor<T>
             {
                 Location = new Point(0, TextBoxDescription.Bottom + 6),
                 Size = new Size(Width, Height - TextBoxDescription.Bottom - 6),
