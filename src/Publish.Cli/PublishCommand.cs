@@ -66,7 +66,7 @@ namespace ZeroInstall.Publish.Cli
         /// Used to retain downloaded implementations; can be <c>null</c>.
         /// </summary>
         [CanBeNull]
-        private IStore _keepDownloads;
+        private IImplementationStore _keepDownloads;
 
         /// <summary>
         /// Add XML signature blocks to the feesd.
@@ -142,7 +142,7 @@ namespace ZeroInstall.Publish.Cli
 
                 // Modifications
                 {"add-missing", () => Resources.OptionAddMissing, _ => _addMissing = true},
-                {"keep-downloads", () => Resources.OptionsKeepDownloads, _ => _keepDownloads = StoreFactory.CreateDefault()},
+                {"keep-downloads", () => Resources.OptionsKeepDownloads, _ => _keepDownloads = ImplementationStores.Default()},
 
                 // Signatures
                 {"x|xmlsign", () => Resources.OptionXmlSign, _ => _xmlSign = true},
@@ -225,7 +225,7 @@ namespace ZeroInstall.Publish.Cli
             }
             else
             {
-                IOpenPgp openPgp = new BouncyCastle();
+                var openPgp = OpenPgp.Signing();
                 if (_xmlSign)
                 { // Signing explicitly requested
                     if (feedEditing.SignedFeed.SecretKey == null)
@@ -277,7 +277,7 @@ namespace ZeroInstall.Publish.Cli
         {
             if (_xmlSign)
             {
-                IOpenPgp openPgp = new BouncyCastle();
+                var openPgp = OpenPgp.Signing();
                 var signedCatalog = new SignedCatalog(catalog, openPgp.GetSecretKey(_key));
 
                 while (true)
@@ -322,7 +322,7 @@ namespace ZeroInstall.Publish.Cli
                 using (FetchHandle.Register(impl =>
                 {
                     _handler.RunTask(new ExternalFetch(impl));
-                    return StoreFactory.CreateDefault().GetPath(impl);
+                    return ImplementationStores.Default().GetPath(impl);
                 }))
                     AddMissing(feed.Elements, feedEditing);
             }

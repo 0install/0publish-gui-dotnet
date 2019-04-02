@@ -39,7 +39,7 @@ namespace ZeroInstall.Publish.WinForms
         private void MassSignDialog_Load(object sender, EventArgs e)
         {
             comboBoxSecretKey.Items.Add("");
-            foreach (var secretKey in new BouncyCastle().ListSecretKeys())
+            foreach (var secretKey in OpenPgp.Signing().ListSecretKeys())
                 comboBoxSecretKey.Items.Add(secretKey);
         }
         #endregion

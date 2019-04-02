@@ -86,7 +86,7 @@ namespace ZeroInstall.Publish.WinForms
             {
                 using (var handler = new DialogTaskHandler(this))
                     handler.RunTask(new ExternalFetch(impl));
-                return StoreFactory.CreateDefault().GetPath(impl);
+                return ImplementationStores.Default().GetPath(impl);
             });
         }
         #endregion
