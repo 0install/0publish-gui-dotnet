@@ -1,6 +1,5 @@
 ﻿Param ([Parameter(Mandatory=$True)][String]$User, [Parameter(Mandatory=$True)][String]$Password)
 $ErrorActionPreference = "Stop"
-$ScriptDir = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
 
 function put ($relativeUri, $filePath) {
     0install run http://repo.roscidus.com/utils/curl -k -L --user "${User}:${Password}" -i -X PUT -F "file=@$filePath" "https://www.transifex.com/api/2/project/0install-win/$relativeUri"
@@ -11,5 +10,5 @@ function upload($slug, $pathBase) {
     put "resource/$slug/translation/de/" "$pathBase.de.resx"
 }
 
-upload publish-cli "$ScriptDir\src\Publish.Cli\Properties\Resources"
-upload publish-win "$ScriptDir\src\Publish.WinForms\Properties\Resources"
+upload publish-cli "$PSScriptRoot\src\Publish.Cli\Properties\Resources"
+upload publish-win "$PSScriptRoot\src\Publish.WinForms\Properties\Resources"
