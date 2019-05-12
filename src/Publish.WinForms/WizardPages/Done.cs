@@ -12,7 +12,7 @@ namespace ZeroInstall.Publish.WinForms
 
         private void pageDone_Commit(object sender, WizardPageConfirmEventArgs e)
         {
-            if (_installerCapture.CaptureSession != null)
+            if (_feedBuilder.Commands.Count == 0)
                 _feedBuilder.GenerateCommands();
 
             _signedFeed = _feedBuilder.Build();
