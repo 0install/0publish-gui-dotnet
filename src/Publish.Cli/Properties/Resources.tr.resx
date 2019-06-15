@@ -121,11 +121,11 @@
     <value>{0} için GnuPG parolasını yazın:</value>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>Akış geçerli bir biçime sahip değil.</value>
+    <value>Akış biçimi hatalı.</value>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Bu program kesin garanti koşulu altında gelmemektedir, hukukî dayanağı bulunmaktadır.
-GNU Kısıtlı Genel Kamu Lisansı altında bu program ve bu programın kopyaları yeniden dağıtılabilir.</value>
+    <value>Bu yazılım yasaların izin verdiği ölçüde KESİNLİKLE GARANTİSİZ olarak gelir.
+Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağlı kalınarak dağıtılabilir.</value>
   </data>
   <data name="MissingArguments" xml:space="preserve">
     <value>Değişkenler eksik. {0} --help deneyin.</value>
@@ -140,13 +140,13 @@ GNU Kısıtlı Genel Kamu Lisansı altında bu program ve bu programın kopyalar
     <value>Belirtilen tüm akışları tek bir katalogda {FILE} birleştirin.</value>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>GnuPG gizli anahtar kilidini kaldırmak için {PASS} kullanın.</value>
+    <value>GnuPG gizli anahtar kilidini açmak için {PASS} kullanın.</value>
   </data>
   <data name="OptionHelp" xml:space="preserve">
     <value>Yerleşik yardım metnini görün.</value>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>İmzalama işlemi için anahtarı kullanın (eğer birden fazla anahtarınız varsa, ya da yeniden imzalama işlemi yapmak istiyorsanız farklı anahtarlar kullanın).</value>
+    <value>İmzalama işlemi için kullanılacak anahtar (birden fazla anahtarınız varsa ya da yeniden imzalama işlemi yapmak istiyorsanız farklı anahtarlar kullanın).</value>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Seçenekler:</value>
@@ -161,10 +161,10 @@ GNU Kısıtlı Genel Kamu Lisansı altında bu program ve bu programın kopyalar
     <value>Sürüm bilgilerini görün.</value>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Bir XML imza kalıbı ekleyin. (Tüm uzak akışların imzalanmış olması gerekmektedir.)</value>
+    <value>Bir XML imza kalıbı ekleyin (Tüm uzak akışların imzalanmış olması gerekmektedir).</value>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>Bilinmeyen işlem kipi.
+    <value>İşlem kipi bilinmiyor.
 {0} --help deneyin</value>
   </data>
   <data name="Usage" xml:space="preserve">

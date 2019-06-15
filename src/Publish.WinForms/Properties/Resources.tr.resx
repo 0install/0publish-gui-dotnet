@@ -127,7 +127,7 @@
     <value>Eksik ekle</value>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Bu yol noktası arşivin dışında.</value>
+    <value>Bu yol arşiv dışına gidiyor.</value>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>{0} için GnuPG parolasını yazın:</value>
@@ -136,7 +136,7 @@
     <value>Bu bir EXE yükleyicisi mi?</value>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Yakalamayı geçmek istediğinize emin misiniz?
+    <value>Yakalamayı atlamak istediğinize emin misiniz?
 Bunu yaparsanız uygulamaların masaüstü bütünleştirmeleri (örneğin dosya ilişkilendirmeleri) akışa eklenmez.</value>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
@@ -145,7 +145,7 @@ Bunu yaparsanız Zero Install masaüstü bütünleştirmeleri kısayolları içi
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Ayarları tamamlamadan devam etmek istediğinize emin misiniz?
-Bunu yaparsanız akışınız yerel kipte ve çevrimdışı olarak çalışacaktır.</value>
+Bunu yaparsanız akışınız yerel kipte ve çevrimdışı olarak çalışır.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Devam
@@ -166,16 +166,16 @@ Uygulama amacını ben değiştirdim</value>
 Kaydedilmemiş değişiklikleri yok say</value>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Önizleme için görsel indiriliyor...</value>
+    <value>Görsel önizleme için indiriliyor...</value>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Bir bildirim özeti bir boş dizin için tasarlandı. "extract" değerinin arşiv için doğru şekilde ayarlandığını denetleyin.</value>
+    <value>Boş bir klasör için bir bildirim özeti tasarlandı. "extract" değerinin arşiv için doğru şekilde ayarlanmış olduğunu denetleyin.</value>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
     <value>Akış dosyaları (*.xml)|*.xml|Geçici dosyalar (*.xml.template)|*.xml.template|Tüm dosyalar|*</value>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>Büyük olasılıkla çok satırlı tam bir açıklama</value>
+    <value>Çok satırlı olabilecek tam bir açıklama</value>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
     <value>Görsel dosyası Zero Install tarafından desteklenmiyor.</value>
@@ -199,7 +199,7 @@ Kaydedilmemiş değişiklikleri yok say</value>
     <value>Yeni anahtar...</value>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Hiçbir giriş noktası (EXE'ler, JAR'lar, Python komutları, vb.) bulunamadı. Lütfen seçtiğiniz arşivin geçerliliğinden ve dizine çıkartılmış olduğundan emin olun.</value>
+    <value>Hiçbir giriş noktası (EXE'ler, JAR'lar, Python komutları, vb.) bulunamadı. Lütfen seçtiğiniz arşivin geçerliliğinden ve klasöre ayıklanmış olduğundan emin olun.</value>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Eşleşen herhangi bir akış dosyası bulunamadı.</value>
@@ -209,7 +209,7 @@ Kaydedilmemiş değişiklikleri yok say</value>
 yalnız bir EXE'den oluşur</value>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Lütfen tıklatın:</value>
+    <value>Lütfen tıklayın:</value>
   </data>
   <data name="SaveChanges" xml:space="preserve">
     <value>Kaydet
@@ -219,7 +219,7 @@ Değişiklikleri kaydet</value>
     <value>Değişiklikleri kaydetmek ister misiniz?</value>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>Dosya boyutu henüz saptanamadı.</value>
+    <value>Dosya boyutu henüz belirlenemedi.</value>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
     <value>Yükleyicinin tamamlanması bekleniyor</value>
