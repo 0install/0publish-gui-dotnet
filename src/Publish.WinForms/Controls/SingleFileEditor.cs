@@ -18,6 +18,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
             InitializeComponent();
 
             RegisterControl(textBoxDestination, PropertyPointer.For(() => Target.Destination));
+            RegisterControl(checkBoxExecutable, PropertyPointer.For(() => Target.Executable));
         }
 
         private void textBox_TextChanged(object sender, EventArgs e) => ShowUpdateHint(Resources.ManifestDigestChanged);

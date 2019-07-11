@@ -31,7 +31,8 @@ namespace ZeroInstall.Publish.WinForms.Controls
         private void InitializeComponent()
         {
             this.labelDestination = new System.Windows.Forms.Label();
-            this.textBoxDestination = new HintTextBox();
+            this.textBoxDestination = new NanoByte.Common.Controls.HintTextBox();
+            this.checkBoxExecutable = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // labelDestination
@@ -53,17 +54,32 @@ namespace ZeroInstall.Publish.WinForms.Controls
             this.textBoxDestination.HintText = "the local file name to use (required)";
             this.textBoxDestination.Location = new System.Drawing.Point(77, 52);
             this.textBoxDestination.Name = "textBoxDestination";
-            this.textBoxDestination.Size = new System.Drawing.Size(73, 20);
+            this.textBoxDestination.Size = new System.Drawing.Size(63, 20);
             this.textBoxDestination.TabIndex = 5;
             this.textBoxDestination.TextChanged += new System.EventHandler(this.textBox_TextChanged);
+            // 
+            // checkBoxExecutable
+            // 
+            this.checkBoxExecutable.AutoSize = true;
+            this.checkBoxExecutable.Location = new System.Drawing.Point(3, 78);
+            this.checkBoxExecutable.Name = "checkBoxExecutable";
+            this.checkBoxExecutable.Size = new System.Drawing.Size(79, 17);
+            this.checkBoxExecutable.TabIndex = 6;
+            this.checkBoxExecutable.Text = "Executable";
+            this.checkBoxExecutable.UseVisualStyleBackColor = true;
             // 
             // SingleFileEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.checkBoxExecutable);
             this.Controls.Add(this.labelDestination);
             this.Controls.Add(this.textBoxDestination);
             this.Name = "SingleFileEditor";
+            this.Size = new System.Drawing.Size(116, 133);
+            this.Controls.SetChildIndex(this.textBoxDestination, 0);
+            this.Controls.SetChildIndex(this.labelDestination, 0);
+            this.Controls.SetChildIndex(this.checkBoxExecutable, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -73,6 +89,6 @@ namespace ZeroInstall.Publish.WinForms.Controls
 
         private System.Windows.Forms.Label labelDestination;
         private HintTextBox textBoxDestination;
-
+        private System.Windows.Forms.CheckBox checkBoxExecutable;
     }
 }
