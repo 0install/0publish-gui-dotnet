@@ -1,4 +1,4 @@
-﻿Param ($Version = "1.0.0-pre", [switch]$GitHubReleas)
+﻿Param ($Version = "1.0.0-pre", [switch]$GitHubRelease)
 $ErrorActionPreference = "Stop"
 pushd $PSScriptRoot
 
