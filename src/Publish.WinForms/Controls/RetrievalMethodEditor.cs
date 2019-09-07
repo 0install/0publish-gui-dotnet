@@ -114,6 +114,11 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                 return;
             }
+            catch (UriFormatException ex)
+            {
+                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
+                return;
+            }
             catch (IOException ex)
             {
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);

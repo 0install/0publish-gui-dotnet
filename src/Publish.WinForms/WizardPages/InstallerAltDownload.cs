@@ -50,6 +50,11 @@ namespace ZeroInstall.Publish.WinForms
                 e.Cancel = true;
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
             }
+            catch (UriFormatException ex)
+            {
+                e.Cancel = true;
+                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
+            }
             catch (IOException ex)
             {
                 e.Cancel = true;
