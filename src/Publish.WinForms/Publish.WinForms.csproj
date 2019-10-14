@@ -38,11 +38,11 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="AeroWizard" Version="2.2.3" />
-    <PackageReference Include="NanoByte.Common.WinForms" Version="2.3.3" />
+    <PackageReference Include="NanoByte.Common.WinForms" Version="2.3.4" />
     <PackageReference Include="NanoByte.StructureEditor.WinForms" Version="0.2.2" />
-    <PackageReference Include="ZeroInstall.Store" Version="2.16.7" PrivateAssets="None" />
-    <PackageReference Include="ZeroInstall.Publish" Version="2.16.7" PrivateAssets="None" />
-    <PackageReference Include="ZeroInstall.Services" Version="2.16.7" PrivateAssets="None" />
+    <PackageReference Include="ZeroInstall.Store" Version="2.16.8" PrivateAssets="None" />
+    <PackageReference Include="ZeroInstall.Publish" Version="2.16.8" PrivateAssets="None" />
+    <PackageReference Include="ZeroInstall.Services" Version="2.16.8" PrivateAssets="None" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
