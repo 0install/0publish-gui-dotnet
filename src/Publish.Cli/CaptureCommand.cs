@@ -102,19 +102,14 @@ namespace ZeroInstall.Publish.Cli
         #endregion
 
         public ExitCode Execute()
-        {
-            if (_additionalArgs.Count == 0) return PrintHelp();
-
-            switch (_additionalArgs[0])
-            {
-                case "start":
-                    return Start();
-                case "finish":
-                    return Finish();
-                default:
-                    return PrintHelp();
-            }
-        }
+            => _additionalArgs.Count == 0
+                ? PrintHelp()
+                : _additionalArgs[0] switch
+                {
+                    "start" => Start(),
+                    "finish" => Finish(),
+                    _ => PrintHelp()
+                };
 
         private ExitCode Start()
         {
