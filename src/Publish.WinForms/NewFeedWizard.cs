@@ -30,11 +30,9 @@ namespace ZeroInstall.Publish.WinForms
         [CanBeNull]
         public static SignedFeed Run([NotNull] IOpenPgp openPgp, [CanBeNull] IWin32Window owner = null)
         {
-            using (var wizard = new NewFeedWizard(openPgp))
-            {
-                wizard.ShowDialog(owner);
-                return wizard._signedFeed;
-            }
+            using var wizard = new NewFeedWizard(openPgp);
+            wizard.ShowDialog(owner);
+            return wizard._signedFeed;
         }
 
         /// <summary>Shared between wizard pages.</summary>
@@ -47,12 +45,10 @@ namespace ZeroInstall.Publish.WinForms
         {
             _feedBuilder.RetrievalMethod = retrievalMethod;
 
-            using (var handler = new DialogTaskHandler(this))
-            {
-                _feedBuilder.TemporaryDirectory = (localPath == null)
-                    ? retrievalMethod.DownloadAndApply(handler)
-                    : retrievalMethod.LocalApply(localPath, handler);
-            }
+            using var handler = new DialogTaskHandler(this);
+            _feedBuilder.TemporaryDirectory = (localPath == null)
+                ? retrievalMethod.DownloadAndApply(handler)
+                : retrievalMethod.LocalApply(localPath, handler);
         }
     }
 }

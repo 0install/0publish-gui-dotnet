@@ -53,8 +53,8 @@ namespace ZeroInstall.Publish.WinForms
 
             try
             {
-                using (var handler = new DialogTaskHandler(this))
-                    _installerCapture.ExtractInstallerAsArchive(_feedBuilder, handler);
+                using var handler = new DialogTaskHandler(this);
+                _installerCapture.ExtractInstallerAsArchive(_feedBuilder, handler);
             }
             #region Error handling
             catch (OperationCanceledException)

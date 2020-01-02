@@ -26,11 +26,9 @@ namespace ZeroInstall.Publish.WinForms
 
         private void buttonSelectLocalPath_Click(object sender, EventArgs e)
         {
-            using (var openFileDialog = new OpenFileDialog {FileName = textBoxLocalPath.Text})
-            {
-                if (openFileDialog.ShowDialog(this) == DialogResult.OK)
-                    textBoxLocalPath.Text = openFileDialog.FileName;
-            }
+            using var openFileDialog = new OpenFileDialog {FileName = textBoxLocalPath.Text};
+            if (openFileDialog.ShowDialog(this) == DialogResult.OK)
+                textBoxLocalPath.Text = openFileDialog.FileName;
         }
 
         private void pageDownload_Commit(object sender, WizardPageConfirmEventArgs e)
@@ -137,8 +135,8 @@ namespace ZeroInstall.Publish.WinForms
                 _installerCapture.SetLocal(textBoxDownloadUrl.Uri, textBoxLocalPath.Text);
             else
             {
-                using (var handler = new DialogTaskHandler(this))
-                    _installerCapture.Download(textBoxDownloadUrl.Uri, handler);
+                using var handler = new DialogTaskHandler(this);
+                _installerCapture.Download(textBoxDownloadUrl.Uri, handler);
             }
 
             pageDownload.NextPage = pageIstallerCaptureStart;

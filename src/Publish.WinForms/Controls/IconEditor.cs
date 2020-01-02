@@ -80,8 +80,8 @@ namespace ZeroInstall.Publish.WinForms.Controls
         {
             try
             {
-                using (var imageStream = WebRequest.Create(url).GetResponse().GetResponseStream())
-                    return (imageStream == null) ? null : Image.FromStream(imageStream);
+                using var imageStream = WebRequest.Create(url).GetResponse().GetResponseStream();
+                return (imageStream == null) ? null : Image.FromStream(imageStream);
             }
             #region Error handling
             catch (ArgumentException ex)

@@ -175,31 +175,30 @@ namespace ZeroInstall.Publish.WinForms
         #region Storage
         internal static FeedEditing OpenFeed([CanBeNull] IWin32Window owner = null)
         {
-            using (var openFileDialog = new OpenFileDialog {Filter = Resources.FileDialogFilter})
+            using var openFileDialog = new OpenFileDialog {Filter = Resources.FileDialogFilter};
+            if (openFileDialog.ShowDialog(owner) != DialogResult.OK) throw new OperationCanceledException();
+
+            try
             {
-                if (openFileDialog.ShowDialog(owner) != DialogResult.OK) throw new OperationCanceledException();
-                try
-                {
-                    return FeedEditing.Load(openFileDialog.FileName);
-                }
-                #region Error handling
-                catch (IOException ex)
-                {
-                    Msg.Inform(null, ex.Message, MsgSeverity.Warn);
-                    throw new OperationCanceledException();
-                }
-                catch (UnauthorizedAccessException ex)
-                {
-                    Msg.Inform(null, ex.Message, MsgSeverity.Warn);
-                    throw new OperationCanceledException();
-                }
-                catch (InvalidDataException ex)
-                {
-                    Msg.Inform(null, ex.Message + (ex.InnerException == null ? "" : Environment.NewLine + ex.InnerException.Message), MsgSeverity.Warn);
-                    throw new OperationCanceledException();
-                }
-                #endregion
+                return FeedEditing.Load(openFileDialog.FileName);
             }
+            #region Error handling
+            catch (IOException ex)
+            {
+                Msg.Inform(null, ex.Message, MsgSeverity.Warn);
+                throw new OperationCanceledException();
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                Msg.Inform(null, ex.Message, MsgSeverity.Warn);
+                throw new OperationCanceledException();
+            }
+            catch (InvalidDataException ex)
+            {
+                Msg.Inform(null, ex.Message + (ex.InnerException == null ? "" : Environment.NewLine + ex.InnerException.Message), MsgSeverity.Warn);
+                throw new OperationCanceledException();
+            }
+            #endregion
         }
 
         private void SaveFeed()
@@ -210,11 +209,11 @@ namespace ZeroInstall.Publish.WinForms
 
         private void SaveFeedAs()
         {
-            using (var saveFileDialog = new SaveFileDialog {Filter = Resources.FileDialogFilter})
-            {
-                if (saveFileDialog.ShowDialog(this) != DialogResult.OK) throw new OperationCanceledException();
+            using var saveFileDialog = new SaveFileDialog {Filter = Resources.FileDialogFilter};
+            if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
                 SaveFeed(saveFileDialog.FileName);
-            }
+            else
+                throw new OperationCanceledException();
         }
 
         private void SaveFeed([NotNull] string path)

@@ -23,19 +23,17 @@ namespace ZeroInstall.Publish.WinForms
                 ArchiveGenerator.SupportedMimeTypes.Select(x => string.Format(
                     @"{0} archive (*{0})|*{0}",
                     Archive.GetDefaultExtension(x))));
-            using (var saveFileDialog = new SaveFileDialog {Filter = filter, FileName = textBoxArchivePath.Text})
-            {
-                if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
-                    textBoxArchivePath.Text = saveFileDialog.FileName;
-            }
+            using var saveFileDialog = new SaveFileDialog {Filter = filter, FileName = textBoxArchivePath.Text};
+            if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
+                textBoxArchivePath.Text = saveFileDialog.FileName;
         }
 
         private void buttonCreateArchive_Click(object sender, EventArgs e)
         {
             try
             {
-                using (var handler = new DialogTaskHandler(this))
-                    _installerCapture.CaptureSession.CollectFiles(textBoxArchivePath.Text, textBoxUploadUrl.Uri, handler);
+                using var handler = new DialogTaskHandler(this);
+                _installerCapture.CaptureSession.CollectFiles(textBoxArchivePath.Text, textBoxUploadUrl.Uri, handler);
             }
             #region Error handling
             catch (OperationCanceledException)

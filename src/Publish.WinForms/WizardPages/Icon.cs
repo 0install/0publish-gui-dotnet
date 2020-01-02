@@ -44,45 +44,39 @@ namespace ZeroInstall.Publish.WinForms
         [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "System.Drawing exceptions are not clearly documented")]
         private void buttonSaveIco_Click(object sender, EventArgs e)
         {
-            using (var saveFileDialog = new SaveFileDialog {Filter = "Windows Icon files|*.ico|All files|*.*"})
+            using var saveFileDialog = new SaveFileDialog {Filter = "Windows Icon files|*.ico|All files|*.*"};
+            if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
             {
-                if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
+                using var stream = File.Create(saveFileDialog.FileName);
+                try
                 {
-                    using (var stream = File.Create(saveFileDialog.FileName))
-                    {
-                        try
-                        {
-                            _icon.Save(stream);
-                        }
-                        #region Error handling
-                        catch (Exception ex)
-                        {
-                            Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-                        }
-                        #endregion
-                    }
+                    _icon.Save(stream);
                 }
+                #region Error handling
+                catch (Exception ex)
+                {
+                    Msg.Inform(this, ex.Message, MsgSeverity.Warn);
+                }
+                #endregion
             }
         }
 
         [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "System.Drawing exceptions are not clearly documented")]
         private void buttonSavePng_Click(object sender, EventArgs e)
         {
-            using (var saveFileDialog = new SaveFileDialog {Filter = "PNG image files|*.png|All files|*.*"})
+            using var saveFileDialog = new SaveFileDialog {Filter = "PNG image files|*.png|All files|*.*"};
+            if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
             {
-                if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
+                try
                 {
-                    try
-                    {
-                        _icon.ToBitmap().Save(saveFileDialog.FileName, ImageFormat.Png);
-                    }
-                    #region Error handling
-                    catch (Exception ex)
-                    {
-                        Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-                    }
-                    #endregion
+                    _icon.ToBitmap().Save(saveFileDialog.FileName, ImageFormat.Png);
                 }
+                #region Error handling
+                catch (Exception ex)
+                {
+                    Msg.Inform(this, ex.Message, MsgSeverity.Warn);
+                }
+                #endregion
             }
         }
 

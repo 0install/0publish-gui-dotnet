@@ -35,13 +35,11 @@ namespace ZeroInstall.Publish.Cli
 
             try
             {
-                using (var handler = new CliTaskHandler())
-                {
-                    var command = (args.FirstOrDefault() == "capture")
-                        ? (ICommand)new CaptureCommand(args.Skip(1), handler)
-                        : new PublishCommand(args, handler);
-                    return (int)command.Execute();
-                }
+                using var handler = new CliTaskHandler();
+                var command = (args.FirstOrDefault() == "capture")
+                    ? (ICommand)new CaptureCommand(args.Skip(1), handler)
+                    : new PublishCommand(args, handler);
+                return (int)command.Execute();
             }
             #region Error hanlding
             catch (OperationCanceledException)

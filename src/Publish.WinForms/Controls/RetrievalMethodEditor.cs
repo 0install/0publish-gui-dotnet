@@ -101,8 +101,8 @@ namespace ZeroInstall.Publish.WinForms.Controls
             var commandCollector = new CommandCollector {Path = CommandExecutor.Path}; // Represent all changes in a single undo step
             try
             {
-                using (var handler = new DialogTaskHandler(this))
-                    CheckDigest(handler, commandCollector);
+                using var handler = new DialogTaskHandler(this);
+                CheckDigest(handler, commandCollector);
             }
             #region Error handling
             catch (OperationCanceledException)
@@ -160,31 +160,29 @@ namespace ZeroInstall.Publish.WinForms.Controls
         /// <param name="executor">Used to apply properties in an undoable fashion.</param>
         private void CheckDigest(ITaskHandler handler, ICommandExecutor executor)
         {
-            using (var tempDir = Target.DownloadAndApply(handler, executor))
+            using var tempDir = Target.DownloadAndApply(handler, executor);
+            var digest = ManifestUtils.GenerateDigest(tempDir, handler);
+
+            if (digest.PartialEquals(ManifestDigest.Empty))
+                Msg.Inform(this, Resources.EmptyImplementation, MsgSeverity.Warn);
+
+            void SetDigest()
             {
-                var digest = ManifestUtils.GenerateDigest(tempDir, handler);
+                executor.Execute(SetValueCommand.For(() => TargetContainer.ManifestDigest, digest));
 
-                if (digest.PartialEquals(ManifestDigest.Empty))
-                    Msg.Inform(this, Resources.EmptyImplementation, MsgSeverity.Warn);
+                if (string.IsNullOrEmpty(TargetContainer.ID) || TargetContainer.ID.StartsWith("sha1new="))
+                    executor.Execute(SetValueCommand.For(() => TargetContainer.ID, ManifestUtils.CalculateDigest(tempDir, ManifestFormat.Sha1New, handler)));
+            }
 
-                void SetDigest()
-                {
-                    executor.Execute(SetValueCommand.For(() => TargetContainer.ManifestDigest, digest));
-
-                    if (string.IsNullOrEmpty(TargetContainer.ID) || TargetContainer.ID.StartsWith("sha1new="))
-                        executor.Execute(SetValueCommand.For(() => TargetContainer.ID, ManifestUtils.CalculateDigest(tempDir, ManifestFormat.Sha1New, handler)));
-                }
-
-                if (TargetContainer.ManifestDigest == default(ManifestDigest)) SetDigest();
-                else if (digest != TargetContainer.ManifestDigest)
-                {
-                    bool warnOtherImplementations = (TargetContainer.RetrievalMethods.Count > 1);
-                    if (Msg.YesNo(this,
-                        warnOtherImplementations ? Resources.DigestMismatch + Environment.NewLine + Resources.DigestOtherImplementations : Resources.DigestMismatch,
-                        warnOtherImplementations ? MsgSeverity.Warn : MsgSeverity.Info,
-                        Resources.DigestReplace, Resources.DigestKeep))
-                        SetDigest();
-                }
+            if (TargetContainer.ManifestDigest == default(ManifestDigest)) SetDigest();
+            else if (digest != TargetContainer.ManifestDigest)
+            {
+                bool warnOtherImplementations = (TargetContainer.RetrievalMethods.Count > 1);
+                if (Msg.YesNo(this,
+                    warnOtherImplementations ? Resources.DigestMismatch + Environment.NewLine + Resources.DigestOtherImplementations : Resources.DigestMismatch,
+                    warnOtherImplementations ? MsgSeverity.Warn : MsgSeverity.Info,
+                    Resources.DigestReplace, Resources.DigestKeep))
+                    SetDigest();
             }
         }
         #endregion

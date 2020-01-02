@@ -15,15 +15,13 @@ namespace ZeroInstall.Publish.WinForms
     {
         private void buttonSelectInstallationDir_Click(object sender, EventArgs e)
         {
-            using (var folderBrowserDialog = new FolderBrowserDialog
+            using var folderBrowserDialog = new FolderBrowserDialog
             {
                 RootFolder = Environment.SpecialFolder.MyComputer,
                 SelectedPath = textBoxInstallationDir.Text
-            })
-            {
-                folderBrowserDialog.ShowDialog(this);
-                textBoxInstallationDir.Text = folderBrowserDialog.SelectedPath;
-            }
+            };
+            folderBrowserDialog.ShowDialog(this);
+            textBoxInstallationDir.Text = folderBrowserDialog.SelectedPath;
         }
 
         private void pageInstallerCaptureDiff_Commit(object sender, WizardPageConfirmEventArgs e)
@@ -34,8 +32,8 @@ namespace ZeroInstall.Publish.WinForms
             try
             {
                 session.InstallationDir = textBoxInstallationDir.Text;
-                using (var handler = new DialogTaskHandler(this))
-                    session.Diff(handler);
+                using var handler = new DialogTaskHandler(this);
+                session.Diff(handler);
             }
             #region Error handling
             catch (InvalidOperationException ex)

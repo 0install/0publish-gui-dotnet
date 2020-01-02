@@ -24,11 +24,9 @@ namespace ZeroInstall.Publish.WinForms
 
         private void buttonSelectAltLocalPath_Click(object sender, EventArgs e)
         {
-            using (var openFileDialog = new OpenFileDialog {FileName = textBoxAltLocalPath.Text})
-            {
-                if (openFileDialog.ShowDialog(this) == DialogResult.OK)
-                    textBoxAltLocalPath.Text = openFileDialog.FileName;
-            }
+            using var openFileDialog = new OpenFileDialog {FileName = textBoxAltLocalPath.Text};
+            if (openFileDialog.ShowDialog(this) == DialogResult.OK)
+                textBoxAltLocalPath.Text = openFileDialog.FileName;
         }
 
         private void pageInstallerAltDownload_Commit(object sender, WizardPageConfirmEventArgs e)

@@ -55,8 +55,8 @@ namespace ZeroInstall.Publish.WinForms
             if (files == null) throw new ArgumentNullException(nameof(files));
             #endregion
 
-            using (var dialog = new MassSignForm(files))
-                dialog.ShowDialog();
+            using var dialog = new MassSignForm(files);
+            dialog.ShowDialog();
         }
         #endregion
 
