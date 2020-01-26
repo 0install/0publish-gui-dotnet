@@ -13,7 +13,7 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
   <icon href="https://raw.githubusercontent.com/0install/0publish-win/master/icon.ico" type="image/vnd.microsoft.icon"/>
   <homepage>https://docs.0install.de/tools/0publish-win/</homepage>
 
-  <feed-for interface="http://0install.de/feeds/ZeroInstall_Tools.xml"/>
+  <feed-for interface="https://apps.0install.net/0install/0publish-win.xml"/>
 
   <group license="LGPL v3 (GNU Lesser General Public License)">
     <requires interface="https://apps.0install.net/utils/gnupg.xml">
@@ -28,7 +28,7 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
 
     <implementation version="{version}" stability="{stability}" local-path="../artifacts/Release">
       <manifest-digest/>
-      <archive href="ZeroInstall_Tools-{version}.tar.gz"/>
+      <archive href="0publish-win-{version}.tar.gz"/>
     </implementation>
   </group>
 </interface>
