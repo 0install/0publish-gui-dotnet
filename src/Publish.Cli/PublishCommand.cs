@@ -7,7 +7,6 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
-using JetBrains.Annotations;
 using NanoByte.Common;
 using NanoByte.Common.Cli;
 using NanoByte.Common.Info;
@@ -65,8 +64,7 @@ namespace ZeroInstall.Publish.Cli
         /// <summary>
         /// Used to retain downloaded implementations; can be <c>null</c>.
         /// </summary>
-        [CanBeNull]
-        private IImplementationStore _keepDownloads;
+        private IImplementationStore? _keepDownloads;
 
         /// <summary>
         /// Add XML signature blocks to the feesd.
@@ -82,8 +80,7 @@ namespace ZeroInstall.Publish.Cli
         /// A key specifier (key ID, fingerprint or any part of a user ID) for the secret key to use to sign the feeds.
         /// </summary>
         /// <remarks>Will use existing key or default key when left at <c>null</c>.</remarks>
-        [CanBeNull]
-        private string _key;
+        private string? _key;
 
         /// <summary>
         /// The passphrase used to unlock the <see cref="OpenPgpSecretKey"/>.

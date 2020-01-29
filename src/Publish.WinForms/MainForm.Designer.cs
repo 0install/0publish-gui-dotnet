@@ -22,7 +22,6 @@ namespace ZeroInstall.Publish.WinForms
         }
 
         #region Windows Form Designer generated code
-
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
@@ -62,19 +61,10 @@ namespace ZeroInstall.Publish.WinForms
             // 
             // toolStrip
             // 
-            this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.buttonNew,
-            this.buttonNewWizard,
-            this.buttonOpen,
-            this.buttonSave,
-            this.toolStripSeparator,
-            this.buttonUndo,
-            this.buttonRedo,
-            this.comboBoxKeys,
-            this.labelGnuPG});
+            this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {this.buttonNew, this.buttonNewWizard, this.buttonOpen, this.buttonSave, this.toolStripSeparator, this.buttonUndo, this.buttonRedo, this.comboBoxKeys, this.labelGnuPG});
             this.toolStrip.Location = new System.Drawing.Point(0, 24);
             this.toolStrip.Name = "toolStrip";
-            this.toolStrip.Size = new System.Drawing.Size(584, 25);
+            this.toolStrip.Size = new System.Drawing.Size(681, 25);
             this.toolStrip.TabIndex = 0;
             // 
             // buttonNew
@@ -149,7 +139,7 @@ namespace ZeroInstall.Publish.WinForms
             this.comboBoxKeys.DropDownWidth = 250;
             this.comboBoxKeys.FlatStyle = System.Windows.Forms.FlatStyle.Standard;
             this.comboBoxKeys.Name = "comboBoxKeys";
-            this.comboBoxKeys.Size = new System.Drawing.Size(175, 25);
+            this.comboBoxKeys.Size = new System.Drawing.Size(203, 25);
             this.comboBoxKeys.SelectedIndexChanged += new System.EventHandler(this.comboBoxKeys_SelectedIndexChanged);
             // 
             // labelGnuPG
@@ -161,26 +151,16 @@ namespace ZeroInstall.Publish.WinForms
             // 
             // menuStrip
             // 
-            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuFile,
-            this.menuEdit,
-            this.menuHelp});
+            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {this.menuFile, this.menuEdit, this.menuHelp});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(584, 24);
+            this.menuStrip.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip.Size = new System.Drawing.Size(681, 24);
             this.menuStrip.TabIndex = 2;
             // 
             // menuFile
             // 
-            this.menuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuNew,
-            this.menuNewWizard,
-            this.menuOpen,
-            this.menuSeparator1,
-            this.menuSave,
-            this.menuSaveAs,
-            this.menuSeparator2,
-            this.menuExit});
+            this.menuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {this.menuNew, this.menuNewWizard, this.menuOpen, this.menuSeparator1, this.menuSave, this.menuSaveAs, this.menuSeparator2, this.menuExit});
             this.menuFile.Name = "menuFile";
             this.menuFile.Size = new System.Drawing.Size(37, 20);
             this.menuFile.Text = "&File";
@@ -246,9 +226,7 @@ namespace ZeroInstall.Publish.WinForms
             // 
             // menuEdit
             // 
-            this.menuEdit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuUndo,
-            this.menuRedo});
+            this.menuEdit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {this.menuUndo, this.menuRedo});
             this.menuEdit.Name = "menuEdit";
             this.menuEdit.Size = new System.Drawing.Size(39, 20);
             this.menuEdit.Text = "&Edit";
@@ -258,7 +236,7 @@ namespace ZeroInstall.Publish.WinForms
             this.menuUndo.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.UndoButton;
             this.menuUndo.Name = "menuUndo";
             this.menuUndo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.menuUndo.Size = new System.Drawing.Size(173, 22);
+            this.menuUndo.Size = new System.Drawing.Size(144, 22);
             this.menuUndo.Text = "&Undo";
             this.menuUndo.Click += new System.EventHandler(this.menuUndo_Click);
             // 
@@ -267,14 +245,13 @@ namespace ZeroInstall.Publish.WinForms
             this.menuRedo.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.RedoButton;
             this.menuRedo.Name = "menuRedo";
             this.menuRedo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
-            this.menuRedo.Size = new System.Drawing.Size(173, 22);
+            this.menuRedo.Size = new System.Drawing.Size(144, 22);
             this.menuRedo.Text = "&Redo";
             this.menuRedo.Click += new System.EventHandler(this.menuRedo_Click);
             // 
             // menuHelp
             // 
-            this.menuHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuAbout});
+            this.menuHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {this.menuAbout});
             this.menuHelp.Name = "menuHelp";
             this.menuHelp.Size = new System.Drawing.Size(44, 20);
             this.menuHelp.Text = "&Help";
@@ -289,23 +266,25 @@ namespace ZeroInstall.Publish.WinForms
             // feedStructureEditor
             // 
             this.feedStructureEditor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.feedStructureEditor.Location = new System.Drawing.Point(0, 49);
             this.feedStructureEditor.Name = "feedStructureEditor";
-            this.feedStructureEditor.Padding = new System.Windows.Forms.Padding(6);
+            this.feedStructureEditor.Padding = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.feedStructureEditor.Size = new System.Drawing.Size(681, 587);
             this.feedStructureEditor.TabIndex = 1;
             // 
             // MainForm
             // 
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 551);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(681, 636);
             this.Controls.Add(this.feedStructureEditor);
             this.Controls.Add(this.toolStrip);
             this.Controls.Add(this.menuStrip);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MainMenuStrip = this.menuStrip;
-            this.MinimumSize = new System.Drawing.Size(425, 300);
+            this.MinimumSize = new System.Drawing.Size(493, 340);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Zero Install Feed Editor";
@@ -316,9 +295,7 @@ namespace ZeroInstall.Publish.WinForms
             this.menuStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
-
         #endregion
 
         private System.Windows.Forms.ToolStrip toolStrip;
@@ -330,7 +307,6 @@ namespace ZeroInstall.Publish.WinForms
         private System.Windows.Forms.ToolStripLabel labelGnuPG;
         private System.Windows.Forms.ToolStripComboBox comboBoxKeys;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
-        private Controls.FeedStructureEditor feedStructureEditor;
         private System.Windows.Forms.MenuStrip menuStrip;
         private System.Windows.Forms.ToolStripMenuItem menuFile;
         private System.Windows.Forms.ToolStripMenuItem menuNew;
@@ -347,6 +323,7 @@ namespace ZeroInstall.Publish.WinForms
         private System.Windows.Forms.ToolStripMenuItem menuNewWizard;
         private System.Windows.Forms.ToolStripMenuItem menuHelp;
         private System.Windows.Forms.ToolStripMenuItem menuAbout;
+        private ZeroInstall.Publish.WinForms.Controls.FeedStructureEditor feedStructureEditor;
     }
 }
 

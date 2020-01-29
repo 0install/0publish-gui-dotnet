@@ -7,7 +7,6 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
-using JetBrains.Annotations;
 using NanoByte.Common;
 using NanoByte.Common.Controls;
 using NanoByte.Common.Info;
@@ -74,7 +73,7 @@ namespace ZeroInstall.Publish.WinForms
         /// </summary>
         /// <param name="feedEditing">The feed to open on start up.</param>
         /// <param name="openPgp">The OpenPGP-compatible system used to create signatures.</param>
-        public MainForm([NotNull] FeedEditing feedEditing, [NotNull] IOpenPgp openPgp)
+        public MainForm(FeedEditing feedEditing, IOpenPgp openPgp)
         {
             InitializeComponent();
             _openPgp = openPgp;
@@ -173,7 +172,7 @@ namespace ZeroInstall.Publish.WinForms
         #endregion
 
         #region Storage
-        internal static FeedEditing OpenFeed([CanBeNull] IWin32Window owner = null)
+        internal static FeedEditing OpenFeed(IWin32Window? owner = null)
         {
             using var openFileDialog = new OpenFileDialog {Filter = Resources.FileDialogFilter};
             if (openFileDialog.ShowDialog(owner) != DialogResult.OK) throw new OperationCanceledException();
@@ -216,7 +215,7 @@ namespace ZeroInstall.Publish.WinForms
                 throw new OperationCanceledException();
         }
 
-        private void SaveFeed([NotNull] string path)
+        private void SaveFeed(string path)
         {
             while (true)
             {

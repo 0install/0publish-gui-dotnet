@@ -5,7 +5,6 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Net;
-using JetBrains.Annotations;
 using NanoByte.Common;
 using NanoByte.Common.Net;
 using NanoByte.Common.Storage;
@@ -26,11 +25,9 @@ namespace ZeroInstall.Publish.WinForms
         /// </summary>
         public CaptureSession CaptureSession { get; set; }
 
-        [CanBeNull]
-        private Uri _url;
+        private Uri? _url;
 
-        [CanBeNull]
-        private string _localPath;
+        private string? _localPath;
 
         /// <summary>
         /// Sets the installer source to a pre-existing local file.
@@ -38,14 +35,13 @@ namespace ZeroInstall.Publish.WinForms
         /// <param name="url">The URL the file was originally downloaded from.</param>
         /// <param name="path">The local path of the file.</param>
         /// <remarks>Use either this or <see cref="Download"/>.</remarks>
-        public void SetLocal([NotNull] Uri url, [NotNull] string path)
+        public void SetLocal(Uri url, string path)
         {
             _url = url;
             _localPath = path;
         }
 
-        [CanBeNull]
-        private TemporaryDirectory _tempDir;
+        private TemporaryDirectory? _tempDir;
 
         /// <summary>
         /// Downloads the installer from the web to a temporary file.
@@ -56,7 +52,7 @@ namespace ZeroInstall.Publish.WinForms
         /// <exception cref="IOException">A downloaded file could not be written to the disk.</exception>
         /// <exception cref="UnauthorizedAccessException">An operation failed due to insufficient rights.</exception>
         /// <remarks>Use either this or <see cref="SetLocal"/>.</remarks>
-        public void Download([NotNull] Uri url, [NotNull] ITaskHandler handler)
+        public void Download(Uri url, ITaskHandler handler)
         {
             _url = url;
 
@@ -93,7 +89,7 @@ namespace ZeroInstall.Publish.WinForms
         /// <exception cref="OperationCanceledException">The user canceled the task.</exception>
         /// <exception cref="IOException">There is a problem access a temporary file.</exception>
         /// <exception cref="UnauthorizedAccessException">Read or write access to a temporary file is not permitted.</exception>
-        public void RunInstaller([NotNull] ITaskHandler handler)
+        public void RunInstaller(ITaskHandler handler)
         {
             if (string.IsNullOrEmpty(_localPath)) throw new InvalidOperationException();
 
@@ -110,7 +106,7 @@ namespace ZeroInstall.Publish.WinForms
         /// <exception cref="OperationCanceledException">The user canceled the task.</exception>
         /// <exception cref="IOException">The installer could not be extracted as an archive.</exception>
         /// <exception cref="UnauthorizedAccessException">Read or write access to a temporary file is not permitted.</exception>
-        public void ExtractInstallerAsArchive([NotNull] FeedBuilder feedBuilder, [NotNull] ITaskHandler handler)
+        public void ExtractInstallerAsArchive(FeedBuilder feedBuilder, ITaskHandler handler)
         {
             if (string.IsNullOrEmpty(_localPath) || _url == null) throw new InvalidOperationException();
 
