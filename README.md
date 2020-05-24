@@ -3,12 +3,12 @@
 [![Build status](https://img.shields.io/appveyor/ci/0install/0publish-win.svg)](https://ci.appveyor.com/project/0install/0publish-win)  
 The Zero Install Publishing Tools provide a graphical editor and wizard for creating [Zero Install feeds](https://0install.github.io/docs/packaging/). They also contain an alternative version of the [0publish command-line tool](http://0install.net/0publish.html) optimized for use on Windows. These tools are based on [Zero Install .NET](https://github.com/0install/0install-dotnet).
 
-**[Documentation and download instructions](http://0install.de/docs/publishing/tools/)**
+**[Documentation and download instructions](https://docs.0install.net/tools/0publish-win/)**
 
 ## Building
 
 The source code is in [`src/`](src/) and generated build artifacts are placed in `artifacts/`.  
-There is a template in [`feed/`](feed/) for generating a Zero Install feed from the artifacts. For official releases this is published at: http://0install.de/feeds/ZeroInstall_Tools.xml
+There is a template in [`feed/`](feed/) for generating a Zero Install feed from the artifacts. For official releases this is published at: https://apps.0install.net/0install/0publish-win.xml
 
 You need [Visual Studio 2019](https://www.visualstudio.com/downloads/) to build this project.
 
