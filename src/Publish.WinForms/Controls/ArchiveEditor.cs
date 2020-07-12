@@ -4,8 +4,8 @@
 using System;
 using System.Linq;
 using NanoByte.Common;
+using ZeroInstall.Model;
 using ZeroInstall.Publish.WinForms.Properties;
-using ZeroInstall.Store.Model;
 
 namespace ZeroInstall.Publish.WinForms.Controls
 {

@@ -4,8 +4,7 @@
 using System;
 using NanoByte.Common;
 using NanoByte.StructureEditor.WinForms;
-using ZeroInstall.Store;
-using ZeroInstall.Store.Model;
+using ZeroInstall.Model;
 
 namespace ZeroInstall.Publish.WinForms.Controls
 {

@@ -11,9 +11,9 @@ using NanoByte.Common.Tasks;
 using NanoByte.Common.Undo;
 using NanoByte.StructureEditor;
 using NanoByte.StructureEditor.WinForms;
+using ZeroInstall.Model;
 using ZeroInstall.Publish.WinForms.Properties;
 using ZeroInstall.Store.Implementations.Manifests;
-using ZeroInstall.Store.Model;
 using ICommandExecutor = NanoByte.Common.Undo.ICommandExecutor;
 
 namespace ZeroInstall.Publish.WinForms.Controls

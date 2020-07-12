@@ -9,9 +9,9 @@ using NanoByte.Common;
 using NanoByte.Common.Net;
 using NanoByte.Common.Storage;
 using NanoByte.Common.Tasks;
+using ZeroInstall.Model;
 using ZeroInstall.Publish.Capture;
 using ZeroInstall.Publish.WinForms.Properties;
-using ZeroInstall.Store.Model;
 
 namespace ZeroInstall.Publish.WinForms
 {

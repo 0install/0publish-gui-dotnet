@@ -11,7 +11,7 @@
     <AssemblyName>0publish</AssemblyName>
     <ApplicationIcon>..\..\icon.ico</ApplicationIcon>
     <ApplicationManifest>..\app.cli.manifest</ApplicationManifest>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
     <LangVersion>8.0</LangVersion>
     <Nullable>annotations</Nullable>
@@ -43,9 +43,9 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="NDesk.Options.Patched" Version="0.3.1" />
-    <PackageReference Include="ZeroInstall.Store" Version="2.17.3" PrivateAssets="None" />
-    <PackageReference Include="ZeroInstall.Publish" Version="2.17.3" PrivateAssets="None" />
-    <PackageReference Include="ZeroInstall.Services" Version="2.17.3" PrivateAssets="None" />
+    <PackageReference Include="ZeroInstall.Store" Version="2.18.0" PrivateAssets="None" />
+    <PackageReference Include="ZeroInstall.Publish" Version="2.18.0" PrivateAssets="None" />
+    <PackageReference Include="ZeroInstall.Services" Version="2.18.0" PrivateAssets="None" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

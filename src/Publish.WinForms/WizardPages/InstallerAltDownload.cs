@@ -7,7 +7,7 @@ using System.Net;
 using System.Windows.Forms;
 using AeroWizard;
 using NanoByte.Common;
-using ZeroInstall.Store.Model;
+using ZeroInstall.Model;
 
 namespace ZeroInstall.Publish.WinForms
 {

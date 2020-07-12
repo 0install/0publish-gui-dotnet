@@ -11,7 +11,7 @@
     <AssemblyName>0publish-win</AssemblyName>
     <ApplicationIcon>..\..\icon.ico</ApplicationIcon>
     <ApplicationManifest>..\app.winforms.manifest</ApplicationManifest>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
     <LangVersion>8.0</LangVersion>
     <Nullable>annotations</Nullable>
@@ -43,11 +43,11 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="AeroWizard" Version="2.2.7" />
-    <PackageReference Include="NanoByte.Common.WinForms" Version="2.4.1" />
-    <PackageReference Include="NanoByte.StructureEditor.WinForms" Version="0.3.1" />
-    <PackageReference Include="ZeroInstall.Store" Version="2.17.3" PrivateAssets="None" />
-    <PackageReference Include="ZeroInstall.Publish" Version="2.17.3" PrivateAssets="None" />
-    <PackageReference Include="ZeroInstall.Services" Version="2.17.3" PrivateAssets="None" />
+    <PackageReference Include="NanoByte.Common.WinForms" Version="2.4.2" />
+    <PackageReference Include="NanoByte.StructureEditor.WinForms" Version="0.3.2" />
+    <PackageReference Include="ZeroInstall.Store" Version="2.18.0" PrivateAssets="None" />
+    <PackageReference Include="ZeroInstall.Publish" Version="2.18.0" PrivateAssets="None" />
+    <PackageReference Include="ZeroInstall.Services" Version="2.18.0" PrivateAssets="None" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

@@ -85,8 +85,8 @@ namespace ZeroInstall.Publish.WinForms
             _feedBuilder.Icons.Clear();
             try
             {
-                if (textBoxHrefIco.Uri != null) _feedBuilder.Icons.Add(new Store.Model.Icon {Href = textBoxHrefIco.Uri, MimeType = Store.Model.Icon.MimeTypeIco});
-                if (textBoxHrefPng.Uri != null) _feedBuilder.Icons.Add(new Store.Model.Icon {Href = textBoxHrefPng.Uri, MimeType = Store.Model.Icon.MimeTypePng});
+                if (textBoxHrefIco.Uri != null) _feedBuilder.Icons.Add(new Model.Icon {Href = textBoxHrefIco.Uri, MimeType = Model.Icon.MimeTypeIco});
+                if (textBoxHrefPng.Uri != null) _feedBuilder.Icons.Add(new Model.Icon {Href = textBoxHrefPng.Uri, MimeType = Model.Icon.MimeTypePng});
             }
             #region Error handling
             catch (UriFormatException ex)

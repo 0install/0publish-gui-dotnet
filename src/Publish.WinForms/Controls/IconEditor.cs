@@ -10,7 +10,7 @@ using System.Net;
 using NanoByte.Common;
 using NanoByte.StructureEditor.WinForms;
 using ZeroInstall.Publish.WinForms.Properties;
-using Icon = ZeroInstall.Store.Model.Icon;
+using Icon = ZeroInstall.Model.Icon;
 
 namespace ZeroInstall.Publish.WinForms.Controls
 {

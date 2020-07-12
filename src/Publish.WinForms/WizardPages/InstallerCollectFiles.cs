@@ -7,8 +7,8 @@ using System.Linq;
 using System.Windows.Forms;
 using NanoByte.Common;
 using NanoByte.Common.Tasks;
+using ZeroInstall.Model;
 using ZeroInstall.Store.Implementations.Archives;
-using ZeroInstall.Store.Model;
 
 namespace ZeroInstall.Publish.WinForms
 {

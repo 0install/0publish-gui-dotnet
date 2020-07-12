@@ -3,7 +3,7 @@
 
 using System.Windows.Forms;
 using NanoByte.Common.Tasks;
-using ZeroInstall.Store.Model;
+using ZeroInstall.Model;
 using ZeroInstall.Store.Trust;
 
 namespace ZeroInstall.Publish.WinForms
