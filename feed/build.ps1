@@ -1,25 +1,30 @@
-﻿Param ($Version = "1.0.0-pre", [switch]$GitHubRelease)
+﻿Param ($Version = "1.0.0-pre")
 $ErrorActionPreference = "Stop"
 pushd $PSScriptRoot
 
 # Ensure 0install is in PATH
 if (!(Get-Command 0install -ErrorAction SilentlyContinue)) {
-    echo "Downloading 0install"
-    mkdir -Force "$env:TEMP\zero-install" | Out-Null
-    Invoke-WebRequest "https://get.0install.net/0install.exe" -OutFile "$env:TEMP\zero-install\0install.exe"
-    $env:PATH = "$env:TEMP\zero-install;$env:PATH"
+    $downloadDir = "$env:LOCALAPPDATA\0install.net\bootstrapper"
+    if (!(Test-Path "$downloadDir\0install.exe")) {
+        mkdir -Force $downloadDir | Out-Null
+        [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]'Tls11,Tls12'
+        Invoke-WebRequest "https://get.0install.net/0install.exe" -OutFile "$downloadDir\0install.exe"
+    }
+    $env:PATH = "$env:PATH;$downloadDir"
 }
 
 # Exclude .NET XML Documentation and Debug Symbols from release
 rm -Force ..\artifacts\Release\*.xml,..\artifacts\Release\*.pdb
 
+# Inspect version number
+$stability = if($Version.Contains("-")) {"developer"} else {"stable"}
+
 # Build feed and archive
-$stability = if($Version.Contains('-')) {'developer'} else {'stable'}
 cmd /c "0install run --batch http://0install.net/tools/0template.xml 0publish-win.xml.template version=$Version stability=$stability 2>&1" # Redirect stderr to stdout
 if ($LASTEXITCODE -ne 0) {throw "Exit Code: $LASTEXITCODE"}
 
-# Patch archive URL to point to GitHub Release
-if ($GitHubRelease) {
+# Patch archive URL for release builds
+if ($stability -eq "stable") {
     $path = Resolve-Path "0publish-win-$Version.xml"
     [xml]$xml = Get-Content $path
     $xml.interface.group.implementation.archive.href = "https://github.com/0install/0publish-win/releases/download/$Version/$($xml.interface.group.implementation.archive.href)"
