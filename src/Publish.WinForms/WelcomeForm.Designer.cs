@@ -35,6 +35,7 @@ namespace ZeroInstall.Publish.WinForms
             this.buttonOpen = new System.Windows.Forms.Button();
             this.labelNewWizard = new System.Windows.Forms.Label();
             this.buttonNewWizard = new System.Windows.Forms.Button();
+            this.labelVersion = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelIntro
@@ -122,6 +123,16 @@ namespace ZeroInstall.Publish.WinForms
             this.buttonNewWizard.UseVisualStyleBackColor = true;
             this.buttonNewWizard.Click += new System.EventHandler(this.buttonNewWizard_Click);
             // 
+            // labelVersion
+            // 
+            this.labelVersion.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelVersion.Location = new System.Drawing.Point(406, 232);
+            this.labelVersion.Name = "labelVersion";
+            this.labelVersion.Size = new System.Drawing.Size(109, 16);
+            this.labelVersion.TabIndex = 7;
+            this.labelVersion.Text = "(Version)";
+            this.labelVersion.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            // 
             // WelcomeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -134,6 +145,7 @@ namespace ZeroInstall.Publish.WinForms
             this.Controls.Add(this.labelNewEmpty);
             this.Controls.Add(this.buttonNewEmpty);
             this.Controls.Add(this.labelIntro);
+            this.Controls.Add(this.labelVersion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
@@ -151,5 +163,6 @@ namespace ZeroInstall.Publish.WinForms
         private System.Windows.Forms.Button buttonOpen;
         private System.Windows.Forms.Label labelNewWizard;
         private System.Windows.Forms.Button buttonNewWizard;
+        private System.Windows.Forms.Label labelVersion;
     }
 }

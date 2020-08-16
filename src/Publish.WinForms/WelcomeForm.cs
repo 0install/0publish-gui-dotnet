@@ -3,6 +3,7 @@
 
 using System;
 using System.Windows.Forms;
+using NanoByte.Common.Info;
 using ZeroInstall.Store.Trust;
 
 namespace ZeroInstall.Publish.WinForms
@@ -28,6 +29,8 @@ namespace ZeroInstall.Publish.WinForms
             InitializeComponent();
 
             _openPgp = openPgp;
+
+            labelVersion.Text = @"v" + AppInfo.CurrentLibrary.Version;
         }
         #endregion
 
