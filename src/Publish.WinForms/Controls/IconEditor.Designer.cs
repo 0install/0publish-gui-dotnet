@@ -37,7 +37,6 @@ namespace ZeroInstall.Publish.WinForms.Controls
             this.buttonPreview = new System.Windows.Forms.Button();
             this.pictureBoxPreview = new System.Windows.Forms.PictureBox();
             this.textBoxHref = new UriTextBox();
-            this.backgroundWorker = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPreview)).BeginInit();
             this.SuspendLayout();
             // 
@@ -121,11 +120,6 @@ namespace ZeroInstall.Publish.WinForms.Controls
             this.textBoxHref.Size = new System.Drawing.Size(79, 20);
             this.textBoxHref.TabIndex = 3;
             // 
-            // backgroundWorker
-            // 
-            this.backgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker_DoWork);
-            this.backgroundWorker.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker_RunWorkerCompleted);
-            // 
             // IconEditor
             // 
             this.Controls.Add(this.textBoxHref);
@@ -151,6 +145,5 @@ namespace ZeroInstall.Publish.WinForms.Controls
         private System.Windows.Forms.Button buttonPreview;
         private System.Windows.Forms.PictureBox pictureBoxPreview;
         private UriTextBox textBoxHref;
-        private System.ComponentModel.BackgroundWorker backgroundWorker;
     }
 }
