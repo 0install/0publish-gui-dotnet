@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using NanoByte.Common;
 using NanoByte.Common.Cli;
 using NanoByte.Common.Controls;
+using NanoByte.Common.Native;
 using NanoByte.Common.Net;
 using ZeroInstall.Store.Trust;
 
@@ -28,13 +29,14 @@ namespace ZeroInstall.Publish.WinForms
             NetUtils.ApplyProxy();
             NetUtils.ConfigureTls();
 
+            WindowsUtils.SetCurrentProcessAppID("ZeroInstall.Publishing");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             ErrorReportForm.SetupMonitoring(new Uri("https://0install.de/error-report/"));
 
             var openPgp = OpenPgp.Signing();
 
-            if (args == null || args.Length == 0) Application.Run(new WelcomeForm(openPgp));
+            if (args.Length == 0) Application.Run(new WelcomeForm(openPgp));
             else
             {
                 try
