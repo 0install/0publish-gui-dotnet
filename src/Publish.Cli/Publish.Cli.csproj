@@ -43,9 +43,9 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="NDesk.Options.Patched" Version="0.3.1" />
-    <PackageReference Include="ZeroInstall.Store" Version="2.18.1" PrivateAssets="None" />
-    <PackageReference Include="ZeroInstall.Publish" Version="2.18.1" PrivateAssets="None" />
-    <PackageReference Include="ZeroInstall.Services" Version="2.18.1" PrivateAssets="None" />
+    <PackageReference Include="ZeroInstall.Store" Version="2.18.2" PrivateAssets="None" />
+    <PackageReference Include="ZeroInstall.Publish" Version="2.18.2" PrivateAssets="None" />
+    <PackageReference Include="ZeroInstall.Services" Version="2.18.2" PrivateAssets="None" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
