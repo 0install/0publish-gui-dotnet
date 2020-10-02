@@ -23,7 +23,7 @@ namespace ZeroInstall.Publish.WinForms
             listBoxExtract.BeginUpdate();
             listBoxExtract.Items.Clear();
 
-            var baseDirectory = new DirectoryInfo(_feedBuilder.TemporaryDirectory);
+            var baseDirectory = new DirectoryInfo(_feedBuilder.TemporaryDirectory!);
             baseDirectory.Walk(dir => listBoxExtract.Items.Add(dir.RelativeTo(baseDirectory)));
             listBoxExtract.SelectedItem = baseDirectory.WalkThroughPrefix().RelativeTo(baseDirectory);
 
@@ -42,7 +42,7 @@ namespace ZeroInstall.Publish.WinForms
                 }
 
                 _archive.Extract = listBoxExtract.Text ?? "";
-                _feedBuilder.ImplementationDirectory = Path.Combine(_feedBuilder.TemporaryDirectory, FileUtils.UnifySlashes(_archive.Extract));
+                _feedBuilder.ImplementationDirectory = Path.Combine(_feedBuilder.TemporaryDirectory!, FileUtils.UnifySlashes(_archive.Extract)!);
 
                 try
                 {

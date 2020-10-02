@@ -23,12 +23,12 @@ namespace ZeroInstall.Publish.WinForms
     internal partial class MainForm : Form
     {
         #region Properties
-        private FeedEditing _feedEditing;
+        private FeedEditing? _feedEditing;
 
         /// <summary>
         /// The feed currently being edited.
         /// </summary>
-        private FeedEditing FeedEditing
+        private FeedEditing? FeedEditing
         {
             get => _feedEditing;
             set
@@ -50,12 +50,12 @@ namespace ZeroInstall.Publish.WinForms
 
         private void OnFeedChange()
         {
-            menuUndo.Enabled = buttonUndo.Enabled = _feedEditing.UndoEnabled;
-            menuRedo.Enabled = buttonRedo.Enabled = _feedEditing.RedoEnabled;
+            menuUndo.Enabled = buttonUndo.Enabled = _feedEditing?.UndoEnabled ?? false;
+            menuRedo.Enabled = buttonRedo.Enabled = _feedEditing?.RedoEnabled ?? false;
 
             try
             {
-                _feedEditing.SignedFeed.Feed.ResolveInternalReferences();
+                _feedEditing?.SignedFeed.Feed.ResolveInternalReferences();
             }
             catch (InvalidDataException ex)
             {
@@ -200,7 +200,7 @@ namespace ZeroInstall.Publish.WinForms
 
         private void SaveFeed()
         {
-            if (string.IsNullOrEmpty(FeedEditing.Path)) SaveFeedAs();
+            if (string.IsNullOrEmpty(FeedEditing?.Path)) SaveFeedAs();
             else SaveFeed(FeedEditing.Path);
         }
 
@@ -215,7 +215,7 @@ namespace ZeroInstall.Publish.WinForms
 
         private void SaveFeed(string path)
         {
-            while (true)
+            while (FeedEditing != null)
             {
                 try
                 {
@@ -261,7 +261,7 @@ namespace ZeroInstall.Publish.WinForms
 
         private void AskForChangeSave()
         {
-            if (FeedEditing.UnsavedChanges)
+            if (FeedEditing?.UnsavedChanges ?? false)
             {
                 switch (Msg.YesNoCancel(this, Resources.SaveQuestion, MsgSeverity.Warn, Resources.SaveChanges, Resources.DiscardChanges))
                 {
@@ -289,7 +289,7 @@ namespace ZeroInstall.Publish.WinForms
         private void comboBoxKeys_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBoxKeys.SelectedItem == NewKeyAction.Instance) NewKey();
-            else FeedEditing.SignedFeed.SecretKey = comboBoxKeys.SelectedItem as OpenPgpSecretKey;
+            else if (FeedEditing != null) FeedEditing.SignedFeed.SecretKey = comboBoxKeys.SelectedItem as OpenPgpSecretKey;
         }
 
         private void NewKey()

@@ -96,7 +96,7 @@ namespace ZeroInstall.Publish.WinForms
         /// <param name="passphrase">The passphrase to use to unlock the key.</param>
         /// <exception cref="IOException">The feed file could not be read or written.</exception>
         /// <exception cref="UnauthorizedAccessException">Read or write access to the feed file is not permitted.</exception>
-        private void SignFiles(OpenPgpSecretKey secretKey, string passphrase)
+        private void SignFiles(OpenPgpSecretKey? secretKey, string passphrase)
         {
             var task = ForEachTask.Create("Signing feeds", _files, file =>
             {

@@ -28,7 +28,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 TabIndex = 1,
                 HintText = "Description"
             };
-            RegisterControl(TextBoxDescription, () => Target.Descriptions);
+            RegisterControl(TextBoxDescription, () => Target?.Descriptions);
 
             EditorControl = new PropertyGridNodeEditor<T>
             {

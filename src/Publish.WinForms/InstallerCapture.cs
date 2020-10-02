@@ -23,7 +23,7 @@ namespace ZeroInstall.Publish.WinForms
         /// <summary>
         /// Holds the <see cref="CaptureSession"/> created at the start of the process.
         /// </summary>
-        public CaptureSession CaptureSession { get; set; }
+        public CaptureSession? CaptureSession { get; set; }
 
         private Uri? _url;
 

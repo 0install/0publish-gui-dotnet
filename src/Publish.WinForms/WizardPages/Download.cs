@@ -54,17 +54,21 @@ namespace ZeroInstall.Publish.WinForms
                 }
                 else
                 {
-                    switch (Archive.GuessMimeType(fileName))
+                    try
                     {
-                        case Archive.MimeTypeMsi:
-                            OnInstaller();
-                            break;
-                        case null:
-                            OnSingleFile();
-                            break;
-                        default:
-                            OnArchive();
-                            break;
+                        switch (Archive.GuessMimeType(fileName))
+                        {
+                            case Archive.MimeTypeMsi:
+                                OnInstaller();
+                                break;
+                            default:
+                                OnArchive();
+                                break;
+                        }
+                    }
+                    catch (NotSupportedException)
+                    {
+                        OnSingleFile();
                     }
                 }
             }
@@ -132,11 +136,11 @@ namespace ZeroInstall.Publish.WinForms
         private void OnInstaller()
         {
             if (checkLocalCopy.Checked)
-                _installerCapture.SetLocal(textBoxDownloadUrl.Uri, textBoxLocalPath.Text);
+                _installerCapture.SetLocal(textBoxDownloadUrl.Uri!, textBoxLocalPath.Text);
             else
             {
                 using var handler = new DialogTaskHandler(this);
-                _installerCapture.Download(textBoxDownloadUrl.Uri, handler);
+                _installerCapture.Download(textBoxDownloadUrl.Uri!, handler);
             }
 
             pageDownload.NextPage = pageIstallerCaptureStart;
