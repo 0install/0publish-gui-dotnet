@@ -41,20 +41,20 @@ namespace ZeroInstall.Publish.WinForms
             // labelIntro
             // 
             this.labelIntro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelIntro.Location = new System.Drawing.Point(17, 18);
-            this.labelIntro.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.labelIntro.Location = new System.Drawing.Point(15, 16);
+            this.labelIntro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelIntro.Name = "labelIntro";
-            this.labelIntro.Size = new System.Drawing.Size(584, 69);
+            this.labelIntro.Size = new System.Drawing.Size(501, 60);
             this.labelIntro.TabIndex = 0;
             this.labelIntro.Text = "Zero Install uses \"feeds\", XML files on the internet, to describe applications an" + "d libraries and how to download them.";
             // 
             // labelNewEmpty
             // 
             this.labelNewEmpty.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelNewEmpty.Location = new System.Drawing.Point(19, 159);
-            this.labelNewEmpty.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.labelNewEmpty.Location = new System.Drawing.Point(16, 138);
+            this.labelNewEmpty.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNewEmpty.Name = "labelNewEmpty";
-            this.labelNewEmpty.Size = new System.Drawing.Size(185, 128);
+            this.labelNewEmpty.Size = new System.Drawing.Size(159, 85);
             this.labelNewEmpty.TabIndex = 2;
             this.labelNewEmpty.Text = "Create a blank feed to be filled manually. For advanced users.";
             // 
@@ -63,10 +63,10 @@ namespace ZeroInstall.Publish.WinForms
             this.buttonNewEmpty.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.buttonNewEmpty.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.NewButton;
             this.buttonNewEmpty.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonNewEmpty.Location = new System.Drawing.Point(17, 93);
-            this.buttonNewEmpty.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.buttonNewEmpty.Location = new System.Drawing.Point(15, 81);
+            this.buttonNewEmpty.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonNewEmpty.Name = "buttonNewEmpty";
-            this.buttonNewEmpty.Size = new System.Drawing.Size(187, 60);
+            this.buttonNewEmpty.Size = new System.Drawing.Size(160, 52);
             this.buttonNewEmpty.TabIndex = 1;
             this.buttonNewEmpty.Text = "&New Empty Feed";
             this.buttonNewEmpty.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -76,10 +76,10 @@ namespace ZeroInstall.Publish.WinForms
             // labelOpen
             // 
             this.labelOpen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelOpen.Location = new System.Drawing.Point(422, 159);
-            this.labelOpen.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.labelOpen.Location = new System.Drawing.Point(362, 138);
+            this.labelOpen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelOpen.Name = "labelOpen";
-            this.labelOpen.Size = new System.Drawing.Size(180, 128);
+            this.labelOpen.Size = new System.Drawing.Size(154, 85);
             this.labelOpen.TabIndex = 6;
             this.labelOpen.Text = "Open an existing feed for modification.";
             // 
@@ -88,10 +88,10 @@ namespace ZeroInstall.Publish.WinForms
             this.buttonOpen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.buttonOpen.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.OpenButton;
             this.buttonOpen.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonOpen.Location = new System.Drawing.Point(415, 93);
-            this.buttonOpen.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.buttonOpen.Location = new System.Drawing.Point(356, 81);
+            this.buttonOpen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonOpen.Name = "buttonOpen";
-            this.buttonOpen.Size = new System.Drawing.Size(187, 60);
+            this.buttonOpen.Size = new System.Drawing.Size(160, 52);
             this.buttonOpen.TabIndex = 5;
             this.buttonOpen.Text = "&Open Feed";
             this.buttonOpen.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -101,10 +101,10 @@ namespace ZeroInstall.Publish.WinForms
             // labelNewWizard
             // 
             this.labelNewWizard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelNewWizard.Location = new System.Drawing.Point(217, 159);
-            this.labelNewWizard.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.labelNewWizard.Location = new System.Drawing.Point(186, 138);
+            this.labelNewWizard.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNewWizard.Name = "labelNewWizard";
-            this.labelNewWizard.Size = new System.Drawing.Size(188, 129);
+            this.labelNewWizard.Size = new System.Drawing.Size(161, 85);
             this.labelNewWizard.TabIndex = 4;
             this.labelNewWizard.Text = "Create a feed for an application step by step.";
             // 
@@ -113,10 +113,10 @@ namespace ZeroInstall.Publish.WinForms
             this.buttonNewWizard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.buttonNewWizard.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.NewWizardButton;
             this.buttonNewWizard.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonNewWizard.Location = new System.Drawing.Point(218, 93);
-            this.buttonNewWizard.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.buttonNewWizard.Location = new System.Drawing.Point(187, 81);
+            this.buttonNewWizard.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonNewWizard.Name = "buttonNewWizard";
-            this.buttonNewWizard.Size = new System.Drawing.Size(187, 60);
+            this.buttonNewWizard.Size = new System.Drawing.Size(160, 52);
             this.buttonNewWizard.TabIndex = 3;
             this.buttonNewWizard.Text = "New &Feed (Wizard)";
             this.buttonNewWizard.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -126,18 +126,18 @@ namespace ZeroInstall.Publish.WinForms
             // labelVersion
             // 
             this.labelVersion.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelVersion.Location = new System.Drawing.Point(406, 232);
+            this.labelVersion.Location = new System.Drawing.Point(425, 232);
             this.labelVersion.Name = "labelVersion";
-            this.labelVersion.Size = new System.Drawing.Size(109, 16);
+            this.labelVersion.Size = new System.Drawing.Size(93, 14);
             this.labelVersion.TabIndex = 7;
             this.labelVersion.Text = "(Version)";
             this.labelVersion.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // WelcomeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(618, 299);
+            this.ClientSize = new System.Drawing.Size(530, 255);
             this.Controls.Add(this.labelOpen);
             this.Controls.Add(this.buttonOpen);
             this.Controls.Add(this.labelNewWizard);
@@ -147,8 +147,8 @@ namespace ZeroInstall.Publish.WinForms
             this.Controls.Add(this.labelIntro);
             this.Controls.Add(this.labelVersion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "WelcomeForm";
             this.Text = "Zero Install Publishing Tools";
