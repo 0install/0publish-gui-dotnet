@@ -10,15 +10,13 @@
     <RootNamespace>ZeroInstall.Publish.WinForms</RootNamespace>
     <AssemblyName>0publish-win</AssemblyName>
     <ApplicationIcon>..\..\icon.ico</ApplicationIcon>
-    <ApplicationManifest>..\app.winforms.manifest</ApplicationManifest>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
     <LangVersion>8.0</LangVersion>
     <Nullable>annotations</Nullable>
     <NoWarn>1591</NoWarn>
     <RestorePackages>true</RestorePackages>
-    <RunCodeAnalysis>false</RunCodeAnalysis>
-    <CodeAnalysisRuleSet>..\CodeAnalysis.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -58,7 +56,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\App.config" />
+    <None Include="App.config" />
+    <None Include="app.manifest" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\GlobalAssemblyInfo.cs" />

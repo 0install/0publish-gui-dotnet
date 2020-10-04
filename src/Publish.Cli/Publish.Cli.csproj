@@ -10,15 +10,13 @@
     <RootNamespace>ZeroInstall.Publish.Cli</RootNamespace>
     <AssemblyName>0publish</AssemblyName>
     <ApplicationIcon>..\..\icon.ico</ApplicationIcon>
-    <ApplicationManifest>..\app.cli.manifest</ApplicationManifest>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
     <LangVersion>8.0</LangVersion>
     <Nullable>annotations</Nullable>
     <NoWarn>1591</NoWarn>
     <RestorePackages>true</RestorePackages>
-    <RunCodeAnalysis>false</RunCodeAnalysis>
-    <CodeAnalysisRuleSet>..\CodeAnalysis.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -67,7 +65,6 @@
     <Compile Include="_Namespace.cs" />
   </ItemGroup>
   <ItemGroup>
-    <CodeAnalysisDictionary Include="..\CodeAnalysisDictionary.xml" />
     <Content Include="..\..\3rd party code.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -76,7 +73,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\App.config" />
+    <None Include="App.config" />
+    <None Include="app.manifest" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.de.resx" />
