@@ -67,7 +67,7 @@ namespace ZeroInstall.Publish.Cli
         private IImplementationStore? _keepDownloads;
 
         /// <summary>
-        /// Add XML signature blocks to the feesd.
+        /// Add XML signature blocks to the feed.
         /// </summary>
         private bool _xmlSign;
 
