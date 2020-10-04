@@ -6,8 +6,8 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Linq;
-using System.Reflection;
 using NanoByte.Common;
+using NanoByte.Common.Info;
 using NanoByte.Common.Storage;
 using NanoByte.Common.Tasks;
 using NDesk.Options;
@@ -46,8 +46,7 @@ namespace ZeroInstall.Publish.Cli
                 {
                     "V|version", _ =>
                     {
-                        var assembly = Assembly.GetEntryAssembly().GetName();
-                        Console.WriteLine(@"Zero Install Capture CLI v{0}", assembly.Version);
+                        Console.WriteLine(@"Zero Install Capture CLI v{0}", AppInfo.Current.Version);
                         throw new OperationCanceledException();
                     }
                 },
