@@ -33,7 +33,7 @@ namespace ZeroInstall.Publish.WinForms
             try
             {
                 using var handler = new DialogTaskHandler(this);
-                _installerCapture.CaptureSession!.CollectFiles(textBoxArchivePath.Text, textBoxUploadUrl.Uri, handler);
+                _installerCapture.CaptureSession!.CollectFiles(textBoxArchivePath.Text, textBoxUploadUrl.Uri!, handler);
             }
             #region Error handling
             catch (OperationCanceledException)

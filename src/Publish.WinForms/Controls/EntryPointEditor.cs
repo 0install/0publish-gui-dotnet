@@ -24,7 +24,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 HintText = "Names",
                 TabIndex = 0
             };
-            RegisterControl(textBoxNames, () => Target.Names);
+            RegisterControl(textBoxNames, () => Target!.Names);
 
             // Shift existing controls down
             SuspendLayout();

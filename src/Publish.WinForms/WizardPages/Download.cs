@@ -115,7 +115,7 @@ namespace ZeroInstall.Publish.WinForms
             Retrieve(
                 new SingleFile {Href = textBoxDownloadUrl.Uri},
                 checkLocalCopy.Checked ? textBoxLocalPath.Text : null);
-            _feedBuilder.ImplementationDirectory = _feedBuilder.TemporaryDirectory;
+            _feedBuilder.ImplementationDirectory = _feedBuilder.TemporaryDirectory!;
             using (var handler = new DialogTaskHandler(this))
             {
                 _feedBuilder.DetectCandidates(handler);

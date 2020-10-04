@@ -18,7 +18,7 @@ namespace ZeroInstall.Publish.WinForms
 
         private void pageArchiveExtract_Initialize(object sender, WizardPageInitEventArgs e)
         {
-            _archive = (Archive)_feedBuilder.RetrievalMethod;
+            _archive = (Archive)_feedBuilder.RetrievalMethod!;
 
             listBoxExtract.BeginUpdate();
             listBoxExtract.Items.Clear();

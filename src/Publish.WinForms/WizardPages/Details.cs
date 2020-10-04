@@ -13,7 +13,7 @@ namespace ZeroInstall.Publish.WinForms
 
         private void pageDetails_Commit(object sender, WizardPageConfirmEventArgs e)
         {
-            if (string.IsNullOrEmpty(_feedBuilder.MainCandidate.Name) || string.IsNullOrEmpty(_feedBuilder.MainCandidate.Summary) || _feedBuilder.MainCandidate.Version == null)
+            if (string.IsNullOrEmpty(_feedBuilder.MainCandidate?.Name) || string.IsNullOrEmpty(_feedBuilder.MainCandidate.Summary) || _feedBuilder.MainCandidate.Version == null)
             {
                 e.Cancel = true;
                 Msg.Inform(this, labelDetails.Text, MsgSeverity.Warn);

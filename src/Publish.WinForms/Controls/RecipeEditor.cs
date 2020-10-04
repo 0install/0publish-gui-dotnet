@@ -20,7 +20,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
         /// <inheritdoc/>
         protected override void UpdateHint()
         {
-            if (Target.Steps.OfType<DownloadRetrievalMethod>().Any(x => x.Size == 0)) ShowUpdateHint(Resources.SizeMissing);
+            if (Target!.Steps.OfType<DownloadRetrievalMethod>().Any(x => x.Size == 0)) ShowUpdateHint(Resources.SizeMissing);
             else base.UpdateHint();
         }
     }

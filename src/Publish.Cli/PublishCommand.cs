@@ -54,7 +54,7 @@ namespace ZeroInstall.Publish.Cli
         /// <summary>
         /// The file to store the aggregated <see cref="Catalog"/> data in.
         /// </summary>
-        private string _catalogFile;
+        private string? _catalogFile;
 
         /// <summary>
         /// Download missing archives, calculate manifest digests, etc..
@@ -85,7 +85,7 @@ namespace ZeroInstall.Publish.Cli
         /// <summary>
         /// The passphrase used to unlock the <see cref="OpenPgpSecretKey"/>.
         /// </summary>
-        private string _openPgpPassphrase;
+        private string? _openPgpPassphrase;
         #endregion
 
         #region Constructor
@@ -272,6 +272,8 @@ namespace ZeroInstall.Publish.Cli
         /// <exception cref="KeyNotFoundException">An OpenPGP key could not be found.</exception>
         private void SaveCatalog(Catalog catalog)
         {
+            Debug.Assert(_catalogFile != null);
+
             if (_xmlSign)
             {
                 var openPgp = OpenPgp.Signing();

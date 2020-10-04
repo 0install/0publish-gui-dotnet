@@ -98,7 +98,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
 
         private void buttonAddMissing_Click(object sender, EventArgs e)
         {
-            var commandCollector = new CommandCollector {Path = CommandExecutor.Path}; // Represent all changes in a single undo step
+            var commandCollector = new CommandCollector {Path = CommandExecutor?.Path}; // Represent all changes in a single undo step
             try
             {
                 using var handler = new DialogTaskHandler(this);
@@ -160,7 +160,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
         /// <param name="executor">Used to apply properties in an undoable fashion.</param>
         private void CheckDigest(ITaskHandler handler, ICommandExecutor executor)
         {
-            using var tempDir = Target.DownloadAndApply(handler, executor);
+            using var tempDir = Target!.DownloadAndApply(handler, executor);
             var digest = ManifestUtils.GenerateDigest(tempDir, handler);
 
             if (digest.PartialEquals(ManifestDigest.Empty))

@@ -28,7 +28,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 HintText = "Summary",
                 TabIndex = 0
             };
-            RegisterControl(TextBoxSummary, () => Target.Summaries);
+            RegisterControl(TextBoxSummary, () => Target!.Summaries);
 
             // Shift existing controls down
             SuspendLayout();
