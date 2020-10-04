@@ -34,6 +34,7 @@ namespace ZeroInstall.Publish.WinForms
         private void pageDownload_Commit(object sender, WizardPageConfirmEventArgs e)
         {
             string fileName = checkLocalCopy.Checked ? textBoxLocalPath.Text : textBoxDownloadUrl.Text;
+            outputBoxDownloadUrl.Text = textBoxDownloadUrl.Text;
 
             try
             {

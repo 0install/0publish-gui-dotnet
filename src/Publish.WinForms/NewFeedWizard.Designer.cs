@@ -94,6 +94,7 @@ namespace ZeroInstall.Publish.WinForms
             this.textBoxAltLocalPath = new NanoByte.Common.Controls.HintTextBox();
             this.textBoxAltDownloadUrl = new NanoByte.Common.Controls.UriTextBox();
             this.labelAltDownloadUrl = new System.Windows.Forms.Label();
+            this.outputBoxDownloadUrl = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.wizardControl)).BeginInit();
             this.pageDownload.SuspendLayout();
             this.groupLocalCopy.SuspendLayout();
@@ -288,6 +289,7 @@ namespace ZeroInstall.Publish.WinForms
             // 
             // pageDetails
             // 
+            this.pageDetails.Controls.Add(this.outputBoxDownloadUrl);
             this.pageDetails.Controls.Add(this.labelDetails);
             this.pageDetails.Controls.Add(this.propertyGridCandidate);
             this.pageDetails.Name = "pageDetails";
@@ -317,7 +319,7 @@ namespace ZeroInstall.Publish.WinForms
             this.propertyGridCandidate.Location = new System.Drawing.Point(7, 31);
             this.propertyGridCandidate.Name = "propertyGridCandidate";
             this.propertyGridCandidate.PropertySort = System.Windows.Forms.PropertySort.Categorized;
-            this.propertyGridCandidate.Size = new System.Drawing.Size(474, 214);
+            this.propertyGridCandidate.Size = new System.Drawing.Size(474, 188);
             this.propertyGridCandidate.TabIndex = 1;
             this.propertyGridCandidate.ToolbarVisible = false;
             // 
@@ -843,6 +845,15 @@ namespace ZeroInstall.Publish.WinForms
             this.labelAltDownloadUrl.TabIndex = 0;
             this.labelAltDownloadUrl.Text = resources.GetString("labelAltDownloadUrl.Text");
             // 
+            // outputBoxDownloadUrl
+            // 
+            this.outputBoxDownloadUrl.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.outputBoxDownloadUrl.Location = new System.Drawing.Point(7, 226);
+            this.outputBoxDownloadUrl.Name = "outputBoxDownloadUrl";
+            this.outputBoxDownloadUrl.ReadOnly = true;
+            this.outputBoxDownloadUrl.Size = new System.Drawing.Size(474, 23);
+            this.outputBoxDownloadUrl.TabIndex = 1;
+            // 
             // NewFeedWizard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -947,5 +958,6 @@ namespace ZeroInstall.Publish.WinForms
         private NanoByte.Common.Controls.UriTextBox textBoxAltDownloadUrl;
         private System.Windows.Forms.Label labelAltDownloadUrl;
         private System.Windows.Forms.ListBox listBoxEntryPoint;
+        private System.Windows.Forms.TextBox outputBoxDownloadUrl;
     }
 }
