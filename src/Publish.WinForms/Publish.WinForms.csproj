@@ -40,7 +40,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="AeroWizard" Version="2.2.7" />
+    <PackageReference Include="AeroWizard" Version="2.2.8" />
     <PackageReference Include="NanoByte.Common.WinForms" Version="2.4.3" />
     <PackageReference Include="NanoByte.StructureEditor.WinForms" Version="0.3.3" />
     <PackageReference Include="ZeroInstall.Store" Version="2.18.2" PrivateAssets="None" />
