@@ -33,4 +33,7 @@ SearchAndReplace $AssemblyVersion GlobalAssemblyInfo.cs -PatternLeft 'AssemblyVe
 # Compile source code
 Run-MSBuild /v:Quiet /t:Restore /t:Build /p:Configuration=Release
 
+# Package
+tar -czf ..\artifacts\0publish-win-$Version.tar.gz -C ..\artifacts\Release --exclude *.pdb *
+
 popd
