@@ -94,7 +94,6 @@ namespace ZeroInstall.Publish.WinForms
             if (string.IsNullOrEmpty(_localPath)) throw new InvalidOperationException();
 
             var process = ProcessUtils.Start(_localPath);
-            if (process == null) return;
             handler.RunTask(new SimpleTask(Resources.WaitingForInstaller, () => process.WaitForExit()));
         }
 

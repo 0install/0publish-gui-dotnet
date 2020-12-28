@@ -28,7 +28,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 TabIndex = 1,
                 HintText = "Description"
             };
-            RegisterControl(TextBoxDescription, () => Target?.Descriptions);
+            Bind(TextBoxDescription, () => Target?.Descriptions);
 
             EditorControl = new PropertyGridNodeEditor<T>
             {
@@ -37,7 +37,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom,
                 TabIndex = 2
             };
-            RegisterControl(EditorControl, () => Target);
+            Bind(EditorControl, () => Target);
         }
     }
 }

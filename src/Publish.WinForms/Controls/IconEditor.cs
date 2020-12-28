@@ -23,8 +23,8 @@ namespace ZeroInstall.Publish.WinForms.Controls
         public IconEditor()
         {
             InitializeComponent();
-            RegisterControl(textBoxHref, PropertyPointer.For(() => Target!.Href));
-            RegisterControl(comboBoxMimeType, PropertyPointer.For(() => Target!.MimeType));
+            Bind(textBoxHref, PropertyPointer.For(() => Target!.Href));
+            Bind(comboBoxMimeType, PropertyPointer.For(() => Target!.MimeType));
 
             // ReSharper disable once CoVariantArrayConversion
             comboBoxMimeType.Items.AddRange(Icon.KnownMimeTypes);

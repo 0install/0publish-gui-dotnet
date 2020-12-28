@@ -18,9 +18,9 @@ namespace ZeroInstall.Publish.WinForms.Controls
         {
             InitializeComponent();
 
-            RegisterControl(comboBoxMimeType, PropertyPointer.For(() => Target!.MimeType));
-            RegisterControl(textBoxExtract, PropertyPointer.For(() => Target!.Extract));
-            RegisterControl(textBoxDestination, PropertyPointer.For(() => Target!.Destination));
+            Bind(comboBoxMimeType, PropertyPointer.For(() => Target!.MimeType));
+            Bind(textBoxExtract, PropertyPointer.For(() => Target!.Extract));
+            Bind(textBoxDestination, PropertyPointer.For(() => Target!.Destination));
 
             // ReSharper disable once CoVariantArrayConversion
             comboBoxMimeType.Items.AddRange(Archive.KnownMimeTypes.Cast<object>().ToArray());
