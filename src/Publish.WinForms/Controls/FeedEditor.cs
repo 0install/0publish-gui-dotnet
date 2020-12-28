@@ -18,11 +18,11 @@ namespace ZeroInstall.Publish.WinForms.Controls
             InitializeComponent();
 
             RegisterControl(textBoxName, PropertyPointer.For(() => Target!.Name));
-            RegisterControl(textBoxUri, new PropertyPointer<Uri?>(() => Target!.Uri, value => Target!.Uri = (value == null) ? null : new FeedUri(value)));
+            RegisterControl(textBoxUri, PropertyPointer.For(() => (Uri)Target!.Uri, value => Target!.Uri = (value == null) ? null : new FeedUri(value)));
             RegisterControl(textBoxDescription, () => Target!.Descriptions);
             RegisterControl(textBoxSummary, () => Target!.Summaries);
             RegisterControl(textBoxHomepage, PropertyPointer.For(() => Target!.Homepage));
-            RegisterControl(checkBoxNeedTerminal, PropertyPointer.For(() => Target!.NeedsTerminal));
+            RegisterControl(checkBoxNeedTerminal, PropertyPointer.For(() => Target!.NeedsTerminal, defaultValue: false));
             RegisterControl(comboBoxMinimumZeroInstallVersion, PropertyPointer.For(() => Target!.MinInjectorVersionString));
         }
     }

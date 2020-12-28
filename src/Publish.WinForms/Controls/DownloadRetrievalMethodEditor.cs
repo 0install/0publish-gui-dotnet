@@ -56,7 +56,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 TabIndex = 3,
                 HintText = "in bytes (required)"
             };
-            RegisterControl(textBoxSize, PropertyPointer.For(() => Target!.Size).ToStringPointer());
+            RegisterControl(textBoxSize, PropertyPointer.For(() => Target!.Size, defaultValue: 0).ToStringPointer());
         }
         #endregion
 
