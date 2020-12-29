@@ -31,3 +31,10 @@ jobs:
           files: artifacts/*.tar.gz
         env:
           GITHUB_TOKEN: ${{github.token}}
+      - name: Trigger feed update
+        if: steps.gitversion.outputs.preReleaseLabel == ''
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          repo: 0install/apps
+          workflow: Update
+          token: ${{secrets.PERSONAL_TOKEN}}
