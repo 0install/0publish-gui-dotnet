@@ -29,6 +29,10 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: artifacts/*.tar.gz
+          body: |
+            **[Documentation and download instructions](https://docs.0install.net/tools/0publish-win/)**
+            
+            Based on [Zero Install .NET ${{steps.download.outputs.version}}](https://github.com/0install/0install-dotnet/releases/${{steps.download.outputs.version}}).
         env:
           GITHUB_TOKEN: ${{github.token}}
       - name: Trigger feed update
