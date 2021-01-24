@@ -231,7 +231,7 @@ namespace ZeroInstall.Publish.Cli
                         feedEditing.SignedFeed.SecretKey = openPgp.GetSecretKey(_key);
                     }
                     else
-                    { // Existing siganture
+                    { // Existing signature
                         if (!string.IsNullOrEmpty(_key)) // Use new user-specified key
                             feedEditing.SignedFeed.SecretKey = openPgp.GetSecretKey(_key);
                         //else resign implied
