@@ -8,7 +8,6 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using NanoByte.Common;
-using NanoByte.Common.Cli;
 using NanoByte.Common.Info;
 using NanoByte.Common.Storage;
 using NanoByte.Common.Tasks;
@@ -103,7 +102,7 @@ namespace ZeroInstall.Publish.Cli
             var additionalArgs = BuildOptions().Parse(args ?? throw new ArgumentNullException(nameof(args)));
             try
             {
-                _feeds = ArgumentUtils.GetFiles(additionalArgs, "*.xml");
+                _feeds = Paths.ResolveFiles(additionalArgs, "*.xml");
             }
             #region Error handling
             catch (FileNotFoundException ex)
@@ -186,7 +185,7 @@ namespace ZeroInstall.Publish.Cli
                 case OperationMode.Catalog:
                     // Default to using all XML files in the current directory
                     if (_feeds.Count == 0)
-                        _feeds = ArgumentUtils.GetFiles(new[] {Environment.CurrentDirectory}, "*.xml");
+                        _feeds = Paths.ResolveFiles(new[] {Environment.CurrentDirectory}, "*.xml");
 
                     var catalog = new Catalog();
                     foreach (var feed in _feeds.Select(feedFile => XmlStorage.LoadXml<Feed>(feedFile.FullName)))
@@ -259,7 +258,7 @@ namespace ZeroInstall.Publish.Cli
                 }
 
                 // Ask for passphrase to unlock secret key if we were unable to save without it
-                _openPgpPassphrase = CliUtils.ReadPassword(string.Format(Resources.AskForPassphrase, feedEditing.SignedFeed.SecretKey));
+                PromptPassphrase();
             }
         }
 
@@ -293,10 +292,31 @@ namespace ZeroInstall.Publish.Cli
                     }
 
                     // Ask for passphrase to unlock secret key if we were unable to save without it
-                    _openPgpPassphrase = CliUtils.ReadPassword(string.Format(Resources.AskForPassphrase, signedCatalog.SecretKey));
+                    PromptPassphrase();
                 }
             }
             else catalog.SaveXml(_catalogFile);
+        }
+
+        private void PromptPassphrase()
+        {
+            Console.Error.Write(Resources.AskForPassphrase + " ");
+
+            _openPgpPassphrase = "";
+
+            var key = Console.ReadKey(intercept: true);
+            while (key.Key != ConsoleKey.Enter)
+            {
+                if (key.Key == ConsoleKey.Backspace)
+                {
+                    if (_openPgpPassphrase.Length > 0)
+                        _openPgpPassphrase = _openPgpPassphrase.StripFromEnd(count: 1);
+                }
+                else _openPgpPassphrase += key.KeyChar;
+
+                key = Console.ReadKey(true);
+            }
+            Console.Error.WriteLine();
         }
         #endregion
 
