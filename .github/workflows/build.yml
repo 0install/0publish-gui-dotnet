@@ -32,7 +32,7 @@ jobs:
           body: |
             **[Documentation and download instructions](https://docs.0install.net/tools/0publish-win/)**
             
-            Based on [Zero Install .NET ${{steps.download.outputs.version}}](https://github.com/0install/0install-dotnet/releases/${{steps.download.outputs.version}}).
+            Based on [Zero Install .NET ${{steps.gitversion.outputs.nuGetVersion}}](https://github.com/0install/0install-dotnet/releases/${{steps.gitversion.outputs.nuGetVersion}}).
         env:
           GITHUB_TOKEN: ${{github.token}}
       - name: Trigger feed update
@@ -40,5 +40,6 @@ jobs:
         uses: benc-uk/workflow-dispatch@v1
         with:
           repo: 0install/apps
+          ref: refs/heads/master
           workflow: Update
           token: ${{secrets.PERSONAL_TOKEN}}
