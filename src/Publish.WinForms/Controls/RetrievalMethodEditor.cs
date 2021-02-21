@@ -26,10 +26,10 @@ namespace ZeroInstall.Publish.WinForms.Controls
         where T : RetrievalMethod
     {
         #region Properties
-        private Implementation _targetContainer;
+        private Implementation? _targetContainer;
 
         /// <inheritdoc/>
-        public virtual Implementation TargetContainer
+        public virtual Implementation? TargetContainer
         {
             get => _targetContainer;
             set
@@ -160,6 +160,8 @@ namespace ZeroInstall.Publish.WinForms.Controls
         /// <param name="executor">Used to apply properties in an undoable fashion.</param>
         private void CheckDigest(ITaskHandler handler, ICommandExecutor executor)
         {
+            if (TargetContainer == null) return;
+
             using var tempDir = Target!.DownloadAndApply(handler, executor);
             var digest = ManifestUtils.GenerateDigest(tempDir, handler);
 
@@ -174,7 +176,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                     executor.Execute(SetValueCommand.For(() => TargetContainer.ID, ManifestUtils.CalculateDigest(tempDir, ManifestFormat.Sha1New, handler)));
             }
 
-            if (TargetContainer.ManifestDigest == default(ManifestDigest)) SetDigest();
+            if (TargetContainer.ManifestDigest == default) SetDigest();
             else if (digest != TargetContainer.ManifestDigest)
             {
                 bool warnOtherImplementations = (TargetContainer.RetrievalMethods.Count > 1);

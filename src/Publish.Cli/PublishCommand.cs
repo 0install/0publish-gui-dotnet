@@ -271,8 +271,6 @@ namespace ZeroInstall.Publish.Cli
         /// <exception cref="KeyNotFoundException">An OpenPGP key could not be found.</exception>
         private void SaveCatalog(Catalog catalog)
         {
-            Debug.Assert(_catalogFile != null);
-
             if (_xmlSign)
             {
                 var openPgp = OpenPgp.Signing();
@@ -282,7 +280,7 @@ namespace ZeroInstall.Publish.Cli
                 {
                     try
                     {
-                        signedCatalog.Save(_catalogFile, _openPgpPassphrase);
+                        signedCatalog.Save(_catalogFile!, _openPgpPassphrase);
                         break; // Exit loop if passphrase is correct
                     }
                     catch (WrongPassphraseException ex)
@@ -295,7 +293,7 @@ namespace ZeroInstall.Publish.Cli
                     PromptPassphrase();
                 }
             }
-            else catalog.SaveXml(_catalogFile);
+            else catalog.SaveXml(_catalogFile!);
         }
 
         private void PromptPassphrase()
