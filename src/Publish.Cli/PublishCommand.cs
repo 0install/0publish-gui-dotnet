@@ -287,7 +287,7 @@ namespace ZeroInstall.Publish.Cli
                     }
                     catch (WrongPassphraseException ex)
                     {
-                        // Continue loop if passhrase is incorrect
+                        // Continue loop if passphrase is incorrect
                         if (!string.IsNullOrEmpty(_openPgpPassphrase)) Log.Error(ex);
                     }
 

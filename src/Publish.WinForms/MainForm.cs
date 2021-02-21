@@ -226,7 +226,7 @@ namespace ZeroInstall.Publish.WinForms
                     }
                     catch (WrongPassphraseException ex)
                     {
-                        // Continue loop if passhrase is incorrect
+                        // Continue loop if passphrase is incorrect
                         Log.Error(ex);
                     }
 
