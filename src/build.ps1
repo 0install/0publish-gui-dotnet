@@ -4,36 +4,38 @@ pushd $PSScriptRoot
 
 function Find-MSBuild {
     if (Test-Path "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe") {
-        $vsDir = . "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -products * -property installationPath -format value -version 16.5
+        $vsDir = . "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -products * -property installationPath -format value -version 16.8
         if ($vsDir) {
             if (Test-Path "$vsDir\MSBuild\Current") { return "$vsDir\MSBuild\Current\Bin\amd64\MSBuild.exe" } else { return "$vsDir\MSBuild\15.0\Bin\amd64\MSBuild.exe" }
         }
     }
 }
 
-function Run-MSBuild {
-    $msbuild = Find-Msbuild
-    if (!$msbuild) { throw "You need Visual Studio 2019 v16.5+ to build this project" }
-    . $msbuild @args
+function Run-DotNet {
+    if (Get-Command dotnet -ErrorAction SilentlyContinue) {
+        dotnet @args
+    } else {
+        ..\0install.ps1 run --batch --version 5.0..!5.1 https://apps.0install.net/dotnet/core-sdk.xml @args
+    }
     if ($LASTEXITCODE -ne 0) {throw "Exit Code: $LASTEXITCODE"}
 }
 
-function SearchAndReplace($Value, $FilePath, $PatternLeft, $PatternRight)
-{
-    (Get-Content $FilePath -Encoding UTF8) `
-        -replace "$PatternLeft.*$PatternRight", ($PatternLeft.Replace('\', '') + $Value + $PatternRight.Replace('\', '')) |
-        Set-Content $FilePath -Encoding UTF8
+function Run-MSBuild {
+    $msbuild = Find-MSBuild
+    if ($msbuild) {
+        . $msbuild @args
+        if ($LASTEXITCODE -ne 0) {throw "Exit Code: $LASTEXITCODE"}
+    } else {
+        Write-Warning "You need Visual Studio 2019 v16.8+ to perform a full build of this project"
+        Run-DotNet msbuild @args
+    }
 }
 
-# Inject version number
-Set-Content -Path "Publish.WinForms\VERSION" -Value $Version -Encoding UTF8
-$AssemblyVersion = $Version.Split("-")[0]
-SearchAndReplace $AssemblyVersion GlobalAssemblyInfo.cs -PatternLeft 'AssemblyVersion\("' -PatternRight '"\)'
-
-# Compile source code
-Run-MSBuild /v:Quiet /t:Restore /t:Build /p:Configuration=Release
+# Build
+if ($env:CI) { $ci = "/p:ContinuousIntegrationBuild=True" }
+Run-MSBuild /v:Quiet /t:Restore /t:Build $ci /p:Configuration=Release /p:Version=$Version
 
 # Package
-tar -czf ..\artifacts\0publish-win-$Version.tar.gz -C ..\artifacts\Release --exclude *.pdb *
+tar -czf ..\artifacts\0publish-win-$Version.tar.gz -C ..\artifacts\Release\net45\win --exclude *.pdb *
 
 popd

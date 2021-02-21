@@ -1,44 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Project properties -->
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{50B1586B-040A-4805-AC05-1C77721EF4BD}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ZeroInstall.Publish.WinForms</RootNamespace>
     <AssemblyName>0publish-win</AssemblyName>
-    <ApplicationIcon>..\..\icon.ico</ApplicationIcon>
-    <ApplicationManifest>app.manifest</ApplicationManifest>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
-    <LangVersion>8.0</LangVersion>
-    <Nullable>annotations</Nullable>
-    <NoWarn>1591</NoWarn>
-    <RestorePackages>true</RestorePackages>
+    <RootNamespace>ZeroInstall.Publish.WinForms</RootNamespace>
+    <Product>Zero Install Publishing Tools</Product>
+    <Description>WinForms-based editor for Zero Install feed XMLs.</Description>
+    <OutputType>WinExe</OutputType>
+    <OutputPath>..\..\artifacts\$(Configuration)\</OutputPath>
+    <UseWindowsForms>True</UseWindowsForms>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <Prefer32Bit>false</Prefer32Bit>
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>..\..\artifacts\Debug\</OutputPath>
-    <DocumentationFile>..\..\artifacts\Debug\0publish.xml</DocumentationFile>
-    <DefineConstants>DEBUG;TRACE;CODE_ANALYSIS</DefineConstants>
-    <WarningLevel>4</WarningLevel>
-    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <Prefer32Bit>false</Prefer32Bit>
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>..\..\artifacts\Release\</OutputPath>
-    <DefineConstants>TRACE;ERROR_REPORT</DefineConstants>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
+
+  <!-- Dependencies -->
   <ItemGroup>
     <PackageReference Include="AeroWizard" Version="2.2.9" />
     <PackageReference Include="NanoByte.Common.WinForms" Version="2.6.1" />
@@ -47,180 +20,31 @@
     <PackageReference Include="ZeroInstall.Publish" Version="2.18.7" PrivateAssets="None" />
     <PackageReference Include="ZeroInstall.Services" Version="2.18.7" PrivateAssets="None" />
   </ItemGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Design" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
+  <ItemGroup Condition="'$(TargetFramework)'=='net461'">
+    <PackageReference Include="System.Resources.Extensions" Version="5.0.0" />
   </ItemGroup>
+
+  <!-- Files to include with output -->
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="app.manifest" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\GlobalAssemblyInfo.cs" />
-    <Compile Include="Controls\ArchiveEditor.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\ArchiveEditor.Designer.cs">
-      <DependentUpon>ArchiveEditor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\DescriptionEditor.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\DownloadRetrievalMethodEditor.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\EntryPointEditor.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\FeedEditor.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\FeedEditor.Designer.cs">
-      <DependentUpon>FeedEditor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\FeedStructureEditor.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\IconEditor.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\IconEditor.Designer.cs">
-      <DependentUpon>IconEditor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\RecipeEditor.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\RecipeEditor.Designer.cs">
-      <DependentUpon>RecipeEditor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\RetrievalMethodEditor.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\SingleFileEditor.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\SingleFileEditor.Designer.cs">
-      <DependentUpon>SingleFileEditor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\SummaryEditor.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\_Namespace.cs" />
-    <Compile Include="InstallerCapture.cs" />
-    <Compile Include="MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MassSignForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MassSignForm.Designer.cs">
-      <DependentUpon>MassSignForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="NewFeedWizard.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NewFeedWizard.Designer.cs">
-      <DependentUpon>NewFeedWizard.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="WelcomeForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WelcomeForm.Designer.cs">
-      <DependentUpon>WelcomeForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="WizardPages\ArchiveExtract.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WizardPages\Details.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WizardPages\Done.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WizardPages\Download.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WizardPages\EntryPoint.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WizardPages\Icon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WizardPages\InstallerAltDownload.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WizardPages\InstallerCaptureDiff.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WizardPages\InstallerCaptureStart.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WizardPages\InstallerCollectFiles.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WizardPages\Security.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="_Namespace.cs" />
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MassSignForm.resx">
-      <DependentUpon>MassSignForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NewFeedWizard.resx">
-      <DependentUpon>NewFeedWizard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.de.resx" />
-    <EmbeddedResource Include="Properties\Resources.el.resx" />
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.tr.resx" />
-    <EmbeddedResource Include="WelcomeForm.resx">
-      <DependentUpon>WelcomeForm.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <CodeAnalysisDictionary Include="..\CodeAnalysisDictionary.xml" />
     <Content Include="..\..\3rd party code.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\..\COPYING.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="Resources\NewWizardButton.png" />
-    <None Include="Resources\RedoButton.png" />
-    <None Include="Resources\UndoButton.png" />
-    <None Include="Resources\NewButton.png" />
-    <None Include="Resources\OpenButton.png" />
-    <None Include="Resources\SaveButton.png" />
-    <None Include="VERSION">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+
+  <!-- Embedded resources -->
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
 </Project>
