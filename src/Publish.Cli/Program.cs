@@ -34,7 +34,7 @@ namespace ZeroInstall.Publish.Cli
 
             try
             {
-                using var handler = new CliTaskHandler();
+                using var handler = new AnsiCliTaskHandler();
                 var command = (args.FirstOrDefault() == "capture")
                     ? (ICommand)new CaptureCommand(args.Skip(1), handler)
                     : new PublishCommand(args, handler);
