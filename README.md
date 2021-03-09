@@ -8,7 +8,7 @@ The Zero Install Publishing Tools provide a graphical editor and wizard for crea
 ## Building
 
 The source code is in [`src/`](src/) and generated artifacts are placed in `artifacts/`.  
-The source code does not contain version numbers. Instead the version is determined during CI using [GitVersion](http://gitversion.readthedocs.io/).
+The source code does not contain version numbers. Instead the version is determined during CI using [GitVersion](https://gitversion.net/).
 
 To build install [Visual Studio 2019 v16.8 or newer](https://www.visualstudio.com/downloads/) and run `.\build.ps1`.  
 
