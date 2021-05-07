@@ -3,16 +3,17 @@
 
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Threading.Tasks;
 using NanoByte.Common;
 using NanoByte.Common.Info;
 using NanoByte.Common.Storage;
 using NanoByte.Common.Tasks;
 using NanoByte.Common.Undo;
 using NDesk.Options;
+using Spectre.Console;
 using ZeroInstall.Model;
 using ZeroInstall.Publish.Cli.Properties;
 using ZeroInstall.Store.Implementations;
@@ -243,23 +244,9 @@ namespace ZeroInstall.Publish.Cli
             // there is no need to overwrite (and potential resign) the file
             if (!_xmlSign && !_unsign && !feedEditing.UnsavedChanges) return;
 
-            while (true)
-            {
-                try
-                {
-                    Debug.Assert(feedEditing.Path != null);
-                    feedEditing.SignedFeed.Save(feedEditing.Path, _openPgpPassphrase);
-                    break; // Exit loop if passphrase is correct
-                }
-                catch (WrongPassphraseException ex)
-                {
-                    // Continue loop if passphrase is incorrect
-                    if (!string.IsNullOrEmpty(_openPgpPassphrase)) Log.Error(ex);
-                }
-
-                // Ask for passphrase to unlock secret key if we were unable to save without it
-                PromptPassphrase();
-            }
+            PromptPassphrase(
+                () => feedEditing.SignedFeed.Save(feedEditing.Path!, _openPgpPassphrase),
+                feedEditing.SignedFeed.SecretKey);
         }
 
         /// <summary>
@@ -276,45 +263,37 @@ namespace ZeroInstall.Publish.Cli
                 var openPgp = OpenPgp.Signing();
                 var signedCatalog = new SignedCatalog(catalog, openPgp.GetSecretKey(_key));
 
-                while (true)
-                {
-                    try
-                    {
-                        signedCatalog.Save(_catalogFile!, _openPgpPassphrase);
-                        break; // Exit loop if passphrase is correct
-                    }
-                    catch (WrongPassphraseException ex)
-                    {
-                        // Continue loop if passphrase is incorrect
-                        if (!string.IsNullOrEmpty(_openPgpPassphrase)) Log.Error(ex);
-                    }
-
-                    // Ask for passphrase to unlock secret key if we were unable to save without it
-                    PromptPassphrase();
-                }
+                PromptPassphrase(
+                    () => signedCatalog.Save(_catalogFile!, _openPgpPassphrase),
+                    signedCatalog.SecretKey);
             }
             else catalog.SaveXml(_catalogFile!);
         }
 
-        private void PromptPassphrase()
+        /// <summary>
+        /// Runs the specified <paramref name="action"/> and prompts for the <paramref name="secretKey"/> if <see cref="WrongPassphraseException"/> is thrown.
+        /// </summary>
+        /// <exception cref="OperationCanceledException">The user cancelled the passphrase entry.</exception>
+        private void PromptPassphrase(Action action, OpenPgpSecretKey? secretKey)
         {
-            Console.Error.Write(Resources.AskForPassphrase + " ");
-
-            _openPgpPassphrase = "";
-
-            var key = Console.ReadKey(intercept: true);
-            while (key.Key != ConsoleKey.Enter)
+            while (true)
             {
-                if (key.Key == ConsoleKey.Backspace)
+                try
                 {
-                    if (_openPgpPassphrase.Length > 0)
-                        _openPgpPassphrase = _openPgpPassphrase[..^1];
+                    action();
+                    return; // Exit loop if passphrase is correct
                 }
-                else _openPgpPassphrase += key.KeyChar;
+                catch (WrongPassphraseException ex) when (secretKey != null)
+                {
+                    // Only print error if a passphrase was actually entered
+                    if (_openPgpPassphrase != null) Log.Error(ex);
 
-                key = Console.ReadKey(true);
+                    // Ask for passphrase to unlock secret key if we were unable to save without it
+                    var task = Task.Run(() => AnsiCli.Error.Prompt(new TextPrompt<string>(string.Format(Resources.AskForPassphrase, secretKey.UserID)).Secret()));
+                    task.Wait(_handler.CancellationToken);
+                    _openPgpPassphrase = task.Result;
+                }
             }
-            Console.Error.WriteLine();
         }
         #endregion
 
