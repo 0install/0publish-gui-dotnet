@@ -4,7 +4,6 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using NanoByte.Common;
 using NanoByte.Common.Controls;
 using NanoByte.Common.Tasks;
 using ZeroInstall.Model;

@@ -5,7 +5,7 @@ using System;
 using System.IO;
 using System.Windows.Forms;
 using AeroWizard;
-using NanoByte.Common;
+using NanoByte.Common.Controls;
 using NanoByte.Common.Tasks;
 using ZeroInstall.Publish.WinForms.Properties;
 

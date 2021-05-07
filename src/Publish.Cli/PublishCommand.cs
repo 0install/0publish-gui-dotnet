@@ -308,7 +308,7 @@ namespace ZeroInstall.Publish.Cli
                 if (key.Key == ConsoleKey.Backspace)
                 {
                     if (_openPgpPassphrase.Length > 0)
-                        _openPgpPassphrase = _openPgpPassphrase.StripFromEnd(count: 1);
+                        _openPgpPassphrase = _openPgpPassphrase[..^1];
                 }
                 else _openPgpPassphrase += key.KeyChar;
 

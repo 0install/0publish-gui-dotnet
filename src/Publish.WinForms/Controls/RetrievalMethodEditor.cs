@@ -6,7 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Net;
 using System.Windows.Forms;
-using NanoByte.Common;
+using NanoByte.Common.Controls;
 using NanoByte.Common.Tasks;
 using NanoByte.Common.Undo;
 using NanoByte.StructureEditor;

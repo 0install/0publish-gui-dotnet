@@ -6,7 +6,7 @@ using System.IO;
 using System.Net;
 using System.Windows.Forms;
 using AeroWizard;
-using NanoByte.Common;
+using NanoByte.Common.Controls;
 using ZeroInstall.Model;
 
 namespace ZeroInstall.Publish.WinForms

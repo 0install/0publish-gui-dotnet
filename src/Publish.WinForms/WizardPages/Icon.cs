@@ -8,7 +8,7 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Windows.Forms;
 using AeroWizard;
-using NanoByte.Common;
+using NanoByte.Common.Controls;
 using ZeroInstall.Publish.EntryPoints;
 using ZeroInstall.Publish.WinForms.Properties;
 

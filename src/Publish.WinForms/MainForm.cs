@@ -11,6 +11,7 @@ using NanoByte.Common;
 using NanoByte.Common.Controls;
 using NanoByte.Common.Info;
 using NanoByte.Common.Tasks;
+using NanoByte.Common.Threading;
 using ZeroInstall.Publish.WinForms.Properties;
 using ZeroInstall.Store.Implementations;
 using ZeroInstall.Store.Trust;
