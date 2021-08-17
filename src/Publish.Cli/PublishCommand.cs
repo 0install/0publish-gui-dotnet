@@ -62,11 +62,6 @@ namespace ZeroInstall.Publish.Cli
         private bool _addMissing;
 
         /// <summary>
-        /// Used to retain downloaded implementations; can be <c>null</c>.
-        /// </summary>
-        private IImplementationStore? _keepDownloads;
-
-        /// <summary>
         /// Add XML signature blocks to the feed.
         /// </summary>
         private bool _xmlSign;
@@ -139,7 +134,6 @@ namespace ZeroInstall.Publish.Cli
 
                 // Modifications
                 {"add-missing", () => Resources.OptionAddMissing, _ => _addMissing = true},
-                {"keep-downloads", () => Resources.OptionsKeepDownloads, _ => _keepDownloads = ImplementationStores.Default()},
 
                 // Signatures
                 {"x|xmlsign", () => Resources.OptionXmlSign, _ => _xmlSign = true},
@@ -331,7 +325,7 @@ namespace ZeroInstall.Publish.Cli
                 switch (element)
                 {
                     case Implementation implementation:
-                        implementation.AddMissing(_handler, executor, _keepDownloads);
+                        implementation.AddMissing(_handler, executor);
                         break;
 
                     case Group group:

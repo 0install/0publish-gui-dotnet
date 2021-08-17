@@ -151,9 +151,6 @@ You may redistribute copies of this program under the terms of the GNU Lesser Ge
   <data name="Options" xml:space="preserve">
     <value>Options:</value>
   </data>
-  <data name="OptionsKeepDownloads" xml:space="preserve">
-    <value>Add any downloaded archives to the implementation store.</value>
-  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Remove any existing signatures.</value>
   </data>

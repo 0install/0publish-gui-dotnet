@@ -151,9 +151,6 @@
   <data name="Options" xml:space="preserve">
     <value>Επιλογές:</value>
   </data>
-  <data name="OptionsKeepDownloads" xml:space="preserve">
-    <value>Προσθήκη τυχόν ληφθέντα αρχείων στο χώρο αποθήκευσης εφαρμογής.</value>
-  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Αφαιρέστε τυχόν υπάρχουσες υπογραφές.</value>
   </data>

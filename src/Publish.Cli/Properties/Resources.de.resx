@@ -151,9 +151,6 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
   <data name="Options" xml:space="preserve">
     <value>Optionen:</value>
   </data>
-  <data name="OptionsKeepDownloads" xml:space="preserve">
-    <value>Füge alle heruntergeladenen Archive dem Implementierungsstore hinzu.</value>
-  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Entferne alle bestehenden Signaturen.</value>
   </data>

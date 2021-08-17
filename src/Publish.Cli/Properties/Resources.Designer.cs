@@ -161,15 +161,6 @@ namespace ZeroInstall.Publish.Cli.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add any downloaded archives to the implementation store..
-        /// </summary>
-        internal static string OptionsKeepDownloads {
-            get {
-                return ResourceManager.GetString("OptionsKeepDownloads", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Remove any existing signatures..
         /// </summary>
         internal static string OptionUnsign {

@@ -151,9 +151,6 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
   <data name="Options" xml:space="preserve">
     <value>Seçenekler:</value>
   </data>
-  <data name="OptionsKeepDownloads" xml:space="preserve">
-    <value>İndirilen herhangi bir arşivi uygulama mağazasına ekleyin.</value>
-  </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Var olan herhangi bir imzayı kaldırın.</value>
   </data>
