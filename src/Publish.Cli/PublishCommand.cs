@@ -7,7 +7,6 @@ using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Threading.Tasks;
 using NanoByte.Common;
 using NanoByte.Common.Info;
 using NanoByte.Common.Storage;
@@ -285,9 +284,7 @@ namespace ZeroInstall.Publish.Cli
                     if (_openPgpPassphrase != null) Log.Error(ex);
 
                     // Ask for passphrase to unlock secret key if we were unable to save without it
-                    var task = Task.Run(() => AnsiCli.Error.Prompt(new TextPrompt<string>(string.Format(Resources.AskForPassphrase, secretKey.UserID)).Secret()));
-                    task.Wait(_handler.CancellationToken);
-                    _openPgpPassphrase = task.Result;
+                    _openPgpPassphrase = AnsiCli.Prompt(new TextPrompt<string>(string.Format(Resources.AskForPassphrase, secretKey.UserID)).Secret(), _handler.CancellationToken);
                 }
             }
         }
@@ -310,13 +307,7 @@ namespace ZeroInstall.Publish.Cli
                 var feed = feedEditing.SignedFeed.Feed;
                 feed.ResolveInternalReferences();
 
-                // Enable Recipe steps to call out to external Fetcher
-                using (FetchHandle.Register(impl =>
-                {
-                    _handler.RunTask(new ExternalFetch(impl));
-                    return ImplementationStores.Default().GetPath(impl);
-                }))
-                    AddMissing(feed.Elements, feedEditing);
+                AddMissing(feed.Elements, feedEditing);
             }
         }
 
@@ -327,7 +318,7 @@ namespace ZeroInstall.Publish.Cli
                 switch (element)
                 {
                     case Implementation implementation:
-                        implementation.AddMissing(_handler, executor);
+                        implementation.SetMissing(executor, _handler);
                         break;
 
                     case Group group:

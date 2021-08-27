@@ -8,8 +8,8 @@ using System.Windows.Forms;
 using NanoByte.Common;
 using NanoByte.Common.Controls;
 using NanoByte.Common.Tasks;
+using ZeroInstall.Archives.Builders;
 using ZeroInstall.Model;
-using ZeroInstall.Store.Implementations.Archives;
 
 namespace ZeroInstall.Publish.WinForms
 {
@@ -21,9 +21,9 @@ namespace ZeroInstall.Publish.WinForms
         private void buttonSelectArchivePath_Click(object sender, EventArgs e)
         {
             string filter = StringUtils.Join(@"|",
-                ArchiveGenerator.SupportedMimeTypes.Select(x => string.Format(
+                ArchiveBuilder.SupportedMimeTypes.Select(x => string.Format(
                     @"{0} archive (*{0})|*{0}",
-                    Archive.GetDefaultExtension(x))));
+                    Archive.GetFileExtension(x))));
             using var saveFileDialog = new SaveFileDialog {Filter = filter, FileName = textBoxArchivePath.Text};
             if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
                 textBoxArchivePath.Text = saveFileDialog.FileName;

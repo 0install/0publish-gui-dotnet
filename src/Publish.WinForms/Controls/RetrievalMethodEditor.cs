@@ -13,7 +13,6 @@ using NanoByte.StructureEditor;
 using NanoByte.StructureEditor.WinForms;
 using ZeroInstall.Model;
 using ZeroInstall.Publish.WinForms.Properties;
-using ZeroInstall.Store.Implementations.Manifests;
 using ICommandExecutor = NanoByte.Common.Undo.ICommandExecutor;
 
 namespace ZeroInstall.Publish.WinForms.Controls
@@ -102,14 +101,14 @@ namespace ZeroInstall.Publish.WinForms.Controls
             try
             {
                 using var handler = new DialogTaskHandler(this);
-                CheckDigest(handler, commandCollector);
+                CheckDigest(commandCollector, handler);
             }
             #region Error handling
             catch (OperationCanceledException)
             {
                 return;
             }
-            catch (Exception ex) when (ex is ArgumentException or UriFormatException or IOException or WebException or NotSupportedException)
+            catch (Exception ex) when (ex is ArgumentException or IOException or WebException or NotSupportedException)
             {
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                 return;
@@ -136,14 +135,13 @@ namespace ZeroInstall.Publish.WinForms.Controls
         /// <summary>
         /// Checks whether the <see cref="ManifestDigest"/> in <see cref="TargetContainer"/> matches the generated value.
         /// </summary>
-        /// <param name="handler">A callback object used when the the user is to be informed about progress.</param>
         /// <param name="executor">Used to apply properties in an undoable fashion.</param>
-        private void CheckDigest(ITaskHandler handler, ICommandExecutor executor)
+        /// <param name="handler">A callback object used when the the user is to be informed about progress.</param>
+        private void CheckDigest(ICommandExecutor executor, ITaskHandler handler)
         {
             if (TargetContainer == null) return;
 
-            using var tempDir = Target!.DownloadAndApply(handler, executor);
-            var digest = ManifestUtils.GenerateDigest(tempDir, handler);
+            var digest = Target!.CalculateDigest(executor, handler);
 
             if (digest.PartialEquals(ManifestDigest.Empty))
                 Msg.Inform(this, Resources.EmptyImplementation, MsgSeverity.Warn);
@@ -152,8 +150,8 @@ namespace ZeroInstall.Publish.WinForms.Controls
             {
                 executor.Execute(SetValueCommand.For(() => TargetContainer.ManifestDigest, digest));
 
-                if (string.IsNullOrEmpty(TargetContainer.ID) || TargetContainer.ID.StartsWith("sha1new="))
-                    executor.Execute(SetValueCommand.For(() => TargetContainer.ID, ManifestUtils.CalculateDigest(tempDir, ManifestFormat.Sha1New, handler)));
+                if (string.IsNullOrEmpty(TargetContainer.ID) || TargetContainer.ID.StartsWith("sha"))
+                    executor.Execute(SetValueCommand.For(() => TargetContainer.ID, digest.Best));
             }
 
             if (TargetContainer.ManifestDigest == default) SetDigest();

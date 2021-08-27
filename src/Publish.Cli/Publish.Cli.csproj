@@ -12,11 +12,8 @@
 
   <!-- Dependencies -->
   <ItemGroup>
-    <PackageReference Include="NanoByte.Common.AnsiCli" Version="2.8.1" />
+    <PackageReference Include="NanoByte.Common.AnsiCli" Version="2.10.5" />
     <PackageReference Include="NDesk.Options.Patched" Version="0.3.2" />
-    <PackageReference Include="ZeroInstall.Store" Version="2.19.2" PrivateAssets="None" />
-    <PackageReference Include="ZeroInstall.Publish" Version="2.19.2" PrivateAssets="None" />
-    <PackageReference Include="ZeroInstall.Services" Version="2.19.2" PrivateAssets="None" />
   </ItemGroup>
 
   <!-- Files to include with output -->

@@ -14,7 +14,7 @@ namespace ZeroInstall.Publish.WinForms
 {
     partial class NewFeedWizard
     {
-        private Archive _archive;
+        private Archive? _archive;
 
         private void pageArchiveExtract_Initialize(object sender, WizardPageInitEventArgs e)
         {
@@ -42,7 +42,7 @@ namespace ZeroInstall.Publish.WinForms
                 }
 
                 _archive.Extract = listBoxExtract.Text ?? "";
-                _feedBuilder.ImplementationDirectory = Path.Combine(_feedBuilder.TemporaryDirectory!, FileUtils.UnifySlashes(_archive.Extract)!);
+                _feedBuilder.ImplementationDirectory = Path.Combine(_feedBuilder.TemporaryDirectory!, _archive.Extract.ToNativePath()!);
 
                 try
                 {

@@ -17,7 +17,7 @@ namespace ZeroInstall.Publish.WinForms
 {
     partial class NewFeedWizard
     {
-        private Icon _icon;
+        private Icon? _icon;
 
         private void pageIcon_Initialize(object sender, WizardPageInitEventArgs e)
         {

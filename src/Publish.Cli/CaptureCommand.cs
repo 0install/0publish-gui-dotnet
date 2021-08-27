@@ -128,7 +128,7 @@ namespace ZeroInstall.Publish.Cli
 
             feedBuilder.MainCandidate = string.IsNullOrEmpty(_mainExe)
                 ? feedBuilder.Candidates.FirstOrDefault()
-                : feedBuilder.Candidates.FirstOrDefault(x => StringUtils.EqualsIgnoreCase(FileUtils.UnifySlashes(x.RelativePath), _mainExe));
+                : feedBuilder.Candidates.FirstOrDefault(x => StringUtils.EqualsIgnoreCase(x.RelativePath.ToNativePath(), _mainExe));
             session.Finish();
 
             if (!string.IsNullOrEmpty(_zipFile))

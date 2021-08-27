@@ -8,7 +8,7 @@ namespace ZeroInstall.Publish.WinForms
     partial class NewFeedWizard
     {
         /// <summary>The result returned by <see cref="Run"/>.</summary>
-        private SignedFeed _signedFeed;
+        private SignedFeed? _signedFeed;
 
         private void pageDone_Commit(object sender, WizardPageConfirmEventArgs e)
         {

@@ -16,18 +16,17 @@
     <Copyright>Copyright Bastian Eicher et al.</Copyright>
     <RepositoryUrl>https://github.com/0install/0publish-win</RepositoryUrl>
 
-    <!-- Include native dependencies in output -->
+    <!-- Deploy native libs to output -->
     <RuntimeIdentifier>win</RuntimeIdentifier>
 
     <!-- Dummy version number, overridden by GitVersion -->
     <Version>1.0.0-pre</Version>
   </PropertyGroup>
 
+  <!-- Dependencies -->
   <ItemGroup>
-    <None Include="..\..\icon.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
+    <PackageReference Include="ZeroInstall.Store" Version="2.20.0" />
+    <PackageReference Include="ZeroInstall.Publish" Version="2.20.0" PrivateAssets="None" /><!-- Flow native libs from assets -->
   </ItemGroup>
 
 </Project>

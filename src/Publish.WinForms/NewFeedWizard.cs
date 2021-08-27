@@ -34,19 +34,17 @@ namespace ZeroInstall.Publish.WinForms
         }
 
         /// <summary>Shared between wizard pages.</summary>
-        private readonly FeedBuilder _feedBuilder = new FeedBuilder();
+        private readonly FeedBuilder _feedBuilder = new();
 
         /// <summary>Shared between installer-specific wizard pages.</summary>
-        private readonly InstallerCapture _installerCapture = new InstallerCapture();
+        private readonly InstallerCapture _installerCapture = new();
 
         private void Retrieve(DownloadRetrievalMethod retrievalMethod, string? localPath)
         {
             _feedBuilder.RetrievalMethod = retrievalMethod;
 
             using var handler = new DialogTaskHandler(this);
-            _feedBuilder.TemporaryDirectory = (localPath == null)
-                ? retrievalMethod.DownloadAndApply(handler)
-                : retrievalMethod.LocalApply(localPath, handler);
+            _feedBuilder.TemporaryDirectory = retrievalMethod.ToTempDir(handler, localPath);
         }
     }
 }

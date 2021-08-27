@@ -118,7 +118,7 @@ namespace ZeroInstall.Publish.WinForms
                     : Archive.MimeType7Z
             };
             feedBuilder.RetrievalMethod = archive;
-            feedBuilder.TemporaryDirectory = archive.LocalApply(_localPath, handler);
+            feedBuilder.TemporaryDirectory = archive.ToTempDir(handler, _localPath);
         }
     }
 }
