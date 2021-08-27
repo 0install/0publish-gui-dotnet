@@ -1,17 +1,17 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!--
-    Microsoft ResX Schema
-
+  <!-- 
+    Microsoft ResX Schema 
+    
     Version 2.0
-
-    The primary goals of this format is to allow a simple XML format
-    that is mostly human readable. The generation and parsing of the
-    various data types are done through the TypeConverter classes
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
     associated with the data types.
-
+    
     Example:
-
+    
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-
-    There are any number of "resheader" rows that contain simple
+                
+    There are any number of "resheader" rows that contain simple 
     name/value pairs.
-
-    Each data row contains a name, and value. The row also contains a
-    type or mimetype. Type corresponds to a .NET class that support
-    text/value conversion through the TypeConverter architecture.
-    Classes that don't support this are serialized and stored with the
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
     mimetype set.
-
-    The mimetype is used for serialized objects, and tells the
-    ResXResourceReader how to depersist the object. This is currently not
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
     extensible. For a given mimetype the value must be set accordingly:
-
-    Note - application/x-microsoft.net.object.binary.base64 is the format
-    that the ResXResourceWriter will generate, however the reader can
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
     read any of the formats listed below.
-
+    
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-
+    
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array
+    value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -112,17 +112,12 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
   <data name="AddMissing" xml:space="preserve">
     <value>Eksik ekle</value>
   </data>
@@ -133,7 +128,7 @@
     <value>{0} için GnuPG parolasını yazın:</value>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Bu bir EXE yükleyicisi mi?</value>
+    <value>Bu EXE kurulum dosyası mı?</value>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
     <value>Yakalamayı atlamak istediğinize emin misiniz?
@@ -149,24 +144,24 @@ Bunu yaparsanız akışınız yerel kipte ve çevrimdışı olarak çalışır.<
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Devam
-Bu uygulamanın aynı şekilde kalması gerekiyordu</value>
+Bu uyarlamanın aynı şekilde kalması gerekiyordu</value>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
     <value>Bildirim özeti değişti. Değişikliğin var olan başka bir bildirim özetinin yerini almasını ister misiniz?</value>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Bu uygulama için yeni özetin tüm diğer alma yöntemleriyle eşleşmesi gereklidir.</value>
+    <value>Bu uyarlama için yeni özetin tüm diğer alma yöntemleriyle eşleşmesi gereklidir.</value>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>Değiştir
-Uygulama amacını ben değiştirdim</value>
+Uyarlama amacını kasıtlı olarak değiştirdim</value>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
     <value>Yok say
 Kaydedilmemiş değişiklikleri yok say</value>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Görsel önizleme için indiriliyor...</value>
+    <value>Görsel ön izleme için indiriliyor...</value>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
     <value>Boş bir klasör için bir bildirim özeti tasarlandı. "extract" değerinin arşiv için doğru şekilde ayarlanmış olduğunu denetleyin.</value>
@@ -181,32 +176,32 @@ Kaydedilmemiş değişiklikleri yok say</value>
     <value>Görsel dosyası Zero Install tarafından desteklenmiyor.</value>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Yükleyici ile ilgili olan bir arşiv ayıklanamadı.</value>
+    <value>Kurulum ile ilgili bir arşiv ayıklanamadı.</value>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Uygulama için, ZIP arşivi gibi alternatif bir indirme kaynağı belirtmelisiniz. Bu durumda da yükleyici tarafından belirlenmiş masaüstü bütünleştirmesi kullanılmaya devam edilecek.</value>
+    <value>Uygulama için, ZIP arşivi gibi alternatif bir indirme kaynağı belirtmelisiniz. Bu durumda da kurucu tarafından belirlenmiş masaüstü bütünleştirmesi kullanılmaya devam edilecek.</value>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Geçersiz yetenek kaydı yolu: {0}</value>
+    <value>Yetenek kaydı yolu geçersiz: {0}</value>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
     <value>Bildirim özeti değişmiş olabilir.</value>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Bildirim özeti henüz tasarlanmamış.</value>
+    <value>Bildirim özeti henüz derlenmemiş.</value>
   </data>
   <data name="NewKey" xml:space="preserve">
     <value>Yeni anahtar...</value>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Hiçbir giriş noktası (EXE'ler, JAR'lar, Python komutları, vb.) bulunamadı. Lütfen seçtiğiniz arşivin geçerliliğinden ve klasöre ayıklanmış olduğundan emin olun.</value>
+    <value>Herhangi bir giriş noktası (EXE'ler, JAR'lar, Python komutları, vb.) bulunamadı. Lütfen seçtiğiniz arşivin geçerliliğinden ve klasöre ayıklanmış olduğundan emin olun.</value>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Eşleşen herhangi bir akış dosyası bulunamadı.</value>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Hayır, uygulamanın kendisi
-yalnız bir EXE'den oluşur</value>
+yalnız bir EXE dosyasından oluşur</value>
   </data>
   <data name="PleaseClick" xml:space="preserve">
     <value>Lütfen tıklayın:</value>
@@ -222,12 +217,12 @@ Değişiklikleri kaydet</value>
     <value>Dosya boyutu henüz belirlenemedi.</value>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Yükleyicinin tamamlanması bekleniyor</value>
+    <value>Kurulumun tamamlanması bekleniyor</value>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
     <value>MIME türü yanlış! {0} olmalıdır.</value>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Evet, EXE yükleyici</value>
+    <value>Evet, EXE kurulum dosyası </value>
   </data>
 </root>
