@@ -70,6 +70,15 @@ namespace ZeroInstall.Publish.WinForms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to All files.
+        /// </summary>
+        internal static string AllFiles {
+            get {
+                return ResourceManager.GetString("AllFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This path points outside of the archive..
         /// </summary>
         internal static string ArchiveBreakoutPath {
@@ -123,6 +132,15 @@ namespace ZeroInstall.Publish.WinForms.Properties {
         internal static string AskSkipSecurity {
             get {
                 return ResourceManager.GetString("AskSkipSecurity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Description.
+        /// </summary>
+        internal static string Description {
+            get {
+                return ResourceManager.GetString("Description", resourceCulture);
             }
         }
         
@@ -202,11 +220,29 @@ namespace ZeroInstall.Publish.WinForms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to File size.
+        /// </summary>
+        internal static string FileSize {
+            get {
+                return ResourceManager.GetString("FileSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to A complete possibly multi-line description.
         /// </summary>
         internal static string HintTextMultiline {
             get {
                 return ResourceManager.GetString("HintTextMultiline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Windows Icon files.
+        /// </summary>
+        internal static string IcoFiles {
+            get {
+                return ResourceManager.GetString("IcoFiles", resourceCulture);
             }
         }
         
@@ -261,6 +297,15 @@ namespace ZeroInstall.Publish.WinForms.Properties {
         internal static string ManifestDigestMissing {
             get {
                 return ResourceManager.GetString("ManifestDigestMissing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Names.
+        /// </summary>
+        internal static string Names {
+            get {
+                return ResourceManager.GetString("Names", resourceCulture);
             }
         }
         
@@ -341,12 +386,39 @@ namespace ZeroInstall.Publish.WinForms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to PNG image files.
+        /// </summary>
+        internal static string PngFiles {
+            get {
+                return ResourceManager.GetString("PngFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap RedoButton {
             get {
                 object obj = ResourceManager.GetObject("RedoButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to in bytes (required).
+        /// </summary>
+        internal static string RequiredBytes {
+            get {
+                return ResourceManager.GetString("RequiredBytes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to HTTP/FTP URL (required).
+        /// </summary>
+        internal static string RequiredUrl {
+            get {
+                return ResourceManager.GetString("RequiredUrl", resourceCulture);
             }
         }
         
@@ -380,11 +452,47 @@ namespace ZeroInstall.Publish.WinForms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Successfully signed files..
+        /// </summary>
+        internal static string SignedFeeds {
+            get {
+                return ResourceManager.GetString("SignedFeeds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Signing feeds.
+        /// </summary>
+        internal static string SigningFeeds {
+            get {
+                return ResourceManager.GetString("SigningFeeds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to File size not determined yet..
         /// </summary>
         internal static string SizeMissing {
             get {
                 return ResourceManager.GetString("SizeMissing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Source URL.
+        /// </summary>
+        internal static string SourceUrl {
+            get {
+                return ResourceManager.GetString("SourceUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Summary.
+        /// </summary>
+        internal static string Summary {
+            get {
+                return ResourceManager.GetString("Summary", resourceCulture);
             }
         }
         

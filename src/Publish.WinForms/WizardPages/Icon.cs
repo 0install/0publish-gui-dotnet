@@ -47,7 +47,7 @@ namespace ZeroInstall.Publish.WinForms
         {
             Debug.Assert(_icon != null);
 
-            using var saveFileDialog = new SaveFileDialog {Filter = "Windows Icon files|*.ico|All files|*.*"};
+            using var saveFileDialog = new SaveFileDialog {Filter = Resources.IcoFiles + @"|*.ico|" + Resources.AllFiles + @"|*.*"};
             if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
             {
                 using var stream = File.Create(saveFileDialog.FileName);
@@ -69,7 +69,7 @@ namespace ZeroInstall.Publish.WinForms
         {
             Debug.Assert(_icon != null);
 
-            using var saveFileDialog = new SaveFileDialog {Filter = "PNG image files|*.png|All files|*.*"};
+            using var saveFileDialog = new SaveFileDialog {Filter = Resources.PngFiles + @"|*.png|" + Resources.AllFiles + @"|*.*"};
             if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
             {
                 try

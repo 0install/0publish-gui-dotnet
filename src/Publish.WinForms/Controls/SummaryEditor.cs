@@ -5,6 +5,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using NanoByte.StructureEditor.WinForms;
 using ZeroInstall.Model;
+using ZeroInstall.Publish.WinForms.Properties;
 
 namespace ZeroInstall.Publish.WinForms.Controls
 {
@@ -25,7 +26,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 Size = new Size(Width, 23),
                 Multiline = false,
                 Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right,
-                HintText = "Summary",
+                HintText = Resources.Summary,
                 TabIndex = 0
             };
             Bind(TextBoxSummary, () => Target!.Summaries);

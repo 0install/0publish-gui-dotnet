@@ -7,6 +7,7 @@ using System.IO;
 using NanoByte.Common.Controls;
 using NanoByte.Common.Tasks;
 using ZeroInstall.Model;
+using ZeroInstall.Publish.WinForms.Properties;
 using ZeroInstall.Store.Trust;
 
 namespace ZeroInstall.Publish.WinForms
@@ -89,7 +90,7 @@ namespace ZeroInstall.Publish.WinForms
         /// <exception cref="UnauthorizedAccessException">Read or write access to the feed file is not permitted.</exception>
         private void SignFiles(OpenPgpSecretKey? secretKey, string passphrase)
         {
-            var task = ForEachTask.Create("Signing feeds", _files, file =>
+            var task = ForEachTask.Create(Resources.SigningFeeds, _files, file =>
             {
                 SignedFeed signedFeed;
                 try
@@ -118,7 +119,7 @@ namespace ZeroInstall.Publish.WinForms
                 #endregion
             });
             using (var handler = new DialogTaskHandler(this)) handler.RunTask(task);
-            Msg.Inform(this, "Successfully signed files.", MsgSeverity.Info);
+            Msg.Inform(this, Resources.SignedFeeds, MsgSeverity.Info);
         }
         #endregion
     }

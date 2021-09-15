@@ -25,7 +25,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 Location = new Point(0, 3),
                 AutoSize = true,
                 TabIndex = 0,
-                Text = "Source URL:"
+                Text = Resources.SourceUrl + @":"
             });
 
             var textBoxHref = new UriTextBox
@@ -34,7 +34,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 Size = new Size(73, 20),
                 Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right,
                 TabIndex = 1,
-                HintText = "HTTP/FTP URL (required)",
+                HintText = Resources.RequiredUrl,
                 AllowRelative = true
             };
             textBoxHref.TextChanged += delegate { ShowUpdateHint(Resources.ManifestDigestChanged); };
@@ -45,7 +45,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 Location = new Point(0, 29),
                 AutoSize = true,
                 TabIndex = 2,
-                Text = "File size:"
+                Text = Resources.FileSize + @":"
             });
 
             var textBoxSize = new HintTextBox
@@ -54,7 +54,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 Size = new Size(73, 20),
                 Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right,
                 TabIndex = 3,
-                HintText = "in bytes (required)"
+                HintText = Resources.RequiredBytes
             };
             Bind(textBoxSize, PropertyPointer.For(() => Target!.Size, defaultValue: 0).ToStringPointer());
         }

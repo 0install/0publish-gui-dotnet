@@ -120,6 +120,9 @@
   <data name="AddMissing" xml:space="preserve">
     <value>Lücken füllen</value>
   </data>
+  <data name="AllFiles" xml:space="preserve">
+    <value>Alle Dateien</value>
+  </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
     <value>Dieser Pfad zeigt außerhalb des Archivs.</value>
   </data>
@@ -140,6 +143,9 @@ Zero Install wird nur ein generisches Platzhalter-Symbol im Katalog wie auch bei
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Sind Sie sicher, dass Sie fortfahren möchten ohne diese Einstellung zu vervollständigen?
 Ihr Feed wird nur lokal und nicht online funktionieren.</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beschreibung</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Behalten
@@ -168,8 +174,14 @@ Ungespeicherte Änderungen verwerfen</value>
   <data name="FileDialogFilter" xml:space="preserve">
     <value>Feed Dateien (*.xml)|*.xml|Vorlagen Dateien (*.xml.template)|*.xml.template|Alle Dateien|*</value>
   </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>Dateigröße</value>
+  </data>
   <data name="HintTextMultiline" xml:space="preserve">
     <value>Eine komplette, u.U. mehrzeilige Beschreibung.</value>
+  </data>
+  <data name="IcoFiles" xml:space="preserve">
+    <value>Windows Icon-Dateien</value>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
     <value>Das Bildformat wird von Zero Install nicht unterstützt.</value>
@@ -189,6 +201,9 @@ Ungespeicherte Änderungen verwerfen</value>
   <data name="ManifestDigestMissing" xml:space="preserve">
     <value>Manifest Digest noch nicht berechnet.</value>
   </data>
+  <data name="Names" xml:space="preserve">
+    <value>Namen</value>
+  </data>
   <data name="NewKey" xml:space="preserve">
     <value>Neuer Schlüssel...</value>
   </data>
@@ -205,6 +220,15 @@ besteht aus nur einer EXE</value>
   <data name="PleaseClick" xml:space="preserve">
     <value>Bitte klicken Sie:</value>
   </data>
+  <data name="PngFiles" xml:space="preserve">
+    <value>PNG Bilddateien</value>
+  </data>
+  <data name="RequiredBytes" xml:space="preserve">
+    <value>in Bytes (erforderlich)</value>
+  </data>
+  <data name="RequiredUrl" xml:space="preserve">
+    <value>HTTP/FTP URL (erforderlich)</value>
+  </data>
   <data name="SaveChanges" xml:space="preserve">
     <value>Speichern
 Änderungen speichern</value>
@@ -212,8 +236,20 @@ besteht aus nur einer EXE</value>
   <data name="SaveQuestion" xml:space="preserve">
     <value>Möchten Sie die Änderungen speichern?</value>
   </data>
+  <data name="SignedFeeds" xml:space="preserve">
+    <value>Feeds erfolgreich signiert.</value>
+  </data>
+  <data name="SigningFeeds" xml:space="preserve">
+    <value>Signiere Feeds</value>
+  </data>
   <data name="SizeMissing" xml:space="preserve">
     <value>Dateigröße noch nicht bestimmt.</value>
+  </data>
+  <data name="SourceUrl" xml:space="preserve">
+    <value>Quell-URL</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Zusammenfassung</value>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
     <value>Warte bis Installater beendet ist</value>

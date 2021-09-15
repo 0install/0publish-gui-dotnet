@@ -121,6 +121,9 @@
   <data name="AddMissing" xml:space="preserve">
     <value>Add missing</value>
   </data>
+  <data name="AllFiles" xml:space="preserve">
+    <value>All files</value>
+  </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
     <value>This path points outside of the archive.</value>
   </data>
@@ -141,6 +144,9 @@ Zero Install will only be able to display a generic placeholder icon in the cata
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Are you sure you want to continue without completing these settings?
 Your feed will only work locally and not online.</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Keep
@@ -169,8 +175,14 @@ Discard unsaved changes</value>
   <data name="FileDialogFilter" xml:space="preserve">
     <value>Feed files (*.xml)|*.xml|Template files (*.xml.template)|*.xml.template|All files|*</value>
   </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>File size</value>
+  </data>
   <data name="HintTextMultiline" xml:space="preserve">
     <value>A complete possibly multi-line description</value>
+  </data>
+  <data name="IcoFiles" xml:space="preserve">
+    <value>Windows Icon files</value>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
     <value>The image format is not supported by Zero Install.</value>
@@ -189,6 +201,9 @@ Discard unsaved changes</value>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
     <value>Manifest digest not calculated yet.</value>
+  </data>
+  <data name="Names" xml:space="preserve">
+    <value>Names</value>
   </data>
   <data name="NewButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NewButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -215,8 +230,17 @@ consists only of one EXE</value>
   <data name="PleaseClick" xml:space="preserve">
     <value>Please click:</value>
   </data>
+  <data name="PngFiles" xml:space="preserve">
+    <value>PNG image files</value>
+  </data>
   <data name="RedoButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RedoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RequiredBytes" xml:space="preserve">
+    <value>in bytes (required)</value>
+  </data>
+  <data name="RequiredUrl" xml:space="preserve">
+    <value>HTTP/FTP URL (required)</value>
   </data>
   <data name="SaveButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SaveButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -228,8 +252,20 @@ Save changes</value>
   <data name="SaveQuestion" xml:space="preserve">
     <value>Do you want to save the changes?</value>
   </data>
+  <data name="SignedFeeds" xml:space="preserve">
+    <value>Successfully signed files.</value>
+  </data>
+  <data name="SigningFeeds" xml:space="preserve">
+    <value>Signing feeds</value>
+  </data>
   <data name="SizeMissing" xml:space="preserve">
     <value>File size not determined yet.</value>
+  </data>
+  <data name="SourceUrl" xml:space="preserve">
+    <value>Source URL</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Summary</value>
   </data>
   <data name="UndoButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UndoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

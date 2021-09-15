@@ -5,6 +5,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using NanoByte.StructureEditor.WinForms;
 using ZeroInstall.Model;
+using ZeroInstall.Publish.WinForms.Properties;
 
 namespace ZeroInstall.Publish.WinForms.Controls
 {
@@ -26,7 +27,7 @@ namespace ZeroInstall.Publish.WinForms.Controls
                 Size = new Size(Width, 76),
                 Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right,
                 TabIndex = 1,
-                HintText = "Description"
+                HintText = Resources.Description
             };
             Bind(TextBoxDescription, () => Target?.Descriptions);
 

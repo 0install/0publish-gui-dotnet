@@ -121,6 +121,9 @@
   <data name="AddMissing" xml:space="preserve">
     <value>Eksik ekle</value>
   </data>
+  <data name="AllFiles" xml:space="preserve">
+    <value>Tüm dosyalar</value>
+  </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
     <value>Bu yol arşiv dışına gidiyor.</value>
   </data>
@@ -141,6 +144,9 @@ Bunu yaparsanız Zero Install masaüstü bütünleştirmeleri kısayolları içi
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Ayarları tamamlamadan devam etmek istediğinize emin misiniz?
 Bunu yaparsanız akışınız yerel kipte ve çevrimdışı olarak çalışır.</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Açıklama</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Devam
@@ -169,8 +175,14 @@ Kaydedilmemiş değişiklikleri yok say</value>
   <data name="FileDialogFilter" xml:space="preserve">
     <value>Akış dosyaları (*.xml)|*.xml|Geçici dosyalar (*.xml.template)|*.xml.template|Tüm dosyalar|*</value>
   </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>Dosya boyutu</value>
+  </data>
   <data name="HintTextMultiline" xml:space="preserve">
     <value>Çok satırlı olabilecek tam bir açıklama</value>
+  </data>
+  <data name="IcoFiles" xml:space="preserve">
+    <value>Windows simge dosyaları</value>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
     <value>Görsel dosyası Zero Install tarafından desteklenmiyor.</value>
@@ -190,6 +202,9 @@ Kaydedilmemiş değişiklikleri yok say</value>
   <data name="ManifestDigestMissing" xml:space="preserve">
     <value>Bildirim özeti henüz derlenmemiş.</value>
   </data>
+  <data name="Names" xml:space="preserve">
+    <value>Adlar</value>
+  </data>
   <data name="NewKey" xml:space="preserve">
     <value>Yeni anahtar...</value>
   </data>
@@ -206,6 +221,15 @@ yalnız bir EXE dosyasından oluşur</value>
   <data name="PleaseClick" xml:space="preserve">
     <value>Lütfen tıklayın:</value>
   </data>
+  <data name="PngFiles" xml:space="preserve">
+    <value>PNG görsel dosyaları</value>
+  </data>
+  <data name="RequiredBytes" xml:space="preserve">
+    <value>bayt olarak (zorunlu)</value>
+  </data>
+  <data name="RequiredUrl" xml:space="preserve">
+    <value>HTTP/FTP adresi (zorunlu)</value>
+  </data>
   <data name="SaveChanges" xml:space="preserve">
     <value>Kaydet
 Değişiklikleri kaydet</value>
@@ -213,8 +237,23 @@ Değişiklikleri kaydet</value>
   <data name="SaveQuestion" xml:space="preserve">
     <value>Değişiklikleri kaydetmek ister misiniz?</value>
   </data>
+  <data name="SignedFeeds" xml:space="preserve">
+    <value>Dosyalar imzalandı.</value>
+  </data>
+  <data name="SigningFeeds" xml:space="preserve">
+    <value>Akışlar imzalanıyor</value>
+  </data>
   <data name="SizeMissing" xml:space="preserve">
     <value>Dosya boyutu henüz belirlenemedi.</value>
+  </data>
+  <data name="SourceUrl" xml:space="preserve">
+    <value>Kaynak adres</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Özet</value>
+  </data>
+  <data name="UndoButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UndoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
     <value>Kurulumun tamamlanması bekleniyor</value>
