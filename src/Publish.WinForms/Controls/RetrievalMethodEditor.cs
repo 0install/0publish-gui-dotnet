@@ -109,32 +109,12 @@ namespace ZeroInstall.Publish.WinForms.Controls
             {
                 return;
             }
-            catch (ArgumentException ex)
-            {
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-                return;
-            }
-            catch (UriFormatException ex)
-            {
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-                return;
-            }
-            catch (IOException ex)
+            catch (Exception ex) when (ex is ArgumentException or UriFormatException or IOException or WebException or NotSupportedException)
             {
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                 return;
             }
             catch (UnauthorizedAccessException ex)
-            {
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-                return;
-            }
-            catch (WebException ex)
-            {
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-                return;
-            }
-            catch (NotSupportedException ex)
             {
                 Msg.Inform(this, ex.Message, MsgSeverity.Error);
                 return;

@@ -73,15 +73,7 @@ namespace ZeroInstall.Publish.WinForms
             #region Sanity checks
             catch (OperationCanceledException)
             {}
-            catch (ArgumentException ex)
-            {
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-            }
-            catch (IOException ex)
-            {
-                Msg.Inform(this, ex.Message, MsgSeverity.Error);
-            }
-            catch (UnauthorizedAccessException ex)
+            catch (Exception ex) when (ex is ArgumentException or IOException or UnauthorizedAccessException)
             {
                 Msg.Inform(this, ex.Message, MsgSeverity.Error);
             }
@@ -105,15 +97,10 @@ namespace ZeroInstall.Publish.WinForms
                     signedFeed = SignedFeed.Load(file.FullName);
                 }
                 #region Error handling
-                catch (UnauthorizedAccessException ex)
+                catch (Exception ex) when (ex is UnauthorizedAccessException or InvalidDataException)
                 {
                     // Wrap exception since only certain exception types are allowed
                     throw new IOException(ex.Message, ex);
-                }
-                catch (InvalidDataException ex)
-                {
-                    // Wrap exception since only certain exception types are allowed
-                    throw new IOException(ex.Message + (ex.InnerException == null ? "" : Environment.NewLine + ex.InnerException.Message), ex);
                 }
                 #endregion
 
@@ -123,17 +110,7 @@ namespace ZeroInstall.Publish.WinForms
                     signedFeed.Save(file.FullName, passphrase);
                 }
                 #region Error handling
-                catch (UnauthorizedAccessException ex)
-                {
-                    // Wrap exception since only certain exception types are allowed
-                    throw new IOException(ex.Message, ex);
-                }
-                catch (KeyNotFoundException ex)
-                {
-                    // Wrap exception since only certain exception types are allowed
-                    throw new IOException(ex.Message, ex);
-                }
-                catch (WrongPassphraseException ex)
+                catch (Exception ex) when (ex is UnauthorizedAccessException or KeyNotFoundException or WrongPassphraseException)
                 {
                     // Wrap exception since only certain exception types are allowed
                     throw new IOException(ex.Message, ex);

@@ -41,7 +41,7 @@ namespace ZeroInstall.Publish.WinForms
             {
                 return;
             }
-            catch (IOException ex)
+            catch (Exception ex) when (ex is IOException or NotSupportedException)
             {
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                 return;

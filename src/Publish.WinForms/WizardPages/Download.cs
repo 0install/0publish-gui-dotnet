@@ -79,17 +79,7 @@ namespace ZeroInstall.Publish.WinForms
             {
                 e.Cancel = true;
             }
-            catch (ArgumentException ex)
-            {
-                e.Cancel = true;
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-            }
-            catch (UriFormatException ex)
-            {
-                e.Cancel = true;
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-            }
-            catch (IOException ex)
+            catch (Exception ex) when (ex is ArgumentException or UriFormatException or IOException or WebException or NotSupportedException)
             {
                 e.Cancel = true;
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
@@ -98,16 +88,6 @@ namespace ZeroInstall.Publish.WinForms
             {
                 e.Cancel = true;
                 Msg.Inform(this, ex.Message, MsgSeverity.Error);
-            }
-            catch (WebException ex)
-            {
-                e.Cancel = true;
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-            }
-            catch (NotSupportedException ex)
-            {
-                e.Cancel = true;
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
             }
             #endregion
         }

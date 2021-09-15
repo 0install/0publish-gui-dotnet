@@ -181,19 +181,14 @@ namespace ZeroInstall.Publish.WinForms
                 return FeedEditing.Load(openFileDialog.FileName);
             }
             #region Error handling
-            catch (IOException ex)
+            catch (Exception ex) when (ex is IOException or InvalidDataException)
             {
-                Msg.Inform(null, ex.Message, MsgSeverity.Warn);
+                Msg.Inform(null, ex.GetMessageWithInner(), MsgSeverity.Warn);
                 throw new OperationCanceledException();
             }
             catch (UnauthorizedAccessException ex)
             {
-                Msg.Inform(null, ex.Message, MsgSeverity.Warn);
-                throw new OperationCanceledException();
-            }
-            catch (InvalidDataException ex)
-            {
-                Msg.Inform(null, ex.Message + (ex.InnerException == null ? "" : Environment.NewLine + ex.InnerException.Message), MsgSeverity.Warn);
+                Msg.Inform(null, ex.Message, MsgSeverity.Error);
                 throw new OperationCanceledException();
             }
             #endregion
@@ -236,24 +231,14 @@ namespace ZeroInstall.Publish.WinForms
                     if (FeedEditing.Passphrase == null) throw new OperationCanceledException();
                 }
                 #region Error handling
-                catch (ArgumentException ex)
+                catch (Exception ex) when (ex is ArgumentException or IOException or KeyNotFoundException)
                 {
                     Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                     throw new OperationCanceledException();
                 }
-                catch (IOException ex)
+                catch (Exception ex) when (ex is UnauthorizedAccessException)
                 {
-                    Msg.Inform(null, ex.Message, MsgSeverity.Warn);
-                    throw new OperationCanceledException();
-                }
-                catch (UnauthorizedAccessException ex)
-                {
-                    Msg.Inform(null, ex.Message, MsgSeverity.Warn);
-                    throw new OperationCanceledException();
-                }
-                catch (KeyNotFoundException ex)
-                {
-                    Msg.Inform(null, ex.Message, MsgSeverity.Warn);
+                    Msg.Inform(this, ex.Message, MsgSeverity.Error);
                     throw new OperationCanceledException();
                 }
                 #endregion

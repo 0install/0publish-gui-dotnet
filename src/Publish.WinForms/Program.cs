@@ -50,21 +50,13 @@ namespace ZeroInstall.Publish.WinForms
                     else MassSignForm.Show(files);
                 }
                 #region Error handling
-                catch (ArgumentException ex)
+                catch (Exception ex) when (ex is ArgumentException or IOException or InvalidDataException)
                 {
-                    Msg.Inform(null, ex.Message, MsgSeverity.Warn);
+                    Msg.Inform(null, ex.GetMessageWithInner(), MsgSeverity.Warn);
                 }
-                catch (IOException ex)
+                catch (Exception ex) when (ex is UnauthorizedAccessException)
                 {
-                    Msg.Inform(null, ex.Message, MsgSeverity.Warn);
-                }
-                catch (UnauthorizedAccessException ex)
-                {
-                    Msg.Inform(null, ex.Message, MsgSeverity.Warn);
-                }
-                catch (InvalidDataException ex)
-                {
-                    Msg.Inform(null, ex.Message + (ex.InnerException == null ? "" : Environment.NewLine + ex.InnerException.Message), MsgSeverity.Warn);
+                    Msg.Inform(null, ex.Message, MsgSeverity.Error);
                 }
                 #endregion
             }

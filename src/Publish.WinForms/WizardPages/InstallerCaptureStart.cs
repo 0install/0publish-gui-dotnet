@@ -29,17 +29,12 @@ namespace ZeroInstall.Publish.WinForms
             {
                 e.Cancel = true;
             }
-            catch (IOException ex)
+            catch (Exception ex) when (ex is IOException or InvalidOperationException)
             {
                 e.Cancel = true;
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
             }
             catch (UnauthorizedAccessException ex)
-            {
-                e.Cancel = true;
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-            }
-            catch (InvalidOperationException ex)
             {
                 e.Cancel = true;
                 Msg.Inform(this, ex.Message, MsgSeverity.Error);

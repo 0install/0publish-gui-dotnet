@@ -59,12 +59,7 @@ namespace ZeroInstall.Publish.Cli
                             _installationDirectory = Path.GetFullPath(value);
                         }
                         #region Error handling
-                        catch (ArgumentException ex)
-                        {
-                            // Wrap exception since only certain exception types are allowed
-                            throw new OptionException(ex.Message, "installation-dir");
-                        }
-                        catch (NotSupportedException ex)
+                        catch (Exception ex) when (ex is ArgumentException or NotSupportedException)
                         {
                             // Wrap exception since only certain exception types are allowed
                             throw new OptionException(ex.Message, "installation-dir");

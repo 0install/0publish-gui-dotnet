@@ -36,13 +36,7 @@ namespace ZeroInstall.Publish.WinForms
                 session.Diff(handler);
             }
             #region Error handling
-            catch (InvalidOperationException ex)
-            {
-                e.Cancel = true;
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-                return;
-            }
-            catch (IOException ex)
+            catch (Exception ex) when (ex is InvalidOperationException or IOException)
             {
                 e.Cancel = true;
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
@@ -51,7 +45,7 @@ namespace ZeroInstall.Publish.WinForms
             catch (UnauthorizedAccessException ex)
             {
                 e.Cancel = true;
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
+                Msg.Inform(this, ex.Message, MsgSeverity.Error);
                 return;
             }
             #endregion
@@ -63,22 +57,20 @@ namespace ZeroInstall.Publish.WinForms
 
                 pageInstallerCaptureDiff.NextPage = pageArchiveExtract;
             }
+            catch (OperationCanceledException)
+            {
+                e.Cancel = true;
+            }
             catch (IOException)
             {
                 Msg.Inform(this, Resources.InstallerExtractFailed + Environment.NewLine + Resources.InstallerNeedAltSource, MsgSeverity.Info);
                 pageInstallerCaptureDiff.NextPage = pageInstallerCollectFiles;
-            }
-            #region Error handling
-            catch (OperationCanceledException)
-            {
-                e.Cancel = true;
             }
             catch (UnauthorizedAccessException ex)
             {
                 e.Cancel = true;
                 Msg.Inform(this, ex.Message, MsgSeverity.Error);
             }
-            #endregion
         }
 
         private void pageInstallerCaptureDiff_Rollback(object sender, WizardPageConfirmEventArgs e) => _installerCapture.CaptureSession = null;

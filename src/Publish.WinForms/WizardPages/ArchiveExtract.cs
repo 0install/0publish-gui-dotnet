@@ -58,13 +58,7 @@ namespace ZeroInstall.Publish.WinForms
                     e.Cancel = true;
                     return;
                 }
-                catch (ArgumentException ex)
-                {
-                    e.Cancel = true;
-                    Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-                    return;
-                }
-                catch (IOException ex)
+                catch (Exception ex) when (ex is ArgumentException or IOException)
                 {
                     e.Cancel = true;
                     Msg.Inform(this, ex.Message, MsgSeverity.Warn);
