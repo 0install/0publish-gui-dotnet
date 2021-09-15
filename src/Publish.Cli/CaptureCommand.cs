@@ -80,7 +80,7 @@ namespace ZeroInstall.Publish.Cli
             _additionalArgs = options.Parse(args);
         }
 
-        [SuppressMessage("Microsoft.Naming", "CA2204:Literals should be spelled correctly")]
+        [SuppressMessage("ReSharper", "LocalizableElement")]
         private static ExitCode PrintHelp()
         {
             Console.WriteLine("0publish capture start myapp.snapshot [--force]");
@@ -135,7 +135,7 @@ namespace ZeroInstall.Publish.Cli
             {
                 if (FileExists(_zipFile)) return ExitCode.IOError;
 
-                var relativeUri = new Uri(Path.GetFullPath(feedFile)).MakeRelativeUri(new Uri(Path.GetFullPath(_zipFile)));
+                var relativeUri = new Uri(Path.GetFullPath(feedFile)).MakeRelativeUri(new Uri(Path.GetFullPath(_zipFile!)));
                 session.CollectFiles(_zipFile, relativeUri, _handler);
                 Log.Warn("If you wish to upload this feed and ZIP archive, make sure to turn the <archive>'s relative href into an absolute one.");
             }

@@ -3,6 +3,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -109,6 +110,7 @@ namespace ZeroInstall.Publish.Cli
             #endregion
         }
 
+        [SuppressMessage("ReSharper", "LocalizableElement")]
         private OptionSet BuildOptions()
         {
             var options = new OptionSet

@@ -2,6 +2,7 @@
 // Licensed under the GNU Lesser Public License
 
 using System;
+using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
 using System.Drawing.Imaging;
@@ -44,6 +45,8 @@ namespace ZeroInstall.Publish.WinForms
         [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "System.Drawing exceptions are not clearly documented")]
         private void buttonSaveIco_Click(object sender, EventArgs e)
         {
+            Debug.Assert(_icon != null);
+
             using var saveFileDialog = new SaveFileDialog {Filter = "Windows Icon files|*.ico|All files|*.*"};
             if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
             {
@@ -64,6 +67,8 @@ namespace ZeroInstall.Publish.WinForms
         [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "System.Drawing exceptions are not clearly documented")]
         private void buttonSavePng_Click(object sender, EventArgs e)
         {
+            Debug.Assert(_icon != null);
+
             using var saveFileDialog = new SaveFileDialog {Filter = "PNG image files|*.png|All files|*.*"};
             if (saveFileDialog.ShowDialog(this) == DialogResult.OK)
             {

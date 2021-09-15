@@ -167,7 +167,7 @@ namespace ZeroInstall.Publish.WinForms
 
         private void menuRedo_Click(object sender, EventArgs e) => feedStructureEditor.Redo();
 
-        private void menuAbout_Click(object sender, EventArgs e) => Msg.Inform(this, AppInfo.Current.Name + " " + AppInfo.Current.Version, MsgSeverity.Info);
+        private void menuAbout_Click(object sender, EventArgs e) => Msg.Inform(this, AppInfo.Current.Name + @" " + AppInfo.Current.Version, MsgSeverity.Info);
         #endregion
 
         #region Storage
