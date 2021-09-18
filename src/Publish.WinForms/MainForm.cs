@@ -211,7 +211,9 @@ namespace ZeroInstall.Publish.WinForms
 
         private void SaveFeed(string path)
         {
-            while (FeedEditing != null)
+            Debug.Assert(FeedEditing != null);
+
+            while (true)
             {
                 try
                 {
