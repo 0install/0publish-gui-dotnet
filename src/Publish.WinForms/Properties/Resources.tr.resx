@@ -230,6 +230,9 @@ yalnız bir EXE dosyasından oluşur</value>
   <data name="RequiredUrl" xml:space="preserve">
     <value>HTTP/FTP adresi (zorunlu)</value>
   </data>
+  <data name="SaveAnyway" xml:space="preserve">
+    <value>Gene de kaydedilsin mi?</value>
+  </data>
   <data name="SaveChanges" xml:space="preserve">
     <value>Kaydet
 Değişiklikleri kaydet</value>

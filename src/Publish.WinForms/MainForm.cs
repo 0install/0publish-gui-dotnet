@@ -202,6 +202,11 @@ namespace ZeroInstall.Publish.WinForms
         {
             Debug.Assert(FeedEditing != null);
 
+            if (!path.EndsWith(".xml.template")
+             && !FeedEditing.IsValid(out string problem)
+             && !Msg.YesNo(this, problem + Environment.NewLine + Resources.SaveAnyway, MsgSeverity.Warn))
+                return;
+
             while (true)
             {
                 try

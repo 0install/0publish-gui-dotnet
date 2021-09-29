@@ -229,6 +229,9 @@ besteht aus nur einer EXE</value>
   <data name="RequiredUrl" xml:space="preserve">
     <value>HTTP/FTP URL (erforderlich)</value>
   </data>
+  <data name="SaveAnyway" xml:space="preserve">
+    <value>Trotzdem speichern?</value>
+  </data>
   <data name="SaveChanges" xml:space="preserve">
     <value>Speichern
 Änderungen speichern</value>

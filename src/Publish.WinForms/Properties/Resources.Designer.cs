@@ -423,6 +423,15 @@ namespace ZeroInstall.Publish.WinForms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Save anyway?.
+        /// </summary>
+        internal static string SaveAnyway {
+            get {
+                return ResourceManager.GetString("SaveAnyway", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap SaveButton {

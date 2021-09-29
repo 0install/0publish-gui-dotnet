@@ -210,6 +210,10 @@ namespace ZeroInstall.Publish.Cli
         /// <exception cref="KeyNotFoundException">An OpenPGP key could not be found.</exception>
         private void SaveFeed(FeedEditing feedEditing)
         {
+            if (!feedEditing.Path!.EndsWith(".xml.template")
+             && !feedEditing.IsValid(out string problem))
+                Log.Warn(problem);
+
             if (_unsign)
             {
                 // Remove any existing signatures
