@@ -21,12 +21,11 @@
 
     <!-- Dummy version number, overridden by GitVersion -->
     <Version>1.0.0-pre</Version>
-  </PropertyGroup>
 
-  <!-- Dependencies -->
-  <ItemGroup>
-    <PackageReference Include="ZeroInstall.Store" Version="2.20.0" />
-    <PackageReference Include="ZeroInstall.Publish" Version="2.20.0" PrivateAssets="None" /><!-- Flow native libs from assets -->
-  </ItemGroup>
+    <!-- Dependency versions -->
+    <NanoByteCommonVersion>2.10.5</NanoByteCommonVersion>
+    <NanoByteStructureEditorVersion>0.4.13</NanoByteStructureEditorVersion>
+    <ZeroInstallVersion>2.20.0</ZeroInstallVersion>
+  </PropertyGroup>
 
 </Project>
