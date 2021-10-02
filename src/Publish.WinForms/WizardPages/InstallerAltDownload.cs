@@ -34,7 +34,7 @@ namespace ZeroInstall.Publish.WinForms
             try
             {
                 Retrieve(
-                    new Archive {Href = textBoxAltDownloadUrl.Uri},
+                    new Archive {Href = textBoxAltDownloadUrl.Uri!},
                     checkAltLocalCopy.Checked ? textBoxAltLocalPath.Text : null);
                 pageInstallerAltDownload.NextPage = pageArchiveExtract;
             }
