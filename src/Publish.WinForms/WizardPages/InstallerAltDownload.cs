@@ -6,6 +6,7 @@ using System.IO;
 using System.Net;
 using System.Windows.Forms;
 using AeroWizard;
+using NanoByte.Common;
 using NanoByte.Common.Controls;
 using ZeroInstall.Model;
 
@@ -46,11 +47,13 @@ namespace ZeroInstall.Publish.WinForms
             catch (Exception ex) when (ex is ArgumentException or UriFormatException or IOException or WebException or NotSupportedException)
             {
                 e.Cancel = true;
+                Log.Warn(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
             }
             catch (UnauthorizedAccessException ex)
             {
                 e.Cancel = true;
+                Log.Error(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Error);
             }
             #endregion

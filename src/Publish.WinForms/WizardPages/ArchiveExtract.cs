@@ -4,6 +4,7 @@
 using System;
 using System.IO;
 using AeroWizard;
+using NanoByte.Common;
 using NanoByte.Common.Controls;
 using NanoByte.Common.Storage;
 using NanoByte.Common.Tasks;
@@ -61,12 +62,14 @@ namespace ZeroInstall.Publish.WinForms
                 catch (Exception ex) when (ex is ArgumentException or IOException)
                 {
                     e.Cancel = true;
+                    Log.Warn(ex);
                     Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                     return;
                 }
                 catch (UnauthorizedAccessException ex)
                 {
                     e.Cancel = true;
+                    Log.Error(ex);
                     Msg.Inform(this, ex.Message, MsgSeverity.Error);
                     return;
                 }

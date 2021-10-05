@@ -5,6 +5,7 @@ using System;
 using System.IO;
 using System.Windows.Forms;
 using AeroWizard;
+using NanoByte.Common;
 using NanoByte.Common.Controls;
 using NanoByte.Common.Tasks;
 using ZeroInstall.Publish.WinForms.Properties;
@@ -39,12 +40,14 @@ namespace ZeroInstall.Publish.WinForms
             catch (Exception ex) when (ex is InvalidOperationException or IOException)
             {
                 e.Cancel = true;
+                Log.Warn(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                 return;
             }
             catch (UnauthorizedAccessException ex)
             {
                 e.Cancel = true;
+                Log.Error(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Error);
                 return;
             }
@@ -69,6 +72,7 @@ namespace ZeroInstall.Publish.WinForms
             catch (UnauthorizedAccessException ex)
             {
                 e.Cancel = true;
+                Log.Error(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Error);
             }
         }

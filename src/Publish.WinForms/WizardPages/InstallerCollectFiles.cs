@@ -43,11 +43,13 @@ namespace ZeroInstall.Publish.WinForms
             }
             catch (Exception ex) when (ex is IOException or NotSupportedException)
             {
+                Log.Warn(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                 return;
             }
             catch (UnauthorizedAccessException ex)
             {
+                Log.Error(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Error);
                 return;
             }

@@ -229,11 +229,13 @@ namespace ZeroInstall.Publish.WinForms
                 #region Error handling
                 catch (Exception ex) when (ex is ArgumentException or IOException or KeyNotFoundException)
                 {
+                    Log.Warn(ex);
                     Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                     throw new OperationCanceledException();
                 }
                 catch (Exception ex) when (ex is UnauthorizedAccessException)
                 {
+                    Log.Error(ex);
                     Msg.Inform(this, ex.Message, MsgSeverity.Error);
                     throw new OperationCanceledException();
                 }

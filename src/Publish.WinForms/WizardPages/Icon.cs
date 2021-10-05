@@ -9,6 +9,7 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Windows.Forms;
 using AeroWizard;
+using NanoByte.Common;
 using NanoByte.Common.Controls;
 using ZeroInstall.Publish.EntryPoints;
 using ZeroInstall.Publish.WinForms.Properties;
@@ -33,6 +34,7 @@ namespace ZeroInstall.Publish.WinForms
                 #region Error handling
                 catch (IOException ex)
                 {
+                    Log.Warn(ex);
                     Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                     return;
                 }
@@ -58,6 +60,7 @@ namespace ZeroInstall.Publish.WinForms
                 #region Error handling
                 catch (Exception ex)
                 {
+                    Log.Warn(ex);
                     Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                 }
                 #endregion
@@ -79,7 +82,8 @@ namespace ZeroInstall.Publish.WinForms
                 #region Error handling
                 catch (Exception ex)
                 {
-                    Msg.Inform(this, ex.Message, MsgSeverity.Warn);
+                    Log.Warn(ex);
+                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                 }
                 #endregion
             }
@@ -97,6 +101,7 @@ namespace ZeroInstall.Publish.WinForms
             catch (UriFormatException ex)
             {
                 e.Cancel = true;
+                Log.Warn(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                 return;
             }

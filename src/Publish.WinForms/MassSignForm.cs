@@ -4,6 +4,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using NanoByte.Common;
 using NanoByte.Common.Controls;
 using NanoByte.Common.Tasks;
 using ZeroInstall.Model;
@@ -76,6 +77,7 @@ namespace ZeroInstall.Publish.WinForms
             {}
             catch (Exception ex) when (ex is ArgumentException or IOException or UnauthorizedAccessException)
             {
+                Log.Error(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Error);
             }
             #endregion

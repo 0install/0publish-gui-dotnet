@@ -79,6 +79,7 @@ namespace ZeroInstall.Publish.WinForms
             catch (UriFormatException ex)
             {
                 e.Cancel = true;
+                Log.Warn(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                 return;
             }

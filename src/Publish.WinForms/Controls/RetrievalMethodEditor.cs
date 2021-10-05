@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Net;
 using System.Windows.Forms;
+using NanoByte.Common;
 using NanoByte.Common.Controls;
 using NanoByte.Common.Tasks;
 using NanoByte.Common.Undo;
@@ -110,11 +111,13 @@ namespace ZeroInstall.Publish.WinForms.Controls
             }
             catch (Exception ex) when (ex is ArgumentException or IOException or WebException or NotSupportedException)
             {
+                Log.Warn(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                 return;
             }
             catch (UnauthorizedAccessException ex)
             {
+                Log.Error(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Error);
                 return;
             }

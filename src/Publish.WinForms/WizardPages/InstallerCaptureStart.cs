@@ -4,6 +4,7 @@
 using System;
 using System.IO;
 using AeroWizard;
+using NanoByte.Common;
 using NanoByte.Common.Controls;
 using NanoByte.Common.Tasks;
 using ZeroInstall.Publish.Capture;
@@ -32,11 +33,13 @@ namespace ZeroInstall.Publish.WinForms
             catch (Exception ex) when (ex is IOException or InvalidOperationException)
             {
                 e.Cancel = true;
+                Log.Warn(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
             }
             catch (UnauthorizedAccessException ex)
             {
                 e.Cancel = true;
+                Log.Error(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Error);
             }
             #endregion
@@ -63,6 +66,7 @@ namespace ZeroInstall.Publish.WinForms
             }
             catch (UnauthorizedAccessException ex)
             {
+                Log.Error(ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Error);
                 return;
             }
