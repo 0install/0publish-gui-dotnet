@@ -299,7 +299,7 @@ namespace ZeroInstall.Publish.WinForms
                 // Update key list when done
                 try
                 {
-                    Invoke(new Action(ListKeys));
+                    this.Invoke(ListKeys);
                 }
                 #region Sanity checks
                 catch (InvalidOperationException)
