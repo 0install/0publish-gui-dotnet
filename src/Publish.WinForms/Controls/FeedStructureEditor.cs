@@ -87,6 +87,8 @@ namespace ZeroInstall.Publish.WinForms.Controls
             Describe<AutoPlay>()
                .AddPlainList("event", x => x.Events)
                .AddProperty("verb", x => PropertyPointer.For(() => x.Verb), new DescriptionEditor<Verb>());
+            Describe<ContextMenu>()
+               .AddPlainList("extension", x => x.Extensions);
             Describe<FileType>()
                .AddPlainList("extension", x => x.Extensions);
             Describe<UrlProtocol>()
