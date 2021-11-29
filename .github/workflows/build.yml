@@ -31,7 +31,7 @@ jobs:
           files: artifacts/*.tar.gz
           body: |
             **[Documentation and download instructions](https://docs.0install.net/tools/0publish-win/)**
-            
+
             Based on [Zero Install .NET ${{steps.gitversion.outputs.nuGetVersion}}](https://github.com/0install/0install-dotnet/releases/${{steps.gitversion.outputs.nuGetVersion}}).
         env:
           GITHUB_TOKEN: ${{github.token}}
