@@ -1,7 +1,7 @@
 # Zero Install Publishing Tools
 
 [![Build](https://github.com/0install/0publish-win/workflows/Build/badge.svg?branch=master)](https://github.com/0install/0publish-win/actions?query=workflow%3ABuild)  
-The Zero Install Publishing Tools provide a graphical editor and wizard for creating [Zero Install feeds](https://0install.github.io/docs/packaging/). They also contain an alternative version of the [0publish command-line tool](https://docs.0install.net/tools/0publish/) optimized for use on Windows. These tools are based on [Zero Install .NET](https://github.com/0install/0install-dotnet).
+The Zero Install Publishing Tools provide a graphical editor and wizard for creating [Zero Install feeds](https://docs.0install.net/packaging/). They also contain an alternative version of the [0publish command-line tool](https://docs.0install.net/tools/0publish/) optimized for use on Windows. These tools are based on [Zero Install .NET](https://github.com/0install/0install-dotnet).
 
 **[Documentation and download instructions](https://docs.0install.net/tools/0publish-win/)**
 
