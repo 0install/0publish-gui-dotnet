@@ -13,7 +13,7 @@
 
   <!-- Dependencies -->
   <ItemGroup>
-    <PackageReference Include="AeroWizard" Version="2.2.9" />
+    <PackageReference Include="AeroWizard" Version="2.3.0" />
     <PackageReference Include="NanoByte.Common.WinForms" Version="$(NanoByteCommonVersion)" />
     <PackageReference Include="NanoByte.StructureEditor.WinForms" Version="$(NanoByteStructureEditorVersion)" />
     <PackageReference Include="ZeroInstall.Store" Version="$(ZeroInstallVersion)" />
