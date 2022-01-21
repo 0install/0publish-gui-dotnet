@@ -27,7 +27,6 @@ namespace ZeroInstall.Publish.WinForms
         {
             ProcessUtils.SanitizeEnvironmentVariables();
             NetUtils.ApplyProxy();
-            NetUtils.ConfigureTls();
 
             WindowsUtils.SetCurrentProcessAppID("ZeroInstall.Publishing");
             Application.EnableVisualStyles();

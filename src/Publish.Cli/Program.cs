@@ -27,7 +27,6 @@ namespace ZeroInstall.Publish.Cli
         {
             ProcessUtils.SanitizeEnvironmentVariables();
             NetUtils.ApplyProxy();
-            NetUtils.ConfigureTls();
 
             // Automatically show help for missing args
             if (args.Length == 0) args = new[] {"--help"};
