@@ -4,7 +4,6 @@
   <PropertyGroup>
     <AssemblyName>0publish-win</AssemblyName>
     <RootNamespace>ZeroInstall.Publish.WinForms</RootNamespace>
-    <Product>Zero Install Publishing Tools</Product>
     <Description>WinForms-based editor for Zero Install feed XMLs.</Description>
     <OutputType>WinExe</OutputType>
     <OutputPath>..\..\artifacts\$(Configuration)\</OutputPath>

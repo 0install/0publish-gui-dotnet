@@ -13,6 +13,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
 
     <!-- Metadata -->
+    <Product>Zero Install Publishing Tools</Product>
     <Copyright>Copyright Bastian Eicher et al.</Copyright>
     <RepositoryUrl>https://github.com/0install/0publish-win</RepositoryUrl>
 

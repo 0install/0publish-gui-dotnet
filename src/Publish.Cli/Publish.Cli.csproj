@@ -4,7 +4,6 @@
   <PropertyGroup>
     <AssemblyName>0publish</AssemblyName>
     <RootNamespace>ZeroInstall.Publish.Cli</RootNamespace>
-    <Product>Zero Install Publish CLI</Product>
     <Description>Command-line tool for editing Zero Install feed XMLs.</Description>
     <OutputType>Exe</OutputType>
     <OutputPath>..\..\artifacts\$(Configuration)\</OutputPath>
