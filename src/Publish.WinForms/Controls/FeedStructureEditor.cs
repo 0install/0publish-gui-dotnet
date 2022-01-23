@@ -21,7 +21,8 @@ namespace ZeroInstall.Publish.WinForms.Controls
                .AddPlainList("feed-for", x => x.FeedFor)
                .AddProperty("replaced-by", x => PropertyPointer.For(() => x.ReplacedBy))
                .AddPlainList("entry-point", x => x.EntryPoints, new EntryPointEditor())
-               .AddPlainList("capabilities", x => x.CapabilityLists);
+               .AddPlainList("capabilities", x => x.CapabilityLists)
+               .AddPlainList("splash-screen", x => x.SplashScreens, new IconEditor());
 
             Describe<IIconContainer>()
                .AddPlainList("icon", x => x.Icons, new IconEditor());
