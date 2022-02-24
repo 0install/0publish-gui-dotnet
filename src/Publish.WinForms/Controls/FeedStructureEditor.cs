@@ -78,13 +78,13 @@ namespace ZeroInstall.Publish.WinForms.Controls
 
             Describe<CapabilityList>()
                .AddList(x => x.Entries)
-               .AddElement("registration", new AppRegistration())
-               .AddElement("auto-play", new AutoPlay(), new DescriptionEditor<AutoPlay>())
-               .AddElement("com-server", new ComServer())
-               .AddElement("context-menu", new ContextMenu(), new DescriptionEditor<ContextMenu>())
-               .AddElement("default-program", new DefaultProgram(), new DescriptionEditor<DefaultProgram>())
                .AddElement("file-type", new FileType(), new DescriptionEditor<FileType>())
-               .AddElement("url-protocol", new UrlProtocol(), new DescriptionEditor<UrlProtocol>());
+               .AddElement("url-protocol", new UrlProtocol(), new DescriptionEditor<UrlProtocol>())
+               .AddElement("context-menu", new ContextMenu(), new DescriptionEditor<ContextMenu>())
+               .AddElement("com-server", new ComServer())
+               .AddElement("auto-play", new AutoPlay(), new DescriptionEditor<AutoPlay>())
+               .AddElement("registration", new AppRegistration())
+               .AddElement("default-program", new DefaultProgram(), new DescriptionEditor<DefaultProgram>());
             Describe<AutoPlay>()
                .AddPlainList("event", x => x.Events)
                .AddProperty("verb", x => PropertyPointer.For(() => x.Verb), new DescriptionEditor<Verb>());
