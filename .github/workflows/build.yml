@@ -19,7 +19,7 @@ jobs:
       - name: Build
         run: .\build.ps1 ${{steps.gitversion.outputs.nuGetVersion}}
       - name: Upload artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           path: artifacts
 
