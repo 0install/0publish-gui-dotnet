@@ -84,7 +84,8 @@ namespace ZeroInstall.Publish.WinForms.Controls
                .AddElement("com-server", new ComServer())
                .AddElement("auto-play", new AutoPlay(), new DescriptionEditor<AutoPlay>())
                .AddElement("registration", new AppRegistration())
-               .AddElement("default-program", new DefaultProgram(), new DescriptionEditor<DefaultProgram>());
+               .AddElement("default-program", new DefaultProgram(), new DescriptionEditor<DefaultProgram>())
+               .AddElement("remove-hook", new RemoveHook());
             Describe<AutoPlay>()
                .AddPlainList("event", x => x.Events)
                .AddProperty("verb", x => PropertyPointer.For(() => x.Verb), new DescriptionEditor<Verb>());
