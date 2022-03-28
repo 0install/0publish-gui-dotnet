@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <!-- Build configuration -->
-    <LangVersion>9.0</LangVersion>
+    <LangVersion>10.0</LangVersion>
     <TargetFramework>net472</TargetFramework>
     <Nullable>annotations</Nullable>
     <AutoGenerateBindingRedirects>False</AutoGenerateBindingRedirects>
