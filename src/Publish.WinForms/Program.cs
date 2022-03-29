@@ -12,53 +12,52 @@ using NanoByte.Common.Net;
 using NanoByte.Common.Storage;
 using ZeroInstall.Store.Trust;
 
-namespace ZeroInstall.Publish.WinForms
+namespace ZeroInstall.Publish.WinForms;
+
+/// <summary>
+/// Launches a WinForms-based editor for Zero Install feed XMLs.
+/// </summary>
+public static class Program
 {
     /// <summary>
-    /// Launches a WinForms-based editor for Zero Install feed XMLs.
+    /// The main entry point for the application.
     /// </summary>
-    public static class Program
+    [STAThread] // Required for WinForms
+    private static void Main(string[] args)
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        [STAThread] // Required for WinForms
-        private static void Main(string[] args)
+        ProcessUtils.SanitizeEnvironmentVariables();
+        NetUtils.ApplyProxy();
+
+        WindowsUtils.SetCurrentProcessAppID("ZeroInstall.Publishing");
+        Application.EnableVisualStyles();
+        Application.SetCompatibleTextRenderingDefault(false);
+        ErrorReportForm.SetupMonitoring(new Uri("https://0install.de/error-report/"));
+
+        var openPgp = OpenPgp.Signing();
+
+        if (args.Length == 0) Application.Run(new WelcomeForm(openPgp));
+        else
         {
-            ProcessUtils.SanitizeEnvironmentVariables();
-            NetUtils.ApplyProxy();
-
-            WindowsUtils.SetCurrentProcessAppID("ZeroInstall.Publishing");
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            ErrorReportForm.SetupMonitoring(new Uri("https://0install.de/error-report/"));
-
-            var openPgp = OpenPgp.Signing();
-
-            if (args.Length == 0) Application.Run(new WelcomeForm(openPgp));
-            else
+            try
             {
-                try
+                var files = Paths.ResolveFiles(args, "*.xml");
+                if (files.Count == 1)
                 {
-                    var files = Paths.ResolveFiles(args, "*.xml");
-                    if (files.Count == 1)
-                    {
-                        string path = files.First().FullName;
-                        Application.Run(new MainForm(FeedEditing.Load(path), openPgp));
-                    }
-                    else MassSignForm.Show(files);
+                    string path = files.First().FullName;
+                    Application.Run(new MainForm(FeedEditing.Load(path), openPgp));
                 }
-                #region Error handling
-                catch (Exception ex) when (ex is ArgumentException or IOException or InvalidDataException)
-                {
-                    Msg.Inform(null, ex.GetMessageWithInner(), MsgSeverity.Warn);
-                }
-                catch (Exception ex) when (ex is UnauthorizedAccessException)
-                {
-                    Msg.Inform(null, ex.Message, MsgSeverity.Error);
-                }
-                #endregion
+                else MassSignForm.Show(files);
             }
+            #region Error handling
+            catch (Exception ex) when (ex is ArgumentException or IOException or InvalidDataException)
+            {
+                Msg.Inform(null, ex.GetMessageWithInner(), MsgSeverity.Warn);
+            }
+            catch (Exception ex) when (ex is UnauthorizedAccessException)
+            {
+                Msg.Inform(null, ex.Message, MsgSeverity.Error);
+            }
+            #endregion
         }
     }
 }

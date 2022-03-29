@@ -7,31 +7,30 @@ using NanoByte.Common;
 using ZeroInstall.Model;
 using ZeroInstall.Publish.WinForms.Properties;
 
-namespace ZeroInstall.Publish.WinForms.Controls
+namespace ZeroInstall.Publish.WinForms.Controls;
+
+/// <summary>
+/// Edits <see cref="Archive"/> instances.
+/// </summary>
+public partial class ArchiveEditor : ArchiveEditorShim
 {
-    /// <summary>
-    /// Edits <see cref="Archive"/> instances.
-    /// </summary>
-    public partial class ArchiveEditor : ArchiveEditorShim
+    public ArchiveEditor()
     {
-        public ArchiveEditor()
-        {
-            InitializeComponent();
+        InitializeComponent();
 
-            Bind(comboBoxMimeType, PropertyPointer.For(() => Target!.MimeType));
-            Bind(textBoxExtract, PropertyPointer.For(() => Target!.Extract));
-            Bind(textBoxDestination, PropertyPointer.For(() => Target!.Destination));
+        Bind(comboBoxMimeType, PropertyPointer.For(() => Target!.MimeType));
+        Bind(textBoxExtract, PropertyPointer.For(() => Target!.Extract));
+        Bind(textBoxDestination, PropertyPointer.For(() => Target!.Destination));
 
-            // ReSharper disable once CoVariantArrayConversion
-            comboBoxMimeType.Items.AddRange(Archive.KnownMimeTypes.Cast<object>().ToArray());
-        }
-
-        private void textBox_TextChanged(object sender, EventArgs e) => ShowUpdateHint(Resources.ManifestDigestChanged);
+        // ReSharper disable once CoVariantArrayConversion
+        comboBoxMimeType.Items.AddRange(Archive.KnownMimeTypes.Cast<object>().ToArray());
     }
 
-    /// <summary>
-    /// Non-generic base class for <see cref="ArchiveEditor"/>, because WinForms editor cannot handle generics.
-    /// </summary>
-    public class ArchiveEditorShim : DownloadRetrievalMethodEditor<Archive>
-    {}
+    private void textBox_TextChanged(object sender, EventArgs e) => ShowUpdateHint(Resources.ManifestDigestChanged);
 }
+
+/// <summary>
+/// Non-generic base class for <see cref="ArchiveEditor"/>, because WinForms editor cannot handle generics.
+/// </summary>
+public class ArchiveEditorShim : DownloadRetrievalMethodEditor<Archive>
+{}

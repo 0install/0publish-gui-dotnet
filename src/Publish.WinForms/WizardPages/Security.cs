@@ -13,81 +13,80 @@ using ZeroInstall.Model;
 using ZeroInstall.Publish.WinForms.Properties;
 using ZeroInstall.Store.Trust;
 
-namespace ZeroInstall.Publish.WinForms
+namespace ZeroInstall.Publish.WinForms;
+
+partial class NewFeedWizard
 {
-    partial class NewFeedWizard
+    /// <summary>Used to get a list of <see cref="OpenPgpSecretKey"/>s.</summary>
+    private readonly IOpenPgp _openPgp;
+
+    private void pageSecurity_Initialize(object sender, WizardPageInitEventArgs e) => ListKeys();
+
+    private void ListKeys()
     {
-        /// <summary>Used to get a list of <see cref="OpenPgpSecretKey"/>s.</summary>
-        private readonly IOpenPgp _openPgp;
+        comboBoxKeys.Items.Clear();
+        comboBoxKeys.Items.Add("");
+        comboBoxKeys.Items.AddRange(_openPgp.ListSecretKeys().Cast<object>().ToArray());
 
-        private void pageSecurity_Initialize(object sender, WizardPageInitEventArgs e) => ListKeys();
+        comboBoxKeys.SelectedItem = _feedBuilder.SecretKey;
+    }
 
-        private void ListKeys()
+    private void comboBoxKeys_SelectedIndexChanged(object sender, EventArgs e)
+        => _feedBuilder.SecretKey = comboBoxKeys.SelectedItem as OpenPgpSecretKey;
+
+    private void buttonNewKey_Click(object sender, EventArgs e)
+    {
+        Process process;
+        try
         {
-            comboBoxKeys.Items.Clear();
-            comboBoxKeys.Items.Add("");
-            comboBoxKeys.Items.AddRange(_openPgp.ListSecretKeys().Cast<object>().ToArray());
-
-            comboBoxKeys.SelectedItem = _feedBuilder.SecretKey;
+            process = GnuPG.GenerateKey();
         }
-
-        private void comboBoxKeys_SelectedIndexChanged(object sender, EventArgs e)
-            => _feedBuilder.SecretKey = comboBoxKeys.SelectedItem as OpenPgpSecretKey;
-
-        private void buttonNewKey_Click(object sender, EventArgs e)
+        #region Error handling
+        catch (IOException ex)
         {
-            Process process;
+            Log.Error(ex);
+            Msg.Inform(this, ex.Message, MsgSeverity.Error);
+            return;
+        }
+        #endregion
+
+        ThreadUtils.StartBackground(() =>
+        {
+            process.WaitForExit();
+
+            // Update key list when done
             try
             {
-                process = GnuPG.GenerateKey();
+                this.Invoke(ListKeys);
             }
-            #region Error handling
-            catch (IOException ex)
+            #region Sanity checks
+            catch (InvalidOperationException)
             {
-                Log.Error(ex);
-                Msg.Inform(this, ex.Message, MsgSeverity.Error);
-                return;
+                // Ignore if window has been dispoed
             }
             #endregion
+        }, name: "WaitForOpenPgp");
+    }
 
-            ThreadUtils.StartBackground(() =>
-            {
-                process.WaitForExit();
-
-                // Update key list when done
-                try
-                {
-                    this.Invoke(ListKeys);
-                }
-                #region Sanity checks
-                catch (InvalidOperationException)
-                {
-                    // Ignore if window has been dispoed
-                }
-                #endregion
-            }, name: "WaitForOpenPgp");
-        }
-
-        private void pageSecurity_Commit(object sender, WizardPageConfirmEventArgs e)
+    private void pageSecurity_Commit(object sender, WizardPageConfirmEventArgs e)
+    {
+        _feedBuilder.SecretKey = comboBoxKeys.SelectedItem as OpenPgpSecretKey;
+        try
         {
-            _feedBuilder.SecretKey = comboBoxKeys.SelectedItem as OpenPgpSecretKey;
-            try
-            {
-                _feedBuilder.Uri = (textBoxInterfaceUri.Uri == null) ? null : new FeedUri(textBoxInterfaceUri.Uri);
-            }
-            #region Error handling
-            catch (UriFormatException ex)
-            {
+            _feedBuilder.Uri = (textBoxInterfaceUri.Uri == null) ? null : new FeedUri(textBoxInterfaceUri.Uri);
+        }
+        #region Error handling
+        catch (UriFormatException ex)
+        {
+            e.Cancel = true;
+            Log.Warn(ex);
+            Msg.Inform(this, ex.Message, MsgSeverity.Warn);
+            return;
+        }
+        #endregion
+
+        if (_feedBuilder.SecretKey == null || _feedBuilder.Uri == null)
+            if (!Msg.YesNo(this, Resources.AskSkipSecurity, MsgSeverity.Info))
                 e.Cancel = true;
-                Log.Warn(ex);
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-                return;
-            }
-            #endregion
-
-            if (_feedBuilder.SecretKey == null || _feedBuilder.Uri == null)
-                if (!Msg.YesNo(this, Resources.AskSkipSecurity, MsgSeverity.Info))
-                    e.Cancel = true;
-        }
     }
 }

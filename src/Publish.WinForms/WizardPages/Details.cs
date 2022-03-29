@@ -4,20 +4,19 @@
 using AeroWizard;
 using NanoByte.Common.Controls;
 
-namespace ZeroInstall.Publish.WinForms
-{
-    partial class NewFeedWizard
-    {
-        private void pageDetails_Initialize(object sender, WizardPageInitEventArgs e)
-            => propertyGridCandidate.SelectedObject = _feedBuilder.MainCandidate;
+namespace ZeroInstall.Publish.WinForms;
 
-        private void pageDetails_Commit(object sender, WizardPageConfirmEventArgs e)
+partial class NewFeedWizard
+{
+    private void pageDetails_Initialize(object sender, WizardPageInitEventArgs e)
+        => propertyGridCandidate.SelectedObject = _feedBuilder.MainCandidate;
+
+    private void pageDetails_Commit(object sender, WizardPageConfirmEventArgs e)
+    {
+        if (string.IsNullOrEmpty(_feedBuilder.MainCandidate?.Name) || string.IsNullOrEmpty(_feedBuilder.MainCandidate.Summary) || _feedBuilder.MainCandidate.Version == null)
         {
-            if (string.IsNullOrEmpty(_feedBuilder.MainCandidate?.Name) || string.IsNullOrEmpty(_feedBuilder.MainCandidate.Summary) || _feedBuilder.MainCandidate.Version == null)
-            {
-                e.Cancel = true;
-                Msg.Inform(this, labelDetails.Text, MsgSeverity.Warn);
-            }
+            e.Cancel = true;
+            Msg.Inform(this, labelDetails.Text, MsgSeverity.Warn);
         }
     }
 }

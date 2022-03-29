@@ -10,69 +10,68 @@ using NanoByte.Common.Tasks;
 using ZeroInstall.Publish.Capture;
 using ZeroInstall.Publish.WinForms.Properties;
 
-namespace ZeroInstall.Publish.WinForms
+namespace ZeroInstall.Publish.WinForms;
+
+partial class NewFeedWizard
 {
-    partial class NewFeedWizard
+    private void pageInstallerCaptureStart_Commit(object sender, WizardPageConfirmEventArgs e)
     {
-        private void pageInstallerCaptureStart_Commit(object sender, WizardPageConfirmEventArgs e)
+        try
         {
-            try
-            {
-                var captureSession = CaptureSession.Start(_feedBuilder);
+            var captureSession = CaptureSession.Start(_feedBuilder);
 
-                using (var handler = new DialogTaskHandler(this))
-                    _installerCapture.RunInstaller(handler);
+            using (var handler = new DialogTaskHandler(this))
+                _installerCapture.RunInstaller(handler);
 
-                _installerCapture.CaptureSession = captureSession;
-            }
-            #region Error handling
-            catch (OperationCanceledException)
-            {
-                e.Cancel = true;
-            }
-            catch (Exception ex) when (ex is IOException or InvalidOperationException)
-            {
-                e.Cancel = true;
-                Log.Warn(ex);
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-            }
-            catch (UnauthorizedAccessException ex)
-            {
-                e.Cancel = true;
-                Log.Error(ex);
-                Msg.Inform(this, ex.Message, MsgSeverity.Error);
-            }
-            #endregion
+            _installerCapture.CaptureSession = captureSession;
         }
-
-        private void buttonSkipCapture_Click(object sender, EventArgs e)
+        #region Error handling
+        catch (OperationCanceledException)
         {
-            if (!Msg.YesNo(this, Resources.AskSkipCapture, MsgSeverity.Info)) return;
-
-            try
-            {
-                using var handler = new DialogTaskHandler(this);
-                _installerCapture.ExtractInstallerAsArchive(_feedBuilder, handler);
-            }
-            #region Error handling
-            catch (OperationCanceledException)
-            {
-                return;
-            }
-            catch (IOException ex)
-            {
-                Msg.Inform(this, Resources.InstallerExtractFailed + Environment.NewLine + ex.Message, MsgSeverity.Warn);
-                return;
-            }
-            catch (UnauthorizedAccessException ex)
-            {
-                Log.Error(ex);
-                Msg.Inform(this, ex.Message, MsgSeverity.Error);
-                return;
-            }
-            #endregion
-
-            wizardControl.NextPage(pageArchiveExtract, skipCommit: true);
+            e.Cancel = true;
         }
+        catch (Exception ex) when (ex is IOException or InvalidOperationException)
+        {
+            e.Cancel = true;
+            Log.Warn(ex);
+            Msg.Inform(this, ex.Message, MsgSeverity.Warn);
+        }
+        catch (UnauthorizedAccessException ex)
+        {
+            e.Cancel = true;
+            Log.Error(ex);
+            Msg.Inform(this, ex.Message, MsgSeverity.Error);
+        }
+        #endregion
+    }
+
+    private void buttonSkipCapture_Click(object sender, EventArgs e)
+    {
+        if (!Msg.YesNo(this, Resources.AskSkipCapture, MsgSeverity.Info)) return;
+
+        try
+        {
+            using var handler = new DialogTaskHandler(this);
+            _installerCapture.ExtractInstallerAsArchive(_feedBuilder, handler);
+        }
+        #region Error handling
+        catch (OperationCanceledException)
+        {
+            return;
+        }
+        catch (IOException ex)
+        {
+            Msg.Inform(this, Resources.InstallerExtractFailed + Environment.NewLine + ex.Message, MsgSeverity.Warn);
+            return;
+        }
+        catch (UnauthorizedAccessException ex)
+        {
+            Log.Error(ex);
+            Msg.Inform(this, ex.Message, MsgSeverity.Error);
+            return;
+        }
+        #endregion
+
+        wizardControl.NextPage(pageArchiveExtract, skipCommit: true);
     }
 }
