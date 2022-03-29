@@ -2,7 +2,6 @@
 // Licensed under the GNU Lesser Public License
 
 using AeroWizard;
-using NanoByte.Common.Controls;
 
 namespace ZeroInstall.Publish.WinForms;
 

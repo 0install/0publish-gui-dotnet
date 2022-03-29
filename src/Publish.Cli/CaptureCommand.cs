@@ -1,16 +1,7 @@
 // Copyright Bastian Eicher et al.
 // Licensed under the GNU Lesser Public License
 
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.IO;
-using System.Linq;
-using NanoByte.Common;
 using NanoByte.Common.Info;
-using NanoByte.Common.Storage;
-using NanoByte.Common.Tasks;
-using NDesk.Options;
 using ZeroInstall.Publish.Capture;
 
 namespace ZeroInstall.Publish.Cli;

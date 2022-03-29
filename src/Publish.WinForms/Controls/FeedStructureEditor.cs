@@ -1,9 +1,6 @@
 // Copyright Bastian Eicher et al.
 // Licensed under the GNU Lesser Public License
 
-using NanoByte.Common;
-using NanoByte.StructureEditor.WinForms;
-using ZeroInstall.Model;
 using ZeroInstall.Model.Capabilities;
 
 namespace ZeroInstall.Publish.WinForms.Controls;
@@ -80,7 +77,7 @@ public class FeedStructureEditor : StructureEditor<Feed>
            .AddList(x => x.Entries)
            .AddElement("file-type", new FileType(), new DescriptionEditor<FileType>())
            .AddElement("url-protocol", new UrlProtocol(), new DescriptionEditor<UrlProtocol>())
-           .AddElement("context-menu", new ContextMenu(), new DescriptionEditor<ContextMenu>())
+           .AddElement("context-menu", new Model.Capabilities.ContextMenu(), new DescriptionEditor<Model.Capabilities.ContextMenu>())
            .AddElement("com-server", new ComServer())
            .AddElement("auto-play", new AutoPlay(), new DescriptionEditor<AutoPlay>())
            .AddElement("registration", new AppRegistration())
@@ -89,7 +86,7 @@ public class FeedStructureEditor : StructureEditor<Feed>
         Describe<AutoPlay>()
            .AddPlainList("event", x => x.Events)
            .AddProperty("verb", x => PropertyPointer.For(() => x.Verb), new DescriptionEditor<Verb>());
-        Describe<ContextMenu>()
+        Describe<Model.Capabilities.ContextMenu>()
            .AddPlainList("extension", x => x.Extensions);
         Describe<FileType>()
            .AddPlainList("extension", x => x.Extensions);

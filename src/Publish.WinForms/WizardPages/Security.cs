@@ -1,16 +1,9 @@
 // Copyright Bastian Eicher et al.
 // Licensed under the GNU Lesser Public License
 
-using System;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
 using AeroWizard;
-using NanoByte.Common;
-using NanoByte.Common.Controls;
 using NanoByte.Common.Threading;
-using ZeroInstall.Model;
-using ZeroInstall.Publish.WinForms.Properties;
 using ZeroInstall.Store.Trust;
 
 namespace ZeroInstall.Publish.WinForms;

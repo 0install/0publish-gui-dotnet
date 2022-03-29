@@ -1,30 +1,21 @@
 // Copyright Bastian Eicher et al.
 // Licensed under the GNU Lesser Public License
 
-using System;
 using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Drawing;
 using System.Drawing.Imaging;
-using System.IO;
-using System.Windows.Forms;
 using AeroWizard;
-using NanoByte.Common;
-using NanoByte.Common.Controls;
-using ZeroInstall.Publish.EntryPoints;
-using ZeroInstall.Publish.WinForms.Properties;
 
 namespace ZeroInstall.Publish.WinForms;
 
 partial class NewFeedWizard
 {
-    private Icon? _icon;
+    private System.Drawing.Icon? _icon;
 
     private void pageIcon_Initialize(object sender, WizardPageInitEventArgs e)
     {
         pictureBoxIcon.Visible = buttonSaveIco.Enabled = buttonSavePng.Enabled = false;
 
-        if (_feedBuilder.MainCandidate is IIconContainer iconContainer)
+        if (_feedBuilder.MainCandidate is EntryPoints.IIconContainer iconContainer)
         {
             try
             {

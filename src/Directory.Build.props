@@ -4,6 +4,7 @@
     <!-- Build configuration -->
     <LangVersion>10.0</LangVersion>
     <TargetFramework>net472</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>annotations</Nullable>
     <AutoGenerateBindingRedirects>False</AutoGenerateBindingRedirects>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
@@ -28,5 +29,16 @@
     <NanoByteStructureEditorVersion>0.5.2</NanoByteStructureEditorVersion>
     <ZeroInstallVersion>2.23.0</ZeroInstallVersion>
   </PropertyGroup>
+
+  <!-- Global usings -->
+  <ItemGroup>
+    <Using Include="System.Diagnostics.CodeAnalysis" />
+    <Using Include="System.Net" />
+    <Using Include="NanoByte.Common" />
+    <Using Include="NanoByte.Common.Storage" />
+    <Using Include="NanoByte.Common.Tasks" />
+    <Using Include="ZeroInstall.Model" />
+    <Using Include="ZeroInstall.Publish" />
+  </ItemGroup>
 
 </Project>

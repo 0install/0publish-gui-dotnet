@@ -1,21 +1,9 @@
 // Copyright Bastian Eicher et al.
 // Licensed under the GNU Lesser Public License
 
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.IO;
-using System.Linq;
-using System.Net;
-using NanoByte.Common;
 using NanoByte.Common.Info;
-using NanoByte.Common.Storage;
-using NanoByte.Common.Tasks;
 using NanoByte.Common.Undo;
-using NDesk.Options;
 using Spectre.Console;
-using ZeroInstall.Model;
-using ZeroInstall.Publish.Cli.Properties;
 using ZeroInstall.Store.Implementations;
 using ZeroInstall.Store.Trust;
 

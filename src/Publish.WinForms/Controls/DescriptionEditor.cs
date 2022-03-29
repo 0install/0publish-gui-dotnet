@@ -1,12 +1,6 @@
 // Copyright Bastian Eicher et al.
 // Licensed under the GNU Lesser Public License
 
-using System.Drawing;
-using System.Windows.Forms;
-using NanoByte.StructureEditor.WinForms;
-using ZeroInstall.Model;
-using ZeroInstall.Publish.WinForms.Properties;
-
 namespace ZeroInstall.Publish.WinForms.Controls;
 
 /// <summary>

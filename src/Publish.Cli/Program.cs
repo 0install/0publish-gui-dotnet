@@ -1,15 +1,7 @@
 // Copyright Bastian Eicher et al.
 // Licensed under the GNU Lesser Public License
 
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net;
-using NanoByte.Common;
 using NanoByte.Common.Net;
-using NanoByte.Common.Tasks;
-using NDesk.Options;
 using ZeroInstall.Store.Implementations;
 using ZeroInstall.Store.Trust;
 

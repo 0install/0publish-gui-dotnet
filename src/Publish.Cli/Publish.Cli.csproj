@@ -9,6 +9,12 @@
     <OutputPath>..\..\artifacts\$(Configuration)\</OutputPath>
   </PropertyGroup>
 
+  <!-- Global usings -->
+  <ItemGroup>
+    <Using Include="NDesk.Options" />
+    <Using Include="ZeroInstall.Publish.Cli.Properties" />
+  </ItemGroup>
+
   <!-- Dependencies -->
   <ItemGroup>
     <PackageReference Include="NanoByte.Common.AnsiCli" Version="$(NanoByteCommonVersion)" />

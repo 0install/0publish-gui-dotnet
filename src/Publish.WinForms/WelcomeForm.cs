@@ -1,8 +1,6 @@
 // Copyright Bastian Eicher et al.
 // Licensed under the GNU Lesser Public License
 
-using System;
-using System.Windows.Forms;
 using NanoByte.Common.Info;
 using ZeroInstall.Store.Trust;
 

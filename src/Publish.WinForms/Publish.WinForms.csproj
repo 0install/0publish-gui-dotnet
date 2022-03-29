@@ -10,6 +10,13 @@
     <UseWindowsForms>True</UseWindowsForms>
   </PropertyGroup>
 
+  <!-- Global usings -->
+  <ItemGroup>
+    <Using Include="NanoByte.Common.Controls" />
+    <Using Include="NanoByte.StructureEditor.WinForms" />
+    <Using Include="ZeroInstall.Publish.WinForms.Properties" />
+  </ItemGroup>
+
   <!-- Dependencies -->
   <ItemGroup>
     <PackageReference Include="AeroWizard" Version="2.3.1" />

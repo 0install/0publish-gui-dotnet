@@ -1,15 +1,7 @@
 // Copyright Bastian Eicher et al.
 // Licensed under the GNU Lesser Public License
 
-using System;
-using System.Drawing;
 using System.Drawing.Imaging;
-using System.IO;
-using System.Net;
-using System.Threading.Tasks;
-using NanoByte.Common;
-using NanoByte.StructureEditor.WinForms;
-using ZeroInstall.Publish.WinForms.Properties;
 using Icon = ZeroInstall.Model.Icon;
 
 namespace ZeroInstall.Publish.WinForms.Controls;

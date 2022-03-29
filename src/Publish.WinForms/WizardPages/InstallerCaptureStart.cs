@@ -1,14 +1,8 @@
 // Copyright Bastian Eicher et al.
 // Licensed under the GNU Lesser Public License
 
-using System;
-using System.IO;
 using AeroWizard;
-using NanoByte.Common;
-using NanoByte.Common.Controls;
-using NanoByte.Common.Tasks;
 using ZeroInstall.Publish.Capture;
-using ZeroInstall.Publish.WinForms.Properties;
 
 namespace ZeroInstall.Publish.WinForms;
 
