@@ -59,195 +59,187 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Eksik ekle</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
-    <value>Tüm dosyalar</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Bu yol arşiv dışına gidiyor.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>{0} için GnuPG parolasını yazın:</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Bu EXE kurulum dosyası mı?</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Yakalamayı atlamak istediğinize emin misiniz?
-Bunu yaparsanız uygulamaların masaüstü bütünleştirmeleri (örneğin dosya ilişkilendirmeleri) akışa eklenmez.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Simgeler olmadan devam etmek istediğinize emin misiniz?
-Bunu yaparsanız Zero Install masaüstü bütünleştirmeleri kısayolları için katalogdaki genel bir simge olarak görüntüler.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Ayarları tamamlamadan devam etmek istediğinize emin misiniz?
-Bunu yaparsanız akışınız yerel kipte ve çevrimdışı olarak çalışır.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Açıklama</value>
+    <value>Опис</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Devam
-Bu uyarlamanın aynı şekilde kalması gerekiyordu</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Bildirim özeti değişti. Değişikliğin var olan başka bir bildirim özetinin yerini almasını ister misiniz?</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Bu uyarlama için yeni özetin tüm diğer alma yöntemleriyle eşleşmesi gereklidir.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Değiştir
-Uyarlama amacını kasıtlı olarak değiştirdim</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Yok say
-Kaydedilmemiş değişiklikleri yok say</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Görsel ön izleme için indiriliyor...</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Boş bir klasör için bir bildirim özeti tasarlandı. "extract" değerinin arşiv için doğru şekilde ayarlanmış olduğunu denetleyin.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Akış dosyaları (*.xml)|*.xml|Geçici dosyalar (*.xml.template)|*.xml.template|Tüm dosyalar|*</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
-    <value>Dosya boyutu</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>Çok satırlı olabilecek tam bir açıklama</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Windows simge dosyaları</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Görsel dosyası Zero Install tarafından desteklenmiyor.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Kurulum ile ilgili bir arşiv ayıklanamadı.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Uygulama için, ZIP arşivi gibi alternatif bir indirme kaynağı belirtmelisiniz. Bu durumda da kurucu tarafından belirlenmiş masaüstü bütünleştirmesi kullanılmaya devam edilecek.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Yetenek kaydı yolu geçersiz: {0}</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Bildirim özeti değişmiş olabilir.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Bildirim özeti henüz derlenmemiş.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="Names" xml:space="preserve">
-    <value>Adlar</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Yeni anahtar...</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Herhangi bir giriş noktası (EXE'ler, JAR'lar, Python komutları, vb.) bulunamadı. Lütfen seçtiğiniz arşivin geçerliliğinden ve klasöre ayıklanmış olduğundan emin olun.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Eşleşen herhangi bir akış dosyası bulunamadı.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>Hayır, uygulamanın kendisi
-yalnız bir EXE dosyasından oluşur</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Lütfen tıklayın:</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>PNG görsel dosyaları</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
-    <value>bayt olarak (zorunlu)</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>HTTP/FTP adresi (zorunlu)</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Gene de kaydedilsin mi?</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
-    <value>Kaydet
-Değişiklikleri kaydet</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Değişiklikleri kaydetmek ister misiniz?</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Dosyalar imzalandı.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Akışlar imzalanıyor</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>Dosya boyutu henüz belirlenemedi.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Kaynak adres</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="Summary" xml:space="preserve">
-    <value>Özet</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Kurulumun tamamlanması bekleniyor</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>MIME türü yanlış! {0} olmalıdır.</value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Evet, EXE kurulum dosyası </value>
-    <comment>Manually overriden.</comment>
+    <value></value>
+    <comment>Neither a manually overriden nor an automatically translated value found</comment>
   </data>
 </root>

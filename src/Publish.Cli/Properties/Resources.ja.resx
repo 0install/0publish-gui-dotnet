@@ -59,69 +59,69 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Παρακαλούμε εισάγετε την συνθηματική φράση για το GnuPG {0}:</value>
-    <comment>Manually overriden.</comment>
+    <value>GnuPGのパスフレーズを入力してください。{0}:</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>Η τροφοδοσία δεν έχει τη σωστή μορφή.</value>
-    <comment>Manually overriden.</comment>
+    <value>フィードの形式が正しくありません。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Το πρόγραμμα έρχεται με ΑΠΟΛΥΤΩΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ, στο βαθμό που επιτρέπεται από το νόμο.
-Μπορείτε να αναδιανέμετε αντίγραφα του προγράμματος υπό τους όρους της GNU Lesser General Public License.</value>
-    <comment>Manually overriden.</comment>
+    <value>このプログラムには、法律で認められている範囲内で、一切の保証がありません。
+あなたは、このプログラムの複製物をGNU Lesser General Public Licenseの条件の下で再配布することができます。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Λείπουν επιχειρήματα. Δοκιμάστε {0}</value>
-    <comment>Manually overriden.</comment>
+    <value>引数が不足しています。{0} --help を試してみてください。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Αδυναμία εύρεσης των αρχείων που ταιριάζουν με τις τροφοδοσίες.</value>
-    <comment>Manually overriden.</comment>
+    <value>一致するフィードファイルが見つかりません。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Λήψη αρχείων που λείπουν, υπολογισμος δηλωτικου, κλπ...</value>
-    <comment>Manually overriden.</comment>
+    <value>不足しているアーカイブのダウンロード、マニフェストダイジェストの計算など。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Συνδυάστε όλες τις καθορισμένες τροφοδοσίες σε ένα ενιαίο κατάλογο {ΑΡΧΕΙΟ}.</value>
-    <comment>Manually overriden.</comment>
+    <value>指定されたすべてのフィードを1つのカタログ{FILE}にまとめる。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Χρήση {PASS} για να ξεκλειδώσετε το μυστικό κλειδί του GnuPG.</value>
-    <comment>Manually overriden.</comment>
+    <value>GnuPGの秘密鍵を解除するには{PASS}を使用します。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Εμφάνιση του ενσωματωμένου κειμένου βοήθειας.</value>
-    <comment>Manually overriden.</comment>
+    <value>内蔵のヘルプテキストを表示する。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Κλειδί για την χρήση υπογραφής (αν έχετε περισσότερα από ενα, ή αν θέλετε παραίτησή με διαφορετικό κλειδί).</value>
-    <comment>Manually overriden.</comment>
+    <value>署名に使用するキー（複数ある場合、または別のキーで辞任する場合）。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Επιλογές:</value>
-    <comment>Manually overriden.</comment>
+    <value>オプションです。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Αφαιρέστε τυχόν υπάρχουσες υπογραφές.</value>
-    <comment>Manually overriden.</comment>
+    <value>既存の署名を削除します。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Εμφάνιση πληροφοριών έκδοσης.</value>
-    <comment>Manually overriden.</comment>
+    <value>バージョン情報を表示します。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Προσθήκη μπλοκ υπογραφής XML. (Όλες οι απομακρυσμένες τροφοδοσίες πρέπει να υπογράφονται.)</value>
-    <comment>Manually overriden.</comment>
+    <value>XML署名ブロックを追加する。(すべてのリモートフィードには署名が必要です)。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>Άγνωστος τυπος λειτουργίας
-Δοκιμάστε {0}</value>
-    <comment>Manually overriden.</comment>
+    <value>動作モードが不明です。
+{0} --help を試してみてください。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Χρήση:</value>
-    <comment>Manually overriden.</comment>
+    <value>使用方法</value>
+    <comment>Automatically translated.</comment>
   </data>
 </root>

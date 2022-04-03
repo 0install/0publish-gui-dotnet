@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddMissing" xml:space="preserve">
+    <value>Добавить недостающее</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="AllFiles" xml:space="preserve">
+    <value>Все файлы</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ArchiveBreakoutPath" xml:space="preserve">
+    <value>Этот путь указывает за пределы архива.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="AskForPassphrase" xml:space="preserve">
+    <value>Пожалуйста, введите парольную фразу GnuPG для {0}:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="AskInstallerEXE" xml:space="preserve">
+    <value>Это установочный EXE?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="AskSkipCapture" xml:space="preserve">
+    <value>Вы уверены, что хотите пропустить захват?
+Информация об интеграции приложения с рабочим столом (например, ассоциации файлов) не будет добавлена в ленту.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="AskSkipIcon" xml:space="preserve">
+    <value>Вы уверены, что хотите продолжить без добавления значков?
+Zero Install сможет отобразить только общий значок-заполнитель в каталоге, а также для любых ярлыков интеграции на рабочем столе.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="AskSkipSecurity" xml:space="preserve">
+    <value>Вы уверены, что хотите продолжить, не выполнив эти настройки?
+Ваш канал будет работать только локально, но не в Интернете.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Описание</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DigestKeep" xml:space="preserve">
+    <value>Сохранить
+Реализация должна была остаться прежней</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DigestMismatch" xml:space="preserve">
+    <value>Дайджест манифеста изменился. Хотите ли вы заменить существующий?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DigestOtherImplementations" xml:space="preserve">
+    <value>Все остальные методы извлечения для этой реализации должны соответствовать новому дайджесту!</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DigestReplace" xml:space="preserve">
+    <value>Заменить
+Я специально изменил реализацию</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DiscardChanges" xml:space="preserve">
+    <value>Отбросить
+Отбросить несохраненные изменения</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DownloadingPeviewImage" xml:space="preserve">
+    <value>Загрузка изображения для предварительного просмотра...</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="EmptyImplementation" xml:space="preserve">
+    <value>Дайджест манифеста был рассчитан для пустого каталога. Проверьте, что вы установили правильное значение "extract" для архива.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FileDialogFilter" xml:space="preserve">
+    <value>Файлы Feed (*.xml)|*.xml|Файлы шаблонов (*.xml.template)|*.xml.template|Все файлы|*</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>Размер файла</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="HintTextMultiline" xml:space="preserve">
+    <value>Полное, возможно, многострочное описание</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IcoFiles" xml:space="preserve">
+    <value>Файлы значков Windows</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ImageFormatNotSupported" xml:space="preserve">
+    <value>Формат изображения не поддерживается программой Zero Install.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InstallerExtractFailed" xml:space="preserve">
+    <value>Не удалось извлечь программу установки в виде архива.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InstallerNeedAltSource" xml:space="preserve">
+    <value>Вам необходимо предоставить альтернативный источник загрузки приложения, например, ZIP-архив. Мы все равно будем использовать информацию об интеграции рабочего стола, полученную из программы установки!</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
+    <value>Неверный путь к реестру возможностей {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ManifestDigestChanged" xml:space="preserve">
+    <value>Дайджест манифеста мог измениться.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ManifestDigestMissing" xml:space="preserve">
+    <value>Дайджест манифеста еще не рассчитан.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Names" xml:space="preserve">
+    <value>Имена</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="NewKey" xml:space="preserve">
+    <value>Новый ключ...</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="NoEntryPointsFound" xml:space="preserve">
+    <value>Точек входа (EXE, JAR, скрипты Python и т.д.) не найдено. Пожалуйста, убедитесь, что вы выбрали правильный архив и каталог извлечения.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="NoFeedFilesFound" xml:space="preserve">
+    <value>Невозможно найти ни одного подходящего файла корма.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="NoSingleExecutable" xml:space="preserve">
+    <value>Нет, само приложение
+состоит только из одного EXE</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="PleaseClick" xml:space="preserve">
+    <value>Пожалуйста, нажмите:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="PngFiles" xml:space="preserve">
+    <value>Файлы изображений PNG</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="RequiredBytes" xml:space="preserve">
+    <value>в байтах (обязательно)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="RequiredUrl" xml:space="preserve">
+    <value>HTTP/FTP URL (обязательно)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SaveAnyway" xml:space="preserve">
+    <value>Спасти в любом случае?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Сохранить
+Сохранить изменения</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SaveQuestion" xml:space="preserve">
+    <value>Хотите ли вы сохранить изменения?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SignedFeeds" xml:space="preserve">
+    <value>Успешно подписаны файлы.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SigningFeeds" xml:space="preserve">
+    <value>Подписные каналы</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SizeMissing" xml:space="preserve">
+    <value>Размер файла пока не определен.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SourceUrl" xml:space="preserve">
+    <value>Источник URL</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Резюме</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WaitingForInstaller" xml:space="preserve">
+    <value>Ожидание завершения работы программы установки</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WrongMimeType" xml:space="preserve">
+    <value>Неправильный тип MIME! Должно быть {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="YesInstallerExe" xml:space="preserve">
+    <value>Да, программа установки EXE</value>
+    <comment>Automatically translated.</comment>
+  </data>
+</root>
