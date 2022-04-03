@@ -60,219 +60,219 @@
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="AddMissing" xml:space="preserve">
-    <value>Lücken füllen</value>
-    <comment>Manually overriden.</comment>
+    <value>Добавить недостающее</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
-    <value>Alle Dateien</value>
-    <comment>Manually overriden.</comment>
+    <value>Все файлы</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Dieser Pfad zeigt außerhalb des Archivs.</value>
-    <comment>Manually overriden.</comment>
+    <value>Этот путь указывает за пределы архива.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Bitte geben Sie die GnuPG Passphrase für {0} ein:</value>
-    <comment>Manually overriden.</comment>
+    <value>Пожалуйста, введите парольную фразу GnuPG для {0}:</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Ist dies eine Installations EXE?</value>
-    <comment>Manually overriden.</comment>
+    <value>Это установочный EXE?</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Sind Sie sicher, dass Sie den Capture Schritt überspringen möchten?
-Informationen über die Desktopintegration der Anwendung (z.B. Dateityp-Assoziationen) werden nicht zum Feed hinzugefügt.</value>
-    <comment>Manually overriden.</comment>
+    <value>Вы уверены, что хотите пропустить захват?
+Информация об интеграции приложения с рабочим столом (например, ассоциации файлов) не будет добавлена в ленту.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Sind Sie sicher, dass Sie fortfahren möchten ohne Icons hinzuzufügen?
-Zero Install wird nur ein generisches Platzhalter-Symbol im Katalog wie auch bei Desktopintergations-Verknüpfungen verwenden können.</value>
-    <comment>Manually overriden.</comment>
+    <value>Вы уверены, что хотите продолжить без добавления значков?
+Zero Install сможет отобразить только общий значок-заполнитель в каталоге, а также для любых ярлыков интеграции на рабочем столе.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Sind Sie sicher, dass Sie fortfahren möchten ohne diese Einstellung zu vervollständigen?
-Ihr Feed wird nur lokal und nicht online funktionieren.</value>
-    <comment>Manually overriden.</comment>
+    <value>Вы уверены, что хотите продолжить, не выполнив эти настройки?
+Ваш канал будет работать только локально, но не в Интернете.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Beschreibung</value>
-    <comment>Manually overriden.</comment>
+    <value>Описание</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Behalten
-Die Implementierung sollte gleich bleiben</value>
-    <comment>Manually overriden.</comment>
+    <value>Сохранить
+Реализация должна была остаться прежней</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Der Manifest Digest hat sich geändert. Möchten Sie den bestehenden ersetzen?</value>
-    <comment>Manually overriden.</comment>
+    <value>Дайджест манифеста изменился. Хотите ли вы заменить существующий?</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Alle anderen Retrieval-Methoden für diese Implementierung müssen auch zum neuen Digest passen!</value>
-    <comment>Manually overriden.</comment>
+    <value>Все остальные методы извлечения для этой реализации должны соответствовать новому дайджесту!</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Ersetzen
-Ich habe die Implementierung absichtlich verändert</value>
-    <comment>Manually overriden.</comment>
+    <value>Заменить
+Я специально изменил реализацию</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Verwerfen
-Ungespeicherte Änderungen verwerfen</value>
-    <comment>Manually overriden.</comment>
+    <value>Отбросить
+Отбросить несохраненные изменения</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Das Bild wird zur Vorschau heruntergeladen...</value>
-    <comment>Manually overriden.</comment>
+    <value>Загрузка изображения для предварительного просмотра...</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Ein Manifest Digest wurde für ein leeres Verzeichnis berechnet. Überprüfen Sie, ob Sie den korrekten "extract" Wert für das Archiv angegeben haben.</value>
-    <comment>Manually overriden.</comment>
+    <value>Дайджест манифеста был рассчитан для пустого каталога. Проверьте, что вы установили правильное значение "extract" для архива.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Feed Dateien (*.xml)|*.xml|Vorlagen Dateien (*.xml.template)|*.xml.template|Alle Dateien|*</value>
-    <comment>Manually overriden.</comment>
+    <value>Файлы Feed (*.xml)|*.xml|Файлы шаблонов (*.xml.template)|*.xml.template|Все файлы|*</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
-    <value>Dateigröße</value>
-    <comment>Manually overriden.</comment>
+    <value>Размер файла</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>Eine komplette, u.U. mehrzeilige Beschreibung.</value>
-    <comment>Manually overriden.</comment>
+    <value>Полное, возможно, многострочное описание</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Windows Icon-Dateien</value>
-    <comment>Manually overriden.</comment>
+    <value>Файлы значков Windows</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Das Bildformat wird von Zero Install nicht unterstützt.</value>
-    <comment>Manually overriden.</comment>
+    <value>Формат изображения не поддерживается программой Zero Install.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Entpacken des Installers als ein Archiv fehlgeschlagen.</value>
-    <comment>Manually overriden.</comment>
+    <value>Не удалось извлечь программу установки в виде архива.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Sie müssen eine alternative Downloadquelle für die Anwendung, z.B. ein ZIP Archiv, angeben. Wir werden dennoch die Desktopintegration-Informationen, die vom Installer erfasst wurden, verwenden!</value>
-    <comment>Manually overriden.</comment>
+    <value>Вам необходимо предоставить альтернативный источник загрузки приложения, например, ZIP-архив. Мы все равно будем использовать информацию об интеграции рабочего стола, полученную из программы установки!</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Ungültiger Capabilities Registrierungspfad: {0}</value>
-    <comment>Manually overriden.</comment>
+    <value>Неверный путь к реестру возможностей {0}</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Manifest Digest hat sich eventuell geändert.</value>
-    <comment>Manually overriden.</comment>
+    <value>Дайджест манифеста мог измениться.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Manifest Digest noch nicht berechnet.</value>
-    <comment>Manually overriden.</comment>
+    <value>Дайджест манифеста еще не рассчитан.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
-    <value>Namen</value>
-    <comment>Manually overriden.</comment>
+    <value>Имена</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NewButton" xml:space="preserve">
     <value>..\Resources\NewButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Neuer Schlüssel...</value>
-    <comment>Manually overriden.</comment>
+    <value>Новый ключ...</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NewWizardButton" xml:space="preserve">
     <value>..\Resources\NewWizardButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Es wurden keine Einstiegspunkte (EXEs, JARs, Python Skripts, etc.) gefunden. Bitte überprüfen Sie, ob Sie das korrekte Archiv und das korrekte Unterverzeichnis ausgewählt haben.</value>
-    <comment>Manually overriden.</comment>
+    <value>Точек входа (EXE, JAR, скрипты Python и т.д.) не найдено. Пожалуйста, убедитесь, что вы выбрали правильный архив и каталог извлечения.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Konnte keine passenden Feed-Dateien finden.</value>
-    <comment>Manually overriden.</comment>
+    <value>Невозможно найти ни одного подходящего файла корма.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>Nein, die Anwendung selbst
-besteht aus nur einer EXE</value>
-    <comment>Manually overriden.</comment>
+    <value>Нет, само приложение
+состоит только из одного EXE</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OpenButton" xml:space="preserve">
     <value>..\Resources\OpenButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Bitte klicken Sie:</value>
-    <comment>Manually overriden.</comment>
+    <value>Пожалуйста, нажмите:</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>PNG Bilddateien</value>
-    <comment>Manually overriden.</comment>
+    <value>Файлы изображений PNG</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="RedoButton" xml:space="preserve">
     <value>..\Resources\RedoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
-    <value>in Bytes (erforderlich)</value>
-    <comment>Manually overriden.</comment>
+    <value>в байтах (обязательно)</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>HTTP/FTP URL (erforderlich)</value>
-    <comment>Manually overriden.</comment>
+    <value>HTTP/FTP URL (обязательно)</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Trotzdem speichern?</value>
-    <comment>Manually overriden.</comment>
+    <value>Спасти в любом случае?</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveButton" xml:space="preserve">
     <value>..\Resources\SaveButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
-    <value>Speichern
-Änderungen speichern</value>
-    <comment>Manually overriden.</comment>
+    <value>Сохранить
+Сохранить изменения</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Möchten Sie die Änderungen speichern?</value>
-    <comment>Manually overriden.</comment>
+    <value>Хотите ли вы сохранить изменения?</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Feeds erfolgreich signiert.</value>
-    <comment>Manually overriden.</comment>
+    <value>Успешно подписаны файлы.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Signiere Feeds</value>
-    <comment>Manually overriden.</comment>
+    <value>Подписные каналы</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>Dateigröße noch nicht bestimmt.</value>
-    <comment>Manually overriden.</comment>
+    <value>Размер файла пока не определен.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Quell-URL</value>
-    <comment>Manually overriden.</comment>
+    <value>Источник URL</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
-    <value>Zusammenfassung</value>
-    <comment>Manually overriden.</comment>
+    <value>Резюме</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="UndoButton" xml:space="preserve">
     <value>..\Resources\UndoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Warte bis Installater beendet ist</value>
-    <comment>Manually overriden.</comment>
+    <value>Ожидание завершения работы программы установки</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Falscher MIME Typ! Sollte {0} sein.</value>
-    <comment>Manually overriden.</comment>
+    <value>Неправильный тип MIME! Должно быть {0}.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Ja, Installations EXE</value>
-    <comment>Manually overriden.</comment>
+    <value>Да, программа установки EXE</value>
+    <comment>Automatically translated.</comment>
   </data>
 </root>
