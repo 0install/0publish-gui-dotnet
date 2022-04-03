@@ -155,7 +155,7 @@ public sealed class PublishCommand : ICommand
             case OperationMode.Normal:
                 if (_feeds.Count == 0)
                 {
-                    Log.Error(string.Format(Resources.MissingArguments, "0publish"));
+                    Log.Error(string.Format(Resources.MissingArguments, "0publish --help"));
                     return ExitCode.InvalidArguments;
                 }
 
@@ -183,7 +183,7 @@ public sealed class PublishCommand : ICommand
                 return ExitCode.OK;
 
             default:
-                Log.Error(string.Format(Resources.UnknownMode, "0publish"));
+                Log.Error(string.Format(Resources.UnknownMode, "0publish --help"));
                 return ExitCode.InvalidArguments;
         }
     }

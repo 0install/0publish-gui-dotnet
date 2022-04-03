@@ -128,7 +128,7 @@
 Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien dieses Programmes weitergeben.</value>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Fehlende Argumente. Probieren Sie {0} --help</value>
+    <value>Fehlende Argumente. Probieren Sie {0}</value>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Konnte keine passenden Feed-Dateien finden.</value>
@@ -162,7 +162,7 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
   </data>
   <data name="UnknownMode" xml:space="preserve">
     <value>Unbekannter Betriebsmodus.
-Probieren Sie {0} --help</value>
+Probieren Sie {0}</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Verwendung:</value>
