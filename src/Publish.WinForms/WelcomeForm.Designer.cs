@@ -61,7 +61,7 @@ namespace ZeroInstall.Publish.WinForms
             // buttonNewEmpty
             // 
             this.buttonNewEmpty.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.buttonNewEmpty.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.NewButton;
+            this.buttonNewEmpty.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.NewButton;
             this.buttonNewEmpty.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonNewEmpty.Location = new System.Drawing.Point(15, 81);
             this.buttonNewEmpty.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -86,7 +86,7 @@ namespace ZeroInstall.Publish.WinForms
             // buttonOpen
             // 
             this.buttonOpen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.buttonOpen.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.OpenButton;
+            this.buttonOpen.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.OpenButton;
             this.buttonOpen.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonOpen.Location = new System.Drawing.Point(356, 81);
             this.buttonOpen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -111,7 +111,7 @@ namespace ZeroInstall.Publish.WinForms
             // buttonNewWizard
             // 
             this.buttonNewWizard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.buttonNewWizard.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.NewWizardButton;
+            this.buttonNewWizard.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.NewWizardButton;
             this.buttonNewWizard.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonNewWizard.Location = new System.Drawing.Point(187, 81);
             this.buttonNewWizard.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);

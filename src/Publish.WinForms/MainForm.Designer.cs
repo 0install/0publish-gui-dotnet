@@ -69,7 +69,7 @@ namespace ZeroInstall.Publish.WinForms
             // buttonNew
             // 
             this.buttonNew.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.buttonNew.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.NewButton;
+            this.buttonNew.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.NewButton;
             this.buttonNew.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.buttonNew.Name = "buttonNew";
             this.buttonNew.Size = new System.Drawing.Size(23, 22);
@@ -79,7 +79,7 @@ namespace ZeroInstall.Publish.WinForms
             // buttonNewWizard
             // 
             this.buttonNewWizard.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.buttonNewWizard.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.NewWizardButton;
+            this.buttonNewWizard.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.NewWizardButton;
             this.buttonNewWizard.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.buttonNewWizard.Name = "buttonNewWizard";
             this.buttonNewWizard.Size = new System.Drawing.Size(23, 22);
@@ -89,7 +89,7 @@ namespace ZeroInstall.Publish.WinForms
             // buttonOpen
             // 
             this.buttonOpen.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.buttonOpen.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.OpenButton;
+            this.buttonOpen.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.OpenButton;
             this.buttonOpen.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.buttonOpen.Name = "buttonOpen";
             this.buttonOpen.Size = new System.Drawing.Size(23, 22);
@@ -99,7 +99,7 @@ namespace ZeroInstall.Publish.WinForms
             // buttonSave
             // 
             this.buttonSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.buttonSave.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.SaveButton;
+            this.buttonSave.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.SaveButton;
             this.buttonSave.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(23, 22);
@@ -114,7 +114,7 @@ namespace ZeroInstall.Publish.WinForms
             // buttonUndo
             // 
             this.buttonUndo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.buttonUndo.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.UndoButton;
+            this.buttonUndo.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.UndoButton;
             this.buttonUndo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.buttonUndo.Name = "buttonUndo";
             this.buttonUndo.Size = new System.Drawing.Size(23, 22);
@@ -124,7 +124,7 @@ namespace ZeroInstall.Publish.WinForms
             // buttonRedo
             // 
             this.buttonRedo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.buttonRedo.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.RedoButton;
+            this.buttonRedo.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.RedoButton;
             this.buttonRedo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.buttonRedo.Name = "buttonRedo";
             this.buttonRedo.Size = new System.Drawing.Size(23, 22);
@@ -166,7 +166,7 @@ namespace ZeroInstall.Publish.WinForms
             // 
             // menuNew
             // 
-            this.menuNew.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.NewButton;
+            this.menuNew.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.NewButton;
             this.menuNew.Name = "menuNew";
             this.menuNew.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
             this.menuNew.Size = new System.Drawing.Size(155, 22);
@@ -175,7 +175,7 @@ namespace ZeroInstall.Publish.WinForms
             // 
             // menuNewWizard
             // 
-            this.menuNewWizard.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.NewWizardButton;
+            this.menuNewWizard.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.NewWizardButton;
             this.menuNewWizard.Name = "menuNewWizard";
             this.menuNewWizard.Size = new System.Drawing.Size(155, 22);
             this.menuNewWizard.Text = "New (&Wizard)...";
@@ -183,7 +183,7 @@ namespace ZeroInstall.Publish.WinForms
             // 
             // menuOpen
             // 
-            this.menuOpen.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.OpenButton;
+            this.menuOpen.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.OpenButton;
             this.menuOpen.Name = "menuOpen";
             this.menuOpen.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.menuOpen.Size = new System.Drawing.Size(155, 22);
@@ -197,7 +197,7 @@ namespace ZeroInstall.Publish.WinForms
             // 
             // menuSave
             // 
-            this.menuSave.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.SaveButton;
+            this.menuSave.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.SaveButton;
             this.menuSave.Name = "menuSave";
             this.menuSave.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.menuSave.Size = new System.Drawing.Size(155, 22);
@@ -232,7 +232,7 @@ namespace ZeroInstall.Publish.WinForms
             // 
             // menuUndo
             // 
-            this.menuUndo.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.UndoButton;
+            this.menuUndo.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.UndoButton;
             this.menuUndo.Name = "menuUndo";
             this.menuUndo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
             this.menuUndo.Size = new System.Drawing.Size(144, 22);
@@ -241,7 +241,7 @@ namespace ZeroInstall.Publish.WinForms
             // 
             // menuRedo
             // 
-            this.menuRedo.Image = global::ZeroInstall.Publish.WinForms.Properties.Resources.RedoButton;
+            this.menuRedo.Image = global::ZeroInstall.Publish.WinForms.Properties.ImageResources.RedoButton;
             this.menuRedo.Name = "menuRedo";
             this.menuRedo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
             this.menuRedo.Size = new System.Drawing.Size(144, 22);
