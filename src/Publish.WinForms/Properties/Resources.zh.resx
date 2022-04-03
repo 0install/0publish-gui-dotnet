@@ -60,219 +60,219 @@
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="AddMissing" xml:space="preserve">
-    <value>Lücken füllen</value>
-    <comment>Manually overriden.</comment>
+    <value>添加缺失</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
-    <value>Alle Dateien</value>
-    <comment>Manually overriden.</comment>
+    <value>所有文件</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Dieser Pfad zeigt außerhalb des Archivs.</value>
-    <comment>Manually overriden.</comment>
+    <value>这个路径指向档案馆外。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Bitte geben Sie die GnuPG Passphrase für {0} ein:</value>
-    <comment>Manually overriden.</comment>
+    <value>请输入GnuPG口令，{0} 。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Ist dies eine Installations EXE?</value>
-    <comment>Manually overriden.</comment>
+    <value>这是一个安装程序EXE吗？</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Sind Sie sicher, dass Sie den Capture Schritt überspringen möchten?
-Informationen über die Desktopintegration der Anwendung (z.B. Dateityp-Assoziationen) werden nicht zum Feed hinzugefügt.</value>
-    <comment>Manually overriden.</comment>
+    <value>你确定要跳过采集吗？
+有关应用程序的桌面集成（如文件关联）的信息将不会被添加到馈送中。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Sind Sie sicher, dass Sie fortfahren möchten ohne Icons hinzuzufügen?
-Zero Install wird nur ein generisches Platzhalter-Symbol im Katalog wie auch bei Desktopintergations-Verknüpfungen verwenden können.</value>
-    <comment>Manually overriden.</comment>
+    <value>你确定你要继续不添加图标吗？
+零安装 "将只能在目录以及任何桌面集成快捷方式中显示一个通用占位符图标。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Sind Sie sicher, dass Sie fortfahren möchten ohne diese Einstellung zu vervollständigen?
-Ihr Feed wird nur lokal und nicht online funktionieren.</value>
-    <comment>Manually overriden.</comment>
+    <value>你确定你要在不完成这些设置的情况下继续吗？
+你的饲料将只在本地工作，而不是在线。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Beschreibung</value>
-    <comment>Manually overriden.</comment>
+    <value>描述</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Behalten
-Die Implementierung sollte gleich bleiben</value>
-    <comment>Manually overriden.</comment>
+    <value>保持
+执行情况本应保持不变</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Der Manifest Digest hat sich geändert. Möchten Sie den bestehenden ersetzen?</value>
-    <comment>Manually overriden.</comment>
+    <value>舱单摘要已经改变。您是否希望替换现有的？</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Alle anderen Retrieval-Methoden für diese Implementierung müssen auch zum neuen Digest passen!</value>
-    <comment>Manually overriden.</comment>
+    <value>这个实现的所有其他检索方法也必须与新的摘要相匹配!</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Ersetzen
-Ich habe die Implementierung absichtlich verändert</value>
-    <comment>Manually overriden.</comment>
+    <value>替换
+我故意改变了执行方式</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Verwerfen
-Ungespeicherte Änderungen verwerfen</value>
-    <comment>Manually overriden.</comment>
+    <value>丢弃
+放弃未保存的修改</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Das Bild wird zur Vorschau heruntergeladen...</value>
-    <comment>Manually overriden.</comment>
+    <value>下载用于预览的图像...</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Ein Manifest Digest wurde für ein leeres Verzeichnis berechnet. Überprüfen Sie, ob Sie den korrekten "extract" Wert für das Archiv angegeben haben.</value>
-    <comment>Manually overriden.</comment>
+    <value>计算了一个空目录的清单摘要。检查您是否为存档设置了正确的 "提取 "值。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Feed Dateien (*.xml)|*.xml|Vorlagen Dateien (*.xml.template)|*.xml.template|Alle Dateien|*</value>
-    <comment>Manually overriden.</comment>
+    <value>饲料文件(*.xml)|*.xml|模板文件(*.xml.模板)|*.xml.模板|所有文件|*。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
-    <value>Dateigröße</value>
-    <comment>Manually overriden.</comment>
+    <value>文件大小</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>Eine komplette, u.U. mehrzeilige Beschreibung.</value>
-    <comment>Manually overriden.</comment>
+    <value>一个完整的可能是多行的描述</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Windows Icon-Dateien</value>
-    <comment>Manually overriden.</comment>
+    <value>Windows图标文件</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Das Bildformat wird von Zero Install nicht unterstützt.</value>
-    <comment>Manually overriden.</comment>
+    <value>Zero Install不支持该图像格式。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Entpacken des Installers als ein Archiv fehlgeschlagen.</value>
-    <comment>Manually overriden.</comment>
+    <value>解除安装程序的存档失败。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Sie müssen eine alternative Downloadquelle für die Anwendung, z.B. ein ZIP Archiv, angeben. Wir werden dennoch die Desktopintegration-Informationen, die vom Installer erfasst wurden, verwenden!</value>
-    <comment>Manually overriden.</comment>
+    <value>你需要提供一个应用程序的替代下载源，例如ZIP档案。我们仍将使用从安装程序中获取的桌面集成信息</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Ungültiger Capabilities Registrierungspfad: {0}</value>
-    <comment>Manually overriden.</comment>
+    <value>无效的能力注册表路径。{0}</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Manifest Digest hat sich eventuell geändert.</value>
-    <comment>Manually overriden.</comment>
+    <value>舱单摘要可能已经改变。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Manifest Digest noch nicht berechnet.</value>
-    <comment>Manually overriden.</comment>
+    <value>舱单摘要还没有计算。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
-    <value>Namen</value>
-    <comment>Manually overriden.</comment>
+    <value>名称</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NewButton" xml:space="preserve">
-    <value>..\Resources\NewButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\NewButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Neuer Schlüssel...</value>
-    <comment>Manually overriden.</comment>
+    <value>新钥匙...</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NewWizardButton" xml:space="preserve">
-    <value>..\Resources\NewWizardButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\NewWizardButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Es wurden keine Einstiegspunkte (EXEs, JARs, Python Skripts, etc.) gefunden. Bitte überprüfen Sie, ob Sie das korrekte Archiv und das korrekte Unterverzeichnis ausgewählt haben.</value>
-    <comment>Manually overriden.</comment>
+    <value>没有发现任何入口点（EXEs、JARs、Python脚本等）。请确保你选择了正确的存档和提取目录。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Konnte keine passenden Feed-Dateien finden.</value>
-    <comment>Manually overriden.</comment>
+    <value>无法找到任何匹配的饲料文件。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>Nein, die Anwendung selbst
-besteht aus nur einer EXE</value>
-    <comment>Manually overriden.</comment>
+    <value>不，该应用程序本身
+只由一个EXE组成</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OpenButton" xml:space="preserve">
-    <value>..\Resources\OpenButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\OpenButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Bitte klicken Sie:</value>
-    <comment>Manually overriden.</comment>
+    <value>请点击。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>PNG Bilddateien</value>
-    <comment>Manually overriden.</comment>
+    <value>PNG图像文件</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="RedoButton" xml:space="preserve">
-    <value>..\Resources\RedoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\RedoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
-    <value>in Bytes (erforderlich)</value>
-    <comment>Manually overriden.</comment>
+    <value>以字节为单位（必填）。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>HTTP/FTP URL (erforderlich)</value>
-    <comment>Manually overriden.</comment>
+    <value>HTTP/FTP网址（必填）。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Trotzdem speichern?</value>
-    <comment>Manually overriden.</comment>
+    <value>无论如何要保存？</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveButton" xml:space="preserve">
-    <value>..\Resources\SaveButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\SaveButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
-    <value>Speichern
-Änderungen speichern</value>
-    <comment>Manually overriden.</comment>
+    <value>保存
+保存更改</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Möchten Sie die Änderungen speichern?</value>
-    <comment>Manually overriden.</comment>
+    <value>你想保存这些变化吗？</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Feeds erfolgreich signiert.</value>
-    <comment>Manually overriden.</comment>
+    <value>成功地签署了文件。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Signiere Feeds</value>
-    <comment>Manually overriden.</comment>
+    <value>签收饲料</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>Dateigröße noch nicht bestimmt.</value>
-    <comment>Manually overriden.</comment>
+    <value>文件大小尚未确定。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Quell-URL</value>
-    <comment>Manually overriden.</comment>
+    <value>资料来源URL</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
-    <value>Zusammenfassung</value>
-    <comment>Manually overriden.</comment>
+    <value>摘要</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="UndoButton" xml:space="preserve">
-    <value>..\Resources\UndoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\UndoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Warte bis Installater beendet ist</value>
-    <comment>Manually overriden.</comment>
+    <value>等待安装程序完成</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Falscher MIME Typ! Sollte {0} sein.</value>
-    <comment>Manually overriden.</comment>
+    <value>错误的MIME类型!应该是{0} 。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Ja, Installations EXE</value>
-    <comment>Manually overriden.</comment>
+    <value>是的，安装程序EXE</value>
+    <comment>Automatically translated.</comment>
   </data>
 </root>

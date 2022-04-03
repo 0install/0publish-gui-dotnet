@@ -60,219 +60,219 @@
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="AddMissing" xml:space="preserve">
-    <value>Lücken füllen</value>
-    <comment>Manually overriden.</comment>
+    <value>Adicionar em falta</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
-    <value>Alle Dateien</value>
-    <comment>Manually overriden.</comment>
+    <value>Todos os ficheiros</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Dieser Pfad zeigt außerhalb des Archivs.</value>
-    <comment>Manually overriden.</comment>
+    <value>Este caminho aponta para fora do arquivo.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Bitte geben Sie die GnuPG Passphrase für {0} ein:</value>
-    <comment>Manually overriden.</comment>
+    <value>Por favor, introduza a frase-chave GnuPG para {0}:</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Ist dies eine Installations EXE?</value>
-    <comment>Manually overriden.</comment>
+    <value>Este é um instalador EXE?</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Sind Sie sicher, dass Sie den Capture Schritt überspringen möchten?
-Informationen über die Desktopintegration der Anwendung (z.B. Dateityp-Assoziationen) werden nicht zum Feed hinzugefügt.</value>
-    <comment>Manually overriden.</comment>
+    <value>Tem a certeza de que quer saltar a captura?
+As informações sobre a integração da aplicação no ambiente de trabalho (por exemplo, associações de ficheiros) não serão adicionadas ao feed.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Sind Sie sicher, dass Sie fortfahren möchten ohne Icons hinzuzufügen?
-Zero Install wird nur ein generisches Platzhalter-Symbol im Katalog wie auch bei Desktopintergations-Verknüpfungen verwenden können.</value>
-    <comment>Manually overriden.</comment>
+    <value>Tem a certeza de que quer continuar sem adicionar ícones?
+Zero Install só poderá exibir um ícone genérico de espaço reservado no catálogo, bem como para qualquer atalho de integração no ambiente de trabalho.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Sind Sie sicher, dass Sie fortfahren möchten ohne diese Einstellung zu vervollständigen?
-Ihr Feed wird nur lokal und nicht online funktionieren.</value>
-    <comment>Manually overriden.</comment>
+    <value>Tem a certeza de que quer continuar sem completar estas definições?
+O seu feed só funcionará localmente e não online.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Beschreibung</value>
-    <comment>Manually overriden.</comment>
+    <value>Descrição</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Behalten
-Die Implementierung sollte gleich bleiben</value>
-    <comment>Manually overriden.</comment>
+    <value>Guarde
+A implementação deveria permanecer a mesma</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Der Manifest Digest hat sich geändert. Möchten Sie den bestehenden ersetzen?</value>
-    <comment>Manually overriden.</comment>
+    <value>A compilação do manifesto mudou. Deseja substituir o existente?</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Alle anderen Retrieval-Methoden für diese Implementierung müssen auch zum neuen Digest passen!</value>
-    <comment>Manually overriden.</comment>
+    <value>Todos os outros métodos de recuperação para esta implementação devem corresponder também ao novo digestor!</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Ersetzen
-Ich habe die Implementierung absichtlich verändert</value>
-    <comment>Manually overriden.</comment>
+    <value>Substituir
+Alterei a implementação de propósito</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Verwerfen
-Ungespeicherte Änderungen verwerfen</value>
-    <comment>Manually overriden.</comment>
+    <value>Descartar
+Descartar alterações não guardadas</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Das Bild wird zur Vorschau heruntergeladen...</value>
-    <comment>Manually overriden.</comment>
+    <value>Descarregar imagem para visualização...</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Ein Manifest Digest wurde für ein leeres Verzeichnis berechnet. Überprüfen Sie, ob Sie den korrekten "extract" Wert für das Archiv angegeben haben.</value>
-    <comment>Manually overriden.</comment>
+    <value>Foi calculado um manifesto digerido para um directório vazio. Verifique se definiu o valor "extracto" correcto para o arquivo.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Feed Dateien (*.xml)|*.xml|Vorlagen Dateien (*.xml.template)|*.xml.template|Alle Dateien|*</value>
-    <comment>Manually overriden.</comment>
+    <value>Ficheiros de alimentação (*.xml)|*.xml|Arquivos de templates (*.xml.template)|*.xml.template|Todos os ficheiros|*</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
-    <value>Dateigröße</value>
-    <comment>Manually overriden.</comment>
+    <value>Tamanho do ficheiro</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>Eine komplette, u.U. mehrzeilige Beschreibung.</value>
-    <comment>Manually overriden.</comment>
+    <value>Uma descrição completa possivelmente com várias linhas</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Windows Icon-Dateien</value>
-    <comment>Manually overriden.</comment>
+    <value>Ficheiros de ícones do Windows</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Das Bildformat wird von Zero Install nicht unterstützt.</value>
-    <comment>Manually overriden.</comment>
+    <value>O formato da imagem não é suportado por Zero Install.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Entpacken des Installers als ein Archiv fehlgeschlagen.</value>
-    <comment>Manually overriden.</comment>
+    <value>Falha na extracção do instalador como um arquivo.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Sie müssen eine alternative Downloadquelle für die Anwendung, z.B. ein ZIP Archiv, angeben. Wir werden dennoch die Desktopintegration-Informationen, die vom Installer erfasst wurden, verwenden!</value>
-    <comment>Manually overriden.</comment>
+    <value>É necessário fornecer uma fonte alternativa de descarga para a aplicação, por exemplo, um arquivo ZIP. Continuaremos a utilizar a informação de integração do ambiente de trabalho capturada a partir do instalador!</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Ungültiger Capabilities Registrierungspfad: {0}</value>
-    <comment>Manually overriden.</comment>
+    <value>Caminho de registo de capacidades inválidas {0}</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Manifest Digest hat sich eventuell geändert.</value>
-    <comment>Manually overriden.</comment>
+    <value>O manifesto de digestão pode ter mudado.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Manifest Digest noch nicht berechnet.</value>
-    <comment>Manually overriden.</comment>
+    <value>Manifesto digerido ainda não calculado.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
-    <value>Namen</value>
-    <comment>Manually overriden.</comment>
+    <value>Nomes</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NewButton" xml:space="preserve">
     <value>..\Resources\NewButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Neuer Schlüssel...</value>
-    <comment>Manually overriden.</comment>
+    <value>Nova chave...</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NewWizardButton" xml:space="preserve">
-    <value>..\Resources\NewWizardButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>...Recursos\\NewWizardButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Es wurden keine Einstiegspunkte (EXEs, JARs, Python Skripts, etc.) gefunden. Bitte überprüfen Sie, ob Sie das korrekte Archiv und das korrekte Unterverzeichnis ausgewählt haben.</value>
-    <comment>Manually overriden.</comment>
+    <value>Não foram encontrados pontos de entrada (EXEs, JARs, scripts Python, etc.). Por favor, certifique-se de que seleccionou o arquivo e o directório de extractos correctos.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Konnte keine passenden Feed-Dateien finden.</value>
-    <comment>Manually overriden.</comment>
+    <value>Incapaz de encontrar quaisquer ficheiros de alimentação correspondentes.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>Nein, die Anwendung selbst
-besteht aus nur einer EXE</value>
-    <comment>Manually overriden.</comment>
+    <value>Não, o próprio pedido
+consiste em apenas um EXE</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OpenButton" xml:space="preserve">
-    <value>..\Resources\OpenButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>...Recursos\\OpenButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Bitte klicken Sie:</value>
-    <comment>Manually overriden.</comment>
+    <value>Por favor, clique:</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>PNG Bilddateien</value>
-    <comment>Manually overriden.</comment>
+    <value>Ficheiros de imagem PNG</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="RedoButton" xml:space="preserve">
-    <value>..\Resources\RedoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>...Recursos\RedoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
-    <value>in Bytes (erforderlich)</value>
-    <comment>Manually overriden.</comment>
+    <value>em bytes (obrigatório)</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>HTTP/FTP URL (erforderlich)</value>
-    <comment>Manually overriden.</comment>
+    <value>URL HTTP/FTP (obrigatório)</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Trotzdem speichern?</value>
-    <comment>Manually overriden.</comment>
+    <value>Salvar de qualquer maneira?</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveButton" xml:space="preserve">
-    <value>..\Resources\SaveButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>...Recursos\SaveButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
-    <value>Speichern
-Änderungen speichern</value>
-    <comment>Manually overriden.</comment>
+    <value>Guardar
+Guardar alterações</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Möchten Sie die Änderungen speichern?</value>
-    <comment>Manually overriden.</comment>
+    <value>Quer salvar as alterações?</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Feeds erfolgreich signiert.</value>
-    <comment>Manually overriden.</comment>
+    <value>Ficheiros assinados com sucesso.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Signiere Feeds</value>
-    <comment>Manually overriden.</comment>
+    <value>Alimentação de assinatura</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>Dateigröße noch nicht bestimmt.</value>
-    <comment>Manually overriden.</comment>
+    <value>Tamanho do ficheiro ainda não determinado.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Quell-URL</value>
-    <comment>Manually overriden.</comment>
+    <value>URL de origem</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
-    <value>Zusammenfassung</value>
-    <comment>Manually overriden.</comment>
+    <value>Resumo</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="UndoButton" xml:space="preserve">
-    <value>..\Resources\UndoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>...Recursos\UndoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Warte bis Installater beendet ist</value>
-    <comment>Manually overriden.</comment>
+    <value>À espera que o instalador conclua</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Falscher MIME Typ! Sollte {0} sein.</value>
-    <comment>Manually overriden.</comment>
+    <value>Tipo MIME errado! Deve ser {0}.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Ja, Installations EXE</value>
-    <comment>Manually overriden.</comment>
+    <value>Sim, instalador EXE</value>
+    <comment>Automatically translated.</comment>
   </data>
 </root>

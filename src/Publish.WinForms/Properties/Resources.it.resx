@@ -60,219 +60,219 @@
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="AddMissing" xml:space="preserve">
-    <value>Eksik ekle</value>
-    <comment>Manually overriden.</comment>
+    <value>Aggiungete un'informazione mancante</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
-    <value>Tüm dosyalar</value>
-    <comment>Manually overriden.</comment>
+    <value>Tutti i file</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Bu yol arşiv dışına gidiyor.</value>
-    <comment>Manually overriden.</comment>
+    <value>Questo percorso punta all'esterno dell'archivio.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>{0} için GnuPG parolasını yazın:</value>
-    <comment>Manually overriden.</comment>
+    <value>Inserisci la passphrase GnuPG per {0}:</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Bu EXE kurulum dosyası mı?</value>
-    <comment>Manually overriden.</comment>
+    <value>È un EXE di installazione?</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Yakalamayı atlamak istediğinize emin misiniz?
-Bunu yaparsanız uygulamaların masaüstü bütünleştirmeleri (örneğin dosya ilişkilendirmeleri) akışa eklenmez.</value>
-    <comment>Manually overriden.</comment>
+    <value>Sei sicuro di voler saltare la cattura?
+Le informazioni sull'integrazione del desktop dell'applicazione (ad esempio le associazioni dei file) non saranno aggiunte al feed.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Simgeler olmadan devam etmek istediğinize emin misiniz?
-Bunu yaparsanız Zero Install masaüstü bütünleştirmeleri kısayolları için katalogdaki genel bir simge olarak görüntüler.</value>
-    <comment>Manually overriden.</comment>
+    <value>Sei sicuro di voler continuare senza aggiungere icone?
+Zero Install sarà in grado di visualizzare solo un'icona generica segnaposto nel catalogo e per qualsiasi scorciatoia di integrazione sul desktop.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Ayarları tamamlamadan devam etmek istediğinize emin misiniz?
-Bunu yaparsanız akışınız yerel kipte ve çevrimdışı olarak çalışır.</value>
-    <comment>Manually overriden.</comment>
+    <value>Sei sicuro di voler continuare senza completare queste impostazioni?
+Il tuo feed funzionerà solo localmente e non online.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Açıklama</value>
-    <comment>Manually overriden.</comment>
+    <value>Descrizione</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Devam
-Bu uyarlamanın aynı şekilde kalması gerekiyordu</value>
-    <comment>Manually overriden.</comment>
+    <value>Mantenere
+L'implementazione doveva rimanere la stessa</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Bildirim özeti değişti. Değişikliğin var olan başka bir bildirim özetinin yerini almasını ister misiniz?</value>
-    <comment>Manually overriden.</comment>
+    <value>Il manifest digest è cambiato. Vuoi sostituire quello esistente?</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Bu uyarlama için yeni özetin tüm diğer alma yöntemleriyle eşleşmesi gereklidir.</value>
-    <comment>Manually overriden.</comment>
+    <value>Anche tutti gli altri metodi di recupero per questa implementazione devono corrispondere al nuovo digest!</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Değiştir
-Uyarlama amacını kasıtlı olarak değiştirdim</value>
-    <comment>Manually overriden.</comment>
+    <value>Sostituire
+Ho cambiato l'implementazione di proposito</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Yok say
-Kaydedilmemiş değişiklikleri yok say</value>
-    <comment>Manually overriden.</comment>
+    <value>Scartare
+Cancella le modifiche non salvate</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Görsel ön izleme için indiriliyor...</value>
-    <comment>Manually overriden.</comment>
+    <value>Scaricare l'immagine per l'anteprima...</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Boş bir klasör için bir bildirim özeti tasarlandı. "extract" değerinin arşiv için doğru şekilde ayarlanmış olduğunu denetleyin.</value>
-    <comment>Manually overriden.</comment>
+    <value>È stato calcolato un manifest digest per una directory vuota. Controlla di aver impostato il corretto valore di "extract" per l'archivio.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Akış dosyaları (*.xml)|*.xml|Geçici dosyalar (*.xml.template)|*.xml.template|Tüm dosyalar|*</value>
-    <comment>Manually overriden.</comment>
+    <value>File di alimentazione (*.xml)|*.xml|File di modello (*.xml.template)|*.xml.template|Tutti i file|*</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
-    <value>Dosya boyutu</value>
-    <comment>Manually overriden.</comment>
+    <value>Dimensione del file</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>Çok satırlı olabilecek tam bir açıklama</value>
-    <comment>Manually overriden.</comment>
+    <value>Una descrizione completa possibilmente su più righe</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Windows simge dosyaları</value>
-    <comment>Manually overriden.</comment>
+    <value>File di icone di Windows</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Görsel dosyası Zero Install tarafından desteklenmiyor.</value>
-    <comment>Manually overriden.</comment>
+    <value>Il formato dell'immagine non è supportato da Zero Install.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Kurulum ile ilgili bir arşiv ayıklanamadı.</value>
-    <comment>Manually overriden.</comment>
+    <value>Fallita l'estrazione del programma di installazione come archivio.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Uygulama için, ZIP arşivi gibi alternatif bir indirme kaynağı belirtmelisiniz. Bu durumda da kurucu tarafından belirlenmiş masaüstü bütünleştirmesi kullanılmaya devam edilecek.</value>
-    <comment>Manually overriden.</comment>
+    <value>È necessario fornire una fonte di download alternativa per l'applicazione, ad esempio un archivio ZIP. Useremo ancora le informazioni di integrazione del desktop catturate dal programma di installazione!</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Yetenek kaydı yolu geçersiz: {0}</value>
-    <comment>Manually overriden.</comment>
+    <value>Percorso del registro delle capacità non valido {0}</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Bildirim özeti değişmiş olabilir.</value>
-    <comment>Manually overriden.</comment>
+    <value>Il manifesto digest potrebbe essere cambiato.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Bildirim özeti henüz derlenmemiş.</value>
-    <comment>Manually overriden.</comment>
+    <value>Manifest digest non ancora calcolato.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
-    <value>Adlar</value>
-    <comment>Manually overriden.</comment>
+    <value>Nomi</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NewButton" xml:space="preserve">
     <value>..\Resources\NewButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-    <comment>Manually overriden.</comment>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Yeni anahtar...</value>
-    <comment>Manually overriden.</comment>
+    <value>Nuova chiave...</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NewWizardButton" xml:space="preserve">
     <value>..\Resources\NewWizardButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-    <comment>Manually overriden.</comment>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Herhangi bir giriş noktası (EXE'ler, JAR'lar, Python komutları, vb.) bulunamadı. Lütfen seçtiğiniz arşivin geçerliliğinden ve klasöre ayıklanmış olduğundan emin olun.</value>
-    <comment>Manually overriden.</comment>
+    <value>Nessun punto di ingresso (EXE, JAR, script Python, ecc.) è stato trovato. Assicurati di aver selezionato l'archivio corretto e la directory di estrazione.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Eşleşen herhangi bir akış dosyası bulunamadı.</value>
-    <comment>Manually overriden.</comment>
+    <value>Impossibile trovare qualsiasi file di feed corrispondente.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>Hayır, uygulamanın kendisi
-yalnız bir EXE dosyasından oluşur</value>
-    <comment>Manually overriden.</comment>
+    <value>No, l'applicazione stessa
+consiste solo in un EXE</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OpenButton" xml:space="preserve">
     <value>..\Resources\OpenButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-    <comment>Manually overriden.</comment>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Lütfen tıklayın:</value>
-    <comment>Manually overriden.</comment>
+    <value>Per favore, cliccate:</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>PNG görsel dosyaları</value>
-    <comment>Manually overriden.</comment>
+    <value>File immagine PNG</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="RedoButton" xml:space="preserve">
     <value>..\Resources\RedoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-    <comment>Manually overriden.</comment>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
-    <value>bayt olarak (zorunlu)</value>
-    <comment>Manually overriden.</comment>
+    <value>in byte (richiesto)</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>HTTP/FTP adresi (zorunlu)</value>
-    <comment>Manually overriden.</comment>
+    <value>URL HTTP/FTP (richiesto)</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Gene de kaydedilsin mi?</value>
-    <comment>Manually overriden.</comment>
+    <value>Salvare comunque?</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveButton" xml:space="preserve">
     <value>..\Resources\SaveButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-    <comment>Manually overriden.</comment>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
-    <value>Kaydet
-Değişiklikleri kaydet</value>
-    <comment>Manually overriden.</comment>
+    <value>Salva
+Salva le modifiche</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Değişiklikleri kaydetmek ister misiniz?</value>
-    <comment>Manually overriden.</comment>
+    <value>Vuoi salvare le modifiche?</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Dosyalar imzalandı.</value>
-    <comment>Manually overriden.</comment>
+    <value>File firmati con successo.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Akışlar imzalanıyor</value>
-    <comment>Manually overriden.</comment>
+    <value>Firma dei feed</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>Dosya boyutu henüz belirlenemedi.</value>
-    <comment>Manually overriden.</comment>
+    <value>La dimensione del file non è ancora determinata.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Kaynak adres</value>
-    <comment>Manually overriden.</comment>
+    <value>Fonte URL</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
-    <value>Özet</value>
-    <comment>Manually overriden.</comment>
+    <value>Riassunto</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="UndoButton" xml:space="preserve">
     <value>..\Resources\UndoButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-    <comment>Manually overriden.</comment>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Kurulumun tamamlanması bekleniyor</value>
-    <comment>Manually overriden.</comment>
+    <value>In attesa del completamento dell'installatore</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>MIME türü yanlış! {0} olmalıdır.</value>
-    <comment>Manually overriden.</comment>
+    <value>Tipo MIME sbagliato! Dovrebbe essere {0}.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Evet, EXE kurulum dosyası </value>
-    <comment>Manually overriden.</comment>
+    <value>Sì, installatore EXE</value>
+    <comment>Automatically translated.</comment>
   </data>
 </root>

@@ -59,69 +59,69 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Παρακαλούμε εισάγετε την συνθηματική φράση για το GnuPG {0}:</value>
-    <comment>Manually overriden.</comment>
+    <value>Inserisci la passphrase GnuPG per {0}:</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>Η τροφοδοσία δεν έχει τη σωστή μορφή.</value>
-    <comment>Manually overriden.</comment>
+    <value>Il feed non ha il formato corretto.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Το πρόγραμμα έρχεται με ΑΠΟΛΥΤΩΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ, στο βαθμό που επιτρέπεται από το νόμο.
-Μπορείτε να αναδιανέμετε αντίγραφα του προγράμματος υπό τους όρους της GNU Lesser General Public License.</value>
-    <comment>Manually overriden.</comment>
+    <value>Questo programma non viene fornito con ASSOLUTAMENTE NESSUNA GARANZIA, nella misura consentita dalla legge.
+Potete ridistribuire copie di questo programma secondo i termini della GNU Lesser General Public License.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Λείπουν επιχειρήματα. Δοκιμάστε {0} --help</value>
-    <comment>Manually overriden.</comment>
+    <value>Argomenti mancanti. Prova {0} --help</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Αδυναμία εύρεσης των αρχείων που ταιριάζουν με τις τροφοδοσίες.</value>
-    <comment>Manually overriden.</comment>
+    <value>Impossibile trovare qualsiasi file di feed corrispondente.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Λήψη αρχείων που λείπουν, υπολογισμος δηλωτικου, κλπ...</value>
-    <comment>Manually overriden.</comment>
+    <value>Scarica gli archivi mancanti, calcola i manifest digest, ecc.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Συνδυάστε όλες τις καθορισμένες τροφοδοσίες σε ένα ενιαίο κατάλογο {ΑΡΧΕΙΟ}.</value>
-    <comment>Manually overriden.</comment>
+    <value>Combina tutti i feed specificati in un unico catalogo {FILE}.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Χρήση {PASS} για να ξεκλειδώσετε το μυστικό κλειδί του GnuPG.</value>
-    <comment>Manually overriden.</comment>
+    <value>Usate {PASS} per sbloccare la chiave segreta di GnuPG.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Εμφάνιση του ενσωματωμένου κειμένου βοήθειας.</value>
-    <comment>Manually overriden.</comment>
+    <value>Mostra il testo di aiuto integrato.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Κλειδί για την χρήση υπογραφής (αν έχετε περισσότερα από ενα, ή αν θέλετε παραίτησή με διαφορετικό κλειδί).</value>
-    <comment>Manually overriden.</comment>
+    <value>Chiave da usare per la firma (se ne hai più di una, o se vuoi dimetterti con una chiave diversa).</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Επιλογές:</value>
-    <comment>Manually overriden.</comment>
+    <value>Opzioni:</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Αφαιρέστε τυχόν υπάρχουσες υπογραφές.</value>
-    <comment>Manually overriden.</comment>
+    <value>Rimuovere qualsiasi firma esistente.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Εμφάνιση πληροφοριών έκδοσης.</value>
-    <comment>Manually overriden.</comment>
+    <value>Visualizza le informazioni sulla versione.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Προσθήκη μπλοκ υπογραφής XML. (Όλες οι απομακρυσμένες τροφοδοσίες πρέπει να υπογράφονται.)</value>
-    <comment>Manually overriden.</comment>
+    <value>Aggiungere un blocco di firma XML. (Tutti i feed remoti devono essere firmati)</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>Άγνωστος τυπος λειτουργίας
-Δοκιμάστε {0} --help</value>
-    <comment>Manually overriden.</comment>
+    <value>Modalità di funzionamento sconosciuta.
+Prova {0} --help</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Χρήση:</value>
-    <comment>Manually overriden.</comment>
+    <value>Uso:</value>
+    <comment>Automatically translated.</comment>
   </data>
 </root>
