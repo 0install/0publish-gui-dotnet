@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddMissing" xml:space="preserve">
+    <value>Añadir a los que faltan</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="AllFiles" xml:space="preserve">
+    <value>Todos los archivos</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ArchiveBreakoutPath" xml:space="preserve">
+    <value>Esta ruta apunta fuera del archivo.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="AskForPassphrase" xml:space="preserve">
+    <value>Por favor, introduzca la frase de contraseña GnuPG para {0}:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="AskInstallerEXE" xml:space="preserve">
+    <value>¿Es un EXE instalador?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="AskSkipCapture" xml:space="preserve">
+    <value>¿Está seguro de que desea omitir la captura?
+La información sobre la integración de la aplicación en el escritorio (por ejemplo, las asociaciones de archivos) no se añadirá al feed.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="AskSkipIcon" xml:space="preserve">
+    <value>¿Está seguro de que quiere continuar sin añadir iconos?
+La Instalación Cero sólo podrá mostrar un icono genérico de marcador de posición en el catálogo, así como para cualquier acceso directo de integración en el escritorio.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="AskSkipSecurity" xml:space="preserve">
+    <value>¿Estás seguro de que quieres continuar sin completar estos ajustes?
+Su alimentación sólo funcionará localmente y no en línea.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descripción</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DigestKeep" xml:space="preserve">
+    <value>Mantener
+Se supone que la aplicación es la misma</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DigestMismatch" xml:space="preserve">
+    <value>El resumen del manifiesto ha cambiado. ¿Desea sustituir el existente?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DigestOtherImplementations" xml:space="preserve">
+    <value>Todos los demás métodos de recuperación de esta implementación deben coincidir también con el nuevo compendio</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DigestReplace" xml:space="preserve">
+    <value>Sustituir
+He cambiado la implementación a propósito</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DiscardChanges" xml:space="preserve">
+    <value>Descartar
+Descartar los cambios no guardados</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DownloadingPeviewImage" xml:space="preserve">
+    <value>Descargando la imagen para la vista previa...</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="EmptyImplementation" xml:space="preserve">
+    <value>Se ha calculado un resumen del manifiesto para un directorio vacío. Compruebe que ha establecido el valor de "extracción" correcto para el archivo.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FileDialogFilter" xml:space="preserve">
+    <value>Archivos de alimentación (*.xml)|*.xml|Archivos de plantilla (*.xml.template)|*.xml.template|Todos los archivos|*</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>Tamaño del archivo</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="HintTextMultiline" xml:space="preserve">
+    <value>Una descripción completa, posiblemente de varias líneas</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="IcoFiles" xml:space="preserve">
+    <value>Archivos de iconos de Windows</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ImageFormatNotSupported" xml:space="preserve">
+    <value>El formato de imagen no es compatible con la Instalación Cero.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InstallerExtractFailed" xml:space="preserve">
+    <value>No se ha podido extraer el instalador como un archivo.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InstallerNeedAltSource" xml:space="preserve">
+    <value>Debe proporcionar una fuente de descarga alternativa para la aplicación, por ejemplo, un archivo ZIP. Seguiremos utilizando la información de integración del escritorio capturada desde el instalador</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
+    <value>Ruta de registro de capacidades no válida {0}</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ManifestDigestChanged" xml:space="preserve">
+    <value>El resumen del manifiesto puede haber cambiado.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="ManifestDigestMissing" xml:space="preserve">
+    <value>El resumen del manifiesto aún no se ha calculado.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Names" xml:space="preserve">
+    <value>Nombres</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="NewKey" xml:space="preserve">
+    <value>Nueva llave...</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="NoEntryPointsFound" xml:space="preserve">
+    <value>No se han encontrado puntos de entrada (EXEs, JARs, scripts de Python, etc.). Por favor, asegúrese de que ha seleccionado el archivo y el directorio de extracción correctos.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="NoFeedFilesFound" xml:space="preserve">
+    <value>No se puede encontrar ningún archivo de alimentación que coincida.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="NoSingleExecutable" xml:space="preserve">
+    <value>No, la aplicación en sí misma
+consiste sólo en un EXE</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="PleaseClick" xml:space="preserve">
+    <value>Por favor, haga clic:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="PngFiles" xml:space="preserve">
+    <value>Archivos de imagen PNG</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="RequiredBytes" xml:space="preserve">
+    <value>en bytes (obligatorio)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="RequiredUrl" xml:space="preserve">
+    <value>URL HTTP/FTP (obligatorio)</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SaveAnyway" xml:space="preserve">
+    <value>¿Ahorrar de todos modos?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Guardar
+Guardar los cambios</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SaveQuestion" xml:space="preserve">
+    <value>¿Quieres guardar los cambios?</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SignedFeeds" xml:space="preserve">
+    <value>Archivos firmados con éxito.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SigningFeeds" xml:space="preserve">
+    <value>Fichas de alimentación</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SizeMissing" xml:space="preserve">
+    <value>El tamaño del archivo aún no está determinado.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="SourceUrl" xml:space="preserve">
+    <value>Fuente URL</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Resumen</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WaitingForInstaller" xml:space="preserve">
+    <value>Esperando a que el instalador termine</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="WrongMimeType" xml:space="preserve">
+    <value>Tipo MIME incorrecto Debería ser {0}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="YesInstallerExe" xml:space="preserve">
+    <value>Sí, instalador EXE</value>
+    <comment>Automatically translated.</comment>
+  </data>
+</root>

@@ -59,195 +59,195 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Eksik ekle</value>
-    <comment>Manually overriden.</comment>
+    <value>添加缺失</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
-    <value>Tüm dosyalar</value>
-    <comment>Manually overriden.</comment>
+    <value>所有文件</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Bu yol arşiv dışına gidiyor.</value>
-    <comment>Manually overriden.</comment>
+    <value>这个路径指向档案馆外。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>{0} için GnuPG parolasını yazın:</value>
-    <comment>Manually overriden.</comment>
+    <value>请输入GnuPG口令，{0} 。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Bu EXE kurulum dosyası mı?</value>
-    <comment>Manually overriden.</comment>
+    <value>这是一个安装程序EXE吗？</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Yakalamayı atlamak istediğinize emin misiniz?
-Bunu yaparsanız uygulamaların masaüstü bütünleştirmeleri (örneğin dosya ilişkilendirmeleri) akışa eklenmez.</value>
-    <comment>Manually overriden.</comment>
+    <value>你确定要跳过采集吗？
+有关应用程序的桌面集成（如文件关联）的信息将不会被添加到馈送中。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Simgeler olmadan devam etmek istediğinize emin misiniz?
-Bunu yaparsanız Zero Install masaüstü bütünleştirmeleri kısayolları için katalogdaki genel bir simge olarak görüntüler.</value>
-    <comment>Manually overriden.</comment>
+    <value>你确定你要继续不添加图标吗？
+零安装 "将只能在目录以及任何桌面集成快捷方式中显示一个通用占位符图标。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Ayarları tamamlamadan devam etmek istediğinize emin misiniz?
-Bunu yaparsanız akışınız yerel kipte ve çevrimdışı olarak çalışır.</value>
-    <comment>Manually overriden.</comment>
+    <value>你确定你要在不完成这些设置的情况下继续吗？
+你的饲料将只在本地工作，而不是在线。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Açıklama</value>
-    <comment>Manually overriden.</comment>
+    <value>描述</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Devam
-Bu uyarlamanın aynı şekilde kalması gerekiyordu</value>
-    <comment>Manually overriden.</comment>
+    <value>保持
+执行情况本应保持不变</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Bildirim özeti değişti. Değişikliğin var olan başka bir bildirim özetinin yerini almasını ister misiniz?</value>
-    <comment>Manually overriden.</comment>
+    <value>舱单摘要已经改变。您是否希望替换现有的？</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Bu uyarlama için yeni özetin tüm diğer alma yöntemleriyle eşleşmesi gereklidir.</value>
-    <comment>Manually overriden.</comment>
+    <value>这个实现的所有其他检索方法也必须与新的摘要相匹配!</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Değiştir
-Uyarlama amacını kasıtlı olarak değiştirdim</value>
-    <comment>Manually overriden.</comment>
+    <value>替换
+我故意改变了执行方式</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Yok say
-Kaydedilmemiş değişiklikleri yok say</value>
-    <comment>Manually overriden.</comment>
+    <value>丢弃
+放弃未保存的修改</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Görsel ön izleme için indiriliyor...</value>
-    <comment>Manually overriden.</comment>
+    <value>下载用于预览的图像...</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Boş bir klasör için bir bildirim özeti tasarlandı. "extract" değerinin arşiv için doğru şekilde ayarlanmış olduğunu denetleyin.</value>
-    <comment>Manually overriden.</comment>
+    <value>计算了一个空目录的清单摘要。检查您是否为存档设置了正确的 "提取 "值。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Akış dosyaları (*.xml)|*.xml|Geçici dosyalar (*.xml.template)|*.xml.template|Tüm dosyalar|*</value>
-    <comment>Manually overriden.</comment>
+    <value>饲料文件(*.xml)|*.xml|模板文件(*.xml.模板)|*.xml.模板|所有文件|*。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
-    <value>Dosya boyutu</value>
-    <comment>Manually overriden.</comment>
+    <value>文件大小</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>Çok satırlı olabilecek tam bir açıklama</value>
-    <comment>Manually overriden.</comment>
+    <value>一个完整的可能是多行的描述</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Windows simge dosyaları</value>
-    <comment>Manually overriden.</comment>
+    <value>Windows图标文件</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Görsel dosyası Zero Install tarafından desteklenmiyor.</value>
-    <comment>Manually overriden.</comment>
+    <value>Zero Install不支持该图像格式。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Kurulum ile ilgili bir arşiv ayıklanamadı.</value>
-    <comment>Manually overriden.</comment>
+    <value>解除安装程序的存档失败。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Uygulama için, ZIP arşivi gibi alternatif bir indirme kaynağı belirtmelisiniz. Bu durumda da kurucu tarafından belirlenmiş masaüstü bütünleştirmesi kullanılmaya devam edilecek.</value>
-    <comment>Manually overriden.</comment>
+    <value>你需要提供一个应用程序的替代下载源，例如ZIP档案。我们仍将使用从安装程序中获取的桌面集成信息</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Yetenek kaydı yolu geçersiz: {0}</value>
-    <comment>Manually overriden.</comment>
+    <value>无效的能力注册表路径。{0}</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Bildirim özeti değişmiş olabilir.</value>
-    <comment>Manually overriden.</comment>
+    <value>舱单摘要可能已经改变。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Bildirim özeti henüz derlenmemiş.</value>
-    <comment>Manually overriden.</comment>
+    <value>舱单摘要还没有计算。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
-    <value>Adlar</value>
-    <comment>Manually overriden.</comment>
+    <value>名称</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Yeni anahtar...</value>
-    <comment>Manually overriden.</comment>
+    <value>新钥匙...</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Herhangi bir giriş noktası (EXE'ler, JAR'lar, Python komutları, vb.) bulunamadı. Lütfen seçtiğiniz arşivin geçerliliğinden ve klasöre ayıklanmış olduğundan emin olun.</value>
-    <comment>Manually overriden.</comment>
+    <value>没有发现任何入口点（EXEs、JARs、Python脚本等）。请确保你选择了正确的存档和提取目录。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Eşleşen herhangi bir akış dosyası bulunamadı.</value>
-    <comment>Manually overriden.</comment>
+    <value>无法找到任何匹配的饲料文件。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>Hayır, uygulamanın kendisi
-yalnız bir EXE dosyasından oluşur</value>
-    <comment>Manually overriden.</comment>
+    <value>不，该应用程序本身
+只由一个EXE组成</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Lütfen tıklayın:</value>
-    <comment>Manually overriden.</comment>
+    <value>请点击。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>PNG görsel dosyaları</value>
-    <comment>Manually overriden.</comment>
+    <value>PNG图像文件</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
-    <value>bayt olarak (zorunlu)</value>
-    <comment>Manually overriden.</comment>
+    <value>以字节为单位（必填）。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>HTTP/FTP adresi (zorunlu)</value>
-    <comment>Manually overriden.</comment>
+    <value>HTTP/FTP网址（必填）。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Gene de kaydedilsin mi?</value>
-    <comment>Manually overriden.</comment>
+    <value>无论如何要保存？</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
-    <value>Kaydet
-Değişiklikleri kaydet</value>
-    <comment>Manually overriden.</comment>
+    <value>保存
+保存更改</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Değişiklikleri kaydetmek ister misiniz?</value>
-    <comment>Manually overriden.</comment>
+    <value>你想保存这些变化吗？</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Dosyalar imzalandı.</value>
-    <comment>Manually overriden.</comment>
+    <value>成功地签署了文件。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Akışlar imzalanıyor</value>
-    <comment>Manually overriden.</comment>
+    <value>签收饲料</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>Dosya boyutu henüz belirlenemedi.</value>
-    <comment>Manually overriden.</comment>
+    <value>文件大小尚未确定。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Kaynak adres</value>
-    <comment>Manually overriden.</comment>
+    <value>资料来源URL</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
-    <value>Özet</value>
-    <comment>Manually overriden.</comment>
+    <value>摘要</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Kurulumun tamamlanması bekleniyor</value>
-    <comment>Manually overriden.</comment>
+    <value>等待安装程序完成</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>MIME türü yanlış! {0} olmalıdır.</value>
-    <comment>Manually overriden.</comment>
+    <value>错误的MIME类型!应该是{0} 。</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Evet, EXE kurulum dosyası </value>
-    <comment>Manually overriden.</comment>
+    <value>是的，安装程序EXE</value>
+    <comment>Automatically translated.</comment>
   </data>
 </root>

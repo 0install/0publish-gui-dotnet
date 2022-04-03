@@ -1,64 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -112,155 +53,201 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
     <value>Lücken füllen</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
     <value>Alle Dateien</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
     <value>Dieser Pfad zeigt außerhalb des Archivs.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
     <value>Bitte geben Sie die GnuPG Passphrase für {0} ein:</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
     <value>Ist dies eine Installations EXE?</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
     <value>Sind Sie sicher, dass Sie den Capture Schritt überspringen möchten?
 Informationen über die Desktopintegration der Anwendung (z.B. Dateityp-Assoziationen) werden nicht zum Feed hinzugefügt.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Sind Sie sicher, dass Sie fortfahren möchten ohne Icons hinzuzufügen?
 Zero Install wird nur ein generisches Platzhalter-Symbol im Katalog wie auch bei Desktopintergations-Verknüpfungen verwenden können.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Sind Sie sicher, dass Sie fortfahren möchten ohne diese Einstellung zu vervollständigen?
 Ihr Feed wird nur lokal und nicht online funktionieren.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Beschreibung</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Behalten
 Die Implementierung sollte gleich bleiben</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
     <value>Der Manifest Digest hat sich geändert. Möchten Sie den bestehenden ersetzen?</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
     <value>Alle anderen Retrieval-Methoden für diese Implementierung müssen auch zum neuen Digest passen!</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>Ersetzen
 Ich habe die Implementierung absichtlich verändert</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
     <value>Verwerfen
 Ungespeicherte Änderungen verwerfen</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
     <value>Das Bild wird zur Vorschau heruntergeladen...</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
     <value>Ein Manifest Digest wurde für ein leeres Verzeichnis berechnet. Überprüfen Sie, ob Sie den korrekten "extract" Wert für das Archiv angegeben haben.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
     <value>Feed Dateien (*.xml)|*.xml|Vorlagen Dateien (*.xml.template)|*.xml.template|Alle Dateien|*</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
     <value>Dateigröße</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
     <value>Eine komplette, u.U. mehrzeilige Beschreibung.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
     <value>Windows Icon-Dateien</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
     <value>Das Bildformat wird von Zero Install nicht unterstützt.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
     <value>Entpacken des Installers als ein Archiv fehlgeschlagen.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
     <value>Sie müssen eine alternative Downloadquelle für die Anwendung, z.B. ein ZIP Archiv, angeben. Wir werden dennoch die Desktopintegration-Informationen, die vom Installer erfasst wurden, verwenden!</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
     <value>Ungültiger Capabilities Registrierungspfad: {0}</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
     <value>Manifest Digest hat sich eventuell geändert.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
     <value>Manifest Digest noch nicht berechnet.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Names" xml:space="preserve">
     <value>Namen</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
     <value>Neuer Schlüssel...</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>Es wurden keine Einstiegspunkte (EXEs, JARs, Python Skripts, etc.) gefunden. Bitte überprüfen Sie, ob Sie das korrekte Archiv und das korrekte Unterverzeichnis ausgewählt haben.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Konnte keine passenden Feed-Dateien finden.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Nein, die Anwendung selbst
 besteht aus nur einer EXE</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
     <value>Bitte klicken Sie:</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
     <value>PNG Bilddateien</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
     <value>in Bytes (erforderlich)</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
     <value>HTTP/FTP URL (erforderlich)</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
     <value>Trotzdem speichern?</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
     <value>Speichern
 Änderungen speichern</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
     <value>Möchten Sie die Änderungen speichern?</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
     <value>Feeds erfolgreich signiert.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
     <value>Signiere Feeds</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
     <value>Dateigröße noch nicht bestimmt.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
     <value>Quell-URL</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>Zusammenfassung</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
     <value>Warte bis Installater beendet ist</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
     <value>Falscher MIME Typ! Sollte {0} sein.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
     <value>Ja, Installations EXE</value>
+    <comment>Manually overriden.</comment>
   </data>
 </root>
