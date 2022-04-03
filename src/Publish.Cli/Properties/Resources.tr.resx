@@ -128,7 +128,7 @@
 Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağlı kalınarak dağıtılabilir.</value>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Değişkenler eksik. {0} --help deneyin.</value>
+    <value>Değişkenler eksik. {0} deneyin.</value>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Eşleşen herhangi bir akış dosyası bulunamadı.</value>
@@ -162,7 +162,7 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
   </data>
   <data name="UnknownMode" xml:space="preserve">
     <value>İşlem kipi bilinmiyor.
-{0} --help deneyin</value>
+{0} deneyin</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Kullanım:</value>

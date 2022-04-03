@@ -128,7 +128,7 @@
 Μπορείτε να αναδιανέμετε αντίγραφα του προγράμματος υπό τους όρους της GNU Lesser General Public License.</value>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Λείπουν επιχειρήματα. Δοκιμάστε {0} --help</value>
+    <value>Λείπουν επιχειρήματα. Δοκιμάστε {0}</value>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Αδυναμία εύρεσης των αρχείων που ταιριάζουν με τις τροφοδοσίες.</value>
@@ -162,7 +162,7 @@
   </data>
   <data name="UnknownMode" xml:space="preserve">
     <value>Άγνωστος τυπος λειτουργίας
-Δοκιμάστε {0} --help</value>
+Δοκιμάστε {0}</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Χρήση:</value>

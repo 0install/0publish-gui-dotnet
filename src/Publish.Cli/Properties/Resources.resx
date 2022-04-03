@@ -128,7 +128,7 @@
 You may redistribute copies of this program under the terms of the GNU Lesser General Public License.</value>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Missing arguments. Try {0} --help</value>
+    <value>Missing arguments. Try {0}</value>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
     <value>Unable to find any matching feed files.</value>
@@ -162,7 +162,7 @@ You may redistribute copies of this program under the terms of the GNU Lesser Ge
   </data>
   <data name="UnknownMode" xml:space="preserve">
     <value>Unknown operation mode.
-Try {0} --help</value>
+Try {0}</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Usage:</value>
