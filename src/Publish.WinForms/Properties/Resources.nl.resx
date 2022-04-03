@@ -81,7 +81,7 @@
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
     <value>Weet u zeker dat u het vastleggen wilt overslaan?
-Informatie over de desktopintegratie van de toepassing (bv. bestandsassociaties) zal niet aan de feed worden toegevoegd.</value>
+Informatie over de desktopintegratie van de toepassing (bijv. bestandsassociaties) zal niet aan de feed worden toegevoegd.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
