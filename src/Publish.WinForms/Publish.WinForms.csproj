@@ -9,6 +9,9 @@
     <OutputPath>..\..\artifacts\$(Configuration)\</OutputPath>
     <UseWindowsForms>True</UseWindowsForms>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DefineConstants>ERROR_REPORT</DefineConstants>
+  </PropertyGroup>
 
   <!-- Global usings -->
   <ItemGroup>
