@@ -4,6 +4,7 @@
 using NanoByte.Common.Info;
 using NanoByte.Common.Undo;
 using Spectre.Console;
+using ZeroInstall.Store.Configuration;
 using ZeroInstall.Store.Implementations;
 using ZeroInstall.Store.Trust;
 
@@ -302,8 +303,10 @@ public sealed class PublishCommand : ICommand
 
     private void AddMissing(IEnumerable<Implementation> implementations, ICommandExecutor executor)
     {
-        foreach (var implementation in implementations)
-            implementation.SetMissing(executor, _handler);
+        executor = new ConcurrentCommandExecutor(executor);
+        implementations.AsParallel()
+                       .WithDegreeOfParallelism(Config.LoadSafe().MaxParallelDownloads)
+                       .ForAll(implementation => implementation.SetMissing(executor, _handler));
     }
     #endregion
 }
