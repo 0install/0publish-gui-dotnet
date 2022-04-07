@@ -294,30 +294,16 @@ public sealed class PublishCommand : ICommand
     /// <exception cref="DigestMismatchException">An existing digest does not match the newly calculated one.</exception>
     private void HandleModify(FeedEditing feedEditing)
     {
-        if (_addMissing)
-        {
-            var feed = feedEditing.SignedFeed.Feed;
-            feed.ResolveInternalReferences();
+        var feed = feedEditing.SignedFeed.Feed;
+        feed.ResolveInternalReferences();
 
-            AddMissing(feed.Elements, feedEditing);
-        }
+        if (_addMissing) AddMissing(feed.Implementations, feedEditing);
     }
 
-    private void AddMissing(IEnumerable<Element> elements, ICommandExecutor executor)
+    private void AddMissing(IEnumerable<Implementation> implementations, ICommandExecutor executor)
     {
-        foreach (var element in elements)
-        {
-            switch (element)
-            {
-                case Implementation implementation:
-                    implementation.SetMissing(executor, _handler);
-                    break;
-
-                case Group group:
-                    AddMissing(group.Elements, executor); // recursion
-                    break;
-            }
-        }
+        foreach (var implementation in implementations)
+            implementation.SetMissing(executor, _handler);
     }
     #endregion
 }
