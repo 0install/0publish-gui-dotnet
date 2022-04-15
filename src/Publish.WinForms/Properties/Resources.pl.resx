@@ -177,7 +177,7 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nie znaleziono żadnych punktów wejścia (plików EXE, JAR, skryptów Pythona itp.). Upewnij się, że wybrano prawidłowe archiwum i katalog do rozpakowania.</value>
+    <value>Nie znaleziono żadnych punktów wejścia (plików EXE, JAR, skryptów Pythona itp.). Upewnij się, że wybrano prawidłowy katalog archiwum i rozpakowania.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">

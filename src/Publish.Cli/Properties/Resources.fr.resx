@@ -72,7 +72,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Arguments manquants. Essayez {0} --help</value>
+    <value>Arguments manquants. Essayez {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -117,7 +117,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
   </data>
   <data name="UnknownMode" xml:space="preserve">
     <value>Mode de fonctionnement inconnu.
-Essayez {0} --help</value>
+Essayez {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

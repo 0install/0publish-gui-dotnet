@@ -202,7 +202,7 @@ Zero Install сможет отобразить только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>HTTP/FTP URL (обязательно)</value>
+    <value>HTTP/FTP URL (требуется)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">

@@ -186,7 +186,7 @@ Kaydedilmemiş değişiklikleri yok say</value>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Hayır, uygulamanın kendisi
-yalnız bir EXE dosyasından oluşur</value>
+yalnızca bir EXE dosyasından oluşur</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
