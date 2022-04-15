@@ -68,11 +68,11 @@
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Questo programma non viene fornito con ASSOLUTAMENTE NESSUNA GARANZIA, nella misura consentita dalla legge.
-Potete ridistribuire copie di questo programma secondo i termini della GNU Lesser General Public License.</value>
+È possibile ridistribuire copie di questo programma secondo i termini della GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Argomenti mancanti. Prova {0} --help</value>
+    <value>Argomenti mancanti. Prova con {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -117,7 +117,7 @@ Potete ridistribuire copie di questo programma secondo i termini della GNU Lesse
   </data>
   <data name="UnknownMode" xml:space="preserve">
     <value>Modalità di funzionamento sconosciuta.
-Prova {0} --help</value>
+Prova {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

@@ -79,18 +79,18 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>¿Está seguro de que desea omitir la captura?
+    <value>¿Está seguro de que quiere omitir la captura?
 La información sobre la integración de la aplicación en el escritorio (por ejemplo, las asociaciones de archivos) no se añadirá al feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>¿Está seguro de que quiere continuar sin añadir iconos?
-La Instalación Cero sólo podrá mostrar un icono genérico de marcador de posición en el catálogo, así como para cualquier acceso directo de integración en el escritorio.</value>
+Zero Install sólo podrá mostrar un icono genérico de marcador de posición en el catálogo, así como para cualquier acceso directo de integración en el escritorio.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>¿Estás seguro de que quieres continuar sin completar estos ajustes?
-Su alimentación sólo funcionará localmente y no en línea.</value>
+Su feed sólo funcionará localmente y no en línea.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -129,7 +129,7 @@ Descartar los cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Archivos de alimentación (*.xml)|*.xml|Archivos de plantilla (*.xml.template)|*.xml.template|Todos los archivos|*</value>
+    <value>Archivos de feed (*.xml)|*.xml|Archivos de plantilla (*.xml.template)|*.xml.template|Todos los archivos|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -145,7 +145,7 @@ Descartar los cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>El formato de imagen no es compatible con la Instalación Cero.</value>
+    <value>El formato de imagen no es compatible con Zero Install.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
@@ -181,7 +181,7 @@ Descartar los cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>No se puede encontrar ningún archivo de alimentación que coincida.</value>
+    <value>No se puede encontrar ningún archivo de feed que coincida.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -223,7 +223,7 @@ Guardar los cambios</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Fichas de alimentación</value>
+    <value>Feeds de firmas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">

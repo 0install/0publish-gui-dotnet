@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>La alimentación no tiene el formato correcto.</value>
+    <value>El feed no tiene el formato correcto.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -72,11 +72,11 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Faltan argumentos. Prueba con {0} --help</value>
+    <value>Faltan argumentos. Prueba con {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>No se puede encontrar ningún archivo de alimentación que coincida.</value>
+    <value>No se puede encontrar ningún archivo de feed que coincida.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -84,7 +84,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combina todas las fuentes especificadas en un único catálogo {FILE}.</value>
+    <value>Combina todos los feeds especificados en un único catálogo {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -112,12 +112,12 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Añadir un bloque de firma XML. (Todas las alimentaciones remotas deben estar firmadas)</value>
+    <value>Añadir un bloque de firma XML. (Todos los feeds remotos deben estar firmados)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
     <value>Modo de funcionamiento desconocido.
-Pruebe con {0} --help</value>
+Pruebe con {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

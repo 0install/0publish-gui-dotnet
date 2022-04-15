@@ -103,7 +103,7 @@ Implementarea trebuia să rămână aceeași</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Se modifică rezumatul manifestului. Doriți să îl înlocuiți pe cel existent?</value>
+    <value>S-a schimbat rezumatul manifestului. Doriți să îl înlocuiți pe cel existent?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">

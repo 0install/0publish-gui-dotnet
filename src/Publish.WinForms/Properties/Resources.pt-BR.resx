@@ -59,12 +59,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Adicionar falta</value>
-    <comment>Automatically translated.</comment>
+    <value>Adicionar ausente</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
     <value>Todos os arquivos</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
     <value>Este caminho aponta para fora do arquivo.</value>
@@ -75,8 +75,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Este é um instalador EXE?</value>
-    <comment>Automatically translated.</comment>
+    <value>Este é um instalador do tipo EXE?</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
     <value>Você tem certeza de que quer pular a captura?
@@ -95,7 +95,7 @@ Sua alimentação só funcionará localmente e não on-line.</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Descrição</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Guarde
@@ -134,15 +134,15 @@ Descartar mudanças não salvas</value>
   </data>
   <data name="FileSize" xml:space="preserve">
     <value>Tamanho do arquivo</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
     <value>Uma descrição completa possivelmente com várias linhas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Arquivos de ícones do Windows</value>
-    <comment>Automatically translated.</comment>
+    <value>Arquivos de ícone do Windows</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
     <value>O formato da imagem não é suportado por Zero Install.</value>
@@ -170,11 +170,11 @@ Descartar mudanças não salvas</value>
   </data>
   <data name="Names" xml:space="preserve">
     <value>Nomes</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
     <value>Nova chave...</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>Não foram encontrados pontos de entrada (EXEs, JARs, scripts Python, etc.). Por favor, certifique-se de selecionar o arquivo correto e o diretório de extração.</value>
@@ -191,52 +191,52 @@ consiste em apenas um EXE</value>
   </data>
   <data name="PleaseClick" xml:space="preserve">
     <value>Por favor, clique:</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>Arquivos de imagem PNG</value>
-    <comment>Automatically translated.</comment>
+    <value>Imagem PNG</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
     <value>em bytes (obrigatório)</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
     <value>URL HTTP/FTP (obrigatório)</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Economizar de qualquer forma?</value>
-    <comment>Automatically translated.</comment>
+    <value>Salvar assim mesmo?</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
     <value>Salvar
-Salvar mudanças</value>
-    <comment>Automatically translated.</comment>
+Salvar alterações</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Você quer salvar as mudanças?</value>
-    <comment>Automatically translated.</comment>
+    <value>Deseja salvar as alterações?</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
     <value>Arquivos assinados com sucesso.</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Alimentação de assinatura</value>
-    <comment>Automatically translated.</comment>
+    <value>Assinando feeds</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>Tamanho do arquivo ainda não determinado.</value>
-    <comment>Automatically translated.</comment>
+    <value>Tamanho de arquivo ainda não determinado.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>URL de origem</value>
-    <comment>Automatically translated.</comment>
+    <value>URL fonte</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
-    <value>Sumário</value>
-    <comment>Automatically translated.</comment>
+    <value>Resumo</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
     <value>À espera que o instalador complete</value>
@@ -247,7 +247,7 @@ Salvar mudanças</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Sim, instalador EXE</value>
-    <comment>Automatically translated.</comment>
+    <value>Sim. instalador EXE</value>
+    <comment>Manually overriden.</comment>
   </data>
 </root>

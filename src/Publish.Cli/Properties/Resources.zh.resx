@@ -72,7 +72,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>缺少参数。尝试{0} --help</value>
+    <value>缺少论据。尝试{0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -117,7 +117,7 @@
   </data>
   <data name="UnknownMode" xml:space="preserve">
     <value>操作模式不明。
-尝试{0} --help</value>
+尝试{0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

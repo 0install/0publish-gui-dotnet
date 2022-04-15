@@ -72,7 +72,7 @@ Kopie tego programu można rozprowadzać zgodnie z warunkami licencji GNU Lesser
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Brakujące argumenty. Spróbuj {0} --help</value>
+    <value>Brakujące argumenty. Spróbuj {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -117,7 +117,7 @@ Kopie tego programu można rozprowadzać zgodnie z warunkami licencji GNU Lesser
   </data>
   <data name="UnknownMode" xml:space="preserve">
     <value>Nieznany tryb pracy.
-Spróbuj {0} --help</value>
+Spróbuj {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

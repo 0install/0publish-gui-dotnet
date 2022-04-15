@@ -85,7 +85,7 @@ Les informations relatives à l'intégration de l'application au bureau (par exe
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Êtes-vous sûr de vouloir continuer sans ajouter d'icônes ?
-L'installation zéro ne pourra afficher qu'une icône générique dans le catalogue ainsi que pour tous les raccourcis d'intégration au bureau.</value>
+Zero Install ne sera en mesure d'afficher qu'une icône générique dans le catalogue ainsi que pour tous les raccourcis d'intégration au bureau.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
@@ -129,7 +129,7 @@ Annuler les modifications non sauveguardées</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Fichiers d'alimentation (*.xml)|*.xml|Fichiers de modèles (*.xml.template)|*.xml.template|Tous les fichiers|*</value>
+    <value>Fichiers de flux (*.xml)|*.xml|Fichiers de modèles (*.xml.template)|*.xml.template|Tous les fichiers|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
