@@ -67,106 +67,106 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Este caminho aponta para fora do arquivo.</value>
-    <comment>Automatically translated.</comment>
+    <value>Este caminho para fora do arquivo.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Por favor, digite a senha GnuPG para {0}:</value>
-    <comment>Automatically translated.</comment>
+    <value>Por favor, digite a senha do GnuPG para {0}:</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
     <value>Este é um instalador do tipo EXE?</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Você tem certeza de que quer pular a captura?
-Informações sobre a integração da área de trabalho do aplicativo (por exemplo, associações de arquivos) não serão adicionadas à alimentação.</value>
-    <comment>Automatically translated.</comment>
+    <value>Deseja realmente ignorar a captura?
+Informações sobre a integração com a área de trabalho do aplicativo (ex.: associações de arquivos) não serão adicionadas ao feed.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Você tem certeza de que quer continuar sem adicionar ícones?
-Zero Install só será capaz de exibir um ícone genérico de espaço reservado no catálogo, assim como para qualquer atalho de integração na área de trabalho.</value>
-    <comment>Automatically translated.</comment>
+    <value>Deseja realmente continuar sem adicionar ícones?
+O Zero Install só poderá exibir um ícone de espaço reservado genérico no catálogo, bem como para quaisquer atalhos de integração da área de trabalho.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Você tem certeza de que quer continuar sem completar estas configurações?
-Sua alimentação só funcionará localmente e não on-line.</value>
-    <comment>Automatically translated.</comment>
+    <value>Deseja realmente continuar sem completar estas configurações?
+O seu feed somente funcionará localmente e não on-line.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Descrição</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Guarde
-A implementação deveria permanecer a mesma</value>
-    <comment>Automatically translated.</comment>
+    <value>Manter
+A implementação deve permanecer a mesma</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>A digestão do manifesto mudou. Você deseja substituir o existente?</value>
-    <comment>Automatically translated.</comment>
+    <value>O resumo do manifesto foi alterado. Deseja substituir o existente?</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Todos os outros métodos de recuperação para esta implementação devem corresponder também ao novo digestor!</value>
-    <comment>Automatically translated.</comment>
+    <value>Todos os outros métodos de recuperação para esta implementação também devem corresponder ao novo resumo!</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Substitua
-Mudei a implementação de propósito</value>
-    <comment>Automatically translated.</comment>
+    <value>Substituir
+Eu mudei a implementação de propósito</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
     <value>Descartar
-Descartar mudanças não salvas</value>
-    <comment>Automatically translated.</comment>
+Descartar alterações não salvas</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Download de imagem para visualização...</value>
-    <comment>Automatically translated.</comment>
+    <value>Baixando imagem para pré-visualização...</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Foi calculado um manifesto digerido para um diretório vazio. Verifique se você definiu o valor correto do "extrato" para o arquivo.</value>
-    <comment>Automatically translated.</comment>
+    <value>Um resumo de manifesto foi calculado para uma pasta vazia. Verifique se você definiu o valor "extract" correto para o arquivo.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Arquivos Feed (*.xml)|*.xml|Arquivos Template (*.xml.template)|*.xml.template|Todos os arquivos|*</value>
-    <comment>Automatically translated.</comment>
+    <value>Arquivos de feed (*.xml)|*.xml|Arquivos de modelo (*.xml.template)|*.xml.template|Todos os arquivos|*</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
     <value>Tamanho do arquivo</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>Uma descrição completa possivelmente com várias linhas</value>
-    <comment>Automatically translated.</comment>
+    <value>Uma descrição completa possivelmente de várias linhas</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
     <value>Arquivos de ícone do Windows</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>O formato da imagem não é suportado por Zero Install.</value>
-    <comment>Automatically translated.</comment>
+    <value>O formato de imagem não é suportado pelo Zero Install.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Falha na extração do instalador como um arquivo.</value>
-    <comment>Automatically translated.</comment>
+    <value>Falha ao extrair o instalador como um arquivo.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Você precisa fornecer uma fonte alternativa de download para o aplicativo, por exemplo, um arquivo ZIP. Nós ainda usaremos as informações de integração da área de trabalho capturadas do instalador!</value>
-    <comment>Automatically translated.</comment>
+    <value>Você precisa fornecer uma fonte de download alternativa para o aplicativo, ex.: arquivo ZIP. Ainda iremos usar as informações de integração com a área de trabalho capturadas a partir do instalador!</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Caminho de registro de capacidades inválidas {0}</value>
-    <comment>Automatically translated.</comment>
+    <value>Caminho de registro de recursos inválido: {0}</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>A digestão do manifesto pode ter mudado.</value>
-    <comment>Automatically translated.</comment>
+    <value>O resumo do manifesto pode ter mudado.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Manifesto digerido ainda não calculado.</value>
-    <comment>Automatically translated.</comment>
+    <value>Resumo do manifesto ainda não calculado.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Names" xml:space="preserve">
     <value>Nomes</value>
@@ -177,17 +177,17 @@ Descartar mudanças não salvas</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Não foram encontrados pontos de entrada (EXEs, JARs, scripts Python, etc.). Por favor, certifique-se de selecionar o arquivo correto e o diretório de extração.</value>
-    <comment>Automatically translated.</comment>
+    <value>Nenhum ponto de entrada (EXEs, JARs, scripts Python, etc.) encontrado. Certifique-se de que você selecionou o arquivo e pasta de extração corretos.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Incapaz de encontrar qualquer arquivo de alimentação correspondente.</value>
-    <comment>Automatically translated.</comment>
+    <value>Não foi possível localizar nenhum arquivo de feed correspondente.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>Não, a própria aplicação
-consiste em apenas um EXE</value>
-    <comment>Automatically translated.</comment>
+    <value>Não, o próprio aplicativo
+consiste apenas em um EXE</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
     <value>Por favor, clique:</value>
@@ -239,12 +239,12 @@ Salvar alterações</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>À espera que o instalador complete</value>
-    <comment>Automatically translated.</comment>
+    <value>Aguardando a conclusão do instalador</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Tipo MIME errado! Deve ser {0}.</value>
-    <comment>Automatically translated.</comment>
+    <value>Tipo MIME incorreto! Deveria ser {0}.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
     <value>Sim. instalador EXE</value>

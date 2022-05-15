@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Inserisci la passphrase GnuPG per {0}:</value>
+    <value>Inserire la passphrase GnuPG per {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
@@ -67,16 +67,16 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Questo programma non viene fornito con ASSOLUTAMENTE NESSUNA GARANZIA, nella misura consentita dalla legge.
+    <value>Questo programma non è accompagnato da ALCUNA GARANZIA, nei limiti consentiti dalla legge.
 È possibile ridistribuire copie di questo programma secondo i termini della GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Argomenti mancanti. Prova con {0}</value>
+    <value>Argomenti mancanti. Prova {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Impossibile trovare qualsiasi file di feed corrispondente.</value>
+    <value>Impossibile trovare file di alimentazione corrispondenti.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -88,15 +88,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Usate {PASS} per sbloccare la chiave segreta di GnuPG.</value>
+    <value>Utilizzare {PASS} per sbloccare la chiave segreta di GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Mostra il testo di aiuto integrato.</value>
+    <value>Mostra il testo di aiuto incorporato.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Chiave da usare per la firma (se ne hai più di una, o se vuoi dimetterti con una chiave diversa).</value>
+    <value>Chiave da usare per la firma (se ne avete più di una, o se volete rifirmare con una chiave diversa).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -104,7 +104,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Rimuovere qualsiasi firma esistente.</value>
+    <value>Rimuovere le firme esistenti.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -121,7 +121,7 @@ Prova {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Uso:</value>
+    <value>Utilizzo:</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

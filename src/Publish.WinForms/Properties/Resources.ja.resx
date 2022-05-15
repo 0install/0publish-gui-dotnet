@@ -84,7 +84,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>アイコンを追加せずに続けても大丈夫ですか？
+    <value>本当にアイコンを追加せずに続行しますか？
 ゼロインストールでは、カタログとデスクトップ統合ショートカットに一般的なプレースホルダーアイコンが表示されるだけです。</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -99,11 +99,11 @@
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>キープ
-実装はそのままのはずだった</value>
+実装はそのままで良いとされていた</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>マニフェストのダイジェストが変更されました。既存のものを置き換えますか？</value>
+    <value>マニフェストダイジェストが変更されました。既存のものを置き換えますか？</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
@@ -111,12 +111,12 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>交換
+    <value>交換する
 わざと実装を変えてみた</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>破棄
+    <value>破棄する
 保存していない変更を破棄する</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -125,7 +125,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>マニフェストダイジェストが空のディレクトリに対して計算されました。アーカイブの "extract" 値が正しく設定されていることを確認してください。</value>
+    <value>マニフェスト・ダイジェストが空のディレクトリに対して計算されました。アーカイブの "extract" 値が正しく設定されていることを確認してください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -185,7 +185,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>いいえ、アプリケーション自体
+    <value>いいえ、アプリケーション自体は
 1つのEXEで構成されています。</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -243,7 +243,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>MIMEタイプが違う!{0} であるべきです。</value>
+    <value>MIME タイプが違う!{0} であるべきです。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
