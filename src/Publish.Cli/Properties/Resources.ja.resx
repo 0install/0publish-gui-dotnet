@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>このプログラムには、法律で認められている範囲内で、一切の保証がありません。
+    <value>このプログラムには、法律で認められている範囲において、一切の保証がありません。
 あなたは、このプログラムの複製物をGNU Lesser General Public Licenseの条件の下で再配布することができます。</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -112,7 +112,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>XML署名ブロックを追加する。(すべてのリモートフィードには署名が必要です)。</value>
+    <value>XML署名ブロックを追加します。(すべてのリモートフィードには署名が必要です)。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">

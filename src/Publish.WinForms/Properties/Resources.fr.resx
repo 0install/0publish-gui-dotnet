@@ -121,7 +121,7 @@ Annuler les modifications non sauveguardées</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Téléchargement d'un aperçu de l'image. </value>
+    <value>Téléchargement d'un aperçu de l'image...</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
@@ -134,7 +134,7 @@ Annuler les modifications non sauveguardées</value>
   </data>
   <data name="FileSize" xml:space="preserve">
     <value>Taille du fichier</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
     <value>Une description complète, éventuellement sur plusieurs lignes</value>
@@ -149,7 +149,7 @@ Annuler les modifications non sauveguardées</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Impossible d'extraire l'installateur sous forme d'archive. </value>
+    <value>Impossible d'extraire l'installateur sous forme d'archive.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
@@ -181,7 +181,7 @@ Annuler les modifications non sauveguardées</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Impossible de trouver des fichiers correspondants</value>
+    <value>Impossible de trouver les fichiers de flux correspondants.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -227,7 +227,7 @@ Enregistre les modifications</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>La taille du fichier n'est pas encore determinée</value>
+    <value>La taille du fichier n'est pas encore determinée.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">

@@ -63,7 +63,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>Le format du flux n'est pas correct</value>
+    <value>Le format du flux n'est pas correct.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -76,7 +76,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Impossible de trouver des fichiers correspondants</value>
+    <value>Impossible de trouver les fichiers de flux correspondants.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">

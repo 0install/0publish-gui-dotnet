@@ -177,7 +177,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Δεν υπάρχουν σημεία εισόδου (EXEs, JAR, Python σκριπτ, κλπ). Παρακαλούμε βεβαιωθείτε ότι έχετε επιλέξει το σωστό αρχείο και απόσπασμα καταλόγου</value>
+    <value>Δεν υπάρχουν σημεία εισόδου (EXEs, JAR, Python σκριπτ, κλπ). Παρακαλούμε βεβαιωθείτε ότι έχετε επιλέξει το σωστό αρχείο και απόσπασμα καταλόγου.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -246,7 +246,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Ναι, πρόγραμμα εγκατάστασης EXE </value>
+    <value>Ναι, πρόγραμμα εγκατάστασης EXE</value>
     <comment>Manually overriden.</comment>
   </data>
 </root>

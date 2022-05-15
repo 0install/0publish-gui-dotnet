@@ -59,12 +59,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Por favor, digite a senha GnuPG para {0}:</value>
-    <comment>Automatically translated.</comment>
+    <value>Por favor, digite a senha do GnuPG para {0}:</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>A alimentação não tem o formato correto.</value>
-    <comment>Automatically translated.</comment>
+    <value>Este feed não possui o formato correto.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Este programa vem com ABSOLUTAMENTE NENHUMA GARANTIA, na medida permitida por lei.
@@ -72,53 +72,53 @@ Você pode redistribuir cópias deste programa sob os termos da GNU Lesser Gener
     <comment>Manually overriden.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Argumentos em falta. Tente {0}</value>
-    <comment>Automatically translated.</comment>
+    <value>Argumentos faltando. Tente {0}</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Incapaz de encontrar qualquer arquivo de alimentação correspondente.</value>
-    <comment>Automatically translated.</comment>
+    <value>Não foi possível localizar nenhum arquivo de feed correspondente.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Baixar arquivos ausentes, calcular resumos de manifesto, etc...</value>
-    <comment>Automatically translated.</comment>
+    <value>Baixe arquivos ausentes, calcule resumos de manifestos, etc.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combine todas as entradas especificadas em um único catálogo {FICHEIROS}.</value>
-    <comment>Automatically translated.</comment>
+    <value>Combine todos os feeds especificados em um único catálogo {FILE}.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Use {PASS} para destravar a chave secreta GnuPG.</value>
-    <comment>Automatically translated.</comment>
+    <value>Use {PASS} para desbloquear a chave secreta do GnuPG.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
     <value>Mostra o texto de ajuda integrado.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Chave a ser usada para assinar (se você tiver mais de uma, ou se você quiser renunciar com uma chave diferente).</value>
-    <comment>Automatically translated.</comment>
+    <value>Chave a ser usada para assinatura (se você tiver mais de uma ou se quiser renunciar com uma chave diferente).</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Opções:</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Remover quaisquer assinaturas existentes.</value>
-    <comment>Automatically translated.</comment>
+    <value>Remova todas as assinaturas existentes.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Exibir informações sobre a versão.</value>
-    <comment>Automatically translated.</comment>
+    <value>Exibir informações de versão.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Adicionar um bloco de assinatura XML. (Todos os feeds remotos devem ser assinados)</value>
-    <comment>Automatically translated.</comment>
+    <value>Adicione um bloco de assinatura XML. (Todos os feeds remotos devem ser assinados.)</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
     <value>Modo de operação desconhecido.
 Tente {0}</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Uso:</value>

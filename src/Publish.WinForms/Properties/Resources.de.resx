@@ -137,7 +137,7 @@ Ungespeicherte Änderungen verwerfen</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>Eine komplette, u.U. mehrzeilige Beschreibung.</value>
+    <value>Eine vollständige, möglicherweise mehrzeilige Beschreibung</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
