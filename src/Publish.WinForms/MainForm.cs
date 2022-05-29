@@ -50,7 +50,7 @@ internal partial class MainForm : Form
         }
         catch (InvalidDataException ex)
         {
-            Log.Warn(ex);
+            Log.Warn(ex.Message, ex);
         }
     }
     #endregion
@@ -211,7 +211,7 @@ internal partial class MainForm : Form
                 catch (WrongPassphraseException ex)
                 {
                     // Continue loop if passphrase is incorrect
-                    Log.Error(ex);
+                    Log.Error(ex.Message, ex);
                 }
 
                 // Ask for passphrase to unlock secret key if we were unable to save without it
@@ -219,16 +219,10 @@ internal partial class MainForm : Form
                 if (FeedEditing.Passphrase == null) throw new OperationCanceledException();
             }
             #region Error handling
-            catch (Exception ex) when (ex is ArgumentException or IOException or KeyNotFoundException)
+            catch (Exception ex) when (ex is ArgumentException or IOException or UnauthorizedAccessException or KeyNotFoundException)
             {
-                Log.Warn(ex);
+                Log.Warn("Failed to save feed", ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-                throw new OperationCanceledException();
-            }
-            catch (Exception ex) when (ex is UnauthorizedAccessException)
-            {
-                Log.Error(ex);
-                Msg.Inform(this, ex.Message, MsgSeverity.Error);
                 throw new OperationCanceledException();
             }
             #endregion
@@ -278,7 +272,7 @@ internal partial class MainForm : Form
         #region Error handling
         catch (IOException ex)
         {
-            Log.Error(ex);
+            Log.Error("Failed to generate GnuPG key", ex);
             Msg.Inform(this, ex.Message, MsgSeverity.Error);
             return;
         }

@@ -51,18 +51,11 @@ partial class NewFeedWizard
                 e.Cancel = true;
                 return;
             }
-            catch (Exception ex) when (ex is ArgumentException or IOException)
+            catch (Exception ex) when (ex is ArgumentException or IOException or UnauthorizedAccessException)
             {
                 e.Cancel = true;
-                Log.Warn(ex);
+                Log.Warn("Feed Wizard: Failed to extract archive", ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-                return;
-            }
-            catch (UnauthorizedAccessException ex)
-            {
-                e.Cancel = true;
-                Log.Error(ex);
-                Msg.Inform(this, ex.Message, MsgSeverity.Error);
                 return;
             }
             #endregion

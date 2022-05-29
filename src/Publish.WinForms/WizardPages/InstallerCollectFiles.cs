@@ -33,16 +33,10 @@ partial class NewFeedWizard
         {
             return;
         }
-        catch (Exception ex) when (ex is IOException or NotSupportedException)
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException or NotSupportedException)
         {
-            Log.Warn(ex);
+            Log.Warn("Feed Wizard: Failed to collect files", ex);
             Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-            return;
-        }
-        catch (UnauthorizedAccessException ex)
-        {
-            Log.Error(ex);
-            Msg.Inform(this, ex.Message, MsgSeverity.Error);
             return;
         }
         #endregion

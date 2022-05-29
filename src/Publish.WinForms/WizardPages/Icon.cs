@@ -25,7 +25,7 @@ partial class NewFeedWizard
             #region Error handling
             catch (IOException ex)
             {
-                Log.Warn(ex);
+                Log.Warn("Feed Wizard: Failed to extract icon", ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
                 return;
             }
@@ -51,7 +51,7 @@ partial class NewFeedWizard
             #region Error handling
             catch (Exception ex)
             {
-                Log.Warn(ex);
+                Log.Warn("Feed Wizard: Failed to save ICO", ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
             }
             #endregion
@@ -73,7 +73,7 @@ partial class NewFeedWizard
             #region Error handling
             catch (Exception ex)
             {
-                Log.Warn(ex);
+                Log.Warn("Feed Wizard: Failed to save PNG", ex);
                 Msg.Inform(this, ex.Message, MsgSeverity.Warn);
             }
             #endregion
@@ -92,7 +92,7 @@ partial class NewFeedWizard
         catch (UriFormatException ex)
         {
             e.Cancel = true;
-            Log.Warn(ex);
+            Log.Warn(ex.Message, ex);
             Msg.Inform(this, ex.Message, MsgSeverity.Warn);
             return;
         }

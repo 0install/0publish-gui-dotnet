@@ -30,18 +30,11 @@ partial class NewFeedWizard
             session.Diff(handler);
         }
         #region Error handling
-        catch (Exception ex) when (ex is InvalidOperationException or IOException)
+        catch (Exception ex) when (ex is InvalidOperationException or IOException or UnauthorizedAccessException)
         {
             e.Cancel = true;
-            Log.Warn(ex);
+            Log.Warn("Feed Wizard: Failed to collect desktop integration data", ex);
             Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-            return;
-        }
-        catch (UnauthorizedAccessException ex)
-        {
-            e.Cancel = true;
-            Log.Error(ex);
-            Msg.Inform(this, ex.Message, MsgSeverity.Error);
             return;
         }
         #endregion
@@ -57,15 +50,16 @@ partial class NewFeedWizard
         {
             e.Cancel = true;
         }
-        catch (IOException)
+        catch (IOException ex)
         {
+            Log.Warn("Feed Wizard: Failed to extract installer", ex);
             Msg.Inform(this, Resources.InstallerExtractFailed + Environment.NewLine + Resources.InstallerNeedAltSource, MsgSeverity.Info);
             pageInstallerCaptureDiff.NextPage = pageInstallerCollectFiles;
         }
         catch (UnauthorizedAccessException ex)
         {
             e.Cancel = true;
-            Log.Error(ex);
+            Log.Error("Feed Wizard: Failed to extract installer", ex);
             Msg.Inform(this, ex.Message, MsgSeverity.Error);
         }
     }

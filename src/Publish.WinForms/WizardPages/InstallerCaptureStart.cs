@@ -24,17 +24,11 @@ partial class NewFeedWizard
         {
             e.Cancel = true;
         }
-        catch (Exception ex) when (ex is IOException or InvalidOperationException)
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException or InvalidOperationException)
         {
             e.Cancel = true;
-            Log.Warn(ex);
+            Log.Warn("Feed Wizard: Failed to run and capture installer", ex);
             Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-        }
-        catch (UnauthorizedAccessException ex)
-        {
-            e.Cancel = true;
-            Log.Error(ex);
-            Msg.Inform(this, ex.Message, MsgSeverity.Error);
         }
         #endregion
     }
@@ -55,12 +49,13 @@ partial class NewFeedWizard
         }
         catch (IOException ex)
         {
+            Log.Warn("Feed Wizard: Failed to extract installer", ex);
             Msg.Inform(this, Resources.InstallerExtractFailed + Environment.NewLine + ex.Message, MsgSeverity.Warn);
             return;
         }
         catch (UnauthorizedAccessException ex)
         {
-            Log.Error(ex);
+            Log.Error("Feed Wizard: Failed to extract installer", ex);
             Msg.Inform(this, ex.Message, MsgSeverity.Error);
             return;
         }

@@ -37,7 +37,7 @@ partial class NewFeedWizard
         #region Error handling
         catch (IOException ex)
         {
-            Log.Error(ex);
+            Log.Error("Failed to generate GnuPG key", ex);
             Msg.Inform(this, ex.Message, MsgSeverity.Error);
             return;
         }
@@ -72,7 +72,7 @@ partial class NewFeedWizard
         catch (UriFormatException ex)
         {
             e.Cancel = true;
-            Log.Warn(ex);
+            Log.Warn(ex.Message, ex);
             Msg.Inform(this, ex.Message, MsgSeverity.Warn);
             return;
         }

@@ -98,16 +98,10 @@ public abstract class RetrievalMethodEditor<T> : NodeEditorBase<T>, ITargetConta
         {
             return;
         }
-        catch (Exception ex) when (ex is ArgumentException or IOException or WebException or NotSupportedException)
+        catch (Exception ex) when (ex is ArgumentException or IOException or UnauthorizedAccessException or WebException or NotSupportedException)
         {
-            Log.Warn(ex);
+            Log.Warn("Failed to check digest", ex);
             Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-            return;
-        }
-        catch (UnauthorizedAccessException ex)
-        {
-            Log.Error(ex);
-            Msg.Inform(this, ex.Message, MsgSeverity.Error);
             return;
         }
         #endregion

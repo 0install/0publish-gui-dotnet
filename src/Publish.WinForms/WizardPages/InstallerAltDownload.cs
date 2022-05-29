@@ -37,17 +37,11 @@ partial class NewFeedWizard
         {
             e.Cancel = true;
         }
-        catch (Exception ex) when (ex is ArgumentException or UriFormatException or IOException or WebException or NotSupportedException)
+        catch (Exception ex) when (ex is ArgumentException or UriFormatException or IOException or UnauthorizedAccessException or WebException or NotSupportedException)
         {
             e.Cancel = true;
-            Log.Warn(ex);
+            Log.Warn("Feed Wizard: Failed to download alternate archive", ex);
             Msg.Inform(this, ex.Message, MsgSeverity.Warn);
-        }
-        catch (UnauthorizedAccessException ex)
-        {
-            e.Cancel = true;
-            Log.Error(ex);
-            Msg.Inform(this, ex.Message, MsgSeverity.Error);
         }
         #endregion
     }
