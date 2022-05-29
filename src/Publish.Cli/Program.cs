@@ -75,5 +75,5 @@ catch (NotSupportedException ex)
 {
     Log.Error(ex);
     return (int)ExitCode.NotSupported;
-        }
-        #endregion
+}
+#endregion
