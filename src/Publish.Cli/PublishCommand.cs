@@ -5,7 +5,6 @@ using NanoByte.Common.Info;
 using NanoByte.Common.Undo;
 using Spectre.Console;
 using ZeroInstall.Store.Configuration;
-using ZeroInstall.Store.Implementations;
 using ZeroInstall.Store.Trust;
 
 namespace ZeroInstall.Publish.Cli;
@@ -15,64 +14,29 @@ namespace ZeroInstall.Publish.Cli;
 /// </summary>
 public sealed class PublishCommand : ICommand
 {
-    #region Variables
     private readonly ITaskHandler _handler;
 
-    /// <summary>
-    /// List of operational modes for the feed editor that can be selected via command-line arguments.
-    /// </summary>
-    private enum OperationMode
-    {
-        /// <summary>Modify an existing <see cref="Feed"/> or create a new one.</summary>
-        Normal,
-
-        /// <summary>Combine all specified <see cref="Feed"/>s into a single <see cref="Catalog"/> file.</summary>
-        Catalog
-    }
-
-    /// <summary>
-    /// The operational mode for the feed editor.
-    /// </summary>
-    private OperationMode _mode;
-
-    /// <summary>
-    /// The feeds to apply the operation on.
-    /// </summary>
+    /// <summary>The feeds to apply the operation on.</summary>
     private ICollection<FileInfo> _feeds;
 
-    /// <summary>
-    /// The file to store the aggregated <see cref="Catalog"/> data in.
-    /// </summary>
+    /// <summary>The file to store the aggregated <see cref="Catalog"/> data in.</summary>
     private string? _catalogFile;
 
-    /// <summary>
-    /// Download missing archives, calculate manifest digests, etc..
-    /// </summary>
+    /// <summary>Download missing archives, calculate manifest digests, etc..</summary>
     private bool _addMissing;
 
-    /// <summary>
-    /// Add XML signature blocks to the feed.
-    /// </summary>
+    /// <summary>Add XML signature blocks to the feed.</summary>
     private bool _xmlSign;
 
-    /// <summary>
-    /// Remove any existing signatures from the feeds.
-    /// </summary>
+    /// <summary>Remove any existing signatures from the feeds.</summary>
     private bool _unsign;
 
-    /// <summary>
-    /// A key specifier (key ID, fingerprint or any part of a user ID) for the secret key to use to sign the feeds.
-    /// </summary>
-    /// <remarks>Will use existing key or default key when left at <c>null</c>.</remarks>
+    /// <summary>A key specifier (key ID, fingerprint or any part of a user ID) for the secret key to use to sign the feeds.</summary>
     private string? _key;
 
-    /// <summary>
-    /// The passphrase used to unlock the <see cref="OpenPgpSecretKey"/>.
-    /// </summary>
+    /// <summary>The passphrase used to unlock the <see cref="OpenPgpSecretKey"/>.</summary>
     private string? _openPgpPassphrase;
-    #endregion
 
-    #region Constructor
     /// <summary>
     /// Parses command-line arguments.
     /// </summary>
@@ -85,6 +49,7 @@ public sealed class PublishCommand : ICommand
         _handler = handler ?? throw new ArgumentNullException(nameof(handler));
 
         var additionalArgs = BuildOptions().Parse(args ?? throw new ArgumentNullException(nameof(args)));
+
         try
         {
             _feeds = Paths.ResolveFiles(additionalArgs, "*.xml");
@@ -98,7 +63,6 @@ public sealed class PublishCommand : ICommand
         #endregion
     }
 
-    [SuppressMessage("ReSharper", "LocalizableElement")]
     private OptionSet BuildOptions()
     {
         var options = new OptionSet
@@ -112,17 +76,8 @@ public sealed class PublishCommand : ICommand
                 }
             },
 
-            // Mode selection
-            {
-                "catalog=", () => Resources.OptionCatalog, delegate(string catalogFile)
-                {
-                    if (string.IsNullOrEmpty(catalogFile)) return;
-                    _mode = OperationMode.Catalog;
-                    _catalogFile = Path.GetFullPath(catalogFile);
-                }
-            },
-
-            // Modifications
+            // Modes
+            {"catalog=", () => Resources.OptionCatalog, path => _catalogFile = Path.GetFullPath(path)},
             {"add-missing", () => Resources.OptionAddMissing, _ => _addMissing = true},
 
             // Signatures
@@ -145,58 +100,71 @@ public sealed class PublishCommand : ICommand
         });
         return options;
     }
-    #endregion
 
-    #region Execute
     /// <inheritdoc/>
     public ExitCode Execute()
     {
-        switch (_mode)
+        if (!string.IsNullOrEmpty(_catalogFile))
         {
-            case OperationMode.Normal:
-                if (_feeds.Count == 0)
-                {
-                    Log.Error(string.Format(Resources.MissingArguments, "0publish --help"));
-                    return ExitCode.InvalidArguments;
-                }
+            // Default to using all XML files in the current directory
+            if (_feeds.Count == 0)
+                _feeds = Paths.ResolveFiles(new[] {Environment.CurrentDirectory}, "*.xml");
 
-                foreach (var feedEditing in _feeds.Select(file => FeedEditing.Load(file.FullName)))
-                {
-                    HandleModify(feedEditing);
-                    SaveFeed(feedEditing);
-                }
-                return ExitCode.OK;
-
-            case OperationMode.Catalog:
-                // Default to using all XML files in the current directory
-                if (_feeds.Count == 0)
-                    _feeds = Paths.ResolveFiles(new[] {Environment.CurrentDirectory}, "*.xml");
-
-                var catalog = new Catalog();
-                foreach (var feed in _feeds.Select(feedFile => XmlStorage.LoadXml<Feed>(feedFile.FullName)))
-                {
-                    feed.Strip();
-                    catalog.Feeds.Add(feed);
-                }
-                if (catalog.Feeds.Count == 0) throw new FileNotFoundException(Resources.NoFeedFilesFound);
-
-                SaveCatalog(catalog);
-                return ExitCode.OK;
-
-            default:
-                Log.Error(string.Format(Resources.UnknownMode, "0publish --help"));
-                return ExitCode.InvalidArguments;
+            GenerateCatalog();
+            return ExitCode.OK;
         }
-    }
-    #endregion
 
-    #region Storage
-    /// <summary>
-    /// Saves a feed.
-    /// </summary>
-    /// <exception cref="IOException">A file could not be read or written or the GnuPG could not be launched or the feed file could not be read or written.</exception>
-    /// <exception cref="UnauthorizedAccessException">Read or write access to a feed file is not permitted.</exception>
-    /// <exception cref="KeyNotFoundException">An OpenPGP key could not be found.</exception>
+        if (_feeds.Count == 0)
+        {
+            Log.Error(string.Format(Resources.MissingArguments, "0publish --help"));
+            return ExitCode.InvalidArguments;
+        }
+
+        foreach (var file in _feeds)
+        {
+            var feedEditing = FeedEditing.Load(file.FullName);
+            var feed = feedEditing.SignedFeed.Feed;
+            feed.ResolveInternalReferences();
+
+            if (_addMissing) AddMissing(feed.Implementations, feedEditing);
+
+            SaveFeed(feedEditing);
+        }
+
+        return ExitCode.OK;
+    }
+
+    private void GenerateCatalog()
+    {
+        var catalog = new Catalog();
+        foreach (var feed in _feeds.Select(feedFile => XmlStorage.LoadXml<Feed>(feedFile.FullName)))
+        {
+            feed.Strip();
+            catalog.Feeds.Add(feed);
+        }
+
+        if (catalog.Feeds.Count == 0) throw new FileNotFoundException(Resources.NoFeedFilesFound);
+
+        if (_xmlSign)
+        {
+            var openPgp = OpenPgp.Signing();
+            var signedCatalog = new SignedCatalog(catalog, openPgp.GetSecretKey(_key));
+
+            PromptPassphrase(
+                () => signedCatalog.Save(_catalogFile!, _openPgpPassphrase),
+                signedCatalog.SecretKey);
+        }
+        else catalog.SaveXml(_catalogFile!);
+    }
+
+    private void AddMissing(IEnumerable<Implementation> implementations, ICommandExecutor executor)
+    {
+        executor = new ConcurrentCommandExecutor(executor);
+        implementations.AsParallel()
+                       .WithDegreeOfParallelism(Config.LoadSafe().MaxParallelDownloads)
+                       .ForAll(implementation => implementation.SetMissing(executor, _handler));
+    }
+
     private void SaveFeed(FeedEditing feedEditing)
     {
         if (!feedEditing.Path!.EndsWith(".xml.template")
@@ -238,27 +206,6 @@ public sealed class PublishCommand : ICommand
     }
 
     /// <summary>
-    /// Saves a catalog.
-    /// </summary>
-    /// <param name="catalog">The catalog to save.</param>
-    /// <exception cref="IOException">A file could not be read or written or the GnuPG could not be launched or the catalog file could not be written.</exception>
-    /// <exception cref="UnauthorizedAccessException">Read or write access to a catalog file is not permitted.</exception>
-    /// <exception cref="KeyNotFoundException">An OpenPGP key could not be found.</exception>
-    private void SaveCatalog(Catalog catalog)
-    {
-        if (_xmlSign)
-        {
-            var openPgp = OpenPgp.Signing();
-            var signedCatalog = new SignedCatalog(catalog, openPgp.GetSecretKey(_key));
-
-            PromptPassphrase(
-                () => signedCatalog.Save(_catalogFile!, _openPgpPassphrase),
-                signedCatalog.SecretKey);
-        }
-        else catalog.SaveXml(_catalogFile!);
-    }
-
-    /// <summary>
     /// Runs the specified <paramref name="action"/> and prompts for the <paramref name="secretKey"/> if <see cref="WrongPassphraseException"/> is thrown.
     /// </summary>
     /// <exception cref="OperationCanceledException">The user cancelled the passphrase entry.</exception>
@@ -281,32 +228,4 @@ public sealed class PublishCommand : ICommand
             }
         }
     }
-    #endregion
-
-    #region Modify
-    /// <summary>
-    /// Applies user-selected modifications to a feed.
-    /// </summary>
-    /// <param name="feedEditing">The feed to modify.</param>
-    /// <exception cref="OperationCanceledException">The user canceled the task.</exception>
-    /// <exception cref="WebException">A file could not be downloaded from the internet.</exception>
-    /// <exception cref="IOException">There is a problem access a temporary file.</exception>
-    /// <exception cref="UnauthorizedAccessException">Read or write access to a temporary file is not permitted.</exception>
-    /// <exception cref="DigestMismatchException">An existing digest does not match the newly calculated one.</exception>
-    private void HandleModify(FeedEditing feedEditing)
-    {
-        var feed = feedEditing.SignedFeed.Feed;
-        feed.ResolveInternalReferences();
-
-        if (_addMissing) AddMissing(feed.Implementations, feedEditing);
-    }
-
-    private void AddMissing(IEnumerable<Implementation> implementations, ICommandExecutor executor)
-    {
-        executor = new ConcurrentCommandExecutor(executor);
-        implementations.AsParallel()
-                       .WithDegreeOfParallelism(Config.LoadSafe().MaxParallelDownloads)
-                       .ForAll(implementation => implementation.SetMissing(executor, _handler));
-    }
-    #endregion
 }
