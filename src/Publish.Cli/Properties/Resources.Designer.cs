@@ -89,7 +89,7 @@ namespace ZeroInstall.Publish.Cli.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Missing arguments. Try {0} --help.
+        ///   Looks up a localized string similar to Missing arguments. Try {0}.
         /// </summary>
         internal static string MissingArguments {
             get {
