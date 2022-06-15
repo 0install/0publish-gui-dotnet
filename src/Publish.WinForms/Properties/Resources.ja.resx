@@ -129,7 +129,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>フィードファイル（*.xml）｜*.xml｜テンプレートファイル（*.xml.template）｜*.xml.template｜すべてのファイル｜*。</value>
+    <value>フィードファイル（*.xml）｜*.xml｜テンプレートファイル（*.xml.template）｜*.xml.template｜全ファイル｜*。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">

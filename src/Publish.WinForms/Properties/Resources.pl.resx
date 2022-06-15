@@ -107,7 +107,7 @@ Realizacja miała pozostać bez zmian</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Wszystkie inne metody pobierania danych dla tej implementacji również muszą być zgodne z nowym skrótem!</value>
+    <value>Wszystkie inne metody pobierania danych dla tej implementacji muszą również odpowiadać nowemu skrótowi!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
