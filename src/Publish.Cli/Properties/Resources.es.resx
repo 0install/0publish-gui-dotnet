@@ -112,7 +112,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Añada un bloque de firma XML. (Todos los feeds remotos deben estar firmados)</value>
+    <value>Añadir un bloque de firma XML. (Todos los feeds remotos deben estar firmados)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
