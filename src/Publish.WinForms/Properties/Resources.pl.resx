@@ -67,11 +67,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Ścieżka ta wskazuje na zewnątrz archiwum.</value>
+    <value>Ta ścieżka wskazuje na zewnątrz archiwum.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Wprowadź hasło GnuPG dla strony {0}:</value>
+    <value>Proszę wprowadzić frazę pasywną GnuPG dla {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
@@ -85,12 +85,12 @@ Informacje o integracji aplikacji z pulpitem (np. skojarzenia plików) nie zosta
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Czy na pewno chcesz kontynuować bez dodawania ikon?
-Funkcja Zero Install będzie mogła wyświetlać tylko ogólną ikonę zastępczą w katalogu oraz dla wszelkich skrótów integracyjnych na pulpicie.</value>
+Zero Install będzie w stanie wyświetlić jedynie generyczną ikonę zastępczą w katalogu, jak również dla wszelkich skrótów integracyjnych na pulpicie.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Czy na pewno chcesz kontynuować bez wypełniania tych ustawień?
-Twój kanał będzie działał tylko lokalnie, a nie w sieci.</value>
+    <value>Czy na pewno chcesz kontynuować bez uzupełnienia tych ustawień?
+Twój kanał będzie działał tylko lokalnie, a nie online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -107,12 +107,12 @@ Realizacja miała pozostać bez zmian</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Wszystkie inne metody pobierania danych dla tej implementacji muszą również odpowiadać nowemu skrótowi!</value>
+    <value>Wszystkie inne metody pobierania dla tej implementacji muszą również pasować do nowego skrótu!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Zastąp
-Celowo zmieniłem sposób implementacji</value>
+    <value>Zamień
+Celowo zmieniłem implementację</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
@@ -125,7 +125,7 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Skrót manifestu został obliczony dla pustego katalogu. Sprawdź, czy ustawiono prawidłową wartość "extract" dla archiwum.</value>
+    <value>Skrót manifestu został obliczony dla pustego katalogu. Sprawdź, czy ustawiłeś prawidłową wartość "extract" dla archiwum.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -137,7 +137,7 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>Pełny, możliwie wielowierszowy opis</value>
+    <value>Pełny, możliwie wieloliniowy opis</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
@@ -145,15 +145,15 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Format obrazu nie jest obsługiwany przez program Zero Install.</value>
+    <value>Format obrazu nie jest obsługiwany przez Zero Install.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Nie udało się wyodrębnić instalatora jako archiwum.</value>
+    <value>Nie udało się rozpakować instalatora jako archiwum.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Należy podać alternatywne źródło pobierania aplikacji, np. archiwum ZIP. Nadal będziemy korzystać z informacji o integracji pulpitu pobranych z instalatora!</value>
+    <value>Musisz podać alternatywne źródło pobierania aplikacji, np. archiwum ZIP. Nadal będziemy używać informacji o integracji pulpitu przechwyconych z instalatora!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
@@ -177,20 +177,20 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nie znaleziono żadnych punktów wejścia (plików EXE, JAR, skryptów Pythona itp.). Upewnij się, że wybrano prawidłowy katalog archiwum i rozpakowania.</value>
+    <value>Nie znaleziono żadnych punktów wejścia (EXE, JAR, skryptów Pythona itp.). Upewnij się, że wybrałeś prawidłowe archiwum i katalog do rozpakowania.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nie można znaleźć żadnych pasujących plików feed.</value>
+    <value>Nie udało się znaleźć żadnych pasujących plików feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Nie, sama aplikacja
-składa się tylko z jednego pliku EXE</value>
+składa się tylko z jednego EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Kliknij:</value>
+    <value>Proszę kliknąć:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
@@ -206,7 +206,7 @@ składa się tylko z jednego pliku EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Czy mimo to oszczędzać?</value>
+    <value>A tak w ogóle to ratuj?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
@@ -215,15 +215,15 @@ Zapisz zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Czy chcesz zapisać wprowadzone zmiany?</value>
+    <value>Czy chcesz zapisać zmiany?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Pliki zostały pomyślnie podpisane.</value>
+    <value>Udało się podpisać pliki.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Podawanie podpisów</value>
+    <value>Podpisywanie pasz</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
@@ -235,7 +235,7 @@ Zapisz zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
-    <value>Streszczenie</value>
+    <value>Podsumowanie</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
@@ -243,7 +243,7 @@ Zapisz zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Nieprawidłowy typ MIME! Powinno być {0}.</value>
+    <value>Niewłaściwy typ MIME! Powinno być {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">

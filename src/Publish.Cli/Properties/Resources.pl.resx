@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Wprowadź hasło GnuPG dla strony {0}:</value>
+    <value>Proszę wprowadzić frazę pasywną GnuPG dla {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
@@ -67,8 +67,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Ten program nie jest objęty ABSOLUTNIE ŻADNĄ GWARANCJĄ, w zakresie dozwolonym przez prawo.
-Kopie tego programu można rozprowadzać zgodnie z warunkami licencji GNU Lesser General Public License.</value>
+    <value>Ten program jest objęty ABSOLUTNIE ŻADNĄ GWARANCJĄ, w zakresie dozwolonym przez prawo.
+Możesz rozprowadzać kopie tego programu zgodnie z warunkami licencji GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -76,15 +76,15 @@ Kopie tego programu można rozprowadzać zgodnie z warunkami licencji GNU Lesser
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nie można znaleźć żadnych pasujących plików feed.</value>
+    <value>Nie udało się znaleźć żadnych pasujących plików feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Pobieranie brakujących archiwów, obliczanie plików manifestu itp.</value>
+    <value>Pobieranie brakujących archiwów, obliczanie manifestów itp.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Łączy wszystkie określone kanały w jeden katalog {FILE}.</value>
+    <value>Połącz wszystkie określone feedy w jeden katalog {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -92,11 +92,11 @@ Kopie tego programu można rozprowadzać zgodnie z warunkami licencji GNU Lesser
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Wyświetlanie wbudowanego tekstu pomocy.</value>
+    <value>Pokaż wbudowany tekst pomocy.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Klucz używany do podpisywania (jeśli jest ich więcej niż jeden lub jeśli chcesz zrezygnować z innego klucza).</value>
+    <value>Klucz, którego należy użyć do podpisania (jeśli masz więcej niż jeden, lub jeśli chcesz zrezygnować z innego klucza).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -112,7 +112,7 @@ Kopie tego programu można rozprowadzać zgodnie z warunkami licencji GNU Lesser
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Dodaj blok podpisu XML. (Wszystkie zdalne kanały muszą być podpisane)</value>
+    <value>Dodaj blok podpisu XML. (Wszystkie zdalne feedy muszą być podpisane)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
@@ -121,7 +121,7 @@ Spróbuj {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Zastosowanie:</value>
+    <value>Użycie:</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>
