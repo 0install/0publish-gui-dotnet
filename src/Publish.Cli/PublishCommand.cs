@@ -169,7 +169,7 @@ public sealed class PublishCommand : ICommand
         }
         catch (AggregateException ex)
         {
-            throw ex.RethrowLastInner();
+            throw ex.RethrowFirstInner();
         }
     }
 
