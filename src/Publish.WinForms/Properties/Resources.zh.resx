@@ -80,7 +80,7 @@
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
     <value>你确定要跳过采集吗？
-有关应用程序的桌面集成（如文件关联）的信息将不会被添加到馈送中。</value>
+关于应用程序的桌面集成（如文件关联）的信息将不会被添加到馈送中。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
@@ -153,7 +153,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>你需要提供一个应用程序的替代下载源，例如ZIP档案。我们仍将使用从安装程序中获取的桌面集成信息</value>
+    <value>你需要提供一个应用程序的替代下载源，例如ZIP档案。我们仍然会使用从安装程序中获取的桌面集成信息</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">

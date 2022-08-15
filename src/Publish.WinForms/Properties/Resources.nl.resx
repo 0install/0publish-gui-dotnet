@@ -149,7 +149,7 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Het is niet gelukt om de installer als een archief uit te pakken.</value>
+    <value>Het is niet gelukt om het installatieprogramma als archief uit te pakken.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
