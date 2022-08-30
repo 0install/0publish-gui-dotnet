@@ -92,7 +92,7 @@ partial class NewFeedWizard
         catch (UriFormatException ex)
         {
             e.Cancel = true;
-            Log.Warn(ex.Message, ex);
+            Log.Warn(ex);
             Msg.Inform(this, ex.Message, MsgSeverity.Warn);
             return;
         }

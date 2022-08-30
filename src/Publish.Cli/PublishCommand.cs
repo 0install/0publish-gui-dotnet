@@ -229,7 +229,7 @@ public sealed class PublishCommand : ICommand
             catch (WrongPassphraseException ex) when (secretKey != null)
             {
                 // Only print error if a passphrase was actually entered
-                if (_openPgpPassphrase != null) Log.Error(ex.Message, ex);
+                if (_openPgpPassphrase != null) Log.Error(ex);
 
                 // Ask for passphrase to unlock secret key if we were unable to save without it
                 _openPgpPassphrase = AnsiCli.Prompt(new TextPrompt<string>(string.Format(Resources.AskForPassphrase, secretKey.UserID)).Secret(), _handler.CancellationToken);

@@ -50,7 +50,7 @@ internal partial class MainForm : Form
         }
         catch (InvalidDataException ex)
         {
-            Log.Warn(ex.Message, ex);
+            Log.Warn(ex);
         }
     }
     #endregion
@@ -211,7 +211,7 @@ internal partial class MainForm : Form
                 catch (WrongPassphraseException ex)
                 {
                     // Continue loop if passphrase is incorrect
-                    Log.Error(ex.Message, ex);
+                    Log.Error(ex);
                 }
 
                 // Ask for passphrase to unlock secret key if we were unable to save without it
