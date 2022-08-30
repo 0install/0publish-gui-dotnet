@@ -70,7 +70,7 @@ public partial class MassSignForm : OKCancelDialog
         catch (Exception ex) when (ex is ArgumentException or IOException or UnauthorizedAccessException)
         {
             Log.Error("Failed to mass sign feeds", ex);
-            Msg.Inform(this, ex.Message, MsgSeverity.Error);
+            Msg.Inform(this, ex.GetMessageWithInner(), MsgSeverity.Error);
         }
         #endregion
     }

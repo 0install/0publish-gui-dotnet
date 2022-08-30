@@ -169,7 +169,7 @@ internal partial class MainForm : Form
         }
         catch (UnauthorizedAccessException ex)
         {
-            Msg.Inform(null, ex.Message, MsgSeverity.Error);
+            Msg.Inform(null, ex.GetMessageWithInner(), MsgSeverity.Error);
             throw new OperationCanceledException();
         }
         #endregion
@@ -222,7 +222,7 @@ internal partial class MainForm : Form
             catch (Exception ex) when (ex is ArgumentException or IOException or UnauthorizedAccessException or KeyNotFoundException)
             {
                 Log.Warn("Failed to save feed", ex);
-                Msg.Inform(this, ex.Message, MsgSeverity.Warn);
+                Msg.Inform(this, ex.GetMessageWithInner(), MsgSeverity.Warn);
                 throw new OperationCanceledException();
             }
             #endregion
@@ -273,7 +273,7 @@ internal partial class MainForm : Form
         catch (IOException ex)
         {
             Log.Error("Failed to generate GnuPG key", ex);
-            Msg.Inform(this, ex.Message, MsgSeverity.Error);
+            Msg.Inform(this, ex.GetMessageWithInner(), MsgSeverity.Error);
             return;
         }
         #endregion

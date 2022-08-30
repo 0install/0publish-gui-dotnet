@@ -34,7 +34,7 @@ partial class NewFeedWizard
         {
             e.Cancel = true;
             Log.Warn("Feed Wizard: Failed to collect desktop integration data", ex);
-            Msg.Inform(this, ex.Message, MsgSeverity.Warn);
+            Msg.Inform(this, ex.GetMessageWithInner(), MsgSeverity.Warn);
             return;
         }
         #endregion
@@ -60,7 +60,7 @@ partial class NewFeedWizard
         {
             e.Cancel = true;
             Log.Error("Feed Wizard: Failed to extract installer", ex);
-            Msg.Inform(this, ex.Message, MsgSeverity.Error);
+            Msg.Inform(this, ex.GetMessageWithInner(), MsgSeverity.Error);
         }
     }
 

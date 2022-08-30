@@ -38,7 +38,7 @@ partial class NewFeedWizard
         catch (IOException ex)
         {
             Log.Error("Failed to generate GnuPG key", ex);
-            Msg.Inform(this, ex.Message, MsgSeverity.Error);
+            Msg.Inform(this, ex.GetMessageWithInner(), MsgSeverity.Error);
             return;
         }
         #endregion

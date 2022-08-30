@@ -48,7 +48,7 @@ public static class Program
             }
             catch (Exception ex) when (ex is UnauthorizedAccessException)
             {
-                Msg.Inform(null, ex.Message, MsgSeverity.Error);
+                Msg.Inform(null, ex.GetMessageWithInner(), MsgSeverity.Error);
             }
             #endregion
         }

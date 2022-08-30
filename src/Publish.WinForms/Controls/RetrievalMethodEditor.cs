@@ -101,7 +101,7 @@ public abstract class RetrievalMethodEditor<T> : NodeEditorBase<T>, ITargetConta
         catch (Exception ex) when (ex is ArgumentException or IOException or UnauthorizedAccessException or WebException or NotSupportedException)
         {
             Log.Warn("Failed to check digest", ex);
-            Msg.Inform(this, ex.Message, MsgSeverity.Warn);
+            Msg.Inform(this, ex.GetMessageWithInner(), MsgSeverity.Warn);
             return;
         }
         #endregion

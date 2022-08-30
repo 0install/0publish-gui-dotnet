@@ -74,7 +74,7 @@ partial class NewFeedWizard
         {
             e.Cancel = true;
             Log.Warn("Feed Wizard: Failed to download file", ex);
-            Msg.Inform(this, ex.Message, MsgSeverity.Warn);
+            Msg.Inform(this, ex.GetMessageWithInner(), MsgSeverity.Warn);
         }
         #endregion
     }
