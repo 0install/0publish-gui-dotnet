@@ -96,7 +96,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Ключ, используемый для подписания (если у вас их несколько, или если вы хотите переподписать с другим ключом).</value>
+    <value>Ключ, используемый для подписи (если у вас их несколько, или если вы хотите переподписать с другим ключом).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
