@@ -243,7 +243,7 @@ Zapisz zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Niewłaściwy typ MIME! Powinno być {0}.</value>
+    <value>Nieprawidłowy typ MIME! Powinno być {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
