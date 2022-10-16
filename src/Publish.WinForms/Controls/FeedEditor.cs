@@ -17,7 +17,7 @@ public partial class FeedEditor : FeedEditorShim
         Bind(textBoxDescription, () => Target!.Descriptions);
         Bind(textBoxSummary, () => Target!.Summaries);
         Bind(textBoxHomepage, PropertyPointer.For(() => Target!.Homepage));
-        Bind(checkBoxNeedTerminal, PropertyPointer.For(() => Target!.NeedsTerminal, defaultValue: false));
+        Bind(checkBoxNeedTerminal, PropertyPointer.For(() => Target!.NeedsTerminal));
         Bind(comboBoxMinimumZeroInstallVersion, PropertyPointer.For(() => Target!.MinInjectorVersionString));
     }
 }
