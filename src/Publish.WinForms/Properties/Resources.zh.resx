@@ -153,7 +153,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>你需要提供应用程序的替代下载源，例如ZIP档案。我们仍将使用从安装程序中获取的桌面集成信息</value>
+    <value>你需要提供应用程序的替代下载源，例如ZIP档案。我们仍然会使用从安装程序中获取的桌面集成信息</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
