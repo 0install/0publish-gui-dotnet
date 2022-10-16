@@ -13,7 +13,7 @@ public partial class SingleFileEditor : SingleFileEditorShim
         InitializeComponent();
 
         Bind(textBoxDestination, PropertyPointer.For(() => Target!.Destination));
-        Bind(checkBoxExecutable, PropertyPointer.For(() => Target!.Executable, defaultValue: false));
+        Bind(checkBoxExecutable, PropertyPointer.For(() => Target!.Executable));
     }
 
     private void textBox_TextChanged(object sender, EventArgs e) => ShowUpdateHint(Resources.ManifestDigestChanged);

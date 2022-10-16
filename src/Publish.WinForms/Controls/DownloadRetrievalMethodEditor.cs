@@ -1,6 +1,8 @@
 // Copyright Bastian Eicher et al.
 // Licensed under the GNU Lesser Public License
 
+using System.Globalization;
+
 namespace ZeroInstall.Publish.WinForms.Controls;
 
 /// <summary>
@@ -49,7 +51,10 @@ public abstract class DownloadRetrievalMethodEditor<T> : RetrievalMethodEditor<T
             TabIndex = 3,
             HintText = Resources.RequiredBytes
         };
-        Bind(textBoxSize, PropertyPointer.For(() => Target!.Size, defaultValue: 0).ToStringPointer());
+        Bind(textBoxSize,
+            PropertyPointer.For(
+                getValue: () => Target!.Size.ToString(CultureInfo.InvariantCulture),
+                setValue: value => Target!.Size = string.IsNullOrEmpty(value) ? default : long.Parse(value)));
     }
     #endregion
 
