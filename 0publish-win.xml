@@ -27,6 +27,6 @@ und der New Feed Wizard (leitet Sie durch den kompletten Feed-Erstellungsprozess
     </command>
 
     <!-- Use very high version number to treat local build as newer than any public version. -->
-    <implementation id="./artifacts/Release/net472/win" version="100-pre"/>
+    <implementation id="./artifacts/Release/net472" version="100-pre"/>
   </group>
 </interface>

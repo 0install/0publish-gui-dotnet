@@ -18,16 +18,13 @@
     <Copyright>Copyright Bastian Eicher et al.</Copyright>
     <RepositoryUrl>https://github.com/0install/0publish-win</RepositoryUrl>
 
-    <!-- Deploy native libs to output -->
-    <RuntimeIdentifier>win</RuntimeIdentifier>
-
     <!-- Dummy version number, overridden by GitVersion -->
     <Version>1.0.0-pre</Version>
 
     <!-- Dependency versions -->
-    <NanoByteCommonVersion>2.13.5</NanoByteCommonVersion>
-    <NanoByteStructureEditorVersion>0.5.10</NanoByteStructureEditorVersion>
-    <ZeroInstallVersion>2.23.13</ZeroInstallVersion>
+    <NanoByteCommonVersion>2.14.1</NanoByteCommonVersion>
+    <NanoByteStructureEditorVersion>0.6.0</NanoByteStructureEditorVersion>
+    <ZeroInstallVersion>2.24.0</ZeroInstallVersion>
   </PropertyGroup>
 
   <!-- Global usings -->
