@@ -103,7 +103,7 @@ Implementarea trebuia să rămână aceeași</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>S-a schimbat rezumatul manifestului. Doriți să îl înlocuiți pe cel existent?</value>
+    <value>Se modifică rezumatul manifestului. Doriți să îl înlocuiți pe cel existent?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
@@ -247,7 +247,7 @@ Salvați modificările</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Da, programul de instalare EXE</value>
+    <value>Da, EXE de instalare</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

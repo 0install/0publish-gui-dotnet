@@ -90,7 +90,7 @@ Zero Install kan alleen een algemeen plaatshouderpictogram weergeven in de catal
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Weet je zeker dat je door wilt gaan zonder deze instellingen in te vullen?
-Je feed werkt alleen lokaal en niet online.</value>
+Uw feed werkt alleen lokaal en niet online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -107,7 +107,7 @@ De uitvoering moest hetzelfde blijven</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Alle andere opvraagmethoden voor deze implementatie moeten ook overeenkomen met de nieuwe digest!</value>
+    <value>Alle andere opvragingsmethoden voor deze implementatie moeten ook overeenkomen met de nieuwe digest!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -129,7 +129,7 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Feed bestanden (*.xml)|*.xml|Template bestanden (*.xml.template)|*.xml.template|Alle bestanden|*</value>
+    <value>Voerbestanden (*.xml)|*.xml|Template bestanden (*.xml.template)|*.xml.template|Alle bestanden|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -153,7 +153,7 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>U moet een alternatieve downloadbron voor de toepassing opgeven, bijvoorbeeld een ZIP-archief. Wij zullen nog steeds de informatie over de desktopintegratie gebruiken die door het installatieprogramma is vastgelegd!</value>
+    <value>U moet een alternatieve downloadbron voor de toepassing opgeven, bijvoorbeeld een ZIP-archief. We zullen nog steeds de informatie over de desktopintegratie gebruiken die is vastgelegd in het installatieprogramma!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">

@@ -84,7 +84,7 @@ Możesz rozprowadzać kopie tego programu zgodnie z warunkami licencji GNU Lesse
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Połącz wszystkie określone feedy w jeden katalog {FILE}.</value>
+    <value>Połącz wszystkie określone kanały w jeden katalog {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
