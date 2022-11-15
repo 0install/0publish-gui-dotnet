@@ -84,11 +84,11 @@ U mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Les
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combineert alle opgegeven feeds in één catalogus {Bestand}.</value>
+    <value>Combineert alle gespecificeerde feeds in één catalogus {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Gebruik {PASS} om de geheime sleutel van GnuPG te ontgrendelen.</value>
+    <value>Gebruik {PASS} om de geheime sleutel van GnuPG te ontsluiten.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">

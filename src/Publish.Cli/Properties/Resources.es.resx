@@ -84,7 +84,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combina todos los feeds especificados en un único catálogo {FILE}.</value>
+    <value>Combine todos los feeds especificados en un único catálogo {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -112,7 +112,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Añadir un bloque de firma XML. (Todos los feeds remotos deben estar firmados)</value>
+    <value>Añada un bloque de firma XML. (Todos los feeds remotos deben estar firmados)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">

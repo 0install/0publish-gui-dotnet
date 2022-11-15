@@ -157,7 +157,7 @@ Scarta le modifiche non salvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Percorso del registro delle capacità non valido {0}</value>
+    <value>Percorso di registro delle capacità non valido {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">

@@ -84,11 +84,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>将所有指定的饲料合并为一个单一的目录{FILE}。</value>
+    <value>将所有指定的饲料合并为一个单一的目录{FILE} 。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>使用{PASS}来解锁GnuPG密匙。</value>
+    <value>使用{PASS} 来解锁GnuPG密匙。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">

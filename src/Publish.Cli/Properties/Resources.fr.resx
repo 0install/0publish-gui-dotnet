@@ -84,7 +84,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combine tous les flux spécifiés dans un seul catalogue {FILE}.</value>
+    <value>Combinez tous les flux spécifiés dans un seul catalogue {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">

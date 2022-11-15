@@ -68,7 +68,7 @@
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>このプログラムには、法律で認められている範囲において、一切の保証がありません。
-あなたは、このプログラムの複製物をGNU Lesser General Public Licenseの条件の下で再配布することができます。</value>
+あなたは、このプログラムのコピーを、GNU Lesser General Public Licenseの条件の下で再配布することができます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -84,11 +84,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>指定されたすべてのフィードを1つのカタログ{FILE}にまとめる。</value>
+    <value>指定したすべてのフィードを1つのカタログにまとめる{FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>GnuPGの秘密鍵を解除するには{PASS}を使用します。</value>
+    <value>GnuPGの秘密鍵を解除するには、{PASS} を使用します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
