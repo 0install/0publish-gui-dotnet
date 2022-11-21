@@ -1,6 +1,7 @@
 // Copyright Bastian Eicher et al.
 // Licensed under the GNU Lesser Public License
 
+using System.Security;
 using NanoByte.Common.Net;
 using ZeroInstall.Publish.Cli;
 using ZeroInstall.Store.Implementations;
@@ -46,7 +47,7 @@ catch (IOException ex)
     handler.Error(ex);
     return (int)ExitCode.IOError;
 }
-catch (UnauthorizedAccessException ex)
+catch (Exception ex) when (ex is UnauthorizedAccessException or SecurityException)
 {
     handler.Error(ex);
     return (int)ExitCode.AccessDenied;
