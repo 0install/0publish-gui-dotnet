@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <!-- Build configuration -->
-    <LangVersion>10.0</LangVersion>
+    <LangVersion>11.0</LangVersion>
     <TargetFramework>net472</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>annotations</Nullable>
