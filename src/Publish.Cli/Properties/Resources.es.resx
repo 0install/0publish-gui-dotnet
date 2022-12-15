@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Por favor, introduzca la frase de contraseña GnuPG para {0}:</value>
+    <value>Introduzca la frase de contraseña GnuPG para {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
@@ -67,20 +67,20 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Este programa no incluye ABSOLUTAMENTE NINGUNA GARANTÍA, en la medida en que lo permita la ley.
+    <value>Este programa no incluye ABSOLUTAMENTE NINGUNA GARANTÍA, en la medida permitida por la ley.
 Puede redistribuir copias de este programa bajo los términos de la Licencia Pública General Reducida GNU.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Faltan argumentos. Prueba con {0}</value>
+    <value>Faltan argumentos. Pruebe {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>No se puede encontrar ningún archivo de feed que coincida.</value>
+    <value>No se ha encontrado ningún archivo de feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Descargue los archivos que faltan, calcule los resúmenes de los manifiestos, etc.</value>
+    <value>Descargar archivos perdidos, calcular resúmenes de manifiestos, etc.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -88,15 +88,15 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Utilice {PASS} para desbloquear la clave secreta de GnuPG.</value>
+    <value>Utilice {PASS} para desbloquear la clave secreta GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Mostrar el texto de ayuda incorporado.</value>
+    <value>Mostrar el texto de ayuda integrado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Clave a utilizar para firmar (si tiene más de una, o si quiere renunciar con una clave diferente).</value>
+    <value>Clave a utilizar para firmar (si tienes más de una, o si quieres renunciar con una clave diferente).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -108,7 +108,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Muestra la información de la versión.</value>
+    <value>Muestra información sobre la versión.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
@@ -117,7 +117,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
   </data>
   <data name="UnknownMode" xml:space="preserve">
     <value>Modo de funcionamiento desconocido.
-Pruebe con {0}</value>
+Pruebe {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
