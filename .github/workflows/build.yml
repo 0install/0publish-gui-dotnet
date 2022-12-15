@@ -33,8 +33,6 @@ jobs:
             **[Documentation and download instructions](https://docs.0install.net/tools/0publish-win/)**
 
             Based on [Zero Install .NET ${{steps.gitversion.outputs.nuGetVersion}}](https://github.com/0install/0install-dotnet/releases/${{steps.gitversion.outputs.nuGetVersion}}).
-        env:
-          GITHUB_TOKEN: ${{github.token}}
       - name: Trigger feed update
         if: steps.gitversion.outputs.preReleaseLabel == ''
         uses: benc-uk/workflow-dispatch@v1
