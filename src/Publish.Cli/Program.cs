@@ -9,6 +9,7 @@ using ZeroInstall.Store.Trust;
 
 ProcessUtils.SanitizeEnvironmentVariables();
 NetUtils.ApplyProxy();
+ServicePointManager.DefaultConnectionLimit = 16;
 
 using var handler = new AnsiCliTaskHandler();
 

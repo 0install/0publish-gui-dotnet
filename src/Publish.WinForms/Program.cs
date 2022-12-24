@@ -20,6 +20,7 @@ public static class Program
     {
         ProcessUtils.SanitizeEnvironmentVariables();
         NetUtils.ApplyProxy();
+        ServicePointManager.DefaultConnectionLimit = 16;
 
         WindowsUtils.SetCurrentProcessAppID("ZeroInstall.Publishing");
         Application.EnableVisualStyles();
