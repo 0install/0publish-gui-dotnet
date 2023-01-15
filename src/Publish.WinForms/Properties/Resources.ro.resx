@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Adaugă lipsă</value>
+    <value>Adăugați lipsă</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -107,7 +107,7 @@ Implementarea trebuia să rămână aceeași</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Toate celelalte metode de regăsire pentru această implementare trebuie să corespundă și ele noului cod!</value>
+    <value>Toate celelalte metode de recuperare pentru această implementare trebuie să se potrivească și ele cu noul compendiu!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -153,11 +153,11 @@ Renunță la modificările nesalvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Trebuie să furnizați o sursă alternativă de descărcare a aplicației, de exemplu, o arhivă ZIP. Vom folosi în continuare informațiile de integrare a biroului capturate din programul de instalare!</value>
+    <value>Trebuie să furnizați o sursă alternativă de descărcare a aplicației, de exemplu, o arhivă ZIP. Vom folosi în continuare informațiile de integrare în desktop capturate din programul de instalare!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Calea de înregistrare a capacităților nu este validă {0}</value>
+    <value>Calea de înregistrare a capacităților nu este validă: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">

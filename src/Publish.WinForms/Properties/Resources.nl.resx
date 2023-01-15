@@ -107,7 +107,7 @@ De uitvoering moest hetzelfde blijven</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Alle andere opvraagmethoden voor deze implementatie moeten ook overeenkomen met de nieuwe digest!</value>
+    <value>Alle andere opvragingsmethoden voor deze implementatie moeten ook overeenkomen met de nieuwe digest!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -153,11 +153,11 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>U moet een alternatieve downloadbron voor de toepassing opgeven, bijvoorbeeld een ZIP-archief. We zullen nog steeds de informatie over de desktopintegratie gebruiken die is vastgelegd in het installatieprogramma!</value>
+    <value>U moet een alternatieve downloadbron voor de toepassing opgeven, bijvoorbeeld een ZIP-archief. Wij zullen nog steeds de informatie over de desktopintegratie gebruiken die door het installatieprogramma is vastgelegd!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Ongeldig capabilities register pad {0}</value>
+    <value>Ongeldig capabilities register pad: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
