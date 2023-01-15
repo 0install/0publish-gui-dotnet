@@ -157,7 +157,7 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Nieprawidłowa ścieżka rejestru możliwości {0}</value>
+    <value>Nieprawidłowa ścieżka rejestru możliwości: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">

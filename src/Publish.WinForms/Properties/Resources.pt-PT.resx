@@ -157,7 +157,7 @@ Descartar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Caminho de registo de capacidades inválidas {0}</value>
+    <value>Caminho de registo de capacidades inválidas: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">

@@ -112,7 +112,7 @@ La aplicación debía seguir siendo la misma</value>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>Sustituir
-He cambiado la implementación a propósito</value>
+He cambiado la aplicación a propósito</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
@@ -157,7 +157,7 @@ Descartar los cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Ruta de registro de capacidades no válida {0}</value>
+    <value>Ruta de registro de capacidades no válida: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">

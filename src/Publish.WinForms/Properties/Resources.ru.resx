@@ -157,7 +157,7 @@ Zero Install сможет отобразить только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Неверный путь к реестру возможностей {0}</value>
+    <value>Неверный путь к реестру возможностей: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
