@@ -82,7 +82,7 @@ partial class NewFeedWizard
     private void OnSingleFile()
     {
         Retrieve(
-            new SingleFile {Href = textBoxDownloadUrl.Uri},
+            new SingleFile {Href = textBoxDownloadUrl.Uri, Destination = "dummy"},
             checkLocalCopy.Checked ? textBoxLocalPath.Text : null);
         _feedBuilder.ImplementationDirectory = _feedBuilder.TemporaryDirectory!;
         using (var handler = new DialogTaskHandler(this))
