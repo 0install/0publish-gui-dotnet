@@ -19,8 +19,6 @@ function Run-MSBuild {
 # Build
 if ($env:CI) { $ci = "/p:ContinuousIntegrationBuild=True" }
 Run-MSBuild /v:Quiet /t:Restore /t:Build $ci /p:Configuration=Release /p:Version=$Version
-
-# Package
-tar -czf ..\artifacts\0publish-win-$Version.tar.gz -C ..\artifacts\Release\net472 --exclude *.pdb *
+Remove-Item ..\artifacts\Release\net472\* -Include *.xml,*.pdb
 
 popd

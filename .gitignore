@@ -12,5 +12,5 @@
 
 # Output
 /artifacts/
-/feed/*.xml
-/feed/*.tar.gz
+/0publish-win-*.xml
+/0publish-win-*.tar.zst

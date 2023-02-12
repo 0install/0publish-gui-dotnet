@@ -21,23 +21,23 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:
-          path: artifacts
+          path: 0publish-win-${{steps.gitversion.outputs.nuGetVersion}}.*
 
       # Release
       - name: Create GitHub Release
         if: steps.gitversion.outputs.preReleaseLabel == ''
         uses: softprops/action-gh-release@v1
         with:
-          files: artifacts/*.tar.gz
+          files: 0publish-win-*.*
           body: |
             **[Documentation and download instructions](https://docs.0install.net/tools/0publish-win/)**
 
             Based on [Zero Install .NET ${{steps.gitversion.outputs.nuGetVersion}}](https://github.com/0install/0install-dotnet/releases/${{steps.gitversion.outputs.nuGetVersion}}).
-      - name: Trigger feed update
+      - name: Publish feed
         if: steps.gitversion.outputs.preReleaseLabel == ''
-        uses: benc-uk/workflow-dispatch@v1
-        with:
-          repo: 0install/apps
-          ref: refs/heads/master
-          workflow: Update
-          token: ${{secrets.PERSONAL_TOKEN}}
+        env:
+          GH_TOKEN: ${{secrets.PERSONAL_TOKEN}}
+        run: >
+          gh workflow run --repo=0install/apps Incoming
+          -f feed_url=https://github.com/${{github.repository}}/releases/download/${{steps.gitversion.outputs.nuGetVersion}}/0publish-win-${{steps.gitversion.outputs.nuGetVersion}}.xml
+          -f archive_url=https://github.com/${{github.repository}}/releases/download/${{steps.gitversion.outputs.nuGetVersion}}/0publish-win-${{steps.gitversion.outputs.nuGetVersion}}.tar.zst
