@@ -24,7 +24,7 @@
     <!-- Dependency versions -->
     <NanoByteCommonVersion>2.15.3</NanoByteCommonVersion>
     <NanoByteStructureEditorVersion>0.7.3</NanoByteStructureEditorVersion>
-    <ZeroInstallVersion>2.24.7</ZeroInstallVersion>
+    <ZeroInstallVersion>2.24.9</ZeroInstallVersion>
   </PropertyGroup>
 
   <!-- Global usings -->
