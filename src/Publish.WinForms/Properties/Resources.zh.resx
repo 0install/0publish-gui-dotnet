@@ -71,7 +71,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>请输入GnuPG口令，{0} 。</value>
+    <value>请输入GnuPG口令，{0} ：</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
@@ -90,7 +90,7 @@
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>你确定你要在不完成这些设置的情况下继续吗？
-你的饲料将只在本地工作，而不是在线。</value>
+你的馈送将只在本地工作，而不是在线。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -153,11 +153,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>你需要提供一个应用程序的替代下载源，例如ZIP档案。我们仍然会使用从安装程序中获取的桌面集成信息</value>
+    <value>你需要提供应用程序的替代下载源，例如ZIP档案。我们仍然会使用从安装程序中获取的桌面集成信息</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>无效的能力注册表路径。{0}</value>
+    <value>无效的能力注册表路径：{0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -190,7 +190,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>请点击。</value>
+    <value>请点击：</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">

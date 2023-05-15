@@ -107,7 +107,7 @@ De uitvoering moest hetzelfde blijven</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Alle andere opvraagmethoden voor deze implementatie moeten ook overeenkomen met de nieuwe digest!</value>
+    <value>Alle andere opvragingsmethoden voor deze implementatie moeten ook overeenkomen met de nieuwe digest!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -129,7 +129,7 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Voerbestanden (*.xml)|*.xml|Template bestanden (*.xml.template)|*.xml.template|Alle bestanden|*</value>
+    <value>Feed bestanden (*.xml)|*.xml|Template bestanden (*.xml.template)|*.xml.template|Alle bestanden|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">

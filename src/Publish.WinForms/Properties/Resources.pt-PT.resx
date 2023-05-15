@@ -71,25 +71,25 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Por favor, introduza a frase-chave GnuPG para {0}:</value>
+    <value>Introduza a frase-passe GnuPG para {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Este é um instalador EXE?</value>
+    <value>Este é um EXE de instalação?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Tem a certeza de que quer saltar a captura?
-As informações sobre a integração da aplicação no ambiente de trabalho (por exemplo, associações de ficheiros) não serão adicionadas ao feed.</value>
+    <value>Tem a certeza de que pretende saltar a captura?
+As informações sobre a integração do ambiente de trabalho da aplicação (por exemplo, associações de ficheiros) não serão adicionadas ao feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Tem a certeza de que quer continuar sem adicionar ícones?
-Zero Install só poderá exibir um ícone genérico de espaço reservado no catálogo, bem como para qualquer atalho de integração no ambiente de trabalho.</value>
+    <value>Tem a certeza de que pretende continuar sem adicionar ícones?
+A Instalação Zero só poderá apresentar um ícone de marcador de posição genérico no catálogo, bem como para quaisquer atalhos de integração no ambiente de trabalho.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Tem a certeza de que quer continuar sem completar estas definições?
+    <value>Tem a certeza de que pretende continuar sem completar estas definições?
 O seu feed só funcionará localmente e não online.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -98,16 +98,16 @@ O seu feed só funcionará localmente e não online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Guarde
-A implementação deveria permanecer a mesma</value>
+    <value>Manter
+A implementação deveria manter-se inalterada</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>A compilação do manifesto mudou. Deseja substituir o existente?</value>
+    <value>O resumo do manifesto foi alterado. Deseja substituir o existente?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Todos os outros métodos de recuperação para esta implementação devem corresponder também ao novo digestor!</value>
+    <value>Todos os outros métodos de recuperação para esta implementação devem também corresponder ao novo resumo!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -117,19 +117,19 @@ Alterei a implementação de propósito</value>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
     <value>Descartar
-Descartar alterações não guardadas</value>
+Rejeitar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Descarregar imagem para visualização...</value>
+    <value>Descarregar imagem para pré-visualização...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Foi calculado um manifesto digerido para um directório vazio. Verifique se definiu o valor "extracto" correcto para o arquivo.</value>
+    <value>Foi calculado um manifesto digest para um directório vazio. Verifique se definiu o valor de "extracção" correcto para o arquivo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Ficheiros de alimentação (*.xml)|*.xml|Arquivos de templates (*.xml.template)|*.xml.template|Todos os ficheiros|*</value>
+    <value>Ficheiros de alimentação (*.xml)|*.xml|Ficheiros de modelo (*.xml.template)|*.xml.template|Todos os ficheiros|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -137,7 +137,7 @@ Descartar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>Uma descrição completa possivelmente com várias linhas</value>
+    <value>Uma descrição completa, possivelmente com várias linhas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
@@ -145,27 +145,27 @@ Descartar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>O formato da imagem não é suportado por Zero Install.</value>
+    <value>O formato de imagem não é suportado pelo Zero Install.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Falha na extracção do instalador como um arquivo.</value>
+    <value>Falha ao extrair o instalador como um arquivo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>É necessário fornecer uma fonte alternativa de descarga para a aplicação, por exemplo, um arquivo ZIP. Continuaremos a utilizar a informação de integração do ambiente de trabalho capturada a partir do instalador!</value>
+    <value>É necessário fornecer uma fonte de transferência alternativa para a aplicação, por exemplo, um arquivo ZIP. Continuaremos a utilizar as informações de integração do ambiente de trabalho captadas pelo instalador!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Caminho de registo de capacidades inválidas: {0}</value>
+    <value>Caminho de registo de capacidades inválido: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>O manifesto de digestão pode ter mudado.</value>
+    <value>O resumo do manifesto pode ter mudado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Manifesto digerido ainda não calculado.</value>
+    <value>O resumo do manifesto ainda não foi calculado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -177,16 +177,16 @@ Descartar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Não foram encontrados pontos de entrada (EXEs, JARs, scripts Python, etc.). Por favor, certifique-se de que seleccionou o arquivo e o directório de extractos correctos.</value>
+    <value>Não foram encontrados pontos de entrada (EXEs, JARs, scripts Python, etc.). Certifique-se de que seleccionou o arquivo e o directório de extracção correctos.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Incapaz de encontrar quaisquer ficheiros de alimentação correspondentes.</value>
+    <value>Não foi possível encontrar nenhum ficheiro de feed correspondente.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>Não, o próprio pedido
-consiste em apenas um EXE</value>
+    <value>Não, a aplicação em si
+consiste apenas num EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
@@ -206,7 +206,7 @@ consiste em apenas um EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Salvar de qualquer maneira?</value>
+    <value>Salvar na mesma?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
@@ -215,7 +215,7 @@ Guardar alterações</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Quer salvar as alterações?</value>
+    <value>Pretende guardar as alterações?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
@@ -223,15 +223,15 @@ Guardar alterações</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Alimentação de assinatura</value>
+    <value>Assinatura de feeds</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>Tamanho do ficheiro ainda não determinado.</value>
+    <value>O tamanho do ficheiro ainda não foi determinado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>URL de origem</value>
+    <value>Fonte URL</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
@@ -239,11 +239,11 @@ Guardar alterações</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>À espera que o instalador conclua</value>
+    <value>A aguardar a conclusão do instalador</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Tipo MIME errado! Deve ser {0}.</value>
+    <value>Tipo de MIME incorrecto! Deveria ser {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">

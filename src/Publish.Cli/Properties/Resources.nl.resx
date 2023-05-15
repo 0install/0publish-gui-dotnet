@@ -96,7 +96,7 @@ U mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Les
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Sleutel om te gebruiken voor ondertekening (als u er meer dan één heeft, of als u wilt ondertekenen met een andere sleutel).</value>
+    <value>Te gebruiken sleutel voor ondertekening (als u er meer dan één heeft, of als u wilt ondertekenen met een andere sleutel).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">

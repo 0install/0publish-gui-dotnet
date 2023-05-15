@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>GnuPGのパスフレーズを入力してください。{0}:</value>
+    <value>{0} の GnuPG パスフレーズを入力してください：</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
@@ -67,20 +67,20 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>このプログラムには、法律で認められている範囲において、一切の保証がありません。
-あなたは、このプログラムのコピーを、GNU Lesser General Public Licenseの条件の下で再配布することができます。</value>
+    <value>このプログラムには、法律で認められている範囲内で、まったく無保証が付きます。
+あなたは、GNU Lesser General Public Licenseの条件の下で、このプログラムのコピーを再頒布することができます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>引数の欠落試す{0}</value>
+    <value>引数が足りない。試す{0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>一致するフィードファイルが見つかりません。</value>
+    <value>一致するフィードファイルを見つけることができません。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>不足しているアーカイブのダウンロード、マニフェストダイジェストの計算など。</value>
+    <value>不足するアーカイブのダウンロード、マニフェストダイジェストの計算など。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -88,7 +88,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>GnuPGの秘密鍵を解除するには、{PASS} を使用します。</value>
+    <value>{PASS} を使って GnuPG の秘密鍵を解除します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
@@ -100,7 +100,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>オプションです。</value>
+    <value>オプションです：</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
@@ -108,11 +108,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>バージョン情報を表示します。</value>
+    <value>バージョン情報を表示する。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>XML署名ブロックを追加します。(すべてのリモートフィードには署名が必要です)。</value>
+    <value>XML署名ブロックを追加する。(すべてのリモートフィードには署名が必要です)。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
@@ -121,7 +121,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>使用方法</value>
+    <value>使用することです：</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

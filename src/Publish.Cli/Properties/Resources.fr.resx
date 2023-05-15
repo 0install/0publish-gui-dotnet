@@ -72,7 +72,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Arguments manquants. Essayez {0}</value>
+    <value>Arguments manquants. Essayer {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -80,7 +80,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Télécharger les archives manquantes, calculer les digests des manifestes, etc.</value>
+    <value>Télécharger les archives manquantes, calculer les résumés des manifestes, etc.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -96,7 +96,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Clé à utiliser pour la signature (si vous en avez plusieurs, ou si vous voulez démissionner avec une clé différente).</value>
+    <value>Clé à utiliser pour la signature (si vous en avez plus d'une, ou si vous voulez resigner avec une clé différente).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -104,7 +104,7 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Supprimez toutes les signatures existantes.</value>
+    <value>Supprimer toutes les signatures existantes.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -112,12 +112,12 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Ajoutez un bloc de signature XML. (Tous les flux distants doivent être signés)</value>
+    <value>Ajouter un bloc de signature XML. (Tous les flux à distance doivent être signés)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
     <value>Mode de fonctionnement inconnu.
-Essayez {0}</value>
+Essai {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
