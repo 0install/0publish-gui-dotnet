@@ -68,7 +68,7 @@
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Эта программа поставляется с АБСОЛЮТНО НИКАКИМИ ГАРАНТИЯМИ, насколько это разрешено законом.
-Вы можете распространять копии этой программы на условиях лицензии GNU Lesser General Public License.</value>
+Вы можете распространять копии этой программы в соответствии с условиями GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -96,7 +96,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Ключ, используемый для подписи (если у вас их несколько, или если вы хотите переподписать с другим ключом).</value>
+    <value>Ключ, используемый для подписания (если у вас их несколько, или если вы хотите переподписать с другим ключом).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
