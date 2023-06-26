@@ -85,7 +85,7 @@ internal sealed class InstallerCapture : IDisposable
         if (string.IsNullOrEmpty(_localPath)) throw new InvalidOperationException();
 
         var process = ProcessUtils.Start(_localPath);
-        handler.RunTask(new SimpleTask(Resources.WaitingForInstaller, () => process.WaitForExit()));
+        handler.RunTask(new ActionTask(Resources.WaitingForInstaller, () => process.WaitForExit()));
     }
 
     /// <summary>

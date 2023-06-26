@@ -22,9 +22,9 @@
     <Version>1.0.0-pre</Version>
 
     <!-- Dependency versions -->
-    <NanoByteCommonVersion>2.16.1</NanoByteCommonVersion>
-    <NanoByteStructureEditorVersion>0.7.4</NanoByteStructureEditorVersion>
-    <ZeroInstallVersion>2.24.10</ZeroInstallVersion>
+    <NanoByteCommonVersion>2.17.1</NanoByteCommonVersion>
+    <NanoByteStructureEditorVersion>0.7.5</NanoByteStructureEditorVersion>
+    <ZeroInstallVersion>2.25.0</ZeroInstallVersion>
   </PropertyGroup>
 
   <!-- Global usings -->
