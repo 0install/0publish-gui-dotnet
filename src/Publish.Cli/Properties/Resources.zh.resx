@@ -59,20 +59,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>请输入GnuPG口令，{0} ：</value>
+    <value>请输入{0} 的 GnuPG 口令：</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>饲料没有正确的格式。</value>
+    <value>供稿格式不正确。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>在法律允许的范围内，本程序不提供任何担保。
-你可以在GNU较小通用公共许可证的条款下重新发布本程序的副本。</value>
+您可以根据 GNU 宽通用公共许可证的条款重新发布本程序的副本。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>缺少论据。尝试{0}</value>
+    <value>缺少参数。尝试{0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -80,23 +80,23 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>下载丢失的档案，计算清单摘要等。</value>
+    <value>下载丢失的归档文件，计算清单摘要等。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>将所有指定的饲料合并为一个单一的目录{FILE} 。</value>
+    <value>将所有指定的供稿合并到一个目录中{FILE} 。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>使用{PASS} 来解锁GnuPG密匙。</value>
+    <value>使用{PASS} 解锁 GnuPG 密钥。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>显示内置的帮助文本。</value>
+    <value>显示内置帮助文本。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>用于签名的密钥（如果你有多个密钥，或者你想用不同的密钥辞职）。</value>
+    <value>用于签名的密钥（如果您有多个密钥，或者您想使用不同的密钥签名）。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -104,7 +104,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>删除任何现有的签名。</value>
+    <value>删除任何现有签名。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -112,16 +112,16 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>添加一个XML签名块。(所有的远程馈送都必须签名)。</value>
+    <value>添加XML签名块。(所有远程供稿都必须签名）。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>操作模式不明。
+    <value>未知运行模式。
 尝试{0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>使用方法：</value>
+    <value>使用方法</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

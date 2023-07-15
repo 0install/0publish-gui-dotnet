@@ -85,7 +85,7 @@ As informações sobre a integração do ambiente de trabalho da aplicação (po
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Tem a certeza de que pretende continuar sem adicionar ícones?
-A Instalação Zero só poderá apresentar um ícone de marcador de posição genérico no catálogo, bem como para quaisquer atalhos de integração no ambiente de trabalho.</value>
+A Instalação Zero apenas poderá apresentar um ícone de marcador de posição genérico no catálogo, bem como para quaisquer atalhos de integração no ambiente de trabalho.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
@@ -125,7 +125,7 @@ Rejeitar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Foi calculado um manifesto digest para um directório vazio. Verifique se definiu o valor de "extracção" correcto para o arquivo.</value>
+    <value>Foi calculado um manifesto digest para um diretório vazio. Verifique se definiu o valor de "extração" correto para o arquivo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -177,7 +177,7 @@ Rejeitar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Não foram encontrados pontos de entrada (EXEs, JARs, scripts Python, etc.). Certifique-se de que seleccionou o arquivo e o directório de extracção correctos.</value>
+    <value>Não foram encontrados pontos de entrada (EXEs, JARs, scripts Python, etc.). Certifique-se de que seleccionou o arquivo e o diretório de extração correctos.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -243,7 +243,7 @@ Guardar alterações</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Tipo de MIME incorrecto! Deveria ser {0}.</value>
+    <value>Tipo de MIME incorreto! Deveria ser {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
