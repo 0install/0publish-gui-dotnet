@@ -177,7 +177,7 @@ Annuler les modifications non sauveguardées</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Aucun point d'entrée (EXE, JAR, scripts Python, etc.) n'a été trouvé. Veuillez vous assurer que vous avez sélectionné la bonne archive et le bon répertoire d'extraction.</value>
+    <value>Aucun point d'entrée (EXE, JAR, scripts Python, etc.) n'a été trouvé. Veuillez vous assurer que vous avez sélectionné l'archive et le répertoire d'extraction corrects.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -186,7 +186,7 @@ Annuler les modifications non sauveguardées</value>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Non, l'application elle-même
-se compose uniquement d'un EXE</value>
+ne consiste qu'en un EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">

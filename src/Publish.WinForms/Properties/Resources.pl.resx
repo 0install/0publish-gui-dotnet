@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Dodaj brakujące</value>
+    <value>Dodać brakujące</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -67,15 +67,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Ta ścieżka wskazuje na zewnątrz archiwum.</value>
+    <value>Ta ścieżka wskazuje poza archiwum.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Proszę wprowadzić frazę pasywną GnuPG dla {0}:</value>
+    <value>Wprowadź hasło GnuPG dla {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Czy to jest instalator EXE?</value>
+    <value>Czy jest to plik EXE instalatora?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
@@ -85,11 +85,11 @@ Informacje o integracji aplikacji z pulpitem (np. skojarzenia plików) nie zosta
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Czy na pewno chcesz kontynuować bez dodawania ikon?
-Zero Install będzie w stanie wyświetlić jedynie generyczną ikonę zastępczą w katalogu, jak również dla wszelkich skrótów integracyjnych na pulpicie.</value>
+Zero Install będzie w stanie wyświetlić tylko ogólną ikonę zastępczą w katalogu, a także dla wszystkich skrótów integracji pulpitu.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Czy na pewno chcesz kontynuować bez uzupełnienia tych ustawień?
+    <value>Czy na pewno chcesz kontynuować bez wprowadzania tych ustawień?
 Twój kanał będzie działał tylko lokalnie, a nie online.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -98,8 +98,8 @@ Twój kanał będzie działał tylko lokalnie, a nie online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Zachowaj
-Realizacja miała pozostać bez zmian</value>
+    <value>Zachować
+Implementacja miała pozostać taka sama</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
@@ -107,11 +107,11 @@ Realizacja miała pozostać bez zmian</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Wszystkie inne metody pobierania dla tej implementacji muszą również pasować do nowego skrótu!</value>
+    <value>Wszystkie inne metody pobierania dla tej implementacji również muszą być zgodne z nowym skrótem!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Zamień
+    <value>Zastąpić
 Celowo zmieniłem implementację</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -129,7 +129,7 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Pliki kanałów (*.xml)|*.xml|Pliki szablonów (*.xml.template)|*.xml.template|Wszystkie pliki|*</value>
+    <value>Pliki feed (*.xml)|*.xml|Pliki szablonów (*.xml.template)|*.xml.template|Wszystkie pliki|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -137,7 +137,7 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>Pełny, możliwie wieloliniowy opis</value>
+    <value>Kompletny, możliwie wielowierszowy opis</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
@@ -153,7 +153,7 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Musisz podać alternatywne źródło pobierania aplikacji, np. archiwum ZIP. Nadal będziemy używać informacji o integracji pulpitu przechwyconych z instalatora!</value>
+    <value>Należy podać alternatywne źródło pobierania aplikacji, np. archiwum ZIP. Nadal będziemy używać informacji o integracji pulpitu przechwyconych z instalatora!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
@@ -177,11 +177,11 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nie znaleziono żadnych punktów wejścia (EXE, JAR, skryptów Pythona itp.). Upewnij się, że wybrałeś prawidłowe archiwum i katalog do rozpakowania.</value>
+    <value>Nie znaleziono punktów wejścia (plików EXE, JAR, skryptów Python itp.). Upewnij się, że wybrałeś prawidłowe archiwum i katalog do rozpakowania.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nie udało się znaleźć żadnych pasujących plików feed.</value>
+    <value>Nie można znaleźć pasujących plików źródłowych.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -190,7 +190,7 @@ składa się tylko z jednego EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Proszę kliknąć:</value>
+    <value>Kliknij:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
@@ -206,7 +206,7 @@ składa się tylko z jednego EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>A tak w ogóle to ratuj?</value>
+    <value>Oszczędzać mimo wszystko?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
@@ -219,11 +219,11 @@ Zapisz zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Udało się podpisać pliki.</value>
+    <value>Pomyślnie podpisane pliki.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Podpisywanie pasz</value>
+    <value>Podpisywanie kanałów</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
@@ -239,11 +239,11 @@ Zapisz zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Oczekiwanie na zakończenie pracy instalatora</value>
+    <value>Oczekiwanie na zakończenie instalacji</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Niewłaściwy typ MIME! Powinno być {0}.</value>
+    <value>Nieprawidłowy typ MIME! Powinno być {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">

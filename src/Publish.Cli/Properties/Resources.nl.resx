@@ -63,12 +63,12 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>De feed heeft niet het juiste formaat.</value>
+    <value>De feed heeft niet de juiste indeling.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Dit programma wordt geleverd met ABSOLUUT GEEN GARANTIE, voor zover wettelijk toegestaan.
-U mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Lesser General Public License.</value>
+    <value>Dit programma wordt geleverd met ABSOLUUT GEEN GARANTIE, voor zover wettelijk is toegestaan.
+Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -76,7 +76,7 @@ U mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Les
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Kan geen overeenkomende feed bestanden vinden.</value>
+    <value>Kan geen overeenkomende feedbestanden vinden.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -84,19 +84,19 @@ U mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Les
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combineert alle gespecificeerde feeds in één catalogus {FILE}.</value>
+    <value>Combineer alle opgegeven feeds in één catalogus {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Gebruik {PASS} om de geheime sleutel van GnuPG te ontsluiten.</value>
+    <value>Gebruik {PASS} om de geheime sleutel van GnuPG te ontgrendelen.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Toon de ingebouwde helptekst.</value>
+    <value>De ingebouwde helptekst weergeven.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Te gebruiken sleutel voor ondertekening (als u er meer dan één heeft, of als u wilt ondertekenen met een andere sleutel).</value>
+    <value>Sleutel om te gebruiken voor het ondertekenen (als je er meer dan één hebt, of als je wilt ondertekenen met een andere sleutel).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -108,11 +108,11 @@ U mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Les
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Geef versie-informatie weer.</value>
+    <value>Versie-informatie weergeven.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Voeg een XML-handtekening toe. (Alle feeds op afstand moeten worden ondertekend)</value>
+    <value>Voeg een XML-handtekeningblok toe. (Alle feeds op afstand moeten worden ondertekend)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
