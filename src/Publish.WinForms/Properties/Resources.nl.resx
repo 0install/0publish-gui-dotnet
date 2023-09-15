@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Ontbrekende items toevoegen</value>
+    <value>Ontbrekend toevoegen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -153,7 +153,7 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Je moet een alternatieve downloadbron voor de applicatie opgeven, bijvoorbeeld een ZIP-archief. We zullen nog steeds de desktopintegratie-informatie gebruiken die is vastgelegd in het installatieprogramma!</value>
+    <value>Je moet een alternatieve downloadbron voor de applicatie opgeven, bijvoorbeeld een ZIP-archief. We zullen nog steeds de desktopintegratie-informatie van het installatieprogramma gebruiken!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">

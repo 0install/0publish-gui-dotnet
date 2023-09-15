@@ -96,7 +96,7 @@ Pode redistribuir cópias deste programa sob os termos da GNU Lesser General Pub
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Chave a utilizar para assinar (se tiver mais do que uma, ou se pretender assinar com uma chave diferente).</value>
+    <value>Chave a utilizar para a assinatura (se tiver mais do que uma, ou se pretender assinar com uma chave diferente).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
