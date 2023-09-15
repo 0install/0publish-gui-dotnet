@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>该路径指向存档外。</value>
+    <value>该路径指向档案外部。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -75,22 +75,22 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>这是安装EXE吗？</value>
+    <value>这是安装程序 EXE 吗？</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
     <value>您确定要跳过捕获？
-有关应用程序桌面集成的信息（如文件关联）将不会添加到Feed中。</value>
+应用程序的桌面集成信息（如文件关联）将不会添加到信息源中。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>您确定不添加图标就继续吗？
-零安装只能在目录中显示一个通用的占位符图标，以及任何桌面集成快捷方式。</value>
+    <value>你确定不添加图标就继续吗？
+零安装只能在目录和任何桌面集成快捷方式中显示一个通用占位符图标。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>您确定不完成这些设置就继续吗？
-您的饲料只能在本地使用，不能在线使用。</value>
+您的提要只能在本地使用，不能在线使用。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -103,11 +103,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>舱单摘要已更改。您希望替换现有的清单吗？</value>
+    <value>清单摘要已更改。您希望替换现有的摘要吗？</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>该实现的所有其他检索方法也必须与新摘要匹配！</value>
+    <value>该实现的所有其他检索方法也必须与新摘要相匹配！</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -121,15 +121,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>下载图像预览...</value>
+    <value>下载图像进行预览...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>为空目录计算了清单摘要。检查您是否为存档设置了正确的 "extract "值。</value>
+    <value>为空目录计算了清单摘要。检查您是否为存档设置了正确的 "提取 "值。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>饲料文件(*.xml)|*.xml|模板文件(*.xml.template)|*.xml.template|所有文件|*</value>
+    <value>源文件 (*.xml)|*.xml| 模板文件 (*.xml.template)|*.xml.template| 所有文件|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -137,15 +137,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>一个完整的可能多行的描述</value>
+    <value>完整的可能是多行的描述</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>视窗图标文件</value>
+    <value>Windows 图标文件</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>零安装不支持图像格式。</value>
+    <value>Zero Install 不支持图像格式。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
@@ -161,11 +161,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Manifest摘要可能已更改。</value>
+    <value>清单摘要可能已更改。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Manifest digest尚未计算。</value>
+    <value>清单摘要尚未计算。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -173,28 +173,28 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>新钥匙</value>
+    <value>新钥匙...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>未找到入口点（EXE、JAR、Python 脚本等）。请确保您选择了正确的归档和解压缩目录。</value>
+    <value>未找到入口点（EXE、JAR、Python 脚本等）。请确保您选择了正确的存档和解压缩目录。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>无法找到任何匹配的饲料文件。</value>
+    <value>无法找到匹配的饲料文件。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>不，应用程序本身
-仅由一个EXE组成</value>
+只有一个 EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>请点击：</value>
+    <value>请点击</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>PNG图像文件</value>
+    <value>PNG 图像文件</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
@@ -215,7 +215,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>您想保存更改吗？</value>
+    <value>要保存更改吗？</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
@@ -243,11 +243,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>错误的 MIME 类型！应为{0} 。</value>
+    <value>MIME 类型错误！应为{0} 。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>是，安装程序EXE</value>
+    <value>是，安装程序 EXE</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

@@ -107,7 +107,7 @@ La mise en œuvre devait rester inchangée</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Toutes les autres méthodes d'extraction de cette mise en œuvre doivent également correspondre au nouveau condensé !</value>
+    <value>Toutes les autres méthodes de recherche pour cette mise en œuvre doivent également correspondre au nouveau condensé !</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -177,7 +177,7 @@ Annuler les modifications non sauveguardées</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Aucun point d'entrée (EXE, JAR, scripts Python, etc.) n'a été trouvé. Veuillez vous assurer que vous avez sélectionné l'archive et le répertoire d'extraction corrects.</value>
+    <value>Aucun point d'entrée (EXE, JAR, scripts Python, etc.) n'a été trouvé. Veuillez vous assurer que vous avez sélectionné la bonne archive et le bon répertoire d'extraction.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">

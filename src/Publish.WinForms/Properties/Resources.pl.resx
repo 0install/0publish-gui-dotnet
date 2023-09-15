@@ -99,7 +99,7 @@ Twój kanał będzie działał tylko lokalnie, a nie online.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Zachować
-Implementacja miała pozostać taka sama</value>
+Implementacja miała pozostać bez zmian</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
@@ -177,7 +177,7 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nie znaleziono punktów wejścia (plików EXE, JAR, skryptów Python itp.). Upewnij się, że wybrałeś prawidłowe archiwum i katalog do rozpakowania.</value>
+    <value>Nie znaleziono punktów wejścia (plików EXE, JAR, skryptów Python itp.). Upewnij się, że wybrałeś właściwe archiwum i katalog rozpakowywania.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">

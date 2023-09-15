@@ -85,7 +85,7 @@ As informações sobre a integração do ambiente de trabalho da aplicação (po
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Tem a certeza de que pretende continuar sem adicionar ícones?
-A Instalação Zero apenas poderá apresentar um ícone de marcador de posição genérico no catálogo, bem como para quaisquer atalhos de integração no ambiente de trabalho.</value>
+A Instalação Zero só poderá apresentar um ícone de marcador de posição genérico no catálogo, bem como para quaisquer atalhos de integração no ambiente de trabalho.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
