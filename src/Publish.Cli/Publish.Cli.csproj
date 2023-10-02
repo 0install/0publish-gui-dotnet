@@ -25,9 +25,6 @@
 
   <!-- Files to include with output -->
   <ItemGroup>
-    <Content Include="..\..\3rd party code.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="..\..\COPYING.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
