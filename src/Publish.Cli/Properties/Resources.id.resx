@@ -59,69 +59,69 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>请输入{0} 的 GnuPG 口令：</value>
+    <value>Masukkan kata sandi GnuPG untuk {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>供稿格式不正确。</value>
+    <value>Umpan tidak memiliki format yang benar.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>在法律允许的范围内，本程序不提供任何担保。
-您可以根据 GNU 宽通用公共许可证的条款重新发布本程序的副本。</value>
+    <value>Program ini hadir tanpa jaminan sama sekali, sejauh diizinkan oleh hukum.
+Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik Umum GNU Lesser.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>缺少参数。尝试{0}</value>
+    <value>Argumen yang hilang. Coba {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>无法找到匹配的饲料文件。</value>
+    <value>Tidak dapat menemukan file feed yang cocok.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>下载丢失的归档文件、计算清单摘要等。</value>
+    <value>Mengunduh arsip yang hilang, menghitung intisari manifes, dll..</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>将所有指定的信息源合并到一个目录中{FILE} 。</value>
+    <value>Gabungkan semua feed yang ditentukan ke dalam satu katalog {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>使用{PASS} 解锁 GnuPG 密钥。</value>
+    <value>Gunakan {PASS} untuk membuka kunci rahasia GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>显示内置帮助文本。</value>
+    <value>Menampilkan teks bantuan bawaan.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>用于签名的密钥（如果您有多个密钥，或者您想用不同的密钥签名）。</value>
+    <value>Kunci yang digunakan untuk menandatangani (jika Anda memiliki lebih dari satu, atau jika Anda ingin mengundurkan diri dengan kunci yang berbeda).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>选项：</value>
+    <value>Pilihan:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>删除任何现有签名。</value>
+    <value>Hapus semua tanda tangan yang ada.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>显示版本信息。</value>
+    <value>Menampilkan informasi versi.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>添加 XML 签名块。(所有远程供稿都必须签名）。</value>
+    <value>Tambahkan blok tanda tangan XML. (Semua feed jarak jauh harus ditandatangani.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>未知运行模式。
-尝试{0}</value>
+    <value>Mode operasi tidak dikenal.
+Coba {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>使用方法</value>
+    <value>Penggunaan:</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

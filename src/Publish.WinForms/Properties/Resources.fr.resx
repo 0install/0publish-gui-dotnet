@@ -107,7 +107,7 @@ La mise en œuvre devait rester inchangée</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Toutes les autres méthodes de recherche pour cette mise en œuvre doivent également correspondre au nouveau condensé !</value>
+    <value>Toutes les autres méthodes d'extraction de cette mise en œuvre doivent également correspondre au nouveau condensé !</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
