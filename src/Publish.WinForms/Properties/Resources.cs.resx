@@ -59,195 +59,195 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Adăugați lipsă</value>
+    <value>Přidat chybějící</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
-    <value>Toate fișierele</value>
+    <value>Všechny soubory</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Această cale de acces este îndreptată în afara arhivei.</value>
+    <value>Tato cesta ukazuje mimo archiv.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Vă rugăm să introduceți fraza de acces GnuPG pentru {0}:</value>
+    <value>Zadejte prosím přístupovou frázi GnuPG pro {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Este acesta un EXE de instalare?</value>
+    <value>Jedná se o instalační soubor EXE?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Ești sigur că vrei să sari peste capturare?
-Informațiile despre integrarea aplicației pe desktop (de exemplu, asocierile de fișiere) nu vor fi adăugate la flux.</value>
+    <value>Určitě chcete přeskočit zachycení?
+Informace o integraci aplikace na plochu (např. asociace souborů) nebudou do kanálu přidány.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Sunteți sigur că doriți să continuați fără să adăugați pictograme?
-Zero Install va putea afișa doar o pictogramă generică în catalog, precum și pentru orice scurtături de integrare pe desktop.</value>
+    <value>Určitě chcete pokračovat bez přidání ikon?
+Nulová instalace bude schopna zobrazit pouze obecnou zástupnou ikonu v katalogu a také pro všechny zástupce pro integraci na plochu.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Sunteți sigur că doriți să continuați fără a finaliza aceste setări?
-Fluxul dvs. va funcționa doar la nivel local, nu și online.</value>
+    <value>Opravdu chcete pokračovat bez dokončení těchto nastavení?
+Váš kanál bude fungovat pouze lokálně, nikoli online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Descriere</value>
+    <value>Popis</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Păstrați
-Implementarea trebuia să rămână aceeași</value>
+    <value>Udržujte
+Provádění mělo zůstat stejné</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Se modifică rezumatul manifestului. Doriți să îl înlocuiți pe cel existent?</value>
+    <value>Složení manifestu se změnilo. Chcete nahradit stávající?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Toate celelalte metode de regăsire pentru această implementare trebuie să corespundă și ele noului cod!</value>
+    <value>Všechny ostatní metody načítání pro tuto implementaci musí také odpovídat novému digestu!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Înlocuiți
-Am schimbat intenționat implementarea</value>
+    <value>Vyměňte stránky
+Záměrně jsem změnil implementaci</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Aruncare
-Renunță la modificările nesalvate</value>
+    <value>Vyřazení
+Zahození neuložených změn</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Descărcarea imaginii pentru previzualizare...</value>
+    <value>Stahování obrázku pro náhled...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>A fost calculat un manifest digest pentru un director gol. Verificați dacă ați setat valoarea "extract" corectă pentru arhivă.</value>
+    <value>Pro prázdný adresář byl vypočten digest manifestu. Zkontrolujte, zda jste pro archiv nastavili správnou hodnotu "extract".</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Fișiere de alimentare (*.xml)|*.xml|File de șablon (*.xml.template)|*.xml.template|Toate fișierele|*</value>
+    <value>Soubory krmiva (*.xml)|*.xml|Soubory šablony (*.xml.template)|*.xml.template|Všechny soubory|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
-    <value>Dimensiunea fișierului</value>
+    <value>Velikost souboru</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="HintTextMultiline" xml:space="preserve">
-    <value>O descriere completă, eventual pe mai multe rânduri</value>
+    <value>Úplný, případně víceřádkový popis</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Fișiere cu pictograme Windows</value>
+    <value>Soubory ikon systému Windows</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Formatul imaginii nu este acceptat de Zero Install.</value>
+    <value>Formát obrázku není v nástroji Zero Install podporován.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Nu s-a reușit extragerea programului de instalare ca arhivă.</value>
+    <value>Nepodařilo se rozbalit instalační program jako archiv.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Trebuie să furnizați o sursă alternativă de descărcare a aplicației, de exemplu, o arhivă ZIP. Vom folosi în continuare informațiile de integrare a biroului capturate din programul de instalare!</value>
+    <value>Je třeba poskytnout alternativní zdroj pro stažení aplikace, např. archiv ZIP. Stále budeme používat informace o integraci na plochu zachycené z instalačního programu!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Calea de înregistrare a capacităților nu este validă: {0}</value>
+    <value>Nesprávná cesta k registru funkcí: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Este posibil să se fi schimbat digestul manifestului.</value>
+    <value>Manifest digest se mohl změnit.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Digestul manifestului nu a fost încă calculat.</value>
+    <value>Manifest digest ještě nebyl vypočítán.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
-    <value>Nume</value>
+    <value>Jména</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Cheie nouă...</value>
+    <value>Nový klíč...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nu au fost găsite puncte de intrare (EXE, JAR, scripturi Python etc.). Vă rugăm să vă asigurați că ați selectat arhiva și directorul de extragere corecte.</value>
+    <value>Nebyly nalezeny žádné vstupní body (soubory EXE, JAR, skripty Python atd.). Ujistěte se, že jste vybrali správný archiv a adresář pro rozbalení.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nu se poate găsi niciun fișier de alimentare corespunzător.</value>
+    <value>Nepodařilo se najít žádné odpovídající soubory feedu.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>Nu, aplicația în sine
-este formată dintr-un singur EXE</value>
+    <value>Ne, samotná aplikace
+se skládá pouze z jednoho EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Vă rugăm să faceți clic:</value>
+    <value>Klikněte prosím na:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>Fișiere de imagine PNG</value>
+    <value>Obrazové soubory PNG</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
-    <value>în octeți (obligatoriu)</value>
+    <value>v bytech (povinné)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>URL HTTP/FTP (obligatoriu)</value>
+    <value>Adresa URL HTTP/FTP (povinné)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Salvează oricum?</value>
+    <value>Zachránit i tak?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
-    <value>Salvați
-Salvați modificările</value>
+    <value>Uložit
+Uložení změn</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Doriți să salvați modificările?</value>
+    <value>Chcete změny uložit?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Fișiere semnate cu succes.</value>
+    <value>Úspěšně podepsané soubory.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Semnarea feed-urilor</value>
+    <value>Podepisovací kanály</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>Dimensiunea fișierului nu a fost încă determinată.</value>
+    <value>Velikost souboru zatím nebyla určena.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Sursa URL</value>
+    <value>Zdrojová adresa URL</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
-    <value>Rezumat</value>
+    <value>Souhrn</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Așteptarea finalizării programului de instalare</value>
+    <value>Čekání na dokončení instalace</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Tip MIME greșit! Ar trebui să fie {0}.</value>
+    <value>Špatný typ MIME! Mělo by být {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Da, EXE de instalare</value>
+    <value>Ano, instalační soubor EXE</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>
