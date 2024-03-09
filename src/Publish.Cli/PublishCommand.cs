@@ -89,8 +89,10 @@ public sealed class PublishCommand : ICommand
         options.Add("h|help|?", () => Resources.OptionHelp, _ =>
         {
             Console.WriteLine(Resources.Usage);
+            // ReSharper disable LocalizableElement
             Console.WriteLine("\t0publish [OPTIONS] feed.xml");
             Console.WriteLine("\t0publish capture --help");
+            // ReSharper restore LocalizableElement
             Console.WriteLine();
             Console.WriteLine(Resources.Options);
             options.WriteOptionDescriptions(Console.Out);
