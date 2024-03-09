@@ -25,5 +25,4 @@ public partial class FeedEditor : FeedEditorShim
 /// <summary>
 /// Non-generic base class for <see cref="FeedEditor"/>, because WinForms editor cannot handle generics.
 /// </summary>
-public class FeedEditorShim : NodeEditorBase<Feed>
-{}
+public class FeedEditorShim : NodeEditorBase<Feed>;

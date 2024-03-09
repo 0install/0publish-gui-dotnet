@@ -110,7 +110,7 @@ public sealed class PublishCommand : ICommand
         {
             // Default to using all XML files in the current directory
             if (_feeds.Count == 0)
-                _feeds = Paths.ResolveFiles(new[] {Environment.CurrentDirectory}, "*.xml");
+                _feeds = Paths.ResolveFiles([Environment.CurrentDirectory], "*.xml");
 
             GenerateCatalog();
             return ExitCode.OK;

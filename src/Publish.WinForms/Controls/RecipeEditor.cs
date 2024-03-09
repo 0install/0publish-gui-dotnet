@@ -24,5 +24,4 @@ public partial class RecipeEditor : RecipeEditorShim
 /// <summary>
 /// Non-generic base class for <see cref="RecipeEditor"/>, because WinForms editor cannot handle generics.
 /// </summary>
-public class RecipeEditorShim : RetrievalMethodEditor<Recipe>
-{}
+public class RecipeEditorShim : RetrievalMethodEditor<Recipe>;

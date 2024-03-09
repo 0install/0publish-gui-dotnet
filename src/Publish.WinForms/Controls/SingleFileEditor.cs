@@ -22,5 +22,4 @@ public partial class SingleFileEditor : SingleFileEditorShim
 /// <summary>
 /// Non-generic base class for <see cref="SingleFileEditor"/>, because WinForms editor cannot handle generics.
 /// </summary>
-public class SingleFileEditorShim : DownloadRetrievalMethodEditor<SingleFile>
-{}
+public class SingleFileEditorShim : DownloadRetrievalMethodEditor<SingleFile>;

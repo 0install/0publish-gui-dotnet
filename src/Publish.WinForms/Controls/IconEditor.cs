@@ -91,5 +91,4 @@ public partial class IconEditor : IconEditorShim
 /// <summary>
 /// Non-generic base class for <see cref="IconEditor"/>, because WinForms editor cannot handle generics.
 /// </summary>
-public class IconEditorShim : NodeEditorBase<Icon>
-{}
+public class IconEditorShim : NodeEditorBase<Icon>;

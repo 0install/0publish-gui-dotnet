@@ -26,5 +26,4 @@ public partial class ArchiveEditor : ArchiveEditorShim
 /// <summary>
 /// Non-generic base class for <see cref="ArchiveEditor"/>, because WinForms editor cannot handle generics.
 /// </summary>
-public class ArchiveEditorShim : DownloadRetrievalMethodEditor<Archive>
-{}
+public class ArchiveEditorShim : DownloadRetrievalMethodEditor<Archive>;

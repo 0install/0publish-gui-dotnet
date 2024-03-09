@@ -16,11 +16,13 @@ using var handler = new AnsiCliTaskHandler();
 try
 {
     // Automatically show help for missing args
-    if (args.Length == 0) args = new[] {"--help"};
+    if (args.Length == 0) args = ["--help"];
 
-    ICommand command = args.FirstOrDefault() == "capture"
-        ? new CaptureCommand(args.Skip(1), handler)
-        : new PublishCommand(args, handler);
+    ICommand command = args switch
+    {
+        ["capture", ..] => new CaptureCommand(args.Skip(1), handler),
+        _ => new PublishCommand(args, handler)
+    };
     return (int)command.Execute();
 }
 #region Error hanlding
