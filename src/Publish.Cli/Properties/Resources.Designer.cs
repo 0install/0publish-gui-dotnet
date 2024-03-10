@@ -69,11 +69,29 @@ namespace ZeroInstall.Publish.Cli.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Captures snapshots of the system state and compares them to generate a feed..
+        /// </summary>
+        internal static string DescriptionCapture {
+            get {
+                return ResourceManager.GetString("DescriptionCapture", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The feed does not have the correct format..
         /// </summary>
         internal static string FeedNotValid {
             get {
                 return ResourceManager.GetString("FeedNotValid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The file &apos;{0}&apos; already exists. Use --force to overwrite..
+        /// </summary>
+        internal static string FileAlreadyExists {
+            get {
+                return ResourceManager.GetString("FileAlreadyExists", resourceCulture);
             }
         }
         
@@ -124,6 +142,24 @@ namespace ZeroInstall.Publish.Cli.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The {PATH} of the ZIP file to create from the installation directory. Leave unset to create no ZIP archive..
+        /// </summary>
+        internal static string OptionCollectFiles {
+            get {
+                return ResourceManager.GetString("OptionCollectFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Overwrite existing files..
+        /// </summary>
+        internal static string OptionForce {
+            get {
+                return ResourceManager.GetString("OptionForce", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Use {PASS} to unlock the GnuPG secret key..
         /// </summary>
         internal static string OptionGnuPGPassphrase {
@@ -142,11 +178,29 @@ namespace ZeroInstall.Publish.Cli.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The {PATH} of the directory the application to be captured is installed in. Leave unset to auto-detect..
+        /// </summary>
+        internal static string OptionInstallationDirectory {
+            get {
+                return ResourceManager.GetString("OptionInstallationDirectory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Key to use for signing (if you have more than one, or if you want to resign with a different key)..
         /// </summary>
         internal static string OptionKey {
             get {
                 return ResourceManager.GetString("OptionKey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The relative {PATH} to the main EXE of the application to be captured. Leave unset to auto-detect..
+        /// </summary>
+        internal static string OptionMainExe {
+            get {
+                return ResourceManager.GetString("OptionMainExe", resourceCulture);
             }
         }
         
@@ -188,7 +242,7 @@ namespace ZeroInstall.Publish.Cli.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to Unknown operation mode.
-        ///Try {0} --help.
+        ///Try {0}.
         /// </summary>
         internal static string UnknownMode {
             get {

@@ -120,8 +120,14 @@
   <data name="AskForPassphrase" xml:space="preserve">
     <value>Please enter the GnuPG passphrase for {0}:</value>
   </data>
+  <data name="DescriptionCapture" xml:space="preserve">
+    <value>Captures snapshots of the system state and compares them to generate a feed.</value>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>The feed does not have the correct format.</value>
+  </data>
+  <data name="FileAlreadyExists" xml:space="preserve">
+    <value>The file '{0}' already exists. Use --force to overwrite.</value>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>This program comes with ABSOLUTELY NO WARRANTY, to the extent permitted by law.
@@ -139,14 +145,26 @@ You may redistribute copies of this program under the terms of the GNU Lesser Ge
   <data name="OptionCatalog" xml:space="preserve">
     <value>Combine all specified feeds into a single catalog {FILE}.</value>
   </data>
+  <data name="OptionCollectFiles" xml:space="preserve">
+    <value>The {PATH} of the ZIP file to create from the installation directory. Leave unset to create no ZIP archive.</value>
+  </data>
+  <data name="OptionForce" xml:space="preserve">
+    <value>Overwrite existing files.</value>
+  </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
     <value>Use {PASS} to unlock the GnuPG secret key.</value>
+  </data>
+  <data name="OptionInstallationDirectory" xml:space="preserve">
+    <value>The {PATH} of the directory the application to be captured is installed in. Leave unset to auto-detect.</value>
   </data>
   <data name="OptionHelp" xml:space="preserve">
     <value>Show the built-in help text.</value>
   </data>
   <data name="OptionKey" xml:space="preserve">
     <value>Key to use for signing (if you have more than one, or if you want to resign with a different key).</value>
+  </data>
+  <data name="OptionMainExe" xml:space="preserve">
+    <value>The relative {PATH} to the main EXE of the application to be captured. Leave unset to auto-detect.</value>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Options:</value>

@@ -44,9 +44,9 @@ internal class CaptureCommand : ICommand
     {
         var options = new OptionSet
         {
-            {"f|force", _ => _force = true},
+            {"f|force", () => Resources.OptionForce, _ => _force = true},
             {
-                "installation-dir=", value =>
+                "installation-dir=", () => Resources.OptionInstallationDirectory, value =>
                 {
                     try
                     {
@@ -61,12 +61,14 @@ internal class CaptureCommand : ICommand
                     #endregion
                 }
             },
-            {"main-exe=", value => _mainExe = value},
-            {"collect-files=", value => _zipFile = value}
+            {"main-exe=", () => Resources.OptionMainExe, value => _mainExe = value},
+            {"collect-files=", () => Resources.OptionCollectFiles, value => _zipFile = value}
         };
 
         options.Add("h|help|?", () => Resources.OptionHelp, _ =>
         {
+            Console.WriteLine(Resources.DescriptionCapture);
+            Console.WriteLine();
             Console.WriteLine(Resources.Usage);
             Console.WriteLine(@"0publish capture start SNAPSHOT-FILE [--force]");
             Console.WriteLine(@"0publish capture finish SNAPSHOT-FILE FEED-FILE [--force]");
@@ -146,6 +148,6 @@ internal class CaptureCommand : ICommand
     private void HandleFileAlreadyExists(string path)
     {
         if (File.Exists(path) && !_force)
-            throw new IOException($"The file '{Path.GetFullPath(path)}' already exists. Use --force to overwrite.");
+            throw new IOException(string.Format(Resources.FileAlreadyExists, Path.GetFullPath(path)));
     }
 }
