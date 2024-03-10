@@ -24,7 +24,8 @@ try
         ["capture", ..] => new CaptureCommand(args.Skip(1), handler),
         _ => new PublishCommand(args, handler)
     };
-    return (int)command.Execute();
+    command.Execute();
+    return (int)ExitCode.OK;
 }
 #region Error handling
 catch (OperationCanceledException)

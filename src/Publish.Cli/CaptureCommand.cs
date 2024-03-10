@@ -12,18 +12,6 @@ internal class CaptureCommand : ICommand
 {
     private readonly ITaskHandler _handler;
 
-    /// <summary>Overwrite existing files.</summary>
-    private bool _force;
-
-    /// <summary>The directory the application to be captured is installed in. <c>null</c> to auto-detect.</summary>
-    private string? _installationDirectory;
-
-    /// <summary>The relative path to the main EXE of the application to be captured. <c>null</c> to auto-detect.</summary>
-    private string? _mainExe;
-
-    /// <summary>The path of the ZIP file to create from the installation directory. <c>null</c> to create no ZIP archive.</summary>
-    private string? _zipFile;
-
     private readonly List<string> _additionalArgs;
 
     /// <summary>
@@ -38,6 +26,19 @@ internal class CaptureCommand : ICommand
         _handler = handler;
         _additionalArgs = BuildOptions().Parse(args);
     }
+
+    #region Options
+    /// <summary>Overwrite existing files.</summary>
+    private bool _force;
+
+    /// <summary>The directory the application to be captured is installed in. <c>null</c> to auto-detect.</summary>
+    private string? _installationDirectory;
+
+    /// <summary>The relative path to the main EXE of the application to be captured. <c>null</c> to auto-detect.</summary>
+    private string? _mainExe;
+
+    /// <summary>The path of the ZIP file to create from the installation directory. <c>null</c> to create no ZIP archive.</summary>
+    private string? _zipFile;
 
     private OptionSet BuildOptions()
     {
@@ -79,28 +80,35 @@ internal class CaptureCommand : ICommand
 
         return options;
     }
+    #endregion
 
     /// <inheritdoc/>
-    public ExitCode Execute() => _additionalArgs switch
+    public void Execute()
     {
-        ["start", var snapshotFile] => Start(snapshotFile),
-        ["finish", var snapshotFile, var feedFile] => Finish(snapshotFile, feedFile),
-        _ => throw new OptionException(string.Format(Resources.MissingArguments, "0publish capture --help"), "")
-    };
+        switch (_additionalArgs)
+        {
+            case ["start", var snapshotFile]:
+                Start(snapshotFile);
+                break;
+            case ["finish", var snapshotFile, var feedFile]:
+                Finish(snapshotFile, feedFile);
+                break;
+            default:
+                throw new OptionException(string.Format(Resources.MissingArguments, "0publish capture --help"), "");
+        }
+    }
 
-    private ExitCode Start(string snapshotFile)
+    private void Start(string snapshotFile)
     {
-        if (FileExists(snapshotFile)) return ExitCode.IOError;
+        HandleFileAlreadyExists(snapshotFile);
 
         var session = CaptureSession.Start(new FeedBuilder());
         session.Save(snapshotFile);
-
-        return ExitCode.OK;
     }
 
-    private ExitCode Finish(string snapshotFile, string feedFile)
+    private void Finish(string snapshotFile, string feedFile)
     {
-        if (FileExists(feedFile)) return ExitCode.IOError;
+        HandleFileAlreadyExists(feedFile);
 
         var feedBuilder = new FeedBuilder();
         var session = CaptureSession.Load(snapshotFile, feedBuilder);
@@ -125,7 +133,7 @@ internal class CaptureCommand : ICommand
 
         if (!string.IsNullOrEmpty(_zipFile))
         {
-            if (FileExists(_zipFile)) return ExitCode.IOError;
+            HandleFileAlreadyExists(_zipFile);
 
             var relativeUri = new Uri(Path.GetFullPath(feedFile)).MakeRelativeUri(new Uri(Path.GetFullPath(_zipFile!)));
             session.CollectFiles(_zipFile, relativeUri, _handler);
@@ -133,17 +141,11 @@ internal class CaptureCommand : ICommand
         }
 
         feedBuilder.Build().Save(feedFile);
-
-        return ExitCode.OK;
     }
 
-    private bool FileExists(string path)
+    private void HandleFileAlreadyExists(string path)
     {
         if (File.Exists(path) && !_force)
-        {
-            Log.Error($"The file '{Path.GetFullPath(path)}' already exists. Use --force to overwrite.");
-            return true;
-        }
-        else return false;
+            throw new IOException($"The file '{Path.GetFullPath(path)}' already exists. Use --force to overwrite.");
     }
 }

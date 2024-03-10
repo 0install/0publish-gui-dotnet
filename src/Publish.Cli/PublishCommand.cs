@@ -19,24 +19,6 @@ public sealed class PublishCommand : ICommand
     /// <summary>The feeds to apply the operation on.</summary>
     private ICollection<FileInfo> _feeds;
 
-    /// <summary>The file to store the aggregated <see cref="Catalog"/> data in.</summary>
-    private string? _catalogFile;
-
-    /// <summary>Download missing archives, calculate manifest digests, etc..</summary>
-    private bool _addMissing;
-
-    /// <summary>Add XML signature blocks to the feed.</summary>
-    private bool _xmlSign;
-
-    /// <summary>Remove any existing signatures from the feeds.</summary>
-    private bool _unsign;
-
-    /// <summary>A key specifier (key ID, fingerprint or any part of a user ID) for the secret key to use to sign the feeds.</summary>
-    private string? _key;
-
-    /// <summary>The passphrase used to unlock the <see cref="OpenPgpSecretKey"/>.</summary>
-    private string? _openPgpPassphrase;
-
     /// <summary>
     /// Parses command-line arguments.
     /// </summary>
@@ -62,6 +44,25 @@ public sealed class PublishCommand : ICommand
         }
         #endregion
     }
+
+    #region Options
+    /// <summary>The file to store the aggregated <see cref="Catalog"/> data in.</summary>
+    private string? _catalogFile;
+
+    /// <summary>Download missing archives, calculate manifest digests, etc..</summary>
+    private bool _addMissing;
+
+    /// <summary>Add XML signature blocks to the feed.</summary>
+    private bool _xmlSign;
+
+    /// <summary>Remove any existing signatures from the feeds.</summary>
+    private bool _unsign;
+
+    /// <summary>A key specifier (key ID, fingerprint or any part of a user ID) for the secret key to use to sign the feeds.</summary>
+    private string? _key;
+
+    /// <summary>The passphrase used to unlock the <see cref="OpenPgpSecretKey"/>.</summary>
+    private string? _openPgpPassphrase;
 
     private OptionSet BuildOptions()
     {
@@ -104,9 +105,10 @@ public sealed class PublishCommand : ICommand
 
         return options;
     }
+    #endregion
 
     /// <inheritdoc/>
-    public ExitCode Execute()
+    public void Execute()
     {
         if (!string.IsNullOrEmpty(_catalogFile))
         {
@@ -115,13 +117,12 @@ public sealed class PublishCommand : ICommand
                 _feeds = Paths.ResolveFiles([Environment.CurrentDirectory], "*.xml");
 
             GenerateCatalog();
-            return ExitCode.OK;
+            return;
         }
 
         if (_feeds.Count == 0)
         {
-            Log.Error(string.Format(Resources.MissingArguments, "0publish --help"));
-            return ExitCode.InvalidArguments;
+            throw new OptionException(string.Format(Resources.MissingArguments, "0publish --help"), "");
         }
 
         foreach (var file in _feeds)
@@ -134,8 +135,6 @@ public sealed class PublishCommand : ICommand
 
             SaveFeed(feedEditing);
         }
-
-        return ExitCode.OK;
     }
 
     private void GenerateCatalog()
