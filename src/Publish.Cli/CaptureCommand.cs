@@ -7,7 +7,7 @@ using ZeroInstall.Publish.Capture;
 namespace ZeroInstall.Publish.Cli;
 
 /// <summary>
-/// Represents a single run of the 0publish tool in capture mode.
+/// Captures snapshots of the system state and compares them to generate a feed.
 /// </summary>
 internal class CaptureCommand : ICommand
 {

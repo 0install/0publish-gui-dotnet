@@ -10,7 +10,7 @@ using ZeroInstall.Store.Trust;
 namespace ZeroInstall.Publish.Cli;
 
 /// <summary>
-/// Represents a single run of the 0publish tool.
+/// Creates or modified Zero Install feeds.
 /// </summary>
 public sealed class PublishCommand : ICommand
 {
@@ -86,11 +86,12 @@ public sealed class PublishCommand : ICommand
             {"k|key=", () => Resources.OptionKey, user => _key = user},
             {"gpg-passphrase=", () => Resources.OptionGnuPGPassphrase, passphrase => _openPgpPassphrase = passphrase}
         };
+
         options.Add("h|help|?", () => Resources.OptionHelp, _ =>
         {
             Console.WriteLine(Resources.Usage);
             // ReSharper disable LocalizableElement
-            Console.WriteLine("\t0publish [OPTIONS] feed.xml");
+            Console.WriteLine("\t0publish [OPTIONS] FEED-FILE");
             Console.WriteLine("\t0publish capture --help");
             // ReSharper restore LocalizableElement
             Console.WriteLine();
@@ -100,6 +101,7 @@ public sealed class PublishCommand : ICommand
             // Don't handle any of the other arguments
             throw new OperationCanceledException();
         });
+
         return options;
     }
 

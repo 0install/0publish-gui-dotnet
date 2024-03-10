@@ -3,6 +3,7 @@
 
 using System.Security;
 using NanoByte.Common.Net;
+using ZeroInstall.Publish;
 using ZeroInstall.Publish.Cli;
 using ZeroInstall.Store.Implementations;
 using ZeroInstall.Store.Trust;
@@ -25,7 +26,7 @@ try
     };
     return (int)command.Execute();
 }
-#region Error hanlding
+#region Error handling
 catch (OperationCanceledException)
 {
     return (int)ExitCode.UserCanceled;

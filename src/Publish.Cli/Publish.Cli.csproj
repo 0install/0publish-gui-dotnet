@@ -18,9 +18,9 @@
   <!-- Dependencies -->
   <ItemGroup>
     <PackageReference Include="NanoByte.Common.AnsiCli" Version="$(NanoByteCommonVersion)" />
-    <PackageReference Include="NDesk.Options.Patched" Version="0.3.2" />
     <PackageReference Include="ZeroInstall.Store" Version="$(ZeroInstallVersion)" />
     <PackageReference Include="ZeroInstall.Publish" Version="$(ZeroInstallVersion)" PrivateAssets="None" /><!-- Flow native libs from assets -->
+    <PackageReference Include="NDesk.Options.Patched" Version="0.3.2" />
   </ItemGroup>
 
   <!-- Files to include with output -->

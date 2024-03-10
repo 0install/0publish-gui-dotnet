@@ -36,7 +36,6 @@
     <Using Include="NanoByte.Common.Storage" />
     <Using Include="NanoByte.Common.Tasks" />
     <Using Include="ZeroInstall.Model" />
-    <Using Include="ZeroInstall.Publish" />
   </ItemGroup>
 
 </Project>
