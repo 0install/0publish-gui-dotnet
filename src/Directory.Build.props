@@ -11,7 +11,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591</NoWarn><!-- Missing XML comments -->
     <ApplicationIcon>$(MSBuildThisFileDirectory)..\icon.ico</ApplicationIcon>
-    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationManifest>..\app.manifest</ApplicationManifest>
     <SatelliteResourceLanguages>es;el;fr;it;ja;nl;pt-BR;pt-PT;ro;ru;tr;zh;zh-Hant</SatelliteResourceLanguages>
 
     <!-- Metadata -->
@@ -27,6 +27,9 @@
     <NanoByteStructureEditorVersion>0.8.1</NanoByteStructureEditorVersion>
     <ZeroInstallVersion>2.25.5</ZeroInstallVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)App.config" />
+  </ItemGroup>
 
   <!-- Global usings -->
   <ItemGroup>
