@@ -22,6 +22,7 @@ try
     ICommand command = args switch
     {
         ["capture", ..] => new CaptureCommand(args.Skip(1), handler),
+        ["bootstrap", ..] => new BootstrapCommand(args.Skip(1), handler),
         _ => new PublishCommand(args, handler)
     };
     command.Execute();

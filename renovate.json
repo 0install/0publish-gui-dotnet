@@ -4,7 +4,7 @@
   "ignoreDeps": ["System.Resources.Extensions"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["gittools", "AeroWizard"],
+      "matchPackagePatterns": ["gittools", "AeroWizard", "Mono.Cecil", "Vestris.ResourceLib"],
       "automerge": true,
       "automergeType": "branch"
     }

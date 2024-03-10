@@ -69,11 +69,38 @@ namespace ZeroInstall.Publish.Cli.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Building bootstrapper.
+        /// </summary>
+        internal static string BuildingBootstrapper {
+            get {
+                return ResourceManager.GetString("BuildingBootstrapper", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Builds a customized Zero Install Bootstrapper for running or integrating a specific feed..
+        /// </summary>
+        internal static string DescriptionBootstrap {
+            get {
+                return ResourceManager.GetString("DescriptionBootstrap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Captures snapshots of the system state and compares them to generate a feed..
         /// </summary>
         internal static string DescriptionCapture {
             get {
                 return ResourceManager.GetString("DescriptionCapture", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Downloading {0}.
+        /// </summary>
+        internal static string Downloading {
+            get {
+                return ResourceManager.GetString("Downloading", resourceCulture);
             }
         }
         
@@ -133,6 +160,15 @@ namespace ZeroInstall.Publish.Cli.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Additional command-line {ARGUMENTS} to pass to the application launched by the feed..
+        /// </summary>
+        internal static string OptionAppArgs {
+            get {
+                return ResourceManager.GetString("OptionAppArgs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Combine all specified feeds into a single catalog {FILE}..
         /// </summary>
         internal static string OptionCatalog {
@@ -142,11 +178,56 @@ namespace ZeroInstall.Publish.Cli.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The {URI} of the catalog to replace the default catalog. Only applies if Zero Install is not already deployed..
+        /// </summary>
+        internal static string OptionCatalogUri {
+            get {
+                return ResourceManager.GetString("OptionCatalogUri", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The {PATH} of the ZIP file to create from the installation directory. Leave unset to create no ZIP archive..
         /// </summary>
         internal static string OptionCollectFiles {
             get {
                 return ResourceManager.GetString("OptionCollectFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set a Zero Install configuration {0:OPTION} to a specific {1:VALUE}. Only overrides existing config files if Zero Install is not already deployed..
+        /// </summary>
+        internal static string OptionConfig {
+            get {
+                return ResourceManager.GetString("OptionConfig", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {PATH} to a directory containing additional content to be embedded in the bootstrapper. You can generate such a directory using &apos;0install export&apos;..
+        /// </summary>
+        internal static string OptionContent {
+            get {
+                return ResourceManager.GetString("OptionContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Offer the user to choose a custom path for storing implementations..
+        /// </summary>
+        internal static string OptionCustomizableStorePath {
+            get {
+                return ResourceManager.GetString("OptionCustomizableStorePath", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show the estimated disk {SPACE} required (in bytes). Implicitly sets --customizable-store-path too..
+        /// </summary>
+        internal static string OptionEstimatedRequiredSpace {
+            get {
+                return ResourceManager.GetString("OptionEstimatedRequiredSpace", resourceCulture);
             }
         }
         
@@ -187,6 +268,15 @@ namespace ZeroInstall.Publish.Cli.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Command-line {ARGUMENTS} to pass to &apos;0install integrate&apos;. Leave unset to not call &apos;0install integrate&apos; at all..
+        /// </summary>
+        internal static string OptionIntegrateArgs {
+            get {
+                return ResourceManager.GetString("OptionIntegrateArgs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Key to use for signing (if you have more than one, or if you want to resign with a different key)..
         /// </summary>
         internal static string OptionKey {
@@ -210,6 +300,15 @@ namespace ZeroInstall.Publish.Cli.Properties {
         internal static string Options {
             get {
                 return ResourceManager.GetString("Options", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {URI} or path to the boostrap template executable. Leave unset to download from default location..
+        /// </summary>
+        internal static string OptionTemplate {
+            get {
+                return ResourceManager.GetString("OptionTemplate", resourceCulture);
             }
         }
         

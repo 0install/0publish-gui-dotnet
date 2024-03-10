@@ -94,6 +94,7 @@ public sealed class PublishCommand : ICommand
             // ReSharper disable LocalizableElement
             Console.WriteLine("\t0publish [OPTIONS] FEED-FILE");
             Console.WriteLine("\t0publish capture --help");
+            Console.WriteLine("\t0publish bootstrap --help");
             // ReSharper restore LocalizableElement
             Console.WriteLine();
             Console.WriteLine(Resources.Options);

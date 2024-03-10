@@ -120,8 +120,17 @@
   <data name="AskForPassphrase" xml:space="preserve">
     <value>Please enter the GnuPG passphrase for {0}:</value>
   </data>
+  <data name="BuildingBootstrapper" xml:space="preserve">
+    <value>Building bootstrapper</value>
+  </data>
+  <data name="DescriptionBootstrap" xml:space="preserve">
+    <value>Builds a customized Zero Install Bootstrapper for running or integrating a specific feed.</value>
+  </data>
   <data name="DescriptionCapture" xml:space="preserve">
     <value>Captures snapshots of the system state and compares them to generate a feed.</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Downloading {0}</value>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>The feed does not have the correct format.</value>
@@ -142,11 +151,29 @@ You may redistribute copies of this program under the terms of the GNU Lesser Ge
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Download missing archives, calculate manifest digests, etc..</value>
   </data>
+  <data name="OptionAppArgs" xml:space="preserve">
+    <value>Additional command-line {ARGUMENTS} to pass to the application launched by the feed.</value>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Combine all specified feeds into a single catalog {FILE}.</value>
   </data>
+  <data name="OptionCatalogUri" xml:space="preserve">
+    <value>The {URI} of the catalog to replace the default catalog. Only applies if Zero Install is not already deployed.</value>
+  </data>
   <data name="OptionCollectFiles" xml:space="preserve">
     <value>The {PATH} of the ZIP file to create from the installation directory. Leave unset to create no ZIP archive.</value>
+  </data>
+  <data name="OptionConfig" xml:space="preserve">
+    <value>Set a Zero Install configuration {0:OPTION} to a specific {1:VALUE}. Only overrides existing config files if Zero Install is not already deployed.</value>
+  </data>
+  <data name="OptionContent" xml:space="preserve">
+    <value>{PATH} to a directory containing additional content to be embedded in the bootstrapper. You can generate such a directory using '0install export'.</value>
+  </data>
+  <data name="OptionCustomizableStorePath" xml:space="preserve">
+    <value>Offer the user to choose a custom path for storing implementations.</value>
+  </data>
+  <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
+    <value>Show the estimated disk {SPACE} required (in bytes). Implicitly sets --customizable-store-path too.</value>
   </data>
   <data name="OptionForce" xml:space="preserve">
     <value>Overwrite existing files.</value>
@@ -160,6 +187,9 @@ You may redistribute copies of this program under the terms of the GNU Lesser Ge
   <data name="OptionHelp" xml:space="preserve">
     <value>Show the built-in help text.</value>
   </data>
+  <data name="OptionIntegrateArgs" xml:space="preserve">
+    <value>Command-line {ARGUMENTS} to pass to '0install integrate'. Leave unset to not call '0install integrate' at all.</value>
+  </data>
   <data name="OptionKey" xml:space="preserve">
     <value>Key to use for signing (if you have more than one, or if you want to resign with a different key).</value>
   </data>
@@ -168,6 +198,9 @@ You may redistribute copies of this program under the terms of the GNU Lesser Ge
   </data>
   <data name="Options" xml:space="preserve">
     <value>Options:</value>
+  </data>
+  <data name="OptionTemplate" xml:space="preserve">
+    <value>{URI} or path to the boostrap template executable. Leave unset to download from default location.</value>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Remove any existing signatures.</value>
