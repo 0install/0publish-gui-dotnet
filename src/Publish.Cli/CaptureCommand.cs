@@ -1,7 +1,6 @@
 // Copyright Bastian Eicher et al.
 // Licensed under the GNU Lesser Public License
 
-using NanoByte.Common.Info;
 using ZeroInstall.Publish.Capture;
 
 namespace ZeroInstall.Publish.Cli;
@@ -11,36 +10,39 @@ namespace ZeroInstall.Publish.Cli;
 /// </summary>
 internal class CaptureCommand : ICommand
 {
-    #region Parse
     private readonly ITaskHandler _handler;
 
-    /// <summary>Ignore warnings and perform the operation anyway.</summary>
+    /// <summary>Overwrite existing files.</summary>
     private bool _force;
 
-    /// <summary>The directory the application to be captured is installed in; <c>null</c> to create no ZIP archive.</summary>
+    /// <summary>The directory the application to be captured is installed in. <c>null</c> to auto-detect.</summary>
     private string? _installationDirectory;
 
-    /// <summary>The relative path to the main EXE of the application to be captured; <c>null</c> to auto-detect.</summary>
+    /// <summary>The relative path to the main EXE of the application to be captured. <c>null</c> to auto-detect.</summary>
     private string? _mainExe;
 
-    /// <summary>The path of the ZIP file to create from the installation directory; <c>null</c> to create no ZIP archive.</summary>
+    /// <summary>The path of the ZIP file to create from the installation directory. <c>null</c> to create no ZIP archive.</summary>
     private string? _zipFile;
 
     private readonly List<string> _additionalArgs;
 
+    /// <summary>
+    /// Parses command-line arguments.
+    /// </summary>
+    /// <param name="args">The command-line arguments to be parsed.</param>
+    /// <param name="handler">A callback object used when the the user needs to be asked questions or informed about download and IO tasks.</param>
+    /// <exception cref="OperationCanceledException">The user asked to see help information, version information, etc..</exception>
+    /// <exception cref="OptionException"><paramref name="args"/> contains unknown options.</exception>
     public CaptureCommand(IEnumerable<string> args, ITaskHandler handler)
     {
         _handler = handler;
+        _additionalArgs = BuildOptions().Parse(args);
+    }
 
+    private OptionSet BuildOptions()
+    {
         var options = new OptionSet
         {
-            {
-                "V|version", _ =>
-                {
-                    Console.WriteLine(@"Zero Install Capture CLI v{0}", AppInfo.Current.Version);
-                    throw new OperationCanceledException();
-                }
-            },
             {"f|force", _ => _force = true},
             {
                 "installation-dir=", value =>
@@ -59,43 +61,35 @@ internal class CaptureCommand : ICommand
                 }
             },
             {"main-exe=", value => _mainExe = value},
-            {"collect-files=", value => _zipFile = value},
-            {
-                "h|help|?", _ =>
-                {
-                    PrintHelp();
-                    throw new OperationCanceledException();
-                }
-            }
+            {"collect-files=", value => _zipFile = value}
         };
-        _additionalArgs = options.Parse(args);
+
+        options.Add("h|help|?", () => Resources.OptionHelp, _ =>
+        {
+            Console.WriteLine(Resources.Usage);
+            Console.WriteLine(@"0publish capture start SNAPSHOT-FILE [--force]");
+            Console.WriteLine(@"0publish capture finish SNAPSHOT-FILE FEED-FILE [--force]");
+            Console.WriteLine();
+            Console.WriteLine(Resources.Options);
+            options.WriteOptionDescriptions(Console.Out);
+
+            // Don't handle any of the other arguments
+            throw new OperationCanceledException();
+        });
+
+        return options;
     }
 
-    [SuppressMessage("ReSharper", "LocalizableElement")]
-    private static ExitCode PrintHelp()
+    /// <inheritdoc/>
+    public ExitCode Execute() => _additionalArgs switch
     {
-        Console.WriteLine("0publish capture start myapp.snapshot [--force]");
-        Console.WriteLine("0publish capture finish myapp.snapshot myapp.xml [--force]");
-        Console.WriteLine("\t[--installation-dir=C:\\myapp] [--main-exe=myapp.exe] [--collect-files=myapp.zip]");
+        ["start", var snapshotFile] => Start(snapshotFile),
+        ["finish", var snapshotFile, var feedFile] => Finish(snapshotFile, feedFile),
+        _ => throw new OptionException(string.Format(Resources.MissingArguments, "0publish capture --help"), "")
+    };
 
-        return ExitCode.InvalidArguments;
-    }
-    #endregion
-
-    public ExitCode Execute()
-        => _additionalArgs.Count == 0
-            ? PrintHelp()
-            : _additionalArgs[0] switch
-            {
-                "start" => Start(),
-                "finish" => Finish(),
-                _ => PrintHelp()
-            };
-
-    private ExitCode Start()
+    private ExitCode Start(string snapshotFile)
     {
-        if (_additionalArgs.Count != 2) return PrintHelp();
-        string snapshotFile = _additionalArgs[1];
         if (FileExists(snapshotFile)) return ExitCode.IOError;
 
         var session = CaptureSession.Start(new FeedBuilder());
@@ -104,18 +98,25 @@ internal class CaptureCommand : ICommand
         return ExitCode.OK;
     }
 
-    private ExitCode Finish()
+    private ExitCode Finish(string snapshotFile, string feedFile)
     {
-        if (_additionalArgs.Count != 3) return PrintHelp();
-        string snapshotFile = _additionalArgs[1];
-        string feedFile = _additionalArgs[2];
         if (FileExists(feedFile)) return ExitCode.IOError;
 
         var feedBuilder = new FeedBuilder();
         var session = CaptureSession.Load(snapshotFile, feedBuilder);
 
         session.InstallationDir = _installationDirectory;
-        session.Diff(_handler);
+        try
+        {
+            session.Diff(_handler);
+        }
+        #region Error handling
+        catch (InvalidOperationException ex)
+        {
+            // Wrap exception since only certain exception types are allowed
+            throw new InvalidDataException(ex.Message, ex);
+        }
+        #endregion
 
         feedBuilder.MainCandidate = string.IsNullOrEmpty(_mainExe)
             ? feedBuilder.Candidates.FirstOrDefault()
