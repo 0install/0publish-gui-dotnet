@@ -59,16 +59,36 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>{0} 에 GnuPG 암호를 입력하세요:</value>
+    <value>{0} 에 대한 GnuPG 암호를 입력하세요:</value>
     <comment>Automatically translated.</comment>
+  </data>
+  <data name="BuildingBootstrapper" xml:space="preserve">
+    <value>부트스트래퍼 구축</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionBootstrap" xml:space="preserve">
+    <value>특정 피드를 실행하거나 통합하기 위한 맞춤형 제로 인스톨 부트스트래퍼를 빌드합니다.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionCapture" xml:space="preserve">
+    <value>시스템 상태의 스냅샷을 캡처하고 이를 비교하여 피드를 생성합니다.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>{0} 다운로드 중</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>피드의 형식이 올바르지 않습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="FileAlreadyExists" xml:space="preserve">
+    <value>'{0}' 파일이 이미 존재합니다. 덮어쓰려면 --force를 사용합니다.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>이 프로그램은 법이 허용하는 범위 내에서 어떠한 보증도 제공하지 않습니다.
-이 프로그램의 사본은 GNU 약소 일반 공중 사용 허가서의 조건에 따라 재배포할 수 있습니다.</value>
+    <value>이 프로그램은 법이 허용하는 한도 내에서 어떠한 보증도 제공하지 않습니다.
+이 프로그램의 사본은 GNU 약소 일반 공중 사용 허가서 조건에 따라 재배포할 수 있습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -80,11 +100,43 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>누락된 아카이브 다운로드, 적하목록 다이제스트 계산 등을 할 수 있습니다.</value>
+    <value>누락된 아카이브 다운로드, 적하목록 요약 계산 등...</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAppArgs" xml:space="preserve">
+    <value>피드에서 실행되는 애플리케이션에 전달할 추가 명령줄 {ARGUMENTS}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>지정된 모든 피드를 단일 카탈로그에 결합 {FILE}.</value>
+    <value>지정된 모든 피드를 단일 카탈로그로 결합 {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCatalogUri" xml:space="preserve">
+    <value>기본 카탈로그를 대체할 카탈로그의 {URI}. 제로 인스톨이 아직 배포되지 않은 경우에만 적용됩니다.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCollectFiles" xml:space="preserve">
+    <value>설치 디렉터리에서 생성할 ZIP 파일의 {PATH}. ZIP 아카이브를 만들지 않으려면 설정하지 않은 상태로 둡니다.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionConfig" xml:space="preserve">
+    <value>제로 인스톨 구성 {0:OPTION} 을 특정 {1:VALUE} 으로 설정합니다. 제로 인스톨이 아직 배포되지 않은 경우에만 기존 구성 파일을 재정의합니다.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionContent" xml:space="preserve">
+    <value>{PATH} 를 부트스트랩퍼에 포함할 추가 콘텐츠가 포함된 디렉터리로 내보내야 합니다. 이러한 디렉토리는 '0install export'를 사용하여 생성할 수 있습니다.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCustomizableStorePath" xml:space="preserve">
+    <value>구현을 저장하기 위한 사용자 지정 경로를 선택할 수 있도록 사용자에게 제공합니다.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
+    <value>필요한 예상 디스크 {SPACE} (바이트 단위)를 표시합니다. 사용자 지정 가능한 저장소 경로도 암시적으로 설정합니다.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionForce" xml:space="preserve">
+    <value>기존 파일을 덮어씁니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -95,12 +147,28 @@
     <value>기본 제공 도움말 텍스트를 표시합니다.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionInstallationDirectory" xml:space="preserve">
+    <value>캡처할 애플리케이션이 설치된 디렉터리의 {PATH}. 자동 감지하려면 설정하지 않은 상태로 둡니다.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionIntegrateArgs" xml:space="preserve">
+    <value>'0설치 통합'에 전달할 명령줄 {ARGUMENTS}. '0설치 통합'을 전혀 호출하지 않으려면 설정하지 않은 상태로 둡니다.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionKey" xml:space="preserve">
     <value>서명에 사용할 키(두 개 이상의 키가 있거나 다른 키로 서명하려는 경우).</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionMainExe" xml:space="preserve">
+    <value>캡처할 애플리케이션의 기본 EXE에 대한 상대 {PATH}. 자동 감지하려면 설정하지 않은 상태로 둡니다.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>옵션:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionTemplate" xml:space="preserve">
+    <value>{URI} 또는 부스트랩 템플릿 실행 파일의 경로를 입력합니다. 기본 위치에서 다운로드하려면 설정하지 않은 상태로 둡니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">

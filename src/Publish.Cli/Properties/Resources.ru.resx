@@ -59,16 +59,36 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Введите парольную фразу GnuPG для {0}:</value>
+    <value>Пожалуйста, введите парольную фразу GnuPG для {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="BuildingBootstrapper" xml:space="preserve">
+    <value>Сборка бутстраппера</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionBootstrap" xml:space="preserve">
+    <value>Сборка настраиваемого Zero Install Bootstrapper для запуска или интеграции определенного фида.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionCapture" xml:space="preserve">
+    <value>Захватывает снимки состояния системы и сравнивает их для создания отчета.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Загрузка {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>Подача не имеет правильного формата.</value>
+    <value>Поток не имеет правильного формата.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FileAlreadyExists" xml:space="preserve">
+    <value>Файл '{0}' уже существует. Используйте --force для перезаписи.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>На данную программу не предоставляется АБСОЛЮТНО НИКАКИХ ГАРАНТИЙ, в той степени, в которой это разрешено законом.
-Вы можете распространять копии этой программы на условиях лицензии GNU Lesser General Public License.</value>
+    <value>Эта программа поставляется с АБСОЛЮТНОЙ НЕ ГАРАНТИЕЙ, в пределах, разрешенных законом.
+Вы можете распространять копии этой программы в соответствии с условиями GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -76,15 +96,47 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Невозможно найти ни одного подходящего файла подачи.</value>
+    <value>Невозможно найти подходящие файлы фидов.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Загрузка недостающих архивов, вычисление дайджестов манифеста и т.д..</value>
+    <value>Загрузка недостающих архивов, вычисление дайджестов манифеста и т. д.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAppArgs" xml:space="preserve">
+    <value>Дополнительная командная строка {ARGUMENTS} для передачи в приложение, запускаемое фидом.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Объединить все указанные каналы в единый каталог {FILE}.</value>
+    <value>Объединение всех заданных фидов в единый каталог {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCatalogUri" xml:space="preserve">
+    <value>Каталог {URI} для замены каталога по умолчанию. Применяется только в том случае, если Zero Install еще не развернут.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCollectFiles" xml:space="preserve">
+    <value>{PATH} ZIP-архив, который будет создан из каталога установки. Оставьте значение без изменения, чтобы не создавать ZIP-архив.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionConfig" xml:space="preserve">
+    <value>Установка конфигурации Zero Install {0:OPTION} на определенный {1:VALUE}. Заменяет существующие файлы конфигурации только в том случае, если Zero Install еще не развернут.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionContent" xml:space="preserve">
+    <value>{PATH} в директорию, содержащую дополнительное содержимое для встраивания в бутстраппер. Вы можете сгенерировать такой каталог с помощью команды '0install export'.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCustomizableStorePath" xml:space="preserve">
+    <value>Предложение пользователю выбрать собственный путь для хранения реализаций.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
+    <value>Показывает предполагаемый объем требуемого диска {SPACE} (в байтах). Неявно задает также --customizable-store-path.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionForce" xml:space="preserve">
+    <value>Перезапись существующих файлов.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -95,12 +147,28 @@
     <value>Показать текст встроенной справки.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionInstallationDirectory" xml:space="preserve">
+    <value>{PATH} директории, в которой установлено захватываемое приложение. Оставьте значение без изменений для автоматического определения.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionIntegrateArgs" xml:space="preserve">
+    <value>Командная строка {ARGUMENTS} для передачи в '0install integrate'. Оставьте значение unset, чтобы не вызывать '0install integrate' вообще.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Ключ, используемый для подписи (если у вас их несколько, или если вы хотите переподписать с другим ключом).</value>
+    <value>Ключ для подписи (если у вас их несколько, или если вы хотите подписаться другим ключом).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionMainExe" xml:space="preserve">
+    <value>Относительный {PATH} к основному EXE приложения, которое нужно захватить. Оставьте значение без изменений для автоматического определения.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Варианты:</value>
+    <value>Опции:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionTemplate" xml:space="preserve">
+    <value>{URI} или путь к исполняемому файлу шаблона boostrap. Оставьте значение без изменения, чтобы загрузить из места по умолчанию.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">

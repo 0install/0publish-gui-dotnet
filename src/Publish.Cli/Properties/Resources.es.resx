@@ -62,8 +62,28 @@
     <value>Introduzca la frase de contraseña GnuPG para {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="BuildingBootstrapper" xml:space="preserve">
+    <value>Construcción del bootstrapper</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionBootstrap" xml:space="preserve">
+    <value>Construye un Bootstrapper Zero Install personalizado para ejecutar o integrar un feed específico.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionCapture" xml:space="preserve">
+    <value>Captura instantáneas del estado del sistema y las compara para generar un feed.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Descargando {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>El feed no tiene el formato correcto.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FileAlreadyExists" xml:space="preserve">
+    <value>El fichero '{0}' ya existe. Utilice --force para sobrescribirlo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -76,15 +96,47 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>No se ha encontrado ningún archivo de feed.</value>
+    <value>No se puede encontrar ningún archivo de alimentación coincidente.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Descargar archivos perdidos, calcular resúmenes de manifiestos, etc.</value>
+    <value>Descargar archivos perdidos, calcular compendios de manifiesto, etc..</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAppArgs" xml:space="preserve">
+    <value>Línea de comandos adicional {ARGUMENTS} para pasar a la aplicación lanzada por el feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Combine todos los feeds especificados en un único catálogo {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCatalogUri" xml:space="preserve">
+    <value>El {URI} del catálogo para reemplazar el catálogo por defecto. Sólo se aplica si Zero Install no está ya desplegado.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCollectFiles" xml:space="preserve">
+    <value>El {PATH} del archivo ZIP a crear desde el directorio de instalación. Dejar sin configurar para no crear ningún archivo ZIP.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionConfig" xml:space="preserve">
+    <value>Establecer una configuración de Instalación Cero {0:OPTION} a un {1:VALUE} específico. Sólo anula los archivos de configuración existentes si la Instalación Cero no está ya desplegada.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionContent" xml:space="preserve">
+    <value>{PATH} a un directorio que contiene contenido adicional que se incrustará en el bootstrapper. Puede generar dicho directorio utilizando '0install export'.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCustomizableStorePath" xml:space="preserve">
+    <value>Ofrece al usuario la posibilidad de elegir una ruta personalizada para almacenar las implementaciones.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
+    <value>Muestra el disco estimado {SPACE} requerido (en bytes). Establece implícitamente --customizable-store-path también.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionForce" xml:space="preserve">
+    <value>Sobrescribir archivos existentes.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -92,19 +144,35 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Mostrar el texto de ayuda integrado.</value>
+    <value>Mostrar el texto de ayuda incorporado.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionInstallationDirectory" xml:space="preserve">
+    <value>{PATH} del directorio en el que está instalada la aplicación que se va a capturar. Dejar sin configurar para autodetectar.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionIntegrateArgs" xml:space="preserve">
+    <value>Línea de comandos {ARGUMENTS} para pasar a '0install integrate'. Deje sin establecer para no llamar a '0install integrate' en absoluto.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
     <value>Clave a utilizar para firmar (si tienes más de una, o si quieres renunciar con una clave diferente).</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionMainExe" xml:space="preserve">
+    <value>El relativo {PATH} al EXE principal de la aplicación a capturar. Dejar sin ajustar para autodetectar.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Opciones:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionTemplate" xml:space="preserve">
+    <value>{URI} o ruta al ejecutable de la plantilla boostrap. Dejar sin definir para descargar desde la ubicación por defecto.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Elimine las firmas existentes.</value>
+    <value>Elimina las firmas existentes.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -112,7 +180,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Añada un bloque de firma XML. (Todos los feeds remotos deben estar firmados)</value>
+    <value>Añadir un bloque de firma XML. (Todas las fuentes remotas deben estar firmadas)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
@@ -121,7 +189,7 @@ Pruebe {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Uso:</value>
+    <value>Utilización:</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

@@ -62,12 +62,32 @@
     <value>Vă rugăm să introduceți fraza de acces GnuPG pentru {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="BuildingBootstrapper" xml:space="preserve">
+    <value>Construirea bootstrapper-ului</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionBootstrap" xml:space="preserve">
+    <value>Construiește un Bootstrapper de instalare zero personalizat pentru rularea sau integrarea unui anumit flux.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionCapture" xml:space="preserve">
+    <value>Captează instantanee ale stării sistemului și le compară pentru a genera un feed.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Se descarcă {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>Fluxul nu are formatul corect.</value>
+    <value>Feed-ul nu are formatul corect.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FileAlreadyExists" xml:space="preserve">
+    <value>Fișierul '{0}' există deja. Folosiți --force pentru a suprascrie.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Acest program este livrat cu ABSOLUT NICI O GARANȚIE, în măsura permisă de lege.
+    <value>Acest program vine cu ABSOLUT NICI O GARANȚIE, în măsura permisă de lege.
 Puteți redistribui copii ale acestui program în conformitate cu termenii licenței GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -80,11 +100,43 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Descărcați arhivele care lipsesc, calculați digestările manifestului etc..</value>
+    <value>Descărcați arhivele lipsă, calculați digestările manifest, etc..</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAppArgs" xml:space="preserve">
+    <value>Linie de comandă suplimentară {ARGUMENTS} pentru a fi transmisă aplicației lansate de feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Combină toate fluxurile specificate într-un singur catalog {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCatalogUri" xml:space="preserve">
+    <value>{URI} catalogul care va înlocui catalogul implicit. Se aplică numai dacă Zero Install nu este deja implementat.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCollectFiles" xml:space="preserve">
+    <value>Adresa {PATH} a fișierului ZIP care trebuie creat din directorul de instalare. Lăsați unset pentru a nu crea nicio arhivă ZIP.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionConfig" xml:space="preserve">
+    <value>Setați o configurație Zero Install {0:OPTION} la un anumit {1:VALUE}. Suprascrie fișierele de configurare existente numai dacă Zero Install nu este deja implementat.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionContent" xml:space="preserve">
+    <value>{PATH} către un director care conține conținut suplimentar care urmează să fie încorporat în bootstrapper. Puteți genera un astfel de director folosind "0install export".</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCustomizableStorePath" xml:space="preserve">
+    <value>Oferă utilizatorului posibilitatea de a alege o cale personalizată pentru stocarea implementărilor.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
+    <value>Afișează valoarea estimată a discului {SPACE} necesar (în bytes). Stabilește implicit și --customizable-store-path.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionForce" xml:space="preserve">
+    <value>Suprascrie fișierele existente.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -92,15 +144,31 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Afișează textul de ajutor încorporat.</value>
+    <value>Afișarea textului de ajutor încorporat.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionInstallationDirectory" xml:space="preserve">
+    <value>{PATH} al directorului în care este instalată aplicația care urmează să fie capturată. Se lasă nedefinit pentru detectarea automată.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionIntegrateArgs" xml:space="preserve">
+    <value>Linia de comandă {ARGUMENTS} de transmis la "0install integrate". Lasă unset pentru a nu apela deloc "0install integrate".</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Cheia de utilizat pentru semnare (dacă aveți mai multe chei sau dacă doriți să semnați cu o cheie diferită).</value>
+    <value>Cheia de utilizat pentru semnare (dacă aveți mai multe chei sau dacă doriți să semnați cu o altă cheie).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionMainExe" xml:space="preserve">
+    <value>Relativ {PATH} la EXE-ul principal al aplicației care urmează să fie capturată. Se lasă nedefinit pentru detectarea automată.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Opțiuni:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionTemplate" xml:space="preserve">
+    <value>{URI} sau calea către executabilul șablonului boostrap. Lasă unset pentru a descărca din locația implicită.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
@@ -108,15 +176,15 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Afișează informații despre versiune.</value>
+    <value>Afișarea informațiilor despre versiune.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Adăugați un bloc de semnături XML. (Toate fluxurile la distanță trebuie semnate.)</value>
+    <value>Adăugarea unui bloc de semnătură XML. (Toate fluxurile de la distanță trebuie să fie semnate)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>Mod de funcționare necunoscut.
+    <value>Mod de operare necunoscut.
 Încercați {0}</value>
     <comment>Automatically translated.</comment>
   </data>
