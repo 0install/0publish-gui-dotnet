@@ -7,7 +7,3 @@ lang_map = pt_PT: pt-PT, pt_BR: pt-BR
 [o:eicher:p:0install-win:r:publish-cli]
 source_file = src/Publish.Cli/Properties/Resources.resx
 file_filter = src/Publish.Cli/Properties/Resources.<lang>.o.resx
-
-[o:eicher:p:0install-win:r:publish-win]
-source_file = src/Publish.WinForms/Properties/Resources.resx
-file_filter = src/Publish.WinForms/Properties/Resources.<lang>.o.resx

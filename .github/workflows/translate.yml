@@ -1,13 +1,8 @@
 name: Translate
 on:
   workflow_dispatch: {}
-  schedule:
-    - cron: '0 7 15 * *'
   push:
-    branches: [master]
-    paths:
-      - '**/*.resx'
-      - '!**/*.*.resx' # Don't trigger again for updated translations
+    branches: [temp]
 
 jobs:
   translate:
@@ -23,7 +18,7 @@ jobs:
       - name: Transifex Pull (fully translated)
         run: ./0install.sh run https://apps.0install.net/devel/transifex-cli.xml --token ${{secrets.TRANSIFEX_API_KEY}} pull --translations --mode translator --all --minimum-perc 100
       - name: Transifex Pull (partially translated) # Only languages that can be completed with Machine Translation
-        run: ./0install.sh run https://apps.0install.net/devel/transifex-cli.xml --token ${{secrets.TRANSIFEX_API_KEY}} pull --translations --mode translator --languages cs,el,es,fr,id,it,ja,ko,nl,pl,pt_PT,ro,ru,zh
+        run: ./0install.sh run https://apps.0install.net/devel/transifex-cli.xml --token ${{secrets.TRANSIFEX_API_KEY}} pull --translations --mode translator --languages de,tr,cs,el,es,fr,id,it,ja,ko,nl,pl,pt_PT,pt_BR,ro,ru,zh
 
       - name: DeepL Cache
         uses: actions/cache@v4
@@ -37,7 +32,7 @@ jobs:
         with:
           auth: ${{secrets.DEEPL_API_KEY}}
           source-lang: en
-          localization-filter: cs;el;es;fr;id;it;ja;ko;nl;pl;pt-PT;ro;ru;zh
+          localization-filter: de;tr;cs;el;es;fr;id;it;ja;ko;nl;pl;pt-PT;pt-BR;ro;ru;zh
           glossary-name: Zero Install
           context: User interface for editor with menus and buttons.
           excludes-regex: .*ImageResources.*
