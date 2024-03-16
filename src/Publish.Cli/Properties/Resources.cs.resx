@@ -62,8 +62,28 @@
     <value>Zadejte prosím přístupovou frázi GnuPG pro {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="BuildingBootstrapper" xml:space="preserve">
+    <value>Sestavení bootstrapperu</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionBootstrap" xml:space="preserve">
+    <value>Sestaví přizpůsobený zaváděcí program Zero Install pro spuštění nebo integraci konkrétního kanálu.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionCapture" xml:space="preserve">
+    <value>Snímá snímky stavu systému a porovnává je pro vytvoření kanálu.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>{0} se stahuje</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>Zdroj nemá správný formát.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FileAlreadyExists" xml:space="preserve">
+    <value>Soubor '{0}' již existuje. Pro přepsání použijte --force.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -76,35 +96,83 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nepodařilo se najít žádné odpovídající soubory feedu.</value>
+    <value>Nelze nalézt žádné odpovídající soubory feedu.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>Stahování chybějících archivů, výpočet manifestů atd..</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionAppArgs" xml:space="preserve">
+    <value>Další příkazový řádek {ARGUMENTS} pro předání aplikaci spouštěné kanálem.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Sloučení všech zadaných kanálů do jednoho katalogu {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionCatalogUri" xml:space="preserve">
+    <value>Katalog {URI}, který nahradí výchozí katalog. Platí pouze v případě, že nulová instalace ještě není nasazena.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCollectFiles" xml:space="preserve">
+    <value>Adresa {PATH} souboru ZIP, který se vytvoří z instalačního adresáře. Ponechte hodnotu nenastavenou, pokud nechcete vytvořit žádný archiv ZIP.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionConfig" xml:space="preserve">
+    <value>Nastavení konfigurace nulové instalace {0:OPTION} na konkrétní {1:VALUE}. Přepisuje pouze existující konfigurační soubory, pokud ještě není Zero Install nasazen.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionContent" xml:space="preserve">
+    <value>{PATH} do adresáře obsahujícího další obsah, který má být vložen do bootstrapperu. Takový adresář můžete vygenerovat pomocí příkazu '0install export'.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCustomizableStorePath" xml:space="preserve">
+    <value>Nabídněte uživateli možnost zvolit si vlastní cestu pro ukládání implementací.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
+    <value>Zobrazení odhadované potřeby disku {SPACE} (v bytech). Implicitně nastavuje také --customizable-store-path.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionForce" xml:space="preserve">
+    <value>Přepis stávajících souborů.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>K odemčení tajného klíče GnuPG použijte adresu {PASS}.</value>
+    <value>K odemknutí tajného klíče GnuPG použijte stránku {PASS}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Zobrazí vestavěný text nápovědy.</value>
+    <value>Zobrazení vestavěného textu nápovědy.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionInstallationDirectory" xml:space="preserve">
+    <value>Adresa {PATH} adresáře, ve kterém je nainstalována aplikace, která má být zachycena. Pro automatickou detekci ponechte hodnotu nenastavenou.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionIntegrateArgs" xml:space="preserve">
+    <value>Příkazový řádek {ARGUMENTS}, který se předá '0install integrate'. Ponechte hodnotu unset, aby se příkaz '0install integrate' vůbec nevolal.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Klíč, který chcete použít k podepisování (pokud jich máte více nebo pokud chcete rezignovat s jiným klíčem).</value>
+    <value>Klíč, který se používá k podepisování (pokud jich máte více nebo pokud chcete rezignovat pomocí jiného klíče).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionMainExe" xml:space="preserve">
+    <value>Relativní {PATH} k hlavnímu EXE aplikace, která má být zachycena. Pro automatickou detekci ponechte hodnotu nenastavenou.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Možnosti:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionTemplate" xml:space="preserve">
+    <value>{URI} nebo cesta ke spustitelnému souboru šablony boostrap. Pro stahování z výchozího umístění ponechte hodnotu nenastavenou.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Odstraňte všechny existující podpisy.</value>
+    <value>Odstranění všech existujících podpisů.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

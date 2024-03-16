@@ -62,8 +62,28 @@
     <value>Bitte geben Sie die GnuPG Passphrase für {0} ein:</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="BuildingBootstrapper" xml:space="preserve">
+    <value>Bootstrapper bauen</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="DescriptionBootstrap" xml:space="preserve">
+    <value>Erstellt einen angepassten Zero Install Bootstrapper zum Ausführen oder Integrieren einer bestimmten Feed.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="DescriptionCapture" xml:space="preserve">
+    <value>Erfasst Schnappschüsse des Systemzustands und vergleicht sie, um eine Feed zu erstellen.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>{0} wird heruntergeladen</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>Der Feed hat nicht das richtige Format</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="FileAlreadyExists" xml:space="preserve">
+    <value>Die Datei '{0}' existiert bereits. Verwenden Sie --force zum Überschreiben.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -83,8 +103,40 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
     <value>Lade fehlende Archive runter, berechne Manifest Digests, etc..</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionAppArgs" xml:space="preserve">
+    <value>Zusätzliche Befehlszeilen {ARGUMENTE} zur Übergabe an die von Feed gestartete Anwendung.</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Alle angegebenen Feeds in einer einzelnen Katalog {DATEI} kombinieren.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionCatalogUri" xml:space="preserve">
+    <value>Die {URI} des Katalogs, der den Standardkatalog ersetzen soll. Wird nur wirksam, wenn Zero Install nicht bereits deployt wurde.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionCollectFiles" xml:space="preserve">
+    <value>Die {PATH} der ZIP-Datei, die aus dem Installationsverzeichnis erstellt werden soll. Lassen Sie die Option leer, um kein ZIP-Archiv zu erstellen.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionConfig" xml:space="preserve">
+    <value>Setzen Sie eine Zero Install Konfiguration {0:OPTION} auf einen bestimmten {1:WERT}. Überschreibt bereits vorhandene Konfigurationsdateien nur, wenn Zero Install nicht bereits deployt wurde.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionContent" xml:space="preserve">
+    <value>{PATH} zu ein Verzeichnis mit zusätzlichen Inhalten, die in den Bootstrapper eingebettet werden sollen. Sie können ein solches Verzeichnis mit '0install export' erzeugen.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionCustomizableStorePath" xml:space="preserve">
+    <value>Bietet dem Benutzer an, einen benutzerdefinierten Pfad für die Speicherung von Implementierungen zu wählen.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
+    <value>Zeigt den geschätzten benötigte {SPEICHERPLATZ} an (in Bytes). Setzt implizit auch --customizable-store-path.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionForce" xml:space="preserve">
+    <value>Überschreibt vorhandene Dateien.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -95,12 +147,28 @@ Sie dürfen unter den Bedingungen der GNU Lesser General Public License Kopien d
     <value>Zeigt den eingebauten Hilfe-Text an.</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionInstallationDirectory" xml:space="preserve">
+    <value>Der {PATH} des Verzeichnisses, in dem die zu erfassende Anwendung installiert ist. Lassen Sie den Wert ungesetzt, um eine automatische Erkennung durchzuführen.</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionIntegrateArgs" xml:space="preserve">
+    <value>Befehlszeilen {ARGUMENTE} zur Übergabe an '0install integrate'. Lassen Sie den Wert ungesetzt, um '0install integrate' überhaupt nicht aufzurufen.</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="OptionKey" xml:space="preserve">
     <value>Schlüssel der zum Signieren verwenden werden soll (falls Sie mehrere haben oder falls Sie mit einem anderen Schlüssel resignieren möchten).</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionMainExe" xml:space="preserve">
+    <value>Die relative {PATH} zu der Haupt-EXE der zu erfassenden Anwendung. Lassen Sie den Wert ungesetzt, um eine automatische Erkennung durchzuführen.</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Optionen:</value>
+    <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionTemplate" xml:space="preserve">
+    <value>{URI} oder Pfad zum Boostrap-Template. Lassen Sie das Feld leer, um das Template vom Standardort herunterzuladen.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">

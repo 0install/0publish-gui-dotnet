@@ -62,12 +62,32 @@
     <value>Voer de GnuPG-wachtzin in voor {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="BuildingBootstrapper" xml:space="preserve">
+    <value>Bootstrapper bouwen</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionBootstrap" xml:space="preserve">
+    <value>Bouwt een aangepaste Zero Install Bootstrapper voor het uitvoeren of integreren van een specifieke feed.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionCapture" xml:space="preserve">
+    <value>Maakt momentopnames van de systeemstatus en vergelijkt deze om een feed te genereren.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>{0} wordt gedownload</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>De feed heeft niet de juiste indeling.</value>
+    <value>De feed heeft niet het juiste formaat.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FileAlreadyExists" xml:space="preserve">
+    <value>Het bestand '{0}' bestaat al. Gebruik --force om te overschrijven.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Dit programma wordt geleverd met ABSOLUUT GEEN GARANTIE, voor zover wettelijk is toegestaan.
+    <value>Dit programma wordt geleverd met ABSOLUUT GEEN GARANTIE, voor zover wettelijk toegestaan.
 Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -80,11 +100,43 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Ontbrekende archieven downloaden, manifest digests berekenen, enz.</value>
+    <value>Download ontbrekende archieven, bereken manifest digests, enz.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAppArgs" xml:space="preserve">
+    <value>Extra opdrachtregel {ARGUMENTS} om door te geven aan de toepassing die door de feed wordt gestart.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Combineer alle opgegeven feeds in één catalogus {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCatalogUri" xml:space="preserve">
+    <value>De {URI} van de catalogus die de standaard catalogus moet vervangen. Alleen van toepassing als Zero Install nog niet is uitgerold.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCollectFiles" xml:space="preserve">
+    <value>De {PATH} van het ZIP-bestand dat moet worden gemaakt vanuit de installatiemap. Laat unset om geen ZIP-archief aan te maken.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionConfig" xml:space="preserve">
+    <value>Stel een Zero Install configuratie {0:OPTION} in op een specifieke {1:VALUE}. Overschrijft alleen bestaande configuratiebestanden als Zero Install nog niet is uitgerold.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionContent" xml:space="preserve">
+    <value>{PATH} naar een map met aanvullende inhoud die moet worden ingesloten in de bootstrapper. Je kunt zo'n map genereren met '0install export'.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCustomizableStorePath" xml:space="preserve">
+    <value>Bied de gebruiker de mogelijkheid om een eigen pad te kiezen voor het opslaan van implementaties.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
+    <value>Toont de geschatte benodigde schijf {SPACE} (in bytes). Stelt impliciet ook --customizable-store-path in.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionForce" xml:space="preserve">
+    <value>Bestaande bestanden overschrijven.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -92,15 +144,31 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>De ingebouwde helptekst weergeven.</value>
+    <value>Toon de ingebouwde helptekst.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionInstallationDirectory" xml:space="preserve">
+    <value>De {PATH} van de map waarin de vast te leggen applicatie is geïnstalleerd. Niet ingesteld om automatisch te detecteren.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionIntegrateArgs" xml:space="preserve">
+    <value>Opdrachtregel {ARGUMENTS} om door te geven aan '0install integrate'. Laat unset om '0install integrate' helemaal niet aan te roepen.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
     <value>Sleutel om te gebruiken voor het ondertekenen (als je er meer dan één hebt, of als je wilt ondertekenen met een andere sleutel).</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionMainExe" xml:space="preserve">
+    <value>De relatieve {PATH} naar de hoofd-EXE van de vast te leggen toepassing. Niet ingesteld om automatisch te detecteren.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Opties:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionTemplate" xml:space="preserve">
+    <value>{URI} of pad naar het uitvoerbare bestand van het boostrap-sjabloon. Laat unset om te downloaden van de standaard locatie.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
@@ -112,11 +180,11 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Voeg een XML-handtekeningblok toe. (Alle feeds op afstand moeten worden ondertekend)</value>
+    <value>Een XML-handtekeningblok toevoegen. (Alle feeds op afstand moeten worden ondertekend)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>Onbekende werkingsmodus.
+    <value>Onbekende bedieningsmodus.
 Probeer {0}</value>
     <comment>Automatically translated.</comment>
   </data>

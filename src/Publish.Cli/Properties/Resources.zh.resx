@@ -62,8 +62,28 @@
     <value>请输入{0} 的 GnuPG 口令：</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="BuildingBootstrapper" xml:space="preserve">
+    <value>构建引导程序</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionBootstrap" xml:space="preserve">
+    <value>构建定制的零安装引导程序，用于运行或集成特定的 feed。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionCapture" xml:space="preserve">
+    <value>捕捉系统状态快照并进行比较，生成反馈。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>下载 {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>供稿格式不正确。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FileAlreadyExists" xml:space="preserve">
+    <value>文件{0} 已经存在。使用 --force 进行覆盖。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -76,15 +96,47 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>无法找到匹配的饲料文件。</value>
+    <value>无法找到任何匹配的饲料文件。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
     <value>下载丢失的归档文件、计算清单摘要等。</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionAppArgs" xml:space="preserve">
+    <value>额外的命令行{ARGUMENTS} ，可传递给由 feed 启动的应用程序。</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>将所有指定的信息源合并到一个目录中{FILE} 。</value>
+    <value>将所有指定的供稿合并为一个目录{FILE} 。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCatalogUri" xml:space="preserve">
+    <value>取代默认目录的目录{URI} 。仅适用于尚未部署零安装的情况。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCollectFiles" xml:space="preserve">
+    <value>从安装目录创建 ZIP 文件的{PATH} 。不设置则不创建 ZIP 压缩文件。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionConfig" xml:space="preserve">
+    <value>将 Zero Install 配置{0:OPTION} 设置为特定的{1:VALUE} 。如果尚未部署 Zero Install，则仅覆盖现有配置文件。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionContent" xml:space="preserve">
+    <value>{PATH} 目录，其中包含要嵌入引导程序的附加内容。您可以使用 "0install export "生成这样的目录。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCustomizableStorePath" xml:space="preserve">
+    <value>用户可选择自定义路径来存储实现。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
+    <value>显示估计所需的磁盘{SPACE} （以字节为单位）。同时隐含设置 --customizable-store-path.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionForce" xml:space="preserve">
+    <value>覆盖现有文件</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -92,15 +144,31 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>显示内置帮助文本。</value>
+    <value>显示内置帮助文本</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionInstallationDirectory" xml:space="preserve">
+    <value>要捕获的应用程序安装目录的{PATH} 。不设置则自动检测。</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionIntegrateArgs" xml:space="preserve">
+    <value>命令行{ARGUMENTS} ，传递给 "0install integrate"。不设置则完全不调用 "0install integrate"。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
     <value>用于签名的密钥（如果您有多个密钥，或者您想用不同的密钥签名）。</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionMainExe" xml:space="preserve">
+    <value>要捕获的应用程序主 EXE 的相对{PATH} 。不设置则自动检测。</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
-    <value>选项：</value>
+    <value>选项</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionTemplate" xml:space="preserve">
+    <value>{URI} 或 boostrap 模板可执行文件的路径。不设置则从默认位置下载。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
@@ -116,7 +184,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>未知运行模式。
+    <value>未知操作模式。
 尝试{0}</value>
     <comment>Automatically translated.</comment>
   </data>

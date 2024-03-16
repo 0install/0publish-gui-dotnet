@@ -62,9 +62,29 @@
     <value>Entrez le mot de passe GnuPG pour {0}, svp:</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="BuildingBootstrapper" xml:space="preserve">
+    <value>Construction du bootstrapper</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionBootstrap" xml:space="preserve">
+    <value>Construit un Bootstrapper Zero Install personnalisé pour l'exécution ou l'intégration d'un flux spécifique.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionCapture" xml:space="preserve">
+    <value>Capture des instantanés de l'état du système et les compare pour générer un flux.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Téléchargement de {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>Le format du flux n'est pas correct.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="FileAlreadyExists" xml:space="preserve">
+    <value>Le fichier '{0}' existe déjà. Utilisez --force pour l'écraser.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Ce programme est fourni SANS AUCUNE GARANTIE, dans les limites prévues par la loi applicable.
@@ -83,28 +103,76 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <value>Télécharger les archives manquantes, calculer les résumés des manifestes, etc.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionAppArgs" xml:space="preserve">
+    <value>Ligne de commande supplémentaire {ARGUMENTS} à transmettre à l'application lancée par le flux.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Combinez tous les flux spécifiés dans un seul catalogue {FILE}.</value>
+    <value>Combinez tous les flux spécifiés en un seul catalogue {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCatalogUri" xml:space="preserve">
+    <value>Le site {URI} du catalogue qui remplacera le catalogue par défaut. Ne s'applique que si Zero Install n'est pas déjà déployé.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCollectFiles" xml:space="preserve">
+    <value>{PATH} du fichier ZIP à créer à partir du répertoire d'installation. Laissez cette valeur non définie pour ne pas créer d'archive ZIP.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionConfig" xml:space="preserve">
+    <value>Définir une configuration de Zero Install {0:OPTION} à une {1:VALUE} spécifique. Ne remplace les fichiers de configuration existants que si Zero Install n'est pas déjà déployé.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionContent" xml:space="preserve">
+    <value>{PATH} vers un répertoire contenant du contenu supplémentaire à intégrer dans le bootstrapper. Vous pouvez générer un tel répertoire en utilisant '0install export'.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCustomizableStorePath" xml:space="preserve">
+    <value>Offre à l'utilisateur la possibilité de choisir un chemin d'accès personnalisé pour le stockage des implémentations.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
+    <value>Affiche l'estimation du disque {SPACE} nécessaire (en octets). Définit aussi implicitement --customizable-store-path.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionForce" xml:space="preserve">
+    <value>Ecraser les fichiers existants.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>Utilisez {PASS} pour déverrouiller la clé secrète GnuPG.</value>
+    <value>Utilisez {PASS} pour déverrouiller la clé secrète de GnuPG.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
     <value>Affiche le texte d'aide encastrée.</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionInstallationDirectory" xml:space="preserve">
+    <value>{PATH} du répertoire dans lequel l'application à capturer est installée. Laisser non défini pour une détection automatique.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionIntegrateArgs" xml:space="preserve">
+    <value>Ligne de commande {ARGUMENTS} à transmettre à '0install integrate'. Laissez le paramètre non défini pour ne pas appeler '0install integrate' du tout.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Clé à utiliser pour la signature (si vous en avez plus d'une, ou si vous voulez resigner avec une clé différente).</value>
+    <value>Clé à utiliser pour la signature (si vous en avez plusieurs, ou si vous voulez signer avec une clé différente).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionMainExe" xml:space="preserve">
+    <value>{PATH} relatif à l'EXE principal de l'application à capturer. Ne pas définir pour une détection automatique.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Options :</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionTemplate" xml:space="preserve">
+    <value>{URI} ou le chemin d'accès à l'exécutable du modèle boostrap. Laissez ce champ vide pour télécharger à partir de l'emplacement par défaut.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Supprimer toutes les signatures existantes.</value>
+    <value>Supprimez toutes les signatures existantes.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -112,12 +180,12 @@ Vous pouvez redistribuer des copies de ce programme suivant les termes de la “
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Ajouter un bloc de signature XML. (Tous les flux à distance doivent être signés)</value>
+    <value>Ajout d'un bloc de signature XML. (Tous les flux à distance doivent être signés)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
     <value>Mode de fonctionnement inconnu.
-Essai {0}</value>
+Essayer {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

@@ -62,12 +62,32 @@
     <value>Inserire la passphrase GnuPG per {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="BuildingBootstrapper" xml:space="preserve">
+    <value>Costruire il bootstrapper</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionBootstrap" xml:space="preserve">
+    <value>Costruisce un Bootstrapper Zero Install personalizzato per l'esecuzione o l'integrazione di un feed specifico.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionCapture" xml:space="preserve">
+    <value>Cattura istantanee dello stato del sistema e le confronta per generare un feed.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Download di {0} in corso</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>Il feed non ha il formato corretto.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="FileAlreadyExists" xml:space="preserve">
+    <value>Il file '{0}' esiste già. Usare --force per sovrascriverlo.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Questo programma non è accompagnato da ALCUNA GARANZIA, nei limiti consentiti dalla legge.
+    <value>Questo programma non è accompagnato da alcuna garanzia, nei limiti consentiti dalla legge.
 È possibile ridistribuire copie di questo programma secondo i termini della GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -83,8 +103,40 @@
     <value>Scarica gli archivi mancanti, calcola i manifest digest, ecc.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionAppArgs" xml:space="preserve">
+    <value>Linea di comando aggiuntiva {ARGUMENTS} da passare all'applicazione lanciata dal feed.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Combina tutti i feed specificati in un unico catalogo {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCatalogUri" xml:space="preserve">
+    <value>{URI} del catalogo da sostituire a quello predefinito. Si applica solo se Zero Install non è già stato distribuito.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCollectFiles" xml:space="preserve">
+    <value>{PATH} del file ZIP da creare dalla directory di installazione. Lasciare non impostato per non creare alcun archivio ZIP.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionConfig" xml:space="preserve">
+    <value>Imposta una configurazione di Zero Install {0:OPTION} su uno specifico {1:VALUE}. Sovrascrive i file di configurazione esistenti solo se Zero Install non è già stato distribuito.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionContent" xml:space="preserve">
+    <value>{PATH} a una cartella contenente contenuti aggiuntivi da incorporare nel bootstrapper. È possibile generare tale directory usando '0install export'.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCustomizableStorePath" xml:space="preserve">
+    <value>Offre all'utente la possibilità di scegliere un percorso personalizzato per la memorizzazione delle implementazioni.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
+    <value>Mostra la stima del disco {SPACE} richiesto (in byte). Imposta implicitamente anche --percorso di memorizzazione personalizzabile.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionForce" xml:space="preserve">
+    <value>Sovrascrittura dei file esistenti.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -95,12 +147,28 @@
     <value>Mostra il testo di aiuto incorporato.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionInstallationDirectory" xml:space="preserve">
+    <value>{PATH} della directory in cui è installata l'applicazione da catturare. Lasciare non impostato per rilevare automaticamente.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionIntegrateArgs" xml:space="preserve">
+    <value>Linea di comando {ARGUMENTS} da passare a '0install integrate'. Lasciare unset per non chiamare affatto '0install integrate'.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Chiave da usare per la firma (se ne avete più di una, o se volete rifirmare con una chiave diversa).</value>
+    <value>Chiave da utilizzare per la firma (se ne avete più di una o se volete dimettervi con una chiave diversa).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionMainExe" xml:space="preserve">
+    <value>L'indirizzo {PATH} relativo all'EXE principale dell'applicazione da catturare. Lasciare non impostato per rilevare automaticamente.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Opzioni:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionTemplate" xml:space="preserve">
+    <value>{URI} o il percorso dell'eseguibile del modello boostrap. Lasciare non impostato per scaricare dal percorso predefinito.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
@@ -108,7 +176,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Visualizza le informazioni sulla versione.</value>
+    <value>Visualizzazione delle informazioni sulla versione.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">

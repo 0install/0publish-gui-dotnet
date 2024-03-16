@@ -62,8 +62,28 @@
     <value>Masukkan kata sandi GnuPG untuk {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="BuildingBootstrapper" xml:space="preserve">
+    <value>Membangun bootstrapper</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionBootstrap" xml:space="preserve">
+    <value>Membangun Zero Install Bootstrapper yang disesuaikan untuk menjalankan atau mengintegrasikan feed tertentu.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionCapture" xml:space="preserve">
+    <value>Menangkap snapshot status sistem dan membandingkannya untuk menghasilkan feed.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Mengunduh {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>Umpan tidak memiliki format yang benar.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="FileAlreadyExists" xml:space="preserve">
+    <value>File '{0}' sudah ada. Gunakan --force untuk menimpa.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
@@ -72,7 +92,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Argumen yang hilang. Coba {0}</value>
+    <value>Argumen yang hilang. Mencoba {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -80,11 +100,43 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Mengunduh arsip yang hilang, menghitung intisari manifes, dll..</value>
+    <value>Unduh arsip yang hilang, hitung intisari manifes, dll..</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionAppArgs" xml:space="preserve">
+    <value>Baris perintah tambahan {ARGUMENTS} untuk diteruskan ke aplikasi yang diluncurkan oleh feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Gabungkan semua feed yang ditentukan ke dalam satu katalog {FILE}.</value>
+    <value>Menggabungkan semua feed yang ditentukan ke dalam satu katalog {FILE}.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCatalogUri" xml:space="preserve">
+    <value>Katalog {URI} untuk menggantikan katalog default. Hanya berlaku jika Zero Install belum digunakan.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCollectFiles" xml:space="preserve">
+    <value>{PATH} dari file ZIP yang akan dibuat dari direktori instalasi. Biarkan tidak diatur untuk tidak membuat arsip ZIP.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionConfig" xml:space="preserve">
+    <value>Mengatur konfigurasi Zero Install {0:OPTION} ke {1:VALUE} tertentu. Hanya mengganti file konfigurasi yang sudah ada jika Zero Install belum digunakan.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionContent" xml:space="preserve">
+    <value>{PATH} ke direktori yang berisi konten tambahan yang akan disematkan pada bootstrapper. Anda dapat membuat direktori seperti itu dengan menggunakan '0install export'.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCustomizableStorePath" xml:space="preserve">
+    <value>Menawarkan pengguna untuk memilih jalur khusus untuk menyimpan implementasi.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
+    <value>Menampilkan perkiraan disk {SPACE} yang dibutuhkan (dalam byte). Secara implisit juga mengatur --customizable-store-path.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionForce" xml:space="preserve">
+    <value>Menimpa file yang sudah ada.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -95,16 +147,32 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
     <value>Menampilkan teks bantuan bawaan.</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="OptionInstallationDirectory" xml:space="preserve">
+    <value>{PATH} direktori tempat aplikasi yang akan diambil gambarnya diinstal. Biarkan tidak diatur untuk mendeteksi secara otomatis.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionIntegrateArgs" xml:space="preserve">
+    <value>Baris perintah {ARGUMENTS} untuk diteruskan ke '0install integrate'. Biarkan tidak diatur untuk tidak memanggil '0install integrate' sama sekali.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Kunci yang digunakan untuk menandatangani (jika Anda memiliki lebih dari satu, atau jika Anda ingin mengundurkan diri dengan kunci yang berbeda).</value>
+    <value>Tombol yang digunakan untuk menandatangani (jika Anda memiliki lebih dari satu, atau jika Anda ingin mengundurkan diri dengan tombol yang berbeda).</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionMainExe" xml:space="preserve">
+    <value>Relatif {PATH} ke EXE utama aplikasi yang akan ditangkap. Biarkan tidak disetel untuk mendeteksi otomatis.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Pilihan:</value>
+    <value>Opsi:</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionTemplate" xml:space="preserve">
+    <value>{URI} atau jalur ke templat boostrap yang dapat dieksekusi. Biarkan tidak diatur untuk mengunduh dari lokasi default.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Hapus semua tanda tangan yang ada.</value>
+    <value>Menghapus semua tanda tangan yang ada.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -112,12 +180,12 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Tambahkan blok tanda tangan XML. (Semua feed jarak jauh harus ditandatangani.)</value>
+    <value>Menambahkan blok tanda tangan XML. (Semua umpan jarak jauh harus ditandatangani.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>Mode operasi tidak dikenal.
-Coba {0}</value>
+    <value>Mode operasi yang tidak diketahui.
+Mencoba {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

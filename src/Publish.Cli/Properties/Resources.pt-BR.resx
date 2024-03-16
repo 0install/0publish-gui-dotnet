@@ -62,9 +62,29 @@
     <value>Por favor, digite a senha do GnuPG para {0}:</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="BuildingBootstrapper" xml:space="preserve">
+    <value>Criação do bootstrapper</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionBootstrap" xml:space="preserve">
+    <value>Cria um bootstrapper personalizado de instalação zero para executar ou integrar um feed específico.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="DescriptionCapture" xml:space="preserve">
+    <value>Captura instantâneos do estado do sistema e os compara para gerar um feed.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Fazendo download de {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>Este feed não possui o formato correto.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="FileAlreadyExists" xml:space="preserve">
+    <value>O arquivo '{0}' já existe. Use --force para sobrescrever.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Este programa vem com ABSOLUTAMENTE NENHUMA GARANTIA, na medida permitida por lei.
@@ -83,9 +103,41 @@ Você pode redistribuir cópias deste programa sob os termos da GNU Lesser Gener
     <value>Baixe arquivos ausentes, calcule resumos de manifestos, etc.</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionAppArgs" xml:space="preserve">
+    <value>Linha de comando adicional {ARGUMENTS} para passar para o aplicativo iniciado pelo feed.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Combine todos os feeds especificados em um único catálogo {FILE}.</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionCatalogUri" xml:space="preserve">
+    <value>O endereço {URI} do catálogo para substituir o catálogo padrão. Só se aplica se a Instalação Zero ainda não tiver sido implementada.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCollectFiles" xml:space="preserve">
+    <value>O endereço {PATH} do arquivo ZIP a ser criado a partir do diretório de instalação. Deixe não definido para não criar nenhum arquivo ZIP.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionConfig" xml:space="preserve">
+    <value>Defina uma configuração do Zero Install {0:OPTION} para um {1:VALUE} específico. Somente substitui os arquivos de configuração existentes se o Zero Install ainda não estiver implantado.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionContent" xml:space="preserve">
+    <value>{PATH} para um diretório com conteúdo adicional a ser incorporado no bootstrapper. Você pode gerar esse diretório usando '0install export'.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionCustomizableStorePath" xml:space="preserve">
+    <value>Oferece ao usuário a possibilidade de escolher um caminho personalizado para armazenar implementações.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
+    <value>Mostra o disco estimado {SPACE} necessário (em bytes). Define implicitamente a opção --customizable-store-path também.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionForce" xml:space="preserve">
+    <value>Substituição de arquivos existentes.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
     <value>Use {PASS} para desbloquear a chave secreta do GnuPG.</value>
@@ -95,13 +147,29 @@ Você pode redistribuir cópias deste programa sob os termos da GNU Lesser Gener
     <value>Mostra o texto de ajuda integrado.</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionInstallationDirectory" xml:space="preserve">
+    <value>O endereço {PATH} do diretório em que o aplicativo a ser capturado está instalado. Deixar não definido para detectar automaticamente.</value>
+    <comment>Automatically translated.</comment>
+  </data>
+  <data name="OptionIntegrateArgs" xml:space="preserve">
+    <value>Linha de comando {ARGUMENTS} para passar para '0install integrate'. Deixe unset para não chamar o '0install integrate' de forma alguma.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="OptionKey" xml:space="preserve">
     <value>Chave a ser usada para assinatura (se você tiver mais de uma ou se quiser renunciar com uma chave diferente).</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="OptionMainExe" xml:space="preserve">
+    <value>O endereço {PATH} relativo ao EXE principal do aplicativo a ser capturado. Não definir para detectar automaticamente.</value>
+    <comment>Automatically translated.</comment>
+  </data>
   <data name="Options" xml:space="preserve">
     <value>Opções:</value>
     <comment>Manually overriden.</comment>
+  </data>
+  <data name="OptionTemplate" xml:space="preserve">
+    <value>{URI} ou caminho para o executável do modelo boostrap. Deixe a opção não definida para fazer o download do local padrão.</value>
+    <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Remova todas as assinaturas existentes.</value>
