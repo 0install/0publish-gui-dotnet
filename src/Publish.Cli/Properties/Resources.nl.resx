@@ -62,12 +62,16 @@
     <value>Voer de GnuPG-wachtzin in voor {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>{0} wordt gedownload</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>De feed heeft niet de juiste indeling.</value>
+    <value>De feed heeft niet het juiste formaat.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Dit programma wordt geleverd met ABSOLUUT GEEN GARANTIE, voor zover wettelijk is toegestaan.
+    <value>Dit programma wordt geleverd met ABSOLUUT GEEN GARANTIE, voor zover wettelijk toegestaan.
 Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -80,7 +84,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Ontbrekende archieven downloaden, manifest digests berekenen, enz.</value>
+    <value>Download ontbrekende archieven, bereken manifest digests, enz.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -92,7 +96,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>De ingebouwde helptekst weergeven.</value>
+    <value>Toon de ingebouwde helptekst.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
@@ -112,11 +116,11 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Voeg een XML-handtekeningblok toe. (Alle feeds op afstand moeten worden ondertekend)</value>
+    <value>Een XML-handtekeningblok toevoegen. (Alle feeds op afstand moeten worden ondertekend)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>Onbekende werkingsmodus.
+    <value>Onbekende bedieningsmodus.
 Probeer {0}</value>
     <comment>Automatically translated.</comment>
   </data>

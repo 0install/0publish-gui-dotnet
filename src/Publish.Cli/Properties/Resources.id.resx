@@ -62,6 +62,10 @@
     <value>Masukkan kata sandi GnuPG untuk {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Mengunduh {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>Umpan tidak memiliki format yang benar.</value>
     <comment>Automatically translated.</comment>
@@ -72,7 +76,7 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>Argumen yang hilang. Coba {0}</value>
+    <value>Argumen yang hilang. Mencoba {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -80,11 +84,11 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Mengunduh arsip yang hilang, menghitung intisari manifes, dll..</value>
+    <value>Unduh arsip yang hilang, hitung intisari manifes, dll..</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Gabungkan semua feed yang ditentukan ke dalam satu katalog {FILE}.</value>
+    <value>Menggabungkan semua feed yang ditentukan ke dalam satu katalog {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -96,15 +100,15 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Kunci yang digunakan untuk menandatangani (jika Anda memiliki lebih dari satu, atau jika Anda ingin mengundurkan diri dengan kunci yang berbeda).</value>
+    <value>Tombol yang digunakan untuk menandatangani (jika Anda memiliki lebih dari satu, atau jika Anda ingin mengundurkan diri dengan tombol yang berbeda).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Pilihan:</value>
+    <value>Opsi:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Hapus semua tanda tangan yang ada.</value>
+    <value>Menghapus semua tanda tangan yang ada.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -112,12 +116,12 @@ Anda dapat menyebarluaskan salinan program ini di bawah ketentuan Lisensi Publik
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Tambahkan blok tanda tangan XML. (Semua feed jarak jauh harus ditandatangani.)</value>
+    <value>Menambahkan blok tanda tangan XML. (Semua umpan jarak jauh harus ditandatangani.)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>Mode operasi tidak dikenal.
-Coba {0}</value>
+    <value>Mode operasi yang tidak diketahui.
+Mencoba {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">

@@ -59,16 +59,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>{0} 에 GnuPG 암호를 입력하세요:</value>
+    <value>{0} 에 대한 GnuPG 암호를 입력하세요:</value>
     <comment>Automatically translated.</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>{0} 다운로드 중</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>피드의 형식이 올바르지 않습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>이 프로그램은 법이 허용하는 범위 내에서 어떠한 보증도 제공하지 않습니다.
-이 프로그램의 사본은 GNU 약소 일반 공중 사용 허가서의 조건에 따라 재배포할 수 있습니다.</value>
+    <value>이 프로그램은 법이 허용하는 한도 내에서 어떠한 보증도 제공하지 않습니다.
+이 프로그램의 사본은 GNU 약소 일반 공중 사용 허가서 조건에 따라 재배포할 수 있습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -80,11 +84,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>누락된 아카이브 다운로드, 적하목록 다이제스트 계산 등을 할 수 있습니다.</value>
+    <value>누락된 아카이브 다운로드, 적하목록 요약 계산 등...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>지정된 모든 피드를 단일 카탈로그에 결합 {FILE}.</value>
+    <value>지정된 모든 피드를 단일 카탈로그로 결합 {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">

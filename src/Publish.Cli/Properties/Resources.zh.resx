@@ -62,6 +62,10 @@
     <value>请输入{0} 的 GnuPG 口令：</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>下载 {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>供稿格式不正确。</value>
     <comment>Automatically translated.</comment>
@@ -76,7 +80,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>无法找到匹配的饲料文件。</value>
+    <value>无法找到任何匹配的饲料文件。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -84,7 +88,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>将所有指定的信息源合并到一个目录中{FILE} 。</value>
+    <value>将所有指定的供稿合并为一个目录{FILE} 。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -92,7 +96,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>显示内置帮助文本。</value>
+    <value>显示内置帮助文本</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
@@ -100,7 +104,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>选项：</value>
+    <value>选项</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
@@ -116,7 +120,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>未知运行模式。
+    <value>未知操作模式。
 尝试{0}</value>
     <comment>Automatically translated.</comment>
   </data>

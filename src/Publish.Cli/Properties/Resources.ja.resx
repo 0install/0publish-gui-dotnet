@@ -59,20 +59,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>{0} の GnuPG パスフレーズを入力してください：</value>
+    <value>{0} のGnuPGパスフレーズを入力してください：</value>
     <comment>Automatically translated.</comment>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>{0}をダウンロード中</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>フィードのフォーマットが正しくありません。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>このプログラムには、法律で認められている限りにおいて、まったくの無保証が付されています。
+    <value>このプログラムには、法律で認められている限りにおいて、まったくの無保証が付きます。
 あなたは、GNU Lesser General Public Licenseの条件の下で、このプログラムのコピーを再配布することができます。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
-    <value>引数が足りない。試す{0}</value>
+    <value>引数がありません。試す{0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
@@ -84,39 +88,39 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>指定したすべてのフィードを単一のカタログにまとめる{FILE} 。</value>
+    <value>指定されたすべてのフィードを1つのカタログにまとめる{FILE} 。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>{PASS} 、GnuPGの秘密鍵を解除する。</value>
+    <value>{PASS} 、GnuPG秘密鍵を解除してください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>内蔵ヘルプテキストを表示する。</value>
+    <value>組み込みのヘルプテキストを表示します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>署名に使用するキー（複数ある場合、または別のキーで辞任したい場合）。</value>
+    <value>署名に使用するキー（複数のキーをお持ちの場合、または別のキーで辞任したい場合）。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>オプション</value>
+    <value>オプション：</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>既存の署名を削除する。</value>
+    <value>既存の署名を削除します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>バージョン情報を表示する。</value>
+    <value>バージョン情報を表示します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>XML署名ブロックを追加する。(すべてのリモートフィードには署名が必要です)。</value>
+    <value>XML署名ブロックを追加。(すべてのリモートフィードには署名が必要です)。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>動作モードが不明です。
+    <value>不明な操作モード。
 試す{0}</value>
     <comment>Automatically translated.</comment>
   </data>

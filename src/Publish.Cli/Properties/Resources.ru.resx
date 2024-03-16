@@ -59,16 +59,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Введите парольную фразу GnuPG для {0}:</value>
+    <value>Пожалуйста, введите парольную фразу GnuPG для {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Загрузка {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>Подача не имеет правильного формата.</value>
+    <value>Поток не имеет правильного формата.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>На данную программу не предоставляется АБСОЛЮТНО НИКАКИХ ГАРАНТИЙ, в той степени, в которой это разрешено законом.
-Вы можете распространять копии этой программы на условиях лицензии GNU Lesser General Public License.</value>
+    <value>Эта программа поставляется с АБСОЛЮТНОЙ НЕ ГАРАНТИЕЙ, в пределах, разрешенных законом.
+Вы можете распространять копии этой программы в соответствии с условиями GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="MissingArguments" xml:space="preserve">
@@ -76,15 +80,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Невозможно найти ни одного подходящего файла подачи.</value>
+    <value>Невозможно найти подходящие файлы фидов.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Загрузка недостающих архивов, вычисление дайджестов манифеста и т.д..</value>
+    <value>Загрузка недостающих архивов, вычисление дайджестов манифеста и т. д.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Объединить все указанные каналы в единый каталог {FILE}.</value>
+    <value>Объединение всех заданных фидов в единый каталог {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -96,11 +100,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Ключ, используемый для подписи (если у вас их несколько, или если вы хотите переподписать с другим ключом).</value>
+    <value>Ключ для подписи (если у вас их несколько, или если вы хотите подписаться другим ключом).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Варианты:</value>
+    <value>Опции:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">

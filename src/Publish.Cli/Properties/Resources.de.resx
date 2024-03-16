@@ -62,6 +62,10 @@
     <value>Bitte geben Sie die GnuPG Passphrase für {0} ein:</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>{0} wird heruntergeladen</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>Der Feed hat nicht das richtige Format</value>
     <comment>Manually overriden.</comment>

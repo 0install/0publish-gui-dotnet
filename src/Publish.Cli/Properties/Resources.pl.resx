@@ -62,6 +62,10 @@
     <value>Wprowadź hasło GnuPG dla {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Pobieranie {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>Kanał nie ma prawidłowego formatu.</value>
     <comment>Automatically translated.</comment>
@@ -80,11 +84,11 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Pobieranie brakujących archiwów, obliczanie skrótu manifestu itp.</value>
+    <value>Pobieranie brakujących archiwów, obliczanie manifestów itp.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
-    <value>Połączenie wszystkich określonych kanałów w jeden katalog {FILE}.</value>
+    <value>Łączenie wszystkich określonych kanałów w jeden katalog {FILE}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
@@ -104,7 +108,7 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Usuń wszystkie istniejące podpisy.</value>
+    <value>Usuwanie istniejących podpisów.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -112,16 +116,16 @@ Kopie tego programu można rozpowszechniać na warunkach licencji GNU Lesser Gen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Dodaj blok podpisu XML. (Wszystkie zdalne kanały muszą być podpisane)</value>
+    <value>Dodanie bloku podpisu XML. (Wszystkie zdalne kanały muszą być podpisane)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>Nieznany tryb pracy.
+    <value>Nieznany tryb działania.
 Spróbuj {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Zastosowanie:</value>
+    <value>Użycie:</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

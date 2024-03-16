@@ -62,12 +62,16 @@
     <value>Inserire la passphrase GnuPG per {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Download di {0} in corso</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>Il feed non ha il formato corretto.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Questo programma non è accompagnato da ALCUNA GARANZIA, nei limiti consentiti dalla legge.
+    <value>Questo programma non è accompagnato da alcuna garanzia, nei limiti consentiti dalla legge.
 È possibile ridistribuire copie di questo programma secondo i termini della GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -96,7 +100,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Chiave da usare per la firma (se ne avete più di una, o se volete rifirmare con una chiave diversa).</value>
+    <value>Chiave da utilizzare per la firma (se ne avete più di una o se volete dimettervi con una chiave diversa).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -108,7 +112,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Visualizza le informazioni sulla versione.</value>
+    <value>Visualizzazione delle informazioni sulla versione.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">

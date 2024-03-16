@@ -62,6 +62,10 @@
     <value>Παρακαλούμε εισάγετε την συνθηματική φράση για το GnuPG {0}:</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Λήψη {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>Η τροφοδοσία δεν έχει τη σωστή μορφή.</value>
     <comment>Manually overriden.</comment>

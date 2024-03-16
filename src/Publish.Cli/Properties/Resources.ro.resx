@@ -62,12 +62,16 @@
     <value>Vă rugăm să introduceți fraza de acces GnuPG pentru {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Se descarcă {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
-    <value>Fluxul nu are formatul corect.</value>
+    <value>Feed-ul nu are formatul corect.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
-    <value>Acest program este livrat cu ABSOLUT NICI O GARANȚIE, în măsura permisă de lege.
+    <value>Acest program vine cu ABSOLUT NICI O GARANȚIE, în măsura permisă de lege.
 Puteți redistribui copii ale acestui program în conformitate cu termenii licenței GNU Lesser General Public License.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -80,7 +84,7 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Descărcați arhivele care lipsesc, calculați digestările manifestului etc..</value>
+    <value>Descărcați arhivele lipsă, calculați digestările manifest, etc..</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -92,11 +96,11 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Afișează textul de ajutor încorporat.</value>
+    <value>Afișarea textului de ajutor încorporat.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Cheia de utilizat pentru semnare (dacă aveți mai multe chei sau dacă doriți să semnați cu o cheie diferită).</value>
+    <value>Cheia de utilizat pentru semnare (dacă aveți mai multe chei sau dacă doriți să semnați cu o altă cheie).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -108,15 +112,15 @@ Puteți redistribui copii ale acestui program în conformitate cu termenii licen
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Afișează informații despre versiune.</value>
+    <value>Afișarea informațiilor despre versiune.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Adăugați un bloc de semnături XML. (Toate fluxurile la distanță trebuie semnate.)</value>
+    <value>Adăugarea unui bloc de semnătură XML. (Toate fluxurile de la distanță trebuie să fie semnate)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
-    <value>Mod de funcționare necunoscut.
+    <value>Mod de operare necunoscut.
 Încercați {0}</value>
     <comment>Automatically translated.</comment>
   </data>

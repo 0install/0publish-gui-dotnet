@@ -62,6 +62,10 @@
     <value>Introduzca la frase de contraseña GnuPG para {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>Descargando {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>El feed no tiene el formato correcto.</value>
     <comment>Automatically translated.</comment>
@@ -76,11 +80,11 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>No se ha encontrado ningún archivo de feed.</value>
+    <value>No se puede encontrar ningún archivo de alimentación coincidente.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Descargar archivos perdidos, calcular resúmenes de manifiestos, etc.</value>
+    <value>Descargar archivos perdidos, calcular compendios de manifiesto, etc..</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -92,7 +96,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Mostrar el texto de ayuda integrado.</value>
+    <value>Mostrar el texto de ayuda incorporado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
@@ -104,7 +108,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Elimine las firmas existentes.</value>
+    <value>Elimina las firmas existentes.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
@@ -112,7 +116,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Añada un bloque de firma XML. (Todos los feeds remotos deben estar firmados)</value>
+    <value>Añadir un bloque de firma XML. (Todas las fuentes remotas deben estar firmadas)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
@@ -121,7 +125,7 @@ Pruebe {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Usage" xml:space="preserve">
-    <value>Uso:</value>
+    <value>Utilización:</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

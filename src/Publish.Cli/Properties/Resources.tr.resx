@@ -62,6 +62,10 @@
     <value>{0} için GnuPG parolasını yazın:</value>
     <comment>Manually overriden.</comment>
   </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>{0} indiriliyor</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>Akış biçimi hatalı.</value>
     <comment>Manually overriden.</comment>
@@ -80,7 +84,7 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Eksik arşivleri, tasarlanmış bildirim özetlerini, vb. indirin.</value>
+    <value>Eksik arşivleri, hazırlanmış öge listesi dosyalarını, vb. indirin.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">

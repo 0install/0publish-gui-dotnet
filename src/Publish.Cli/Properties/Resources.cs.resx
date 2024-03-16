@@ -62,6 +62,10 @@
     <value>Zadejte prosím přístupovou frázi GnuPG pro {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>{0} se stahuje</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>Zdroj nemá správný formát.</value>
     <comment>Automatically translated.</comment>
@@ -76,7 +80,7 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nepodařilo se najít žádné odpovídající soubory feedu.</value>
+    <value>Nelze nalézt žádné odpovídající soubory feedu.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -88,15 +92,15 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
-    <value>K odemčení tajného klíče GnuPG použijte adresu {PASS}.</value>
+    <value>K odemknutí tajného klíče GnuPG použijte stránku {PASS}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionHelp" xml:space="preserve">
-    <value>Zobrazí vestavěný text nápovědy.</value>
+    <value>Zobrazení vestavěného textu nápovědy.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Klíč, který chcete použít k podepisování (pokud jich máte více nebo pokud chcete rezignovat s jiným klíčem).</value>
+    <value>Klíč, který se používá k podepisování (pokud jich máte více nebo pokud chcete rezignovat pomocí jiného klíče).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -104,7 +108,7 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
-    <value>Odstraňte všechny existující podpisy.</value>
+    <value>Odstranění všech existujících podpisů.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">

@@ -62,6 +62,10 @@
     <value>Introduza a frase-passe GnuPG para {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>A transferir {0}</value>
+    <comment>Manually overriden.</comment>
+  </data>
   <data name="FeedNotValid" xml:space="preserve">
     <value>O feed não tem o formato correto.</value>
     <comment>Automatically translated.</comment>
@@ -80,7 +84,7 @@ Pode redistribuir cópias deste programa sob os termos da GNU Lesser General Pub
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
-    <value>Descarregar os arquivos em falta, calcular os resumos do manifesto, etc.</value>
+    <value>Descarregue os arquivos em falta, calcule os manifest digests, etc.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
@@ -96,7 +100,7 @@ Pode redistribuir cópias deste programa sob os termos da GNU Lesser General Pub
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
-    <value>Chave a utilizar para a assinatura (se tiver mais do que uma, ou se pretender assinar com uma chave diferente).</value>
+    <value>Chave a utilizar para assinar (se tiver mais do que uma, ou se quiser assinar com uma chave diferente).</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">
@@ -108,11 +112,11 @@ Pode redistribuir cópias deste programa sob os termos da GNU Lesser General Pub
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionVersion" xml:space="preserve">
-    <value>Apresentar informações sobre a versão.</value>
+    <value>Visualizar informações sobre a versão.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionXmlSign" xml:space="preserve">
-    <value>Adicionar um bloco de assinatura XML. (Todos os feeds remotos têm de ser assinados)</value>
+    <value>Adicionar um bloco de assinatura XML. (Todos os feeds remotos devem ser assinados)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="UnknownMode" xml:space="preserve">
