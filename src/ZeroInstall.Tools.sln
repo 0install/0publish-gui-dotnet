@@ -10,6 +10,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{DA177B68-C117-4A16-9EF8-D9CBD62B2067}"
 ProjectSection(SolutionItems) = preProject
 	Directory.Build.props = Directory.Build.props
+	app.manifest = app.manifest
+	nuget.config = nuget.config
 EndProjectSection
 EndProject
 Global
