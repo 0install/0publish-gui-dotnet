@@ -136,10 +136,6 @@ Ungespeicherte Änderungen verwerfen</value>
     <value>Dateigröße</value>
     <comment>Manually overriden.</comment>
   </data>
-  <data name="HintTextMultiline" xml:space="preserve">
-    <value>Eine vollständige, möglicherweise mehrzeilige Beschreibung</value>
-    <comment>Manually overriden.</comment>
-  </data>
   <data name="IcoFiles" xml:space="preserve">
     <value>Windows Icon-Dateien</value>
     <comment>Manually overriden.</comment>
@@ -154,10 +150,6 @@ Ungespeicherte Änderungen verwerfen</value>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
     <value>Sie müssen eine alternative Downloadquelle für die Anwendung, z.B. ein ZIP Archiv, angeben. Wir werden dennoch die Desktopintegration-Informationen, die vom Installer erfasst wurden, verwenden!</value>
-    <comment>Manually overriden.</comment>
-  </data>
-  <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Ungültiger Capabilities Registrierungspfad: {0}</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -178,10 +170,6 @@ Ungespeicherte Änderungen verwerfen</value>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>Es wurden keine Einstiegspunkte (EXEs, JARs, Python Skripts, etc.) gefunden. Bitte überprüfen Sie, ob Sie das korrekte Archiv und das korrekte Unterverzeichnis ausgewählt haben.</value>
-    <comment>Manually overriden.</comment>
-  </data>
-  <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Konnte keine passenden Feed-Dateien finden.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">

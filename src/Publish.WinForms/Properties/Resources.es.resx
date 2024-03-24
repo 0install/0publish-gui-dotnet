@@ -136,10 +136,6 @@ Descartar cambios no guardados</value>
     <value>Tamaño del archivo</value>
     <comment>Automatically translated.</comment>
   </data>
-  <data name="HintTextMultiline" xml:space="preserve">
-    <value>Una descripción completa, posiblemente de varias líneas</value>
-    <comment>Automatically translated.</comment>
-  </data>
   <data name="IcoFiles" xml:space="preserve">
     <value>Archivos de iconos de Windows</value>
     <comment>Automatically translated.</comment>
@@ -154,10 +150,6 @@ Descartar cambios no guardados</value>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
     <value>Debe proporcionar una fuente de descarga alternativa para la aplicación, por ejemplo, un archivo ZIP. Seguiremos utilizando la información de integración de escritorio capturada desde el instalador</value>
-    <comment>Automatically translated.</comment>
-  </data>
-  <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Ruta de registro de capacidades no válida: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -178,10 +170,6 @@ Descartar cambios no guardados</value>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>No se han encontrado puntos de entrada (EXEs, JARs, scripts Python, etc.). Asegúrese de haber seleccionado el archivo y el directorio de extracción correctos.</value>
-    <comment>Automatically translated.</comment>
-  </data>
-  <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>No se ha encontrado ningún archivo de feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">

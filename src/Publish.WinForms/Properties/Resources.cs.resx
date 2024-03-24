@@ -136,10 +136,6 @@ Zahození neuložených změn</value>
     <value>Velikost souboru</value>
     <comment>Automatically translated.</comment>
   </data>
-  <data name="HintTextMultiline" xml:space="preserve">
-    <value>Úplný, případně víceřádkový popis</value>
-    <comment>Automatically translated.</comment>
-  </data>
   <data name="IcoFiles" xml:space="preserve">
     <value>Soubory ikon systému Windows</value>
     <comment>Automatically translated.</comment>
@@ -154,10 +150,6 @@ Zahození neuložených změn</value>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
     <value>Je třeba poskytnout alternativní zdroj pro stažení aplikace, např. archiv ZIP. Stále budeme používat informace o integraci na plochu zachycené z instalačního programu!</value>
-    <comment>Automatically translated.</comment>
-  </data>
-  <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Nesprávná cesta k registru funkcí: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -178,10 +170,6 @@ Zahození neuložených změn</value>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>Nebyly nalezeny žádné vstupní body (soubory EXE, JAR, skripty Python atd.). Ujistěte se, že jste vybrali správný archiv a adresář pro rozbalení.</value>
-    <comment>Automatically translated.</comment>
-  </data>
-  <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nepodařilo se najít žádné odpovídající soubory feedu.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">

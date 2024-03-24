@@ -177,9 +177,6 @@ Discard unsaved changes</value>
   <data name="FileSize" xml:space="preserve">
     <value>File size</value>
   </data>
-  <data name="HintTextMultiline" xml:space="preserve">
-    <value>A complete possibly multi-line description</value>
-  </data>
   <data name="IcoFiles" xml:space="preserve">
     <value>Windows Icon files</value>
   </data>
@@ -191,9 +188,6 @@ Discard unsaved changes</value>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
     <value>You need to provide an alternative download source for the application, e.g. a ZIP archive. We will still use the desktop integration information captured from the installer!</value>
-  </data>
-  <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Invalid capabilities registry path: {0}</value>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
     <value>Manifest digest may have changed.</value>
@@ -209,9 +203,6 @@ Discard unsaved changes</value>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>No entry points (EXEs, JARs, Python scripts, etc.) were found. Please make sure you selected the correct archive and extract directory.</value>
-  </data>
-  <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Unable to find any matching feed files.</value>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>No, the application itself

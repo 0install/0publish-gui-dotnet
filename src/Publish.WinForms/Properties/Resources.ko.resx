@@ -136,10 +136,6 @@
     <value>파일 크기</value>
     <comment>Automatically translated.</comment>
   </data>
-  <data name="HintTextMultiline" xml:space="preserve">
-    <value>여러 줄로 작성할 수 있는 완전한 설명</value>
-    <comment>Automatically translated.</comment>
-  </data>
   <data name="IcoFiles" xml:space="preserve">
     <value>Windows 아이콘 파일</value>
     <comment>Automatically translated.</comment>
@@ -154,10 +150,6 @@
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
     <value>애플리케이션의 대체 다운로드 소스(예: ZIP 아카이브)를 제공해야 합니다. 설치 프로그램에서 캡처한 데스크톱 통합 정보를 계속 사용합니다!</value>
-    <comment>Automatically translated.</comment>
-  </data>
-  <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>잘못된 기능 레지스트리 경로입니다: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -178,10 +170,6 @@
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>진입점(EXE, JAR, Python 스크립트 등)을 찾을 수 없습니다. 올바른 아카이브 및 추출 디렉터리를 선택했는지 확인하세요.</value>
-    <comment>Automatically translated.</comment>
-  </data>
-  <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>일치하는 피드 파일을 찾을 수 없습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">

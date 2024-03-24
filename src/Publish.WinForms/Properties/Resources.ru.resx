@@ -136,10 +136,6 @@ Zero Install сможет отобразить только общий знач�
     <value>Размер файла</value>
     <comment>Automatically translated.</comment>
   </data>
-  <data name="HintTextMultiline" xml:space="preserve">
-    <value>Полное, возможно, многострочное описание</value>
-    <comment>Automatically translated.</comment>
-  </data>
   <data name="IcoFiles" xml:space="preserve">
     <value>Файлы значков Windows</value>
     <comment>Automatically translated.</comment>
@@ -154,10 +150,6 @@ Zero Install сможет отобразить только общий знач�
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
     <value>Вам необходимо предоставить альтернативный источник загрузки приложения, например, ZIP-архив. Мы все равно будем использовать информацию об интеграции с рабочим столом, полученную из программы установки!</value>
-    <comment>Automatically translated.</comment>
-  </data>
-  <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Неверный путь к реестру возможностей: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -178,10 +170,6 @@ Zero Install сможет отобразить только общий знач�
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>Точек входа (EXE, JAR, Python-скрипты и т.д.) не найдено. Убедитесь, что выбран правильный каталог архива и распаковки.</value>
-    <comment>Automatically translated.</comment>
-  </data>
-  <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Невозможно найти ни одного подходящего файла подачи.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">

@@ -136,10 +136,6 @@ Annuler les modifications non sauveguardées</value>
     <value>Taille du fichier</value>
     <comment>Manually overriden.</comment>
   </data>
-  <data name="HintTextMultiline" xml:space="preserve">
-    <value>Une description complète, éventuellement sur plusieurs lignes</value>
-    <comment>Automatically translated.</comment>
-  </data>
   <data name="IcoFiles" xml:space="preserve">
     <value>Fichiers d'icônes Windows</value>
     <comment>Automatically translated.</comment>
@@ -155,10 +151,6 @@ Annuler les modifications non sauveguardées</value>
   <data name="InstallerNeedAltSource" xml:space="preserve">
     <value>Vous devez fournir une autre source de téléchargement pour l'application, par exemple une archive ZIP. Nous utiliserons toujours les informations relatives à l'intégration du bureau capturées à partir du programme d'installation !</value>
     <comment>Automatically translated.</comment>
-  </data>
-  <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Capacités de chemin de registre invalide : {0}</value>
-    <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
     <value>Le manifeste peut avoir changé.</value>
@@ -179,10 +171,6 @@ Annuler les modifications non sauveguardées</value>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>Aucun point d'entrée (EXE, JAR, scripts Python, etc.) n'a été trouvé. Veuillez vous assurer que vous avez sélectionné la bonne archive et le bon répertoire d'extraction.</value>
     <comment>Automatically translated.</comment>
-  </data>
-  <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Impossible de trouver les fichiers de flux correspondants.</value>
-    <comment>Manually overriden.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Non, l'application elle-même

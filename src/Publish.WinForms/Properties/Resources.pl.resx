@@ -136,10 +136,6 @@ Odrzuć niezapisane zmiany</value>
     <value>Rozmiar pliku</value>
     <comment>Automatically translated.</comment>
   </data>
-  <data name="HintTextMultiline" xml:space="preserve">
-    <value>Kompletny, możliwie wielowierszowy opis</value>
-    <comment>Automatically translated.</comment>
-  </data>
   <data name="IcoFiles" xml:space="preserve">
     <value>Pliki ikon systemu Windows</value>
     <comment>Automatically translated.</comment>
@@ -154,10 +150,6 @@ Odrzuć niezapisane zmiany</value>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
     <value>Należy podać alternatywne źródło pobierania aplikacji, np. archiwum ZIP. Nadal będziemy używać informacji o integracji pulpitu przechwyconych z instalatora!</value>
-    <comment>Automatically translated.</comment>
-  </data>
-  <data name="InvalidCapabilitiesRegistryPath" xml:space="preserve">
-    <value>Nieprawidłowa ścieżka rejestru możliwości: {0}</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -178,10 +170,6 @@ Odrzuć niezapisane zmiany</value>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>Nie znaleziono punktów wejścia (plików EXE, JAR, skryptów Python itp.). Upewnij się, że wybrałeś właściwe archiwum i katalog rozpakowywania.</value>
-    <comment>Automatically translated.</comment>
-  </data>
-  <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Nie można znaleźć pasujących plików źródłowych.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
