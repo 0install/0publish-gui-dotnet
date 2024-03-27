@@ -160,7 +160,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionMainExe" xml:space="preserve">
-    <value>Относительный {PATH} к основному EXE приложения, которое нужно захватить. Оставьте значение без изменений для автоматического определения.</value>
+    <value>Относительный {PATH} к основному EXE приложения, которое будет захвачено. Оставьте значение без изменений для автоматического определения.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">

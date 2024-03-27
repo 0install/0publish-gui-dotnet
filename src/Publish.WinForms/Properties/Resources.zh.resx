@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>添加缺失</value>
+    <value>添加缺失内容</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>该路径指向档案外部。</value>
+    <value>该路径指向存档之外。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -79,18 +79,18 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>您确定要跳过捕获？
+    <value>您确定要跳过捕捉？
 应用程序的桌面集成信息（如文件关联）将不会添加到信息源中。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>你确定不添加图标就继续吗？
-零安装只能在目录和任何桌面集成快捷方式中显示一个通用占位符图标。</value>
+    <value>您确定不添加图标就继续吗？
+零安装只能在目录和桌面集成快捷方式中显示一个通用占位符图标。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>您确定不完成这些设置就继续吗？
-您的提要只能在本地使用，不能在线使用。</value>
+您的馈送只能在本地运行，不能在线运行。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -112,7 +112,7 @@
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>替换
-我故意改变了执行方式</value>
+我故意改变了实现方式</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
@@ -129,7 +129,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>源文件 (*.xml)|*.xml| 模板文件 (*.xml.template)|*.xml.template| 所有文件|*</value>
+    <value>源文件（*.xml）|*.xml|模板文件（*.xml.template）|*.xml.template|所有文件|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -137,11 +137,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Windows 图标文件</value>
+    <value>视窗图标文件</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Zero Install 不支持图像格式。</value>
+    <value>Zero Install 不支持图片格式。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
@@ -149,15 +149,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>您需要提供应用程序的其他下载源，例如 ZIP 压缩包。我们仍将使用从安装程序中获取的桌面集成信息！</value>
+    <value>您需要提供应用程序的其他下载源，如 ZIP 压缩包。我们仍将使用从安装程序中获取的桌面集成信息！</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>清单摘要可能已更改。</value>
+    <value>任务摘要可能已更改。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>清单摘要尚未计算。</value>
+    <value>任务摘要尚未计算。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -165,7 +165,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>新钥匙...</value>
+    <value>新键...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
@@ -174,7 +174,7 @@
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>不，应用程序本身
-只有一个 EXE</value>
+只包括一个 EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
@@ -186,7 +186,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
-    <value>字节（必填）</value>
+    <value>以字节为单位（必填）</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
@@ -207,7 +207,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>成功签署文件。</value>
+    <value>成功签名的文件。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
@@ -219,7 +219,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>来源网址</value>
+    <value>源 URL</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">

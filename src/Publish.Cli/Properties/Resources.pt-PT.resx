@@ -96,7 +96,7 @@ Pode redistribuir cópias deste programa sob os termos da GNU Lesser General Pub
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoFeedFilesFound" xml:space="preserve">
-    <value>Não foi possível encontrar nenhum ficheiro de feed correspondente.</value>
+    <value>Não é possível encontrar ficheiros de alimentação correspondentes.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionAddMissing" xml:space="preserve">
@@ -148,7 +148,7 @@ Pode redistribuir cópias deste programa sob os termos da GNU Lesser General Pub
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionInstallationDirectory" xml:space="preserve">
-    <value>O endereço {PATH} do diretório onde está instalada a aplicação a capturar. Deixar em branco para a deteção automática.</value>
+    <value>O {PATH} do diretório onde está instalada a aplicação a capturar. Deixar em branco para a deteção automática.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">

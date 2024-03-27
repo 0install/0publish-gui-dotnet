@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Ontbrekend toevoegen</value>
+    <value>Ontbrekende items toevoegen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -99,15 +99,15 @@ Je feed werkt alleen lokaal en niet online.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Behoud
-De implementatie zou hetzelfde blijven</value>
+De implementatie moest hetzelfde blijven</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>De manifest digest is gewijzigd. Wil je de bestaande vervangen?</value>
+    <value>De manifest digest is veranderd. Wil je de bestaande vervangen?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Alle andere opvraagmethoden voor deze implementatie moeten ook overeenkomen met de nieuwe digest!</value>
+    <value>Alle andere ophaalmethoden voor deze implementatie moeten ook overeenkomen met de nieuwe digest!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -129,7 +129,7 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Feed bestanden (*.xml)|*.xml|Template bestanden (*.xml.template)|*.xml.template|Alle bestanden|*</value>
+    <value>Voerbestanden (*.xml)|*.xml|Template bestanden (*.xml.template)|*.xml.template|Alle bestanden|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -137,7 +137,7 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Windows Pictogram-bestanden</value>
+    <value>Windows Pictogrammenbestanden</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
@@ -145,15 +145,15 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Het uitpakken van het installatieprogramma als archief is mislukt.</value>
+    <value>Mislukt bij het uitpakken van het installatieprogramma als een archief.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Je moet een alternatieve downloadbron voor de applicatie opgeven, bijvoorbeeld een ZIP-archief. We zullen nog steeds de desktopintegratie-informatie van het installatieprogramma gebruiken!</value>
+    <value>Je moet een alternatieve downloadbron voor de applicatie opgeven, bijvoorbeeld een ZIP-archief. We zullen nog steeds de desktopintegratie-informatie gebruiken die is vastgelegd in het installatieprogramma!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Manifest digest kan zijn gewijzigd.</value>
+    <value>Manifest digest kan veranderd zijn.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
@@ -165,7 +165,7 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Nieuwe sleutel...</value>
+    <value>Nieuwe toets...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
@@ -173,12 +173,12 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>Nee, de applicatie zelf
+    <value>Nee, de toepassing zelf
 bestaat slechts uit één EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Klik:</value>
+    <value>Klik op:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
@@ -207,7 +207,7 @@ Wijzigingen opslaan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Bestanden met succes ondertekend.</value>
+    <value>Succesvol ondertekende bestanden.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">

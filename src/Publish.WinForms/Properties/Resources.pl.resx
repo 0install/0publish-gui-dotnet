@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Dodać brakujące</value>
+    <value>Dodawanie brakujących elementów</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -75,7 +75,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Czy jest to plik EXE instalatora?</value>
+    <value>Czy jest to instalator EXE?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
@@ -85,7 +85,7 @@ Informacje o integracji aplikacji z pulpitem (np. skojarzenia plików) nie zosta
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Czy na pewno chcesz kontynuować bez dodawania ikon?
-Zero Install będzie w stanie wyświetlić tylko ogólną ikonę zastępczą w katalogu, a także dla wszystkich skrótów integracji pulpitu.</value>
+Zero Install będzie w stanie wyświetlić tylko ogólną ikonę zastępczą w katalogu, a także skróty do integracji na pulpicie.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
@@ -99,7 +99,7 @@ Twój kanał będzie działał tylko lokalnie, a nie online.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Zachować
-Implementacja miała pozostać bez zmian</value>
+Implementacja miała pozostać taka sama</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
@@ -129,7 +129,7 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Pliki feed (*.xml)|*.xml|Pliki szablonów (*.xml.template)|*.xml.template|Wszystkie pliki|*</value>
+    <value>Pliki źródłowe (*.xml)|*.xml|Pliki szablonów (*.xml.template)|*.xml.template|Wszystkie pliki|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -165,11 +165,11 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Nowy klucz...</value>
+    <value>Nowe klawisze...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nie znaleziono punktów wejścia (plików EXE, JAR, skryptów Python itp.). Upewnij się, że wybrałeś właściwe archiwum i katalog rozpakowywania.</value>
+    <value>Nie znaleziono punktów wejścia (EXE, JAR, skrypty Python itp.). Upewnij się, że wybrałeś prawidłowe archiwum i katalog do rozpakowania.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -182,7 +182,7 @@ składa się tylko z jednego EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>Pliki obrazów PNG</value>
+    <value>Pliki graficzne PNG</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
@@ -194,12 +194,12 @@ składa się tylko z jednego EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Oszczędzać mimo wszystko?</value>
+    <value>Zapisać?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
     <value>Zapisz
-Zapisz zmiany</value>
+Zapisywanie zmian</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">

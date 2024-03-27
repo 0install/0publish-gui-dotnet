@@ -193,7 +193,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Αποθηκεύστε ούτως ή άλλως</value>
+    <value>Αποθήκευση ούτως ή άλλως</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
@@ -206,11 +206,11 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Επιτυχής υπογραφή αρχείων.</value>
+    <value>Επιτυχημένη υπογραφή αρχείων.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Τροφοδοσίες υπογραφής</value>
+    <value>Υπογραφή feeds</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">

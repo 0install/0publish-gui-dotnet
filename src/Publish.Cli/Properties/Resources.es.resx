@@ -160,7 +160,7 @@ Puede redistribuir copias de este programa bajo los términos de la Licencia Pú
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionMainExe" xml:space="preserve">
-    <value>El relativo {PATH} al EXE principal de la aplicación a capturar. Dejar sin ajustar para autodetectar.</value>
+    <value>El relativo {PATH} al EXE principal de la aplicación a capturar. Dejar sin configurar para autodetectar.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Options" xml:space="preserve">

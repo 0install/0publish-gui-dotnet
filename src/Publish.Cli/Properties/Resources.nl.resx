@@ -128,7 +128,7 @@ Je mag kopieën van dit programma verspreiden onder de voorwaarden van de GNU Le
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Bied de gebruiker de mogelijkheid om een eigen pad te kiezen voor het opslaan van implementaties.</value>
+    <value>Biedt de gebruiker de mogelijkheid om een eigen pad te kiezen voor het opslaan van implementaties.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">

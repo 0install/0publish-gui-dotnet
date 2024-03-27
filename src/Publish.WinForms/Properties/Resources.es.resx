@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Falta añadir</value>
+    <value>Añadir lo que falta</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -85,11 +85,11 @@ La información sobre la integración de la aplicación en el escritorio (por ej
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>¿Está seguro de que desea continuar sin añadir iconos?
-Zero Install sólo podrá mostrar un icono genérico de marcador de posición en el catálogo, así como para cualquier acceso directo de integración en el escritorio.</value>
+La Instalación Cero sólo podrá mostrar un icono genérico de marcador de posición en el catálogo, así como para cualquier acceso directo de integración en el escritorio.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>¿Estás seguro de que quieres continuar sin completar estos ajustes?
+    <value>¿Está seguro de que desea continuar sin completar estos ajustes?
 Su feed sólo funcionará localmente y no en línea.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -99,11 +99,11 @@ Su feed sólo funcionará localmente y no en línea.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Mantener
-La aplicación debía seguir siendo la misma</value>
+Se suponía que la aplicación iba a seguir siendo la misma</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>El resumen del manifiesto ha cambiado. Desea sustituir el existente?</value>
+    <value>El resumen del manifiesto ha cambiado. ¿Desea sustituir el existente?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
@@ -112,24 +112,24 @@ La aplicación debía seguir siendo la misma</value>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>Sustituir
-He cambiado la aplicación a propósito</value>
+He cambiado la implementación a propósito</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
     <value>Descartar
-Descartar cambios no guardados</value>
+Descarta los cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Descargando imagen para vista previa...</value>
+    <value>Descarga de imagen para previsualización...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Se ha calculado un resumen del manifiesto para un directorio vacío. Compruebe que ha establecido el valor "extract" correcto para el archivo.</value>
+    <value>Se ha calculado un resumen del manifiesto para un directorio vacío. Compruebe que ha establecido el valor de "extracción" correcto para el archivo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Archivos feed (*.xml)|*.xml|Archivos plantilla (*.xml.template)|*.xml.template|Todos los archivos|*</value>
+    <value>Archivos de alimentación (*.xml)|*.xml|Archivos de plantilla (*.xml.template)|*.xml.template|Todos los archivos|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -145,11 +145,11 @@ Descartar cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Error al extraer el instalador como un archivo.</value>
+    <value>Error al extraer el instalador como archivo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Debe proporcionar una fuente de descarga alternativa para la aplicación, por ejemplo, un archivo ZIP. Seguiremos utilizando la información de integración de escritorio capturada desde el instalador</value>
+    <value>Debe proporcionar una fuente de descarga alternativa para la aplicación, por ejemplo, un archivo ZIP. Seguiremos utilizando la información de integración de escritorio capturada del instalador</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -157,7 +157,7 @@ Descartar cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Aún no se ha calculado el resumen del manifiesto.</value>
+    <value>El resumen de manifiestos aún no se ha calculado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -165,11 +165,11 @@ Descartar cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Nueva llave...</value>
+    <value>Nueva tecla...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>No se han encontrado puntos de entrada (EXEs, JARs, scripts Python, etc.). Asegúrese de haber seleccionado el archivo y el directorio de extracción correctos.</value>
+    <value>No se han encontrado puntos de entrada (EXEs, JARs, scripts Python, etc.). Por favor, asegúrese de que ha seleccionado el archivo y el directorio de extracción correctos.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -194,7 +194,7 @@ consiste sólo en un EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>¿Salvar de todos modos?</value>
+    <value>¿Guardar de todos modos?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
@@ -203,7 +203,7 @@ Guardar cambios</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>¿Quieres guardar los cambios?</value>
+    <value>¿Desea guardar los cambios?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
@@ -211,11 +211,11 @@ Guardar cambios</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Feeds de firmas</value>
+    <value>Firma de feeds</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>El tamaño del archivo aún no se ha determinado.</value>
+    <value>Tamaño de archivo aún por determinar.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">

@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>特定のフィードを実行または統合するためにカスタマイズされたゼロインストールブートストラッパーを構築します。</value>
+    <value>特定のフィードを実行または統合するためにカスタマイズされたゼロインストール・ブートストラッパーを構築します。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DescriptionCapture" xml:space="preserve">
@@ -168,7 +168,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} またはboostrapテンプレート実行ファイルへのパス。デフォルトの場所からダウンロードする場合は未設定のままにしてください。</value>
+    <value>{URI} またはboostrapテンプレート実行ファイルへのパス。デフォルトの場所からダウンロードする場合は未設定のままにして下さい。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
