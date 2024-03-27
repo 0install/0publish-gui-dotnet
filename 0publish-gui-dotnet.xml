@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>0publish-gui - .NET version</name>
+  <summary>GUI editor for Zero Install feeds</summary>
+  <description>
+Publishing a program using Zero Install requires you to create an XML file
+listing the available versions, where to get them, and what other software they
+depend on.
+
+This program provides a simple graphical interface for creating and editing
+these feeds.</description>
+  <icon href="https://apps.0install.net/0install/0publish.png" type="image/png"/>
+  <icon href="https://apps.0install.net/0install/0publish.ico" type="image/vnd.microsoft.icon"/>
+  <homepage>https://docs.0install.net/tools/0publish-gui/</homepage>
+
+  <feed-for interface="https://apps.0install.net/0install/0publish-gui-dotnet.xml"/>
+
+  <group license="LGPL v3 (GNU Lesser General Public License)">
+    <requires interface="https://apps.0install.net/utils/gnupg.xml">
+      <environment insert="." name="PATH"/>
+    </requires>
+    <command name="run" path="0publish-gui.exe">
+      <runner command="run-gui" interface="https://apps.0install.net/dotnet/clr.xml" version="4.7.2.."/>
+    </command>
+
+    <!-- Use very high version number to treat local build as newer than any public version. -->
+    <implementation id="local" version="100-pre" stability="developer" local-path="artifacts/Release/net472"/>
+  </group>
+</interface>

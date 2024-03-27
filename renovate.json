@@ -4,7 +4,13 @@
   "ignoreDeps": ["System.Resources.Extensions"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["gittools", "AeroWizard", "Mono.Cecil", "Vestris.ResourceLib"],
+      "matchPackagePatterns": ["^NanoByte", "^ZeroInstall"],
+      "groupName": "Zero Install .NET",
+      "automerge": true,
+      "automergeType": "branch"
+    },
+    {
+      "matchPackagePatterns": ["gittools", "AeroWizard"],
       "automerge": true,
       "automergeType": "branch"
     }

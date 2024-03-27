@@ -22,7 +22,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          path: 0publish-win-${{steps.gitversion.outputs.nuGetVersion}}.*
+          path: 0publish-gui-dotnet-${{steps.gitversion.outputs.nuGetVersion}}.*
 
       # Release
       - name: Create GitHub Release
@@ -30,10 +30,10 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            0publish-win-${{steps.gitversion.outputs.legacySemVer}}.xml
-            0publish-win-${{steps.gitversion.outputs.legacySemVer}}.tar.zst
+            0publish-gui-dotnet-${{steps.gitversion.outputs.legacySemVer}}.xml
+            0publish-gui-dotnet-${{steps.gitversion.outputs.legacySemVer}}.tar.zst
           body: |
-            **[Documentation and download instructions](https://docs.0install.net/tools/0publish-win/)**
+            **[Documentation and download instructions](https://docs.0install.net/tools/0publish-gui/)**
 
             Based on [Zero Install .NET ${{steps.gitversion.outputs.nuGetVersion}}](https://github.com/0install/0install-dotnet/releases/${{steps.gitversion.outputs.nuGetVersion}}).
       - name: Publish feed
@@ -42,5 +42,5 @@ jobs:
           GH_TOKEN: ${{secrets.PERSONAL_TOKEN}}
         run: >
           gh workflow run --repo=0install/apps Incoming
-          -f feed_url=https://github.com/${{github.repository}}/releases/download/${{github.ref_name}}/0publish-win-${{steps.gitversion.outputs.nuGetVersion}}.xml
-          -f archive_url=https://github.com/${{github.repository}}/releases/download/${{github.ref_name}}/0publish-win-${{steps.gitversion.outputs.nuGetVersion}}.tar.zst
+          -f feed_url=https://github.com/${{github.repository}}/releases/download/${{github.ref_name}}/0publish-gui-dotnet-${{steps.gitversion.outputs.nuGetVersion}}.xml
+          -f archive_url=https://github.com/${{github.repository}}/releases/download/${{github.ref_name}}/0publish-gui-dotnet-${{steps.gitversion.outputs.nuGetVersion}}.tar.zst

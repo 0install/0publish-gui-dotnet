@@ -1,9 +1,15 @@
-# Zero Install Publishing Tools
+# 0publish-gui - .NET version
 
-[![Build](https://github.com/0install/0publish-win/workflows/Build/badge.svg?branch=master)](https://github.com/0install/0publish-win/actions?query=workflow%3ABuild)  
-The Zero Install Publishing Tools provide a graphical editor and wizard for creating [Zero Install feeds](https://docs.0install.net/packaging/). They also contain an alternative version of the [0publish command-line tool](https://docs.0install.net/tools/0publish/) optimized for use on Windows. These tools are based on [Zero Install .NET](https://github.com/0install/0install-dotnet).
+[![Build](https://github.com/0install/0publish-gui-dotnet/workflows/Build/badge.svg)](https://github.com/0install/0publish-gui-dotnet/actions?query=workflow%3ABuild)  
+Publishing a program using Zero Install requires you to create an XML file listing the available versions, where to get them, and what other software they depend on.
+  
+This program provides a simple graphical interface for creating and editing these feeds.
 
-**[Documentation and download instructions](https://docs.0install.net/tools/0publish-win/)**
+**[Documentation and download instructions](https://docs.0install.net/tools/0publish-gui/)**
+
+## Other versions
+
+See also the [Python version](https://github.com/0install/0publish-gui) of this program, for use on Linux and macOS.
 
 ## Building
 

@@ -1,13 +1,32 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <!-- Project properties -->
   <PropertyGroup>
-    <AssemblyName>0publish-win</AssemblyName>
-    <RootNamespace>ZeroInstall.Publish.WinForms</RootNamespace>
-    <Description>WinForms-based editor for Zero Install feed XMLs.</Description>
+    <!-- Build configuration -->
+    <LangVersion>12.0</LangVersion>
+    <TargetFramework>net472</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>annotations</Nullable>
+    <AutoGenerateBindingRedirects>False</AutoGenerateBindingRedirects>
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn><!-- Missing XML comments -->
+    <SatelliteResourceLanguages>es;el;fr;it;ja;nl;pt-BR;pt-PT;ro;ru;tr;zh;zh-Hant</SatelliteResourceLanguages>
+
+    <!-- Project properties -->
+    <AssemblyName>0publish-gui</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>..\icon.ico</ApplicationIcon>
     <OutputType>WinExe</OutputType>
-    <OutputPath>..\..\artifacts\$(Configuration)\</OutputPath>
+    <OutputPath>..\artifacts\$(Configuration)\</OutputPath>
     <UseWindowsForms>True</UseWindowsForms>
+
+    <!-- Metadata -->
+    <Description>GUI editor for Zero Install feeds.</Description>
+    <Copyright>Copyright Bastian Eicher et al.</Copyright>
+    <RepositoryUrl>https://github.com/0install/0publish-gui-dotnet</RepositoryUrl>
+
+    <!-- Dummy version number, overridden by GitVersion -->
+    <Version>1.0.0-pre</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <DefineConstants>ERROR_REPORT</DefineConstants>
@@ -15,23 +34,27 @@
 
   <!-- Global usings -->
   <ItemGroup>
+    <Using Include="System.Diagnostics.CodeAnalysis" />
+    <Using Include="System.Net" />
+    <Using Include="NanoByte.Common" />
     <Using Include="NanoByte.Common.Controls" />
+    <Using Include="NanoByte.Common.Storage" />
+    <Using Include="NanoByte.Common.Tasks" />
     <Using Include="NanoByte.StructureEditor.WinForms" />
+    <Using Include="ZeroInstall.Model" />
     <Using Include="ZeroInstall.Publish.WinForms.Properties" />
   </ItemGroup>
 
   <!-- Dependencies -->
   <ItemGroup>
     <PackageReference Include="AeroWizard" Version="2.3.1" />
-    <PackageReference Include="NanoByte.Common.WinForms" Version="$(NanoByteCommonVersion)" />
-    <PackageReference Include="NanoByte.StructureEditor.WinForms" Version="$(NanoByteStructureEditorVersion)" />
-    <PackageReference Include="ZeroInstall.Store" Version="$(ZeroInstallVersion)" />
-    <PackageReference Include="ZeroInstall.Publish" Version="$(ZeroInstallVersion)" PrivateAssets="None" /><!-- Flow native libs from assets -->
+    <PackageReference Include="NanoByte.StructureEditor.WinForms" Version="0.8.2" />
+    <PackageReference Include="ZeroInstall.Publish" Version="2.25.7" PrivateAssets="None" /><!-- Flow native libs from assets -->
   </ItemGroup>
 
   <!-- Files to include with output -->
   <ItemGroup>
-    <Content Include="..\..\COPYING.txt">
+    <Content Include="..\COPYING.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
