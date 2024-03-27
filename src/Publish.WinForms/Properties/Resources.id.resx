@@ -75,17 +75,17 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Apakah ini EXE penginstal?</value>
+    <value>Apakah ini merupakan EXE penginstal?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Apakah Anda yakin ingin melewatkan pengambilan gambar?
+    <value>Apakah Anda yakin ingin melewatkan pemotretan?
 Informasi tentang integrasi desktop aplikasi (mis. asosiasi file) tidak akan ditambahkan ke feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Apakah Anda yakin ingin melanjutkan tanpa menambahkan ikon?
-Zero Install hanya akan dapat menampilkan ikon placeholder generik dalam katalog serta pintasan integrasi desktop.</value>
+Zero Install hanya akan dapat menampilkan ikon placeholder generik dalam katalog serta untuk pintasan integrasi desktop.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
@@ -98,8 +98,8 @@ Feed Anda hanya akan bekerja secara lokal dan tidak online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Tetap
-Penerapannya seharusnya tetap sama</value>
+    <value>Pertahankan
+Implementasi seharusnya tetap sama</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
@@ -107,7 +107,7 @@ Penerapannya seharusnya tetap sama</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Semua metode pengambilan lainnya untuk implementasi ini harus cocok dengan intisari yang baru juga!</value>
+    <value>Semua metode pengambilan lainnya untuk implementasi ini harus sesuai dengan intisari yang baru juga!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -125,7 +125,7 @@ Membuang perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Intisari manifes dihitung untuk direktori yang kosong. Periksa apakah Anda telah menetapkan nilai "ekstrak" yang benar untuk arsip.</value>
+    <value>Intisari manifes dihitung untuk direktori kosong. Periksa apakah Anda telah menetapkan nilai "ekstrak" yang benar untuk arsip.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -153,11 +153,11 @@ Membuang perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Manifest digest mungkin telah berubah.</value>
+    <value>Intisari manifes mungkin telah berubah.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Manifest digest belum dihitung.</value>
+    <value>Intisari manifes belum dihitung.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -190,11 +190,11 @@ hanya terdiri dari satu EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>URL HTTP/FTP (wajib)</value>
+    <value>URL HTTP/FTP (wajib diisi)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Simpan saja?</value>
+    <value>Menyimpan pula?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
@@ -219,7 +219,7 @@ Menyimpan perubahan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Sumber URL</value>
+    <value>URL sumber</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">

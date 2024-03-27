@@ -63,16 +63,16 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="BuildingBootstrapper" xml:space="preserve">
-    <value>Önyükleyici oluşturma</value>
-    <comment>Automatically translated.</comment>
+    <value>Oluşturma ön yükleyicisi</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DescriptionBootstrap" xml:space="preserve">
-    <value>Belirli bir beslemeyi çalıştırmak veya entegre etmek için özelleştirilmiş bir Zero Install Bootstrapper oluşturur.</value>
-    <comment>Automatically translated.</comment>
+    <value>Belirli bir akışı çalıştırmak ya da bütünleştirmek için özelleştirilmiş bir Zero Install ön yükleyicisi oluşturur.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DescriptionCapture" xml:space="preserve">
-    <value>Sistem durumunun anlık görüntülerini yakalar ve bir besleme oluşturmak için bunları karşılaştırır.</value>
-    <comment>Automatically translated.</comment>
+    <value>Sistem durumunun anlık görüntülerini alır ve bunları bir özet akışı oluşturmak için karşılaştırır.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Downloading" xml:space="preserve">
     <value>{0} indiriliyor</value>
@@ -83,8 +83,8 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileAlreadyExists" xml:space="preserve">
-    <value>'{0}' dosyası zaten mevcut. Üzerine yazmak için --force kullanın.</value>
-    <comment>Automatically translated.</comment>
+    <value>'{0}' dosyası zaten var. Üzerine yazılması için --force kullanın.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="LicenseInfo" xml:space="preserve">
     <value>Bu yazılım, yasaların izin verdiği ölçüde KESİNLİKLE HERHANGİ BİR GARANTİ OLMADAN sunulur.
@@ -104,40 +104,40 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionAppArgs" xml:space="preserve">
-    <value>Besleme tarafından başlatılan uygulamaya iletmek için ek komut satırı {ARGUMENTS}.</value>
-    <comment>Automatically translated.</comment>
+    <value>Akış tarafından başlatılan uygulamaya aktarılacak ek komut satırı {ARGUMENTS}.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalog" xml:space="preserve">
     <value>Belirtilen tüm akışları tek bir katalogda {FILE} birleştirin.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCatalogUri" xml:space="preserve">
-    <value>Varsayılan kataloğun yerini alacak kataloğun {URI} adresi. Yalnızca Zero Install zaten dağıtılmamışsa geçerlidir.</value>
-    <comment>Automatically translated.</comment>
+    <value>Varsayılan kataloğun yerini alacak katalog {URI}. Yalnızca Zero Install zaten hazırlanmamış ise uygulanır.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCollectFiles" xml:space="preserve">
-    <value>Kurulum dizininden oluşturulacak ZIP dosyasının {PATH} adresi. ZIP arşivi oluşturmamak için ayarsız bırakın.</value>
-    <comment>Automatically translated.</comment>
+    <value>Kurulum klasöründen oluşturulacak ZIP dosyası {PATH}. ZIP arşivi oluşturulmaması için ayarlanmamış olarak bırakın.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionConfig" xml:space="preserve">
-    <value>Bir Zero Install yapılandırmasını {0:OPTION} belirli bir {1:VALUE} olarak ayarlayın. Yalnızca Zero Install zaten dağıtılmamışsa mevcut yapılandırma dosyalarını geçersiz kılar.</value>
-    <comment>Automatically translated.</comment>
+    <value>Zero Install yapılandırmasında {0:OPTION} değerin belirli bir {1:VALUE} olarak ayarlayın. Geçerli yapılandırma dosyaları yalnızca Zero Install zaten hazırlanmamış ise değiştirilir</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionContent" xml:space="preserve">
-    <value>{PATH} bootstrapper'a gömülecek ek içeriği içeren bir dizine. Böyle bir dizini '0install export' kullanarak oluşturabilirsiniz.</value>
-    <comment>Automatically translated.</comment>
+    <value>Ön yükleyiciye ekleneck içeriklerin bulunduğu klasörün yolu {PATH}. '0install Export' komutu ile böyle bir klasör oluşturabilirsiniz.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionCustomizableStorePath" xml:space="preserve">
-    <value>Kullanıcıya uygulamaları depolamak için özel bir yol seçmesini önerin.</value>
-    <comment>Automatically translated.</comment>
+    <value>Kullanıcıya uygulamaları depolamak için özel bir yol seçmesini önerir.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionEstimatedRequiredSpace" xml:space="preserve">
-    <value>Gerekli tahmini diski {SPACE} gösterir (bayt olarak). Örtük olarak --customizable-store-path ayarını da yapar.</value>
-    <comment>Automatically translated.</comment>
+    <value>Gerekli ön görülen disk {SPACE} miktarını (bayt olarak) gösterir. Örtülü olarak --customizable-store-path değişkenini de ayarlar.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionForce" xml:space="preserve">
-    <value>Mevcut dosyaların üzerine yaz.</value>
-    <comment>Automatically translated.</comment>
+    <value>Var olan dosyaların üzerine yazılsın.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionGnuPGPassphrase" xml:space="preserve">
     <value>GnuPG gizli anahtar kilidini açmak için {PASS} kullanın.</value>
@@ -148,28 +148,28 @@ Bu yazılımın kopyaları GNU Kısıtlı Genel Kamu Lisansı koşullarına bağ
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionInstallationDirectory" xml:space="preserve">
-    <value>Yakalanacak uygulamanın kurulu olduğu dizinin {PATH} adresi. Otomatik algılamak için ayarsız bırakın.</value>
-    <comment>Automatically translated.</comment>
+    <value>Yakalanacak uygulamanın kurulu olduğu klasör {PATH}. Otomatik olarak algılanması için ayarlamadan bırakın.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>'0install integrate'e iletilecek komut satırı {ARGUMENTS}. '0install integrate'i hiç çağırmamak için unset bırakın.</value>
-    <comment>Automatically translated.</comment>
+    <value>'0install integrate' üzerine aktarılacak komut satırı {ARGUMENTS}. '0install integrate' çağrılmaması için ayarlamadan bırakın.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">
     <value>İmzalama işlemi için kullanılacak anahtar (birden fazla anahtarınız varsa ya da yeniden imzalama işlemi yapmak istiyorsanız farklı anahtarlar kullanın).</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionMainExe" xml:space="preserve">
-    <value>Yakalanacak uygulamanın ana EXE'sine göreceli {PATH}. Otomatik algılamak için ayarsız bırakın.</value>
-    <comment>Automatically translated.</comment>
+    <value>Yakalanacak uygulamanın ana EXE dosyası {PATH}. Otomatik olarak algılanması için ayarlamadan bırakın.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Seçenekler:</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="OptionTemplate" xml:space="preserve">
-    <value>{URI} veya boostrap şablonunun çalıştırılabilir dosyasının yolu. Varsayılan konumdan indirmek için ayarsız bırakın.</value>
-    <comment>Automatically translated.</comment>
+    <value>Çalıştırılabilir ön yükleme kalıbı {URI} ya da yolu. Varsayılan konumdan indirilmesi için ayarlamadan bırakın.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="OptionUnsign" xml:space="preserve">
     <value>Var olan herhangi bir imzayı kaldırın.</value>

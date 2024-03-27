@@ -152,7 +152,7 @@ Kopie tohoto programu můžete šířit za podmínek licence GNU Lesser General 
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionIntegrateArgs" xml:space="preserve">
-    <value>Příkazový řádek {ARGUMENTS}, který se předá '0install integrate'. Ponechte hodnotu unset, aby se příkaz '0install integrate' vůbec nevolal.</value>
+    <value>Příkazový řádek {ARGUMENTS}, který se předává '0install integrate'. Ponechte hodnotu unset, aby se příkaz '0install integrate' vůbec nevolal.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="OptionKey" xml:space="preserve">

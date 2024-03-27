@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Adicionar em falta</value>
+    <value>Adicionar falta</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -80,12 +80,12 @@
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
     <value>Tem a certeza de que pretende saltar a captura?
-As informações sobre a integração do ambiente de trabalho da aplicação (por exemplo, associações de ficheiros) não serão adicionadas ao feed.</value>
+As informações sobre a integração da aplicação no ambiente de trabalho (por exemplo, associações de ficheiros) não serão adicionadas ao feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Tem a certeza de que pretende continuar sem adicionar ícones?
-A Instalação Zero só poderá apresentar um ícone de marcador de posição genérico no catálogo, bem como para quaisquer atalhos de integração no ambiente de trabalho.</value>
+O Zero Install só poderá apresentar um ícone de espaço reservado genérico no catálogo, bem como para quaisquer atalhos de integração no ambiente de trabalho.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
@@ -99,7 +99,7 @@ O seu feed só funcionará localmente e não online.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Manter
-A implementação deveria manter-se inalterada</value>
+A implementação era suposto manter-se inalterada</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
@@ -107,7 +107,7 @@ A implementação deveria manter-se inalterada</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Todos os outros métodos de recuperação para esta implementação devem também corresponder ao novo resumo!</value>
+    <value>Todos os outros métodos de recuperação para esta implementação também devem corresponder ao novo resumo!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -117,11 +117,11 @@ Alterei a implementação de propósito</value>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
     <value>Descartar
-Rejeitar alterações não guardadas</value>
+Eliminar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Descarregar imagem para pré-visualização...</value>
+    <value>Descarregamento da imagem para pré-visualização...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
@@ -149,11 +149,11 @@ Rejeitar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>É necessário fornecer uma fonte de transferência alternativa para a aplicação, por exemplo, um arquivo ZIP. Continuaremos a utilizar as informações de integração do ambiente de trabalho captadas pelo instalador!</value>
+    <value>É necessário fornecer uma fonte de transferência alternativa para a aplicação, por exemplo, um arquivo ZIP. Continuaremos a utilizar as informações de integração no ambiente de trabalho captadas pelo instalador!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>O resumo do manifesto pode ter mudado.</value>
+    <value>O resumo do manifesto pode ter sido alterado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
@@ -165,7 +165,7 @@ Rejeitar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Nova chave...</value>
+    <value>Nova tecla...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
@@ -178,7 +178,7 @@ consiste apenas num EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Por favor, clique:</value>
+    <value>Clique em:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
@@ -194,7 +194,7 @@ consiste apenas num EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Salvar na mesma?</value>
+    <value>Guardar mesmo assim?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
@@ -215,11 +215,11 @@ Guardar alterações</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>O tamanho do ficheiro ainda não foi determinado.</value>
+    <value>Tamanho do ficheiro ainda não determinado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Fonte URL</value>
+    <value>URL de origem</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
@@ -231,7 +231,7 @@ Guardar alterações</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Tipo de MIME incorreto! Deveria ser {0}.</value>
+    <value>Tipo de MIME errado! Deveria ser {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">

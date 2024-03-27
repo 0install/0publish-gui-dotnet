@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Aggiungi mancante</value>
+    <value>Aggiunta di elementi mancanti</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -85,7 +85,7 @@ Le informazioni sull'integrazione del desktop dell'applicazione (ad esempio, le 
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Siete sicuri di voler continuare senza aggiungere icone?
-Zero Install sarà in grado di visualizzare solo un'icona segnaposto generica nel catalogo e per qualsiasi collegamento all'integrazione del desktop.</value>
+Zero Install sarà in grado di visualizzare solo un'icona segnaposto generica nel catalogo e per qualsiasi collegamento di integrazione con il desktop.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
@@ -149,15 +149,15 @@ Scarta le modifiche non salvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>È necessario fornire un'origine alternativa per il download dell'applicazione, ad esempio un archivio ZIP. Verranno comunque utilizzate le informazioni sull'integrazione del desktop acquisite dal programma di installazione!</value>
+    <value>È necessario fornire una fonte di download alternativa per l'applicazione, ad esempio un archivio ZIP. Verranno comunque utilizzate le informazioni sull'integrazione del desktop acquisite dal programma di installazione!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Il manifesto potrebbe essere cambiato.</value>
+    <value>Il manifesto digest potrebbe essere cambiato.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Il digest del manifesto non è ancora stato calcolato.</value>
+    <value>Manifest digest non ancora calcolato.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -165,7 +165,7 @@ Scarta le modifiche non salvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Nuova chiave...</value>
+    <value>Nuovi tasti...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
@@ -174,7 +174,7 @@ Scarta le modifiche non salvate</value>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>No, l'applicazione stessa
-è costituita da un solo EXE</value>
+consiste solo in un EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
@@ -194,11 +194,11 @@ Scarta le modifiche non salvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Salvare in ogni caso?</value>
+    <value>Salvare comunque?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
-    <value>Salva
+    <value>Salvare
 Salva le modifiche</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -211,7 +211,7 @@ Salva le modifiche</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Feed di firma</value>
+    <value>Firma dei feed</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
@@ -219,7 +219,7 @@ Salva le modifiche</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Fonte URL</value>
+    <value>URL sorgente</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
@@ -227,7 +227,7 @@ Salva le modifiche</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>In attesa del completamento del programma di installazione</value>
+    <value>In attesa del completamento dell'installazione</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">

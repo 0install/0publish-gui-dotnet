@@ -71,11 +71,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Введите парольную фразу GnuPG для {0}:</value>
+    <value>Пожалуйста, введите парольную фразу GnuPG для {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Является ли это установочным EXE?</value>
+    <value>Это установочный EXE?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
@@ -85,12 +85,12 @@
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Вы уверены, что хотите продолжить работу без добавления значков?
-Zero Install сможет отобразить только общий значок-заполнитель в каталоге, а также для любых ярлыков интеграции с рабочим столом.</value>
+Zero Install сможет отобразить только общий значок в каталоге, а также ярлыки для интеграции с рабочим столом.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Вы уверены, что хотите продолжить, не выполнив эти настройки?
-Ваш канал будет работать только локально, но не в Интернете.</value>
+    <value>Вы уверены, что хотите продолжить, не завершив эти настройки?
+Ваша лента будет работать только локально, но не в Интернете.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -103,11 +103,11 @@ Zero Install сможет отобразить только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Дайджест манифеста изменился. Хотите ли Вы заменить существующий?</value>
+    <value>Дайджест манифеста изменился. Хотите ли вы заменить существующий?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Все остальные методы извлечения для данной реализации должны соответствовать новому дайджесту!</value>
+    <value>Все остальные методы получения для этой реализации должны соответствовать новому дайджесту!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -117,7 +117,7 @@ Zero Install сможет отобразить только общий знач�
   </data>
   <data name="DiscardChanges" xml:space="preserve">
     <value>Отбросить
-Отбросить несохраненные изменения</value>
+Отмена несохраненных изменений</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
@@ -125,11 +125,11 @@ Zero Install сможет отобразить только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Дайджест манифеста был рассчитан для пустого каталога. Проверьте, что для архива задано правильное значение "extract".</value>
+    <value>Дайджест манифеста был рассчитан для пустой директории. Проверьте, что вы установили правильное значение "extract" для архива.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Файлы Feed (*.xml)|*.xml|Файлы шаблонов (*.xml.template)|*.xml.template|Все файлы|*</value>
+    <value>Файлы фидов (*.xml)|*.xml|Файлы шаблонов (*.xml.template)|*.xml.template|Все файлы|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -137,11 +137,11 @@ Zero Install сможет отобразить только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Файлы значков Windows</value>
+    <value>Файлы иконок Windows</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Формат изображения не поддерживается программой Zero Install.</value>
+    <value>Формат изображения не поддерживается Zero Install.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
@@ -149,15 +149,15 @@ Zero Install сможет отобразить только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Вам необходимо предоставить альтернативный источник загрузки приложения, например, ZIP-архив. Мы все равно будем использовать информацию об интеграции с рабочим столом, полученную из программы установки!</value>
+    <value>Вам необходимо предоставить альтернативный источник загрузки приложения, например, ZIP-архив. Мы по-прежнему будем использовать информацию об интеграции с рабочим столом, полученную из программы установки!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Возможно, изменился дайджест манифеста.</value>
+    <value>Дайджест манифеста мог измениться.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Дайджест манифеста еще не рассчитан.</value>
+    <value>Дайджест манифеста пока не рассчитан.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -165,11 +165,11 @@ Zero Install сможет отобразить только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Новый ключ...</value>
+    <value>Новые клавиши...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Точек входа (EXE, JAR, Python-скрипты и т.д.) не найдено. Убедитесь, что выбран правильный каталог архива и распаковки.</value>
+    <value>Точек входа (EXE, JAR, Python-скрипты и т.д.) не найдено. Убедитесь, что вы выбрали правильный архив и каталог для распаковки.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -194,7 +194,7 @@ Zero Install сможет отобразить только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Все равно сохранять?</value>
+    <value>Как сохранить?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
@@ -203,11 +203,11 @@ Zero Install сможет отобразить только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Хотите ли вы сохранить изменения?</value>
+    <value>Хотите сохранить изменения?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Успешно подписаны файлы.</value>
+    <value>Успешно подписанные файлы.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
@@ -227,7 +227,7 @@ Zero Install сможет отобразить только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Ожидание завершения работы программы установки</value>
+    <value>Ожидание завершения установки</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
@@ -235,7 +235,7 @@ Zero Install сможет отобразить только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Да, программа установки EXE</value>
+    <value>Да, инсталлятор EXE</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

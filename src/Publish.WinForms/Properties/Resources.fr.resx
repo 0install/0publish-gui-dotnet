@@ -63,7 +63,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
-    <value>Tous les dossiers</value>
+    <value>Tous les fichiers</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
@@ -85,7 +85,7 @@ Les informations relatives à l'intégration de l'application au bureau (par exe
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Êtes-vous sûr de vouloir continuer sans ajouter d'icônes ?
-Zero Install ne pourra afficher qu'une icône générique dans le catalogue ainsi que pour tout raccourci d'intégration au bureau.</value>
+Zero Install ne pourra afficher qu'une icône générique dans le catalogue ainsi que pour les raccourcis d'intégration au bureau.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
@@ -99,20 +99,20 @@ Votre flux ne fonctionnera que localement et pas en ligne.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Garder
-La mise en œuvre devait rester inchangée</value>
+La mise en œuvre devait rester la même</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Le résumé du manifeste a changé. Souhaitez-vous remplacer le manifeste existant ?</value>
+    <value>Le manifeste a changé. Souhaitez-vous remplacer le manifeste existant ?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Toutes les autres méthodes d'extraction de cette mise en œuvre doivent également correspondre au nouveau condensé !</value>
+    <value>Toutes les autres méthodes de récupération de cette implémentation doivent également correspondre au nouveau condensé !</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>Remplacer
-J'ai modifié la mise en œuvre à dessein</value>
+J'ai changé l'implémentation volontairement</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
@@ -169,7 +169,7 @@ Annuler les modifications non sauveguardées</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Aucun point d'entrée (EXE, JAR, scripts Python, etc.) n'a été trouvé. Veuillez vous assurer que vous avez sélectionné la bonne archive et le bon répertoire d'extraction.</value>
+    <value>Aucun point d'entrée (EXE, JAR, scripts Python, etc.) n'a été trouvé. Veuillez vous assurer que vous avez sélectionné l'archive et le répertoire d'extraction corrects.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -194,7 +194,7 @@ ne consiste qu'en un EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Sauvegarder quand même ?</value>
+    <value>Enregistrer quand même ?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
@@ -227,7 +227,7 @@ Enregistre les modifications</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Attente de la fin du programme d'installation</value>
+    <value>Attente de la fin de l'installation</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">

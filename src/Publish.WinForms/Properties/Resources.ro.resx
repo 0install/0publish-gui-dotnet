@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Adăugați lipsă</value>
+    <value>Adăugarea de date lipsă</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Această cale de acces este îndreptată în afara arhivei.</value>
+    <value>Această cale indică în afara arhivei.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -79,18 +79,18 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Ești sigur că vrei să sari peste capturare?
+    <value>Sunteți sigur că doriți să treceți peste capturare?
 Informațiile despre integrarea aplicației pe desktop (de exemplu, asocierile de fișiere) nu vor fi adăugate la flux.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Sunteți sigur că doriți să continuați fără să adăugați pictograme?
-Zero Install va putea afișa doar o pictogramă generică în catalog, precum și pentru orice scurtături de integrare pe desktop.</value>
+    <value>Sunteți sigur că doriți să continuați fără a adăuga pictograme?
+Zero Install nu va putea afișa decât o pictogramă generică în catalog, precum și pentru orice scurtături de integrare pe desktop.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Sunteți sigur că doriți să continuați fără a finaliza aceste setări?
-Fluxul dvs. va funcționa doar la nivel local, nu și online.</value>
+Fluxul dvs. va funcționa numai la nivel local și nu online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -103,11 +103,11 @@ Implementarea trebuia să rămână aceeași</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Se modifică rezumatul manifestului. Doriți să îl înlocuiți pe cel existent?</value>
+    <value>S-a modificat rezumatul manifestului. Doriți să îl înlocuiți pe cel existent?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Toate celelalte metode de regăsire pentru această implementare trebuie să corespundă și ele noului cod!</value>
+    <value>Toate celelalte metode de preluare pentru această implementare trebuie să corespundă și ele noului compendiu!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -116,8 +116,8 @@ Am schimbat intenționat implementarea</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Aruncare
-Renunță la modificările nesalvate</value>
+    <value>Elimină
+Elimină modificările nesalvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
@@ -137,27 +137,27 @@ Renunță la modificările nesalvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Fișiere cu pictograme Windows</value>
+    <value>Fișiere cu pictograme pentru Windows</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Formatul imaginii nu este acceptat de Zero Install.</value>
+    <value>Formatul de imagine nu este suportat de Zero Install.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Nu s-a reușit extragerea programului de instalare ca arhivă.</value>
+    <value>Nu a reușit să extragă programul de instalare ca arhivă.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Trebuie să furnizați o sursă alternativă de descărcare a aplicației, de exemplu, o arhivă ZIP. Vom folosi în continuare informațiile de integrare a biroului capturate din programul de instalare!</value>
+    <value>Trebuie să furnizați o sursă alternativă de descărcare a aplicației, de exemplu, o arhivă ZIP. Vom folosi în continuare informațiile de integrare pe desktop capturate din programul de instalare!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Este posibil să se fi schimbat digestul manifestului.</value>
+    <value>Este posibil să se fi schimbat manifestul.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Digestul manifestului nu a fost încă calculat.</value>
+    <value>Manifest digest nu a fost încă calculat.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -165,7 +165,7 @@ Renunță la modificările nesalvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Cheie nouă...</value>
+    <value>Noi taste...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
@@ -174,7 +174,7 @@ Renunță la modificările nesalvate</value>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Nu, aplicația în sine
-este formată dintr-un singur EXE</value>
+constă doar dintr-un singur EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
@@ -186,7 +186,7 @@ este formată dintr-un singur EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
-    <value>în octeți (obligatoriu)</value>
+    <value>în bytes (obligatoriu)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
@@ -194,12 +194,12 @@ este formată dintr-un singur EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Salvează oricum?</value>
+    <value>Salvați oricum?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
     <value>Salvați
-Salvați modificările</value>
+Salvează modificările</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
@@ -211,7 +211,7 @@ Salvați modificările</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Semnarea feed-urilor</value>
+    <value>Semnarea fluxurilor</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
@@ -219,7 +219,7 @@ Salvați modificările</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Sursa URL</value>
+    <value>URL sursă</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
@@ -227,7 +227,7 @@ Salvați modificările</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Așteptarea finalizării programului de instalare</value>
+    <value>Așteptând ca programul de instalare să se finalizeze</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">

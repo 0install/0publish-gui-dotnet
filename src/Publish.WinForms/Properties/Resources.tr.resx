@@ -90,7 +90,7 @@ Bunu yaparsanız Zero Install masaüstü bütünleştirmeleri kısayolları içi
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Ayarları tamamlamadan devam etmek istediğinize emin misiniz?
-Bunu yaparsanız akışınız yerel kipte ve çevrimdışı olarak çalışır.</value>
+Bunu yaparsanız akışınız yerel kipte ve çevrim dışı olarak çalışır.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -103,11 +103,11 @@ Bu uyarlamanın aynı şekilde kalması gerekiyordu</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Bildirim özeti değişti. Değişikliğin var olan başka bir bildirim özetinin yerini almasını ister misiniz?</value>
+    <value>Öge listesi dosyası değişti. Var olan dosya değiştirilsin mi?</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Bu uyarlama için yeni özetin tüm diğer alma yöntemleriyle eşleşmesi gereklidir.</value>
+    <value>Bu uyarlama için yeni öge listesinin tüm diğer alma yöntemleriyle eşleşmesi gereklidir.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -125,7 +125,7 @@ Kaydedilmemiş değişiklikleri yok say</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Boş bir klasör için bir bildirim özeti tasarlandı. "extract" değerinin arşiv için doğru şekilde ayarlanmış olduğunu denetleyin.</value>
+    <value>Boş bir klasör için bir öge listesi dosyası hazırlandı. "extract" değerinin arşiv için doğru şekilde ayarlanmış olduğundan emin olun.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -153,11 +153,11 @@ Kaydedilmemiş değişiklikleri yok say</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Bildirim özeti değişmiş olabilir.</value>
+    <value>Öge listesi dosyası değişmiş olabilir.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Bildirim özeti henüz derlenmemiş.</value>
+    <value>Öge listesi dosyası henüz hazırlanmamış.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="Names" xml:space="preserve">
