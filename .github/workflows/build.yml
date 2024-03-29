@@ -34,8 +34,6 @@ jobs:
             0publish-gui-dotnet-${{steps.gitversion.outputs.legacySemVer}}.tar.zst
           body: |
             **[Documentation and download instructions](https://docs.0install.net/tools/0publish-gui/)**
-
-            Based on [Zero Install .NET ${{steps.gitversion.outputs.nuGetVersion}}](https://github.com/0install/0install-dotnet/releases/${{steps.gitversion.outputs.nuGetVersion}}).
       - name: Publish feed
         if: github.ref_type == 'tag'
         env:
