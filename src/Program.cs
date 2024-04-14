@@ -18,7 +18,6 @@ public static class Program
     [STAThread] // Required for WinForms
     private static void Main(string[] args)
     {
-        ProcessUtils.SanitizeEnvironmentVariables();
         NetUtils.ApplyProxy();
         ServicePointManager.DefaultConnectionLimit = 16;
 
