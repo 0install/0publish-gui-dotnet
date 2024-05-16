@@ -49,7 +49,7 @@
   <ItemGroup>
     <PackageReference Include="AeroWizard" Version="2.3.1" />
     <PackageReference Include="NanoByte.StructureEditor.WinForms" Version="0.8.2" />
-    <PackageReference Include="ZeroInstall.Publish" Version="2.25.7" />
+    <PackageReference Include="ZeroInstall.Publish" Version="2.25.10" />
   </ItemGroup>
 
   <!-- Files to include with output -->
