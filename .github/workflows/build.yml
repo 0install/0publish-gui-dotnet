@@ -23,6 +23,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           path: 0publish-gui-dotnet-${{steps.gitversion.outputs.nuGetVersion}}.*
+          compression-level: 0
 
       # Release
       - name: Create GitHub Release
