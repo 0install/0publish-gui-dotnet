@@ -169,7 +169,7 @@ Eliminar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Não foram encontrados pontos de entrada (EXEs, JARs, scripts Python, etc.). Certifique-se de que seleccionou o arquivo e o diretório de extração correctos.</value>
+    <value>Não foram encontrados pontos de entrada (EXEs, JARs, scripts Python, etc.). Certifique-se de que selecionou o arquivo e o diretório de extração corretos.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -207,7 +207,7 @@ Guardar alterações</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Ficheiros assinados com êxito.</value>
+    <value>Ficheiros assinados com sucesso.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
