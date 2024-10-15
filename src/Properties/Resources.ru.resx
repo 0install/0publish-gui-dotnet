@@ -107,7 +107,7 @@ Zero Install сможет отобразить только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Все остальные методы получения для этой реализации должны соответствовать новому дайджесту!</value>
+    <value>Все остальные методы извлечения для этой реализации должны соответствовать новому дайджесту!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
