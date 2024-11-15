@@ -85,7 +85,7 @@ Informasi tentang integrasi desktop aplikasi (mis. asosiasi file) tidak akan dit
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Apakah Anda yakin ingin melanjutkan tanpa menambahkan ikon?
-Zero Install hanya akan dapat menampilkan ikon placeholder generik dalam katalog serta pintasan integrasi desktop.</value>
+Zero Install hanya akan dapat menampilkan ikon placeholder generik dalam katalog serta untuk pintasan integrasi desktop.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
