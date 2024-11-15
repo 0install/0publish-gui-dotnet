@@ -79,7 +79,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>本当にキャプチャをスキップしますか？
+    <value>キャプチャをスキップしてもよろしいですか？
 アプリケーションのデスクトップ統合に関する情報（ファイルの関連付けなど）はフィードに追加されません。</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -103,7 +103,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>マニフェスト・ダイジェストが変更されました。既存のものを置き換えますか？</value>
+    <value>マニフェストのダイジェストが変更されました。既存のものを置き換えますか？</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">

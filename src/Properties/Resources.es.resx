@@ -103,7 +103,7 @@ Se suponía que la aplicación iba a seguir siendo la misma</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>El manifiesto ha cambiado. ¿Desea sustituir el existente?</value>
+    <value>El resumen del manifiesto ha cambiado. ¿Desea sustituir el existente?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
@@ -215,7 +215,7 @@ Guardar cambios</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>Tamaño de archivo aún por determinar.</value>
+    <value>Tamaño del archivo aún por determinar.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
