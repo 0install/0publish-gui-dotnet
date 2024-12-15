@@ -149,7 +149,7 @@ Eliminați modificările nesalvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Trebuie să furnizați o sursă alternativă de descărcare pentru aplicație, de exemplu o arhivă ZIP. Vom folosi în continuare informațiile de integrare pe desktop capturate din programul de instalare!</value>
+    <value>Trebuie să furnizați o sursă de descărcare alternativă pentru aplicație, de exemplu o arhivă ZIP. Vom folosi în continuare informațiile de integrare pe desktop capturate din programul de instalare!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">

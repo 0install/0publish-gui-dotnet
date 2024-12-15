@@ -129,7 +129,7 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Voerbestanden (*.xml)|*.xml|Template bestanden (*.xml.template)|*.xml.template|Alle bestanden|*</value>
+    <value>Feed bestanden (*.xml)|*.xml|Template bestanden (*.xml.template)|*.xml.template|Alle bestanden|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -149,7 +149,7 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Je moet een alternatieve downloadbron voor de toepassing opgeven, bijvoorbeeld een ZIP-archief. We zullen nog steeds de desktopintegratie-informatie gebruiken die is vastgelegd in het installatieprogramma!</value>
+    <value>Je moet een alternatieve downloadbron voor de applicatie opgeven, bijvoorbeeld een ZIP-archief. We zullen nog steeds de desktopintegratie-informatie gebruiken die is vastgelegd in het installatieprogramma!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">

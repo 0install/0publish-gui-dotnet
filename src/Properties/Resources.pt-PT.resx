@@ -125,7 +125,7 @@ Eliminar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Foi calculado um manifesto digest para um diretório vazio. Verifique se definiu o valor de "extração" correto para o arquivo.</value>
+    <value>Foi calculado um resumo do manifesto para um diretório vazio. Verifique se definiu o valor de "extração" correto para o arquivo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -207,7 +207,7 @@ Guardar alterações</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Ficheiros assinados com sucesso.</value>
+    <value>Ficheiros assinados com êxito.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
