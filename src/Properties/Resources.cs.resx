@@ -84,7 +84,7 @@ Informace o integraci aplikace na plochu (např. asociace souborů) nebudou do k
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Určitě chcete pokračovat bez přidání ikon?
+    <value>Jste si jisti, že chcete pokračovat bez přidání ikon?
 Nulová instalace bude schopna zobrazit pouze obecnou zástupnou ikonu v katalogu a také pro všechny zástupce pro integraci na plochu.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -107,7 +107,7 @@ Implementace měla zůstat stejná</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Všechny ostatní metody načítání pro tuto implementaci musí rovněž odpovídat novému digestu!</value>
+    <value>Všechny ostatní metody načítání pro tuto implementaci musí také odpovídat novému digestu!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -169,7 +169,7 @@ Odstranění neuložených změn</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nebyly nalezeny žádné vstupní body (EXE, JAR, skripty Python atd.). Ujistěte se, že jste vybrali správný archiv a adresář pro rozbalení.</value>
+    <value>Nebyly nalezeny žádné vstupní body (EXE, JAR, skripty Pythonu atd.). Zkontrolujte, zda jste vybrali správný archiv a adresář pro rozbalení.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
