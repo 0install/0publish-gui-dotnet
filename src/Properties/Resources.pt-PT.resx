@@ -149,7 +149,7 @@ Eliminar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>É necessário fornecer uma fonte de transferência alternativa para a aplicação, por exemplo, um arquivo ZIP. Continuaremos a utilizar as informações de integração no ambiente de trabalho captadas pelo instalador!</value>
+    <value>É necessário fornecer uma fonte de transferência alternativa para a aplicação, por exemplo, um arquivo ZIP. Continuaremos a utilizar as informações de integração do ambiente de trabalho captadas no instalador!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -207,7 +207,7 @@ Guardar alterações</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Ficheiros assinados com êxito.</value>
+    <value>Ficheiros assinados com sucesso.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
