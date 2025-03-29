@@ -47,8 +47,8 @@
   <!-- Dependencies -->
   <ItemGroup>
     <PackageReference Include="AeroWizard" Version="2.3.1" />
-    <PackageReference Include="NanoByte.StructureEditor.WinForms" Version="0.9.1" />
-    <PackageReference Include="ZeroInstall.Publish" Version="2.26.0" />
+    <PackageReference Include="NanoByte.StructureEditor.WinForms" Version="0.9.3" />
+    <PackageReference Include="ZeroInstall.Publish" Version="2.26.5" />
   </ItemGroup>
 
   <!-- Files to include with output -->
