@@ -16,7 +16,7 @@ See also the [Python version](https://github.com/0install/0publish-gui) of this 
 The source code is in [`src/`](src/) and generated artifacts are placed in `artifacts/`.  
 The source code does not contain version numbers. Instead the version is determined during CI using [GitVersion](https://gitversion.net/).
 
-To build install [Visual Studio 2022 v17.8 or newer](https://www.visualstudio.com/downloads/) and run `.\build.ps1`.  
+To build install [Visual Studio 2022 v17.13 or newer](https://www.visualstudio.com/downloads/) and run `.\build.ps1`.  
 
 ## Contributing
 
