@@ -2,6 +2,7 @@
 // Licensed under the GNU Lesser Public License
 
 using AeroWizard;
+using NanoByte.Common.Net;
 
 namespace ZeroInstall.Publish.WinForms;
 
@@ -45,6 +46,8 @@ partial class NewFeedWizard
                         break;
                 }
             }
+            else if (fileName.EndsWithIgnoreCase(@".jar"))
+                OnSingleFile();
             else
             {
                 try
@@ -82,7 +85,11 @@ partial class NewFeedWizard
     private void OnSingleFile()
     {
         Retrieve(
-            new SingleFile {Href = textBoxDownloadUrl.Uri, Destination = "dummy"},
+            new SingleFile
+            {
+                Href = textBoxDownloadUrl.Uri,
+                Destination = checkLocalCopy.Checked ? Path.GetFileName(textBoxLocalPath.Text) : textBoxDownloadUrl.Uri.GetLocalFileName()
+            },
             localPath: checkLocalCopy.Checked ? textBoxLocalPath.Text : null);
 
         _feedBuilder.ImplementationDirectory = _feedBuilder.TemporaryDirectory!;
