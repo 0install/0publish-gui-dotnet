@@ -40,7 +40,7 @@ partial class NewFeedWizard
                     case DialogResult.No:
                         OnSingleFile();
                         break;
-                    default:
+                    case DialogResult.Cancel:
                         e.Cancel = true;
                         break;
                 }
@@ -83,7 +83,8 @@ partial class NewFeedWizard
     {
         Retrieve(
             new SingleFile {Href = textBoxDownloadUrl.Uri, Destination = "dummy"},
-            checkLocalCopy.Checked ? textBoxLocalPath.Text : null);
+            localPath: checkLocalCopy.Checked ? textBoxLocalPath.Text : null);
+
         _feedBuilder.ImplementationDirectory = _feedBuilder.TemporaryDirectory!;
         using (var handler = new DialogTaskHandler(this))
         {
@@ -91,7 +92,7 @@ partial class NewFeedWizard
             _feedBuilder.GenerateDigest(handler);
         }
         if (_feedBuilder.MainCandidate == null) throw new NotSupportedException(Resources.NoEntryPointsFound);
-        else  pageDownload.NextPage = pageDetails;
+        else pageDownload.NextPage = pageDetails;
     }
 
     private void OnArchive()
