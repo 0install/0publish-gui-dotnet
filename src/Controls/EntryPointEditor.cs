@@ -21,12 +21,18 @@ public sealed class EntryPointEditor : SummaryEditor<EntryPoint>
         };
         Bind(textBoxNames, () => Target!.Names);
 
-        // Shift existing controls down
         SuspendLayout();
+
+        // Shift existing controls down
         TextBoxSummary.Top = textBoxNames.Bottom + 6;
         TextBoxDescription.Top = TextBoxSummary.Bottom + 6;
         EditorControl.Top = TextBoxDescription.Bottom + 6;
         EditorControl.Height = Height - TextBoxDescription.Bottom - 6;
+
+        // High DPI support
+        AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+        AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
         ResumeLayout();
     }
 }
