@@ -4,13 +4,17 @@
   "ignoreDeps": ["System.Resources.Extensions"],
   "packageRules": [
     {
+      "matchPackagePatterns": ["^gittools"],
+      "allowedVersions": "<4"
+    },
+    {
       "matchPackagePatterns": ["^NanoByte", "^ZeroInstall"],
       "groupName": "Zero Install .NET",
       "automerge": true,
       "automergeType": "branch"
     },
     {
-      "matchPackagePatterns": ["gittools", "AeroWizard"],
+      "matchPackagePatterns": ["AeroWizard"],
       "automerge": true,
       "automergeType": "branch"
     }
