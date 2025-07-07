@@ -79,11 +79,14 @@ public class FeedStructureEditor : StructureEditor<Feed>
            .AddElement("file-type", () => new FileType {ID = RandomID()}, new DescriptionEditor<FileType>())
            .AddElement("url-protocol", () => new UrlProtocol {ID = RandomID()}, new DescriptionEditor<UrlProtocol>())
            .AddElement("context-menu", () => new Model.Capabilities.ContextMenu {ID = RandomID()}, new DescriptionEditor<Model.Capabilities.ContextMenu>())
+           .AddElement("native-messaging", () => new BrowserNativeMessaging {ID = RandomID(), Name = null!})
            .AddElement("com-server", () => new ComServer {ID = RandomID()})
            .AddElement("auto-play", () => new AutoPlay {ID = RandomID(), Provider = "My App", Verb = null!}, new DescriptionEditor<AutoPlay>())
            .AddElement("registration", () => new AppRegistration {ID = RandomID(), CapabilityRegPath = null!})
            .AddElement("default-program", () => new DefaultProgram {ID = RandomID(), Service = "Media"}, new DescriptionEditor<DefaultProgram>())
            .AddElement("remove-hook", () => new RemoveHook {ID = RandomID()});
+        Describe<BrowserNativeMessaging>()
+           .AddPlainList("browser-extension", x => x.BrowserExtensions, () => new() {ID = null!});
         Describe<AutoPlay>()
            .AddPlainList("event", x => x.Events, () => new() {Name = null!})
            .AddProperty("verb", x => PropertyPointer.For(() => x.Verb), () => new() {Name = "play"}, new DescriptionEditor<Verb>());
