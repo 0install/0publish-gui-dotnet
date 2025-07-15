@@ -169,7 +169,7 @@ Odstranění neuložených změn</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nebyly nalezeny žádné vstupní body (EXE, JAR, skripty Pythonu atd.). Ujistěte se, že jste vybrali správný archiv a adresář pro rozbalení.</value>
+    <value>Nebyly nalezeny žádné vstupní body (EXE, JAR, skripty Pythonu atd.). Zkontrolujte, zda jste vybrali správný archiv a adresář pro rozbalení.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
