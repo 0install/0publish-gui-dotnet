@@ -1,6 +1,6 @@
 # 0publish-gui - .NET version
 
-[![Build](https://github.com/0install/0publish-gui-dotnet/workflows/Build/badge.svg)](https://github.com/0install/0publish-gui-dotnet/actions?query=workflow%3ABuild)  
+[![Build](https://github.com/0install/0publish-gui-dotnet/actions/workflows/build.yml/badge.svg)](https://github.com/0install/0publish-gui-dotnet/actions/workflows/build.yml)  
 Publishing a program using Zero Install requires you to create an XML file listing the available versions, where to get them, and what other software they depend on.
   
 This program provides a simple graphical interface for creating and editing these feeds.
