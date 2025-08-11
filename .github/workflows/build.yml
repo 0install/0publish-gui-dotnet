@@ -6,7 +6,7 @@ jobs:
     runs-on: windows-latest
     steps:
       # Prepare
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
           show-progress: false
@@ -20,7 +20,7 @@ jobs:
       - name: Build
         run: .\build.ps1 ${{steps.gitversion.outputs.nuGetVersion}}
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           path: 0publish-gui-dotnet-${{steps.gitversion.outputs.nuGetVersion}}.*
           compression-level: 0
