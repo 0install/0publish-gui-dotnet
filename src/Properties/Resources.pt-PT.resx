@@ -125,7 +125,7 @@ Eliminar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Foi calculado um resumo do manifesto para um diretório vazio. Verifique se definiu o valor de "extração" correto para o arquivo.</value>
+    <value>Foi calculado um manifesto digest para um diretório vazio. Verifique se definiu o valor de "extração" correto para o arquivo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -231,7 +231,7 @@ Guardar alterações</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Tipo de MIME incorreto! Deveria ser {0}.</value>
+    <value>Tipo de MIME errado! Deveria ser {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
