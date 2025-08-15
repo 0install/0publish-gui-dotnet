@@ -89,7 +89,7 @@ Zero Install kan alleen een algemeen plaatshouderpictogram weergeven in de catal
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Weet je zeker dat je verder wilt gaan zonder deze instellingen te voltooien?
+    <value>Weet je zeker dat je wilt doorgaan zonder deze instellingen te voltooien?
 Je feed werkt alleen lokaal en niet online.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -149,7 +149,7 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Je moet een alternatieve downloadbron voor de toepassing opgeven, bijvoorbeeld een ZIP-archief. We zullen nog steeds de desktopintegratie-informatie gebruiken die is vastgelegd in het installatieprogramma!</value>
+    <value>Je moet een alternatieve downloadbron voor de applicatie opgeven, bijvoorbeeld een ZIP-archief. We zullen nog steeds de desktopintegratie-informatie gebruiken die is vastgelegd in het installatieprogramma!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
