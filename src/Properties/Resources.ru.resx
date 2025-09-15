@@ -107,7 +107,7 @@ Zero Install сможет отобразить только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Все остальные методы извлечения для этой реализации должны соответствовать новому дайджесту!</value>
+    <value>Все остальные методы получения для этой реализации должны соответствовать новому дайджесту!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -117,7 +117,7 @@ Zero Install сможет отобразить только общий знач�
   </data>
   <data name="DiscardChanges" xml:space="preserve">
     <value>Отбросить
-Отбросить несохраненные изменения</value>
+Отмена несохраненных изменений</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
@@ -125,7 +125,7 @@ Zero Install сможет отобразить только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Дайджест манифеста был рассчитан для пустого каталога. Проверьте, что вы установили правильное значение "extract" для архива.</value>
+    <value>Дайджест манифеста был рассчитан для пустой директории. Проверьте, что вы установили правильное значение "extract" для архива.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
