@@ -103,11 +103,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>マニフェストのダイジェストが変更されました。既存のものを置き換えますか？</value>
+    <value>マニフェスト・ダイジェストが変更されました。既存のものを置き換えますか？</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>この実装の他のすべての検索メソッドも新しいダイジェストにマッチしなければなりません！</value>
+    <value>この実装の他のすべての検索メソッドも新しいダイジェストと一致しなければなりません！</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
