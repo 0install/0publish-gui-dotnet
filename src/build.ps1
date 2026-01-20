@@ -19,6 +19,6 @@ function Run-MSBuild {
 # Build
 if ($env:CI) { $ci = "/p:ContinuousIntegrationBuild=True" }
 Run-MSBuild /v:Quiet /t:Restore /t:Build $ci /p:Configuration=Release /p:Version=$Version ZeroInstall.Publish.WinForms.slnx
-Remove-Item ..\artifacts\Release\net472 -Recurse -Include *.xml,*.pdb,Microsoft.CodeAnalysis*
+Remove-Item ..\artifacts\Release\net48 -Recurse -Include *.xml,*.pdb,Microsoft.CodeAnalysis*
 
 popd
