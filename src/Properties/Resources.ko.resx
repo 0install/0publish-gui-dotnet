@@ -107,7 +107,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>이 구현을 위한 다른 모든 검색 방법도 새 다이제스트와 일치해야 합니다!</value>
+    <value>이 구현의 다른 모든 검색 방법도 새 다이제스트와 일치해야 합니다!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
