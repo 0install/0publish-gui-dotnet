@@ -129,7 +129,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>源文件（*.xml）|*.xml|模板文件（*.xml.template）|*.xml.template|所有文件|*</value>
+    <value>饲料文件 (*.xml)|*.xml| 模板文件 (*.xml.template)|*.xml.template| 所有文件|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
