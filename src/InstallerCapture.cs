@@ -52,7 +52,7 @@ internal sealed class InstallerCapture : IDisposable
 
         try
         {
-            _localPath = Path.Combine(_tempDir, url.GetLocalFileName());
+            _localPath = Paths.Combine(_tempDir, url.GetLocalFileName());
             handler.RunTask(new DownloadFile(url, _localPath));
         }
         #region Error handling

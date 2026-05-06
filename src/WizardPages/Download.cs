@@ -88,7 +88,7 @@ partial class NewFeedWizard
             new SingleFile
             {
                 Href = textBoxDownloadUrl.Uri,
-                Destination = checkLocalCopy.Checked ? Path.GetFileName(textBoxLocalPath.Text) : textBoxDownloadUrl.Uri.GetLocalFileName()
+                Destination = checkLocalCopy.Checked ? Paths.FileName(textBoxLocalPath.Text) : textBoxDownloadUrl.Uri.GetLocalFileName()
             },
             localPath: checkLocalCopy.Checked ? textBoxLocalPath.Text : null);
 

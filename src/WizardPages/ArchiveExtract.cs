@@ -35,7 +35,7 @@ partial class NewFeedWizard
             }
 
             _archive.Extract = listBoxExtract.Text ?? "";
-            _feedBuilder.ImplementationDirectory = Path.Combine(_feedBuilder.TemporaryDirectory!, _archive.Extract.ToNativePath()!);
+            _feedBuilder.ImplementationDirectory = Paths.Combine(_feedBuilder.TemporaryDirectory!, _archive.Extract.ToNativePath()!);
 
             try
             {
