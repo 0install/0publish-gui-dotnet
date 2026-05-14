@@ -67,7 +67,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Este caminho para fora do arquivo.</value>
+    <value>Este caminho aponta para fora do arquivo.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -182,7 +182,7 @@ consiste apenas em um EXE</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>Imagem PNG</value>
+    <value>Arquivos de imagem PNG</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
@@ -235,7 +235,7 @@ Salvar alterações</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Sim. instalador EXE</value>
+    <value>Sim, instalador EXE</value>
     <comment>Manually overriden.</comment>
   </data>
 </root>

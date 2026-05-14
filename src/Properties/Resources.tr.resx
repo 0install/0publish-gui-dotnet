@@ -98,7 +98,7 @@ Bunu yaparsanız akışınız yerel kipte ve çevrim dışı olarak çalışır.
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Devam
+    <value>Koru
 Bu uyarlamanın aynı şekilde kalması gerekiyordu</value>
     <comment>Manually overriden.</comment>
   </data>
@@ -112,7 +112,7 @@ Bu uyarlamanın aynı şekilde kalması gerekiyordu</value>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>Değiştir
-Uyarlama amacını kasıtlı olarak değiştirdim</value>
+Uyarlamayı kasıtlı olarak değiştirdim</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
@@ -145,7 +145,7 @@ Kaydedilmemiş değişiklikleri yok say</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Kurulum ile ilgili bir arşiv ayıklanamadı.</value>
+    <value>Kurulum programı arşiv olarak ayıklanamadı.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
@@ -169,7 +169,7 @@ Kaydedilmemiş değişiklikleri yok say</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Herhangi bir giriş noktası (EXE'ler, JAR'lar, Python komutları, vb.) bulunamadı. Lütfen seçtiğiniz arşivin geçerliliğinden ve klasöre ayıklanmış olduğundan emin olun.</value>
+    <value>Herhangi bir giriş noktası (EXE'ler, JAR'lar, Python betikleri, vb.) bulunamadı. Lütfen seçtiğiniz arşivin geçerliliğinden ve klasöre ayıklanmış olduğundan emin olun.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -235,7 +235,7 @@ Değişiklikleri kaydet</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Evet, EXE kurulum dosyası </value>
+    <value>Evet, EXE kurulum dosyası</value>
     <comment>Manually overriden.</comment>
   </data>
 </root>

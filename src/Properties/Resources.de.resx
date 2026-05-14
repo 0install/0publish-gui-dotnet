@@ -75,7 +75,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Ist dies eine Installations EXE?</value>
+    <value>Ist dies eine Installer-EXE?</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
@@ -85,7 +85,7 @@ Informationen über die Desktopintegration der Anwendung (z.B. Dateityp-Assoziat
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Sind Sie sicher, dass Sie fortfahren möchten ohne Icons hinzuzufügen?
-Zero Install wird nur ein generisches Platzhalter-Symbol im Katalog wie auch bei Desktopintergations-Verknüpfungen verwenden können.</value>
+Zero Install wird nur ein generisches Platzhalter-Symbol im Katalog wie auch bei Desktopintegrations-Verknüpfungen verwenden können.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
@@ -227,7 +227,7 @@ besteht aus nur einer EXE</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Warte bis Installater beendet ist</value>
+    <value>Warte bis Installer beendet ist</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
@@ -235,7 +235,7 @@ besteht aus nur einer EXE</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Ja, Installations EXE</value>
+    <value>Ja, Installer-EXE</value>
     <comment>Manually overriden.</comment>
   </data>
 </root>
