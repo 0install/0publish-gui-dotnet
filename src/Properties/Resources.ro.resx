@@ -116,9 +116,9 @@ Am schimbat intenționat implementarea</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Discard
+    <value>Renunță
 Aruncați modificările nesalvate</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
     <value>Descărcarea imaginii pentru previzualizare...</value>
@@ -165,8 +165,8 @@ Aruncați modificările nesalvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Taste noi...</value>
-    <comment>Automatically translated.</comment>
+    <value>Cheie nouă...</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>Nu au fost găsite puncte de intrare (EXE, JAR, scripturi Python etc.). Vă rugăm să vă asigurați că ați selectat arhiva corectă și directorul de extragere.</value>
@@ -215,8 +215,8 @@ Salvați modificările</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>Dimensiunea fișierului nu a fost încă stabilită.</value>
-    <comment>Automatically translated.</comment>
+    <value>Dimensiunea fișierului nu a fost încă determinată.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
     <value>URL sursă</value>

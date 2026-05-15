@@ -129,8 +129,8 @@ Scarta le modifiche non salvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>File di alimentazione (*.xml)|*.xml|File di modello (*.xml.template)|*.xml.template|Tutti i file|*</value>
-    <comment>Automatically translated.</comment>
+    <value>File feed (*.xml)|*.xml|File di modello (*.xml.template)|*.xml.template|Tutti i file|*</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
     <value>Dimensione del file</value>
@@ -165,8 +165,8 @@ Scarta le modifiche non salvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Nuovi tasti...</value>
-    <comment>Automatically translated.</comment>
+    <value>Nuova chiave...</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>Non sono stati trovati punti di ingresso (EXE, JAR, script Python, ecc.). Assicurarsi di aver selezionato l'archivio e la directory di estrazione corretti.</value>
@@ -215,8 +215,8 @@ Salva le modifiche</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>La dimensione del file non è ancora stata determinata.</value>
-    <comment>Automatically translated.</comment>
+    <value>Le dimensioni dei file non sono ancora state determinate.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
     <value>URL sorgente</value>

@@ -129,8 +129,8 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Pliki źródłowe (*.xml)|*.xml|Pliki szablonów (*.xml.template)|*.xml.template|Wszystkie pliki|*</value>
-    <comment>Automatically translated.</comment>
+    <value>Pliki feedów (*.xml)|*.xml|Pliki szablonów (*.xml.template)|*.xml.template|Wszystkie pliki|*</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
     <value>Rozmiar pliku</value>
@@ -165,8 +165,8 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Nowe klawisze...</value>
-    <comment>Automatically translated.</comment>
+    <value>Nowy klucz...</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>Nie znaleziono punktów wejścia (EXE, JAR, skrypty Python itp.). Upewnij się, że wybrałeś prawidłowe archiwum i katalog do rozpakowania.</value>
@@ -194,8 +194,8 @@ składa się tylko z jednego EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Zapisać?</value>
-    <comment>Automatically translated.</comment>
+    <value>Zapisać mimo to?</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
     <value>Zapisz
@@ -216,7 +216,7 @@ Zapisywanie zmian</value>
   </data>
   <data name="SizeMissing" xml:space="preserve">
     <value>Rozmiar pliku nie został jeszcze określony.</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
     <value>Źródło URL</value>

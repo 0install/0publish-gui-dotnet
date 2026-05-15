@@ -59,8 +59,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Adicionar falta</value>
-    <comment>Automatically translated.</comment>
+    <value>Adicionar em falta</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
     <value>Todos os ficheiros</value>
@@ -121,7 +121,7 @@ Eliminar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Descarregamento da imagem para pré-visualização...</value>
+    <value>Descarregamento de imagem para pré-visualização...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
@@ -165,8 +165,8 @@ Eliminar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Nova tecla...</value>
-    <comment>Automatically translated.</comment>
+    <value>Nova chave...</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>Não foram encontrados pontos de entrada (EXEs, JARs, scripts Python, etc.). Certifique-se de que selecionou o arquivo e o diretório de extração corretos.</value>
@@ -207,7 +207,7 @@ Guardar alterações</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Ficheiros assinados com sucesso.</value>
+    <value>Ficheiros assinados com êxito.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
@@ -215,8 +215,8 @@ Guardar alterações</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>Tamanho do ficheiro ainda não determinado.</value>
-    <comment>Automatically translated.</comment>
+    <value>O tamanho do ficheiro ainda não foi determinado.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
     <value>URL de origem</value>

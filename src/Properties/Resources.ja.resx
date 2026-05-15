@@ -107,7 +107,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>この実装の他のすべての検索メソッドも新しいダイジェストにマッチしなければなりません！</value>
+    <value>この実装の他のすべての検索メソッドも新しいダイジェストと一致しなければなりません！</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -129,8 +129,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>フィードファイル(*.xml)|*.xml|テンプレートファイル(*.xml.template)|*.xml.template|すべてのファイル|*。</value>
-    <comment>Automatically translated.</comment>
+    <value>フィードファイル(*.xml)|*.xml|テンプレートファイル(*.xml.template)|*.xml.template|すべてのファイル|*</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
     <value>ファイルサイズ</value>
@@ -174,8 +174,8 @@
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>いいえ、アプリケーション自体は
-つのEXE</value>
-    <comment>Automatically translated.</comment>
+1つのEXEのみで構成されています</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
     <value>クリックしてください：</value>
@@ -216,7 +216,7 @@
   </data>
   <data name="SizeMissing" xml:space="preserve">
     <value>ファイルサイズは未定。</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
     <value>ソースURL</value>

@@ -79,9 +79,9 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Apakah Anda yakin ingin melewatkan pemotretan?
+    <value>Apakah Anda yakin ingin melewatkan tangkapan?
 Informasi tentang integrasi desktop aplikasi (mis. asosiasi file) tidak akan ditambahkan ke feed.</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Apakah Anda yakin ingin melanjutkan tanpa menambahkan ikon?
@@ -111,9 +111,9 @@ Implementasi seharusnya tetap sama</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Menggantikan
+    <value>Ganti
 Saya mengubah implementasi dengan sengaja</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
     <value>Buang
@@ -194,8 +194,8 @@ hanya terdiri dari satu EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Menyimpan pula?</value>
-    <comment>Automatically translated.</comment>
+    <value>Tetap simpan?</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
     <value>Simpan
@@ -216,7 +216,7 @@ Menyimpan perubahan</value>
   </data>
   <data name="SizeMissing" xml:space="preserve">
     <value>Ukuran file belum ditentukan.</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
     <value>URL sumber</value>

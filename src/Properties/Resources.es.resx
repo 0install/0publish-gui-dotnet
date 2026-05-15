@@ -85,8 +85,8 @@ La información sobre la integración de la aplicación en el escritorio (por ej
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>¿Está seguro de que desea continuar sin añadir iconos?
-La Instalación Cero sólo podrá mostrar un icono genérico de marcador de posición en el catálogo, así como para cualquier acceso directo de integración en el escritorio.</value>
-    <comment>Automatically translated.</comment>
+Zero Install sólo podrá mostrar un icono genérico de marcador de posición en el catálogo, así como para cualquier acceso directo de integración en el escritorio.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>¿Está seguro de que desea continuar sin completar estos ajustes?
@@ -107,8 +107,8 @@ Se suponía que la aplicación iba a seguir siendo la misma</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Todos los demás métodos de recuperación de esta implementación también deben coincidir con el nuevo resumen</value>
-    <comment>Automatically translated.</comment>
+    <value>Todos los demás métodos de recuperación de esta implementación también deben coincidir con el nuevo resumen!</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>Sustituir
@@ -129,8 +129,8 @@ Descarta los cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Archivos de alimentación (*.xml)|*.xml|Archivos de plantilla (*.xml.template)|*.xml.template|Todos los archivos|*</value>
-    <comment>Automatically translated.</comment>
+    <value>Archivos de feed (*.xml)|*.xml|Archivos de plantilla (*.xml.template)|*.xml.template|Todos los archivos|*</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
     <value>Tamaño del archivo</value>
@@ -149,8 +149,8 @@ Descarta los cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Debe proporcionar una fuente de descarga alternativa para la aplicación, por ejemplo, un archivo ZIP. Seguiremos utilizando la información de integración de escritorio capturada del instalador</value>
-    <comment>Automatically translated.</comment>
+    <value>Debe proporcionar una fuente de descarga alternativa para la aplicación, por ejemplo, un archivo ZIP. Seguiremos utilizando la información de integración de escritorio capturada del instalador!</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
     <value>El resumen del manifiesto puede haber cambiado.</value>
@@ -165,8 +165,8 @@ Descarta los cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Nuevas teclas...</value>
-    <comment>Automatically translated.</comment>
+    <value>Nueva clave...</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>No se han encontrado puntos de entrada (EXEs, JARs, scripts Python, etc.). Por favor, asegúrese de que ha seleccionado el archivo y el directorio de extracción correctos.</value>
@@ -219,8 +219,8 @@ Guardar cambios</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Fuente URL</value>
-    <comment>Automatically translated.</comment>
+    <value>URL de origen</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>Resumen</value>
@@ -231,8 +231,8 @@ Guardar cambios</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Tipo MIME incorrecto Debería ser {0}.</value>
-    <comment>Automatically translated.</comment>
+    <value>Tipo MIME incorrecto. Debería ser {0}.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
     <value>Sí, instalador EXE</value>
