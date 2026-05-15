@@ -85,8 +85,8 @@ Informace o integraci aplikace na plochu (např. asociace souborů) nebudou do k
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Určitě chcete pokračovat bez přidání ikon?
-Nulová instalace bude schopna zobrazit pouze obecnou zástupnou ikonu v katalogu a také pro všechny zástupce pro integraci na plochu.</value>
-    <comment>Automatically translated.</comment>
+Zero Install bude schopen zobrazit pouze obecnou zástupnou ikonu v katalogu a také pro všechny zástupce pro integraci na plochu.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Opravdu chcete pokračovat bez dokončení těchto nastavení?
@@ -98,16 +98,16 @@ Váš zdroj bude fungovat pouze lokálně, nikoli online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Udržujte
+    <value>Zachovat
 Implementace měla zůstat stejná</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
     <value>Změnil se přehled manifestů. Přejete si nahradit ten stávající?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Všechny ostatní metody načítání pro tuto implementaci musí rovněž odpovídat novému digestu!</value>
+    <value>Všechny ostatní metody načítání pro tuto implementaci musí také odpovídat novému digestu!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -129,8 +129,8 @@ Odstranění neuložených změn</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Soubory krmiva (*.xml)|*.xml|Soubory šablony (*.xml.template)|*.xml.template|Všechny soubory|*</value>
-    <comment>Automatically translated.</comment>
+    <value>Soubory feedů (*.xml)|*.xml|Soubory šablony (*.xml.template)|*.xml.template|Všechny soubory|*</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
     <value>Velikost souboru</value>
@@ -165,11 +165,11 @@ Odstranění neuložených změn</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Nové klávesy...</value>
-    <comment>Automatically translated.</comment>
+    <value>Nový klíč...</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nebyly nalezeny žádné vstupní body (EXE, JAR, skripty Pythonu atd.). Ujistěte se, že jste vybrali správný archiv a adresář pro rozbalení.</value>
+    <value>Nebyly nalezeny žádné vstupní body (EXE, JAR, skripty Python atd.). Zkontrolujte, zda jste vybrali správný archiv a adresář pro rozbalení.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -215,8 +215,8 @@ Uložení změn</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>Velikost souboru zatím nebyla určena.</value>
-    <comment>Automatically translated.</comment>
+    <value>Velikost souborů zatím není určena.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
     <value>Zdrojová adresa URL</value>

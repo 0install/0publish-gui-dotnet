@@ -129,8 +129,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>饲料文件 (*.xml)|*.xml| 模板文件 (*.xml.template)|*.xml.template| 所有文件|*</value>
-    <comment>Automatically translated.</comment>
+    <value>Feed 文件 (*.xml)|*.xml|模板文件 (*.xml.template)|*.xml.template|所有文件|*</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
     <value>文件大小</value>
@@ -153,20 +153,20 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>任务摘要可能已更改。</value>
-    <comment>Automatically translated.</comment>
+    <value>清单摘要可能已更改。</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>任务摘要尚未计算。</value>
-    <comment>Automatically translated.</comment>
+    <value>清单摘要尚未计算。</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Names" xml:space="preserve">
     <value>名称</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>新键...</value>
-    <comment>Automatically translated.</comment>
+    <value>新密钥...</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
     <value>未找到入口点（EXE、JAR、Python 脚本等）。请确保您选择了正确的存档和解压缩目录。</value>
@@ -211,12 +211,12 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>签署供稿</value>
-    <comment>Automatically translated.</comment>
+    <value>签署源</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
     <value>文件大小尚未确定。</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
     <value>源 URL</value>

@@ -71,8 +71,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Voer de GnuPG-wachtzin in voor {0}:</value>
-    <comment>Automatically translated.</comment>
+    <value>Voer de GnuPG wachtwoordzin in voor {0}:</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
     <value>Is dit een installatie-EXE?</value>
@@ -89,7 +89,7 @@ Zero Install kan alleen een algemeen plaatshouderpictogram weergeven in de catal
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Weet je zeker dat je wilt doorgaan zonder deze instellingen te voltooien?
+    <value>Weet je zeker dat je verder wilt gaan zonder deze instellingen te voltooien?
 Je feed werkt alleen lokaal en niet online.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -216,7 +216,7 @@ Wijzigingen opslaan</value>
   </data>
   <data name="SizeMissing" xml:space="preserve">
     <value>Bestandsgrootte nog niet bepaald.</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
     <value>Bron URL</value>

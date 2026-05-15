@@ -103,8 +103,8 @@ La mise en œuvre devait rester la même</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Le manifeste a changé. Souhaitez-vous remplacer le manifeste existant ?</value>
-    <comment>Automatically translated.</comment>
+    <value>Le condensé du manifeste a changé. Souhaitez-vous remplacer l'existant ?</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
     <value>Toutes les autres méthodes de récupération de cette implémentation doivent également correspondre au nouveau condensé !</value>
@@ -116,8 +116,8 @@ J'ai changé l'implémentation volontairement</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Non
-Annuler les modifications non sauveguardées</value>
+    <value>Abandonner
+Abandonner les modifications non sauvegardées</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
@@ -153,12 +153,12 @@ Annuler les modifications non sauveguardées</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Le manifeste peut avoir changé.</value>
-    <comment>Automatically translated.</comment>
+    <value>Le condensé du manifeste peut avoir changé.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Le manifeste n'a pas encore été calculé.</value>
-    <comment>Automatically translated.</comment>
+    <value>Le condensé du manifeste n'a pas encore été calculé.</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="Names" xml:space="preserve">
     <value>Noms</value>
@@ -198,8 +198,8 @@ ne consiste qu'en un EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
-    <value>Oui
-Enregistre les modifications</value>
+    <value>Enregistrer
+Enregistrer les modifications</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
@@ -215,7 +215,7 @@ Enregistre les modifications</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
-    <value>La taille du fichier n'est pas encore determinée.</value>
+    <value>La taille du fichier n'est pas encore déterminée.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">

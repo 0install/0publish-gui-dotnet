@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Προσθήκη λείπει</value>
+    <value>Προσθήκη ελλειπόντων</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Αυτή η διαδρομή υπογραμμίζει εξωτερικα το αρχείο.</value>
+    <value>Αυτή η διαδρομή οδηγεί εκτός του αρχείου.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -79,8 +79,8 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Είστε βέβαιοι ότι παραλείψετε σύλληψη;
-Πληροφορίες σχετικά με την ένταξη της επιφάνειας εργασίας της εφαρμογής (π.χ. ενώσεις αρχείου) δεν θα πρέπει να προστεθούν στην τροφοδοσία.</value>
+    <value>Είστε βέβαιοι ότι θέλετε να παραλείψετε την καταγραφή;
+Πληροφορίες σχετικά με την ενοποίηση στην επιφάνεια εργασίας (π.χ. συσχετίσεις αρχείων) δεν θα προστεθούν στο feed.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
@@ -103,16 +103,16 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Το επιβατολόγιο έχει αλλάξει. Θέλετε να αντικαταστήσετε το υπάρχον;</value>
+    <value>Το digest του manifest άλλαξε. Θέλετε να αντικαταστήσετε το υπάρχον;</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Όλες οι άλλες μέθοδοι ανάκτησης για την εφαρμογή αυτή θα πρέπει ταιριάζουν!</value>
+    <value>Όλες οι άλλες μέθοδοι ανάκτησης για αυτή την υλοποίηση πρέπει να ταιριάζουν με το νέο digest!</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>Αντικατάσταση
-Έχω αλλάξει την εφαρμογή για τον σκοπό</value>
+Άλλαξα την υλοποίηση επίτηδες</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
@@ -125,7 +125,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Δηλωτικό υπολογίστηκε για ένα άδειο κατάλογο. Βεβαιωθείτε ότι έχετε ορίσει το σωστό "απόσπασμα" αξίας για το αρχείο.</value>
+    <value>Ένα digest manifest υπολογίστηκε για έναν κενό κατάλογο. Βεβαιωθείτε ότι έχετε ορίσει τη σωστή τιμή "extract" για το αρχείο.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -149,7 +149,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Θα πρέπει να παρέχετε μια εναλλακτική πηγή λήψης για την εφαρμογή, π.χ. ένα αρχείο ZIP. Θα εξακολουθούν να χρησιμοποιούν τις πληροφορίες ενσωμάτωσης στην επιφάνεια εργασίας συλλαμβάνονται από το πρόγραμμα εγκατάστασης!</value>
+    <value>Θα πρέπει να παρέχετε μια εναλλακτική πηγή λήψης για την εφαρμογή, π.χ. ένα αρχείο ZIP. Θα εξακολουθήσουμε να χρησιμοποιούμε τις πληροφορίες ενοποίησης στην επιφάνεια εργασίας που συλλέχθηκαν από το πρόγραμμα εγκατάστασης!</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -157,7 +157,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Εκδηλώνεται όχι η αφομοίωση  να εχει υπολογιστεί ακόμη.</value>
+    <value>Το digest manifest δεν έχει υπολογιστεί ακόμη.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -226,7 +226,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Αναμονη για την ολοκληρωση της εγκαταστασης</value>
+    <value>Αναμονή για την ολοκλήρωση της εγκατάστασης</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">

@@ -103,11 +103,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>적하 목록 다이제스트가 변경되었습니다. 기존 다이제스트를 교체하시겠습니까?</value>
-    <comment>Automatically translated.</comment>
+    <value>매니페스트 다이제스트가 변경되었습니다. 기존 것을 교체하시겠습니까?</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>이 구현의 다른 모든 검색 방법도 새 다이제스트와 일치해야 합니다!</value>
+    <value>이 구현을 위한 다른 모든 검색 방법도 새 다이제스트와 일치해야 합니다!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -216,7 +216,7 @@
   </data>
   <data name="SizeMissing" xml:space="preserve">
     <value>파일 크기는 아직 결정되지 않았습니다.</value>
-    <comment>Automatically translated.</comment>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
     <value>소스 URL</value>
