@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Aggiunta di elementi mancanti</value>
+    <value>Aggiungi ciò che manca</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -67,30 +67,30 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Questo percorso punta all'esterno dell'archivio.</value>
+    <value>Questo percorso punta al di fuori dell'archivio.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Inserire la passphrase GnuPG per {0}:</value>
+    <value>Inserisci la passphrase GnuPG per {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Si tratta di un EXE di installazione?</value>
+    <value>Si tratta di un file EXE di installazione?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Siete sicuri di voler saltare la cattura?
-Le informazioni sull'integrazione del desktop dell'applicazione (ad esempio, le associazioni dei file) non verranno aggiunte al feed.</value>
+    <value>Sei sicuro di voler saltare l'acquisizione?
+Le informazioni relative all'integrazione dell'applicazione con il desktop (ad es. associazioni di file) non verranno aggiunte al feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Siete sicuri di voler continuare senza aggiungere icone?
-Zero Install sarà in grado di visualizzare solo un'icona segnaposto generica nel catalogo e per qualsiasi collegamento di integrazione con il desktop.</value>
+    <value>Sei sicuro di voler continuare senza aggiungere icone?
+Zero Install potrà visualizzare solo un'icona generica di segnaposto nel catalogo e per eventuali collegamenti di integrazione sul desktop.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Siete sicuri di voler continuare senza completare queste impostazioni?
-Il feed funzionerà solo localmente e non online.</value>
+    <value>Sei sicuro di voler continuare senza completare queste impostazioni?
+Il tuo feed funzionerà solo in locale e non online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -99,11 +99,11 @@ Il feed funzionerà solo localmente e non online.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Mantenere
-L'implementazione doveva rimanere invariata</value>
+L'implementazione avrebbe dovuto rimanere invariata</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Il manifest digest è cambiato. Si desidera sostituire quello esistente?</value>
+    <value>Il riepilogo del manifesto è cambiato. Vuoi sostituire quello esistente?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
@@ -111,21 +111,21 @@ L'implementazione doveva rimanere invariata</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Sostituire
-Ho cambiato l'implementazione di proposito</value>
+    <value>Sostituisci
+Ho modificato l'implementazione di proposito</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Scartare
-Scarta le modifiche non salvate</value>
+    <value>Annulla
+Annulla le modifiche non salvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Download dell'immagine per l'anteprima...</value>
+    <value>Scaricamento dell'immagine per l'anteprima...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>È stato calcolato un manifest digest per una directory vuota. Verificare che sia stato impostato il valore "extract" corretto per l'archivio.</value>
+    <value>È stato calcolato un digest del manifesto per una directory vuota. Verifica di aver impostato il valore corretto per "extract" nell'archivio.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -137,27 +137,27 @@ Scarta le modifiche non salvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>File icona di Windows</value>
+    <value>File delle icone di Windows</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Il formato dell'immagine non è supportato da Zero Install.</value>
+    <value>Il formato immagine non è supportato da Zero Install.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Non è stato possibile estrarre il programma di installazione come archivio.</value>
+    <value>Impossibile estrarre il programma di installazione come archivio.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>È necessario fornire una fonte di download alternativa per l'applicazione, ad esempio un archivio ZIP. Verranno comunque utilizzate le informazioni sull'integrazione del desktop acquisite dal programma di installazione!</value>
+    <value>È necessario fornire una fonte di download alternativa per l'applicazione, ad esempio un archivio ZIP. Continueremo comunque a utilizzare le informazioni di integrazione desktop acquisite dal programma di installazione!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Il manifesto digest potrebbe essere cambiato.</value>
+    <value>Il riepilogo del manifesto potrebbe essere cambiato.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Manifest digest non ancora calcolato.</value>
+    <value>Il riepilogo del manifesto non è ancora stato calcolato.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -169,16 +169,16 @@ Scarta le modifiche non salvate</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Non sono stati trovati punti di ingresso (EXE, JAR, script Python, ecc.). Assicurarsi di aver selezionato l'archivio e la directory di estrazione corretti.</value>
+    <value>Non sono stati trovati punti di ingresso (EXE, JAR, script Python, ecc.). Assicurati di aver selezionato l'archivio e la directory di estrazione corretti.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>No, l'applicazione stessa
-consiste solo in un EXE</value>
+è costituita da un unico file EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Fare clic su:</value>
+    <value>Clicca qui:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
@@ -198,12 +198,12 @@ consiste solo in un EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
-    <value>Salvare
+    <value>Salva
 Salva le modifiche</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Volete salvare le modifiche?</value>
+    <value>Vuoi salvare le modifiche?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
@@ -219,11 +219,11 @@ Salva le modifiche</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>URL sorgente</value>
+    <value>URL della fonte</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
-    <value>Sintesi</value>
+    <value>Riepilogo</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
@@ -231,11 +231,11 @@ Salva le modifiche</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Tipo MIME sbagliato! Dovrebbe essere {0}.</value>
+    <value>Tipo MIME errato! Dovrebbe essere {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Sì, EXE di installazione</value>
+    <value>Sì, file EXE di installazione</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

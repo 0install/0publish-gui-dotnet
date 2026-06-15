@@ -84,12 +84,12 @@ Bunu yaparsanız uygulamaların masaüstü bütünleştirmeleri (örneğin dosya
     <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Simgeler olmadan devam etmek istediğinize emin misiniz?
-Bunu yaparsanız Zero Install masaüstü bütünleştirmeleri kısayolları için katalogdaki genel bir simge olarak görüntüler.</value>
+    <value>Simgeler olmadan ilerlemek istediğinize emin misiniz?
+Sıfır kurulumda, katalogda ve herhangi bir masaüstü bütünleştirme kısayolunda yalnızca genel bir yer belirtici simgesi görüntülenir.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Ayarları tamamlamadan devam etmek istediğinize emin misiniz?
+    <value>Ayarları tamamlamadan ilerlemek istediğinize emin misiniz?
 Bunu yaparsanız akışınız yerel kipte ve çevrim dışı olarak çalışır.</value>
     <comment>Manually overriden.</comment>
   </data>
@@ -149,7 +149,7 @@ Kaydedilmemiş değişiklikleri yok say</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Uygulama için, ZIP arşivi gibi alternatif bir indirme kaynağı belirtmelisiniz. Bu durumda da kurucu tarafından belirlenmiş masaüstü bütünleştirmesi kullanılmaya devam edilecek.</value>
+    <value>Uygulama için, ZIP arşivi gibi alternatif bir indirme kaynağı belirtmelisiniz. Bu durumda da kurucu tarafından belirlenmiş masaüstü bütünleştirmesi kullanılmayı sürdürecek.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -169,7 +169,7 @@ Kaydedilmemiş değişiklikleri yok say</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Herhangi bir giriş noktası (EXE'ler, JAR'lar, Python betikleri, vb.) bulunamadı. Lütfen seçtiğiniz arşivin geçerliliğinden ve klasöre ayıklanmış olduğundan emin olun.</value>
+    <value>Herhangi bir giriş noktası (EXE, JAR, Python betiği, vb.) bulunamadı. Lütfen seçtiğiniz arşivin geçerli ve klasöre ayıklanmış olduğundan emin olun.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">

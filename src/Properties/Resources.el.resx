@@ -185,7 +185,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
-    <value>σε bytes (απαιτείται)</value>
+    <value>σε byte (απαιτείται)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
@@ -193,7 +193,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Αποθήκευση ούτως ή άλλως</value>
+    <value>Να αποθηκεύσετε ούτως ή άλλως;</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
@@ -206,11 +206,11 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Επιτυχημένη υπογραφή αρχείων.</value>
+    <value>Αρχεία που έχουν υπογραφεί με επιτυχία.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Υπογραφή feeds</value>
+    <value>Υπογραφή ροών</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
@@ -218,7 +218,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Πηγή URL</value>
+    <value>Διεύθυνση URL πηγής</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">

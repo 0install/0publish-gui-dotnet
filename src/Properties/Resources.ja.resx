@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>欠落の追加</value>
+    <value>不足しているものを追加</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -67,30 +67,30 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>このパスはアーカイブの外を指しています。</value>
+    <value>このパスはアーカイブの外部を指しています。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>{0} のGnuPGパスフレーズを入力してください：</value>
+    <value>{0} の GnuPG パスフレーズを入力してください：</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>これはインストーラーEXEですか？</value>
+    <value>これはインストーラーのEXEファイルですか？</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>本当にキャプチャをスキップしますか？
-アプリケーションのデスクトップ統合に関する情報（ファイルの関連付けなど）はフィードに追加されません。</value>
+    <value>キャプチャをスキップしてもよろしいですか？
+アプリケーションのデスクトップ統合に関する情報（ファイルの関連付けなど）は、フィードに追加されません。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>アイコンを追加せずに続行してもよろしいですか？
-ゼロインストールでは、カタログとデスクトップ統合ショートカットに一般的なプレースホルダーアイコンを表示することしかできません。</value>
+Zero Installでは、カタログ内およびデスクトップ統合ショートカットにおいて、汎用のプレースホルダーアイコンしか表示できなくなります。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>これらの設定を完了せずに続行してもよろしいですか？
-あなたのフィードはローカルでのみ動作し、オンラインでは動作しません。</value>
+フィードはローカルでのみ機能し、オンラインでは利用できません。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -98,8 +98,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>キープ
-実装は変わらないはずだった</value>
+    <value>維持
+実装は変更しないことになっていた</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
@@ -107,25 +107,25 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>この実装の他のすべての検索メソッドも新しいダイジェストと一致しなければなりません！</value>
+    <value>この実装におけるその他のすべての検索方法も、新しいダイジェストと一致している必要があります！</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>入れ替え
-わざと実装を変えた</value>
+    <value>置換
+意図的に実装を変更しました</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
     <value>破棄
-未保存の変更を破棄する</value>
+保存されていない変更を破棄する</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>プレビューのために画像をダウンロード...</value>
+    <value>プレビュー用の画像をダウンロード中...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>マニフェスト・ダイジェストが空のディレクトリに対して計算されました。アーカイブに正しい "extract" 値が設定されているか確認してください。</value>
+    <value>空のディレクトリに対してマニフェストダイジェストが計算されました。アーカイブの「extract」値が正しく設定されているか確認してください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -137,27 +137,27 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Windowsアイコンファイル</value>
+    <value>Windows用アイコンファイル</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>画像フォーマットはZero Installではサポートされていません。</value>
+    <value>この画像形式はZero Installではサポートされていません。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>インストーラのアーカイブ展開に失敗しました。</value>
+    <value>インストーラーをアーカイブとして抽出できませんでした。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>ZIPアーカイブなど、アプリケーションの代替ダウンロードソースを提供する必要があります。インストーラーから取得したデスクトップ統合情報はそのまま使用します！</value>
+    <value>アプリケーションの代替ダウンロード先（例：ZIPアーカイブ）を用意する必要があります。インストーラーから取得したデスクトップ統合情報は引き続き使用します！</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>マニフェストのダイジェストが変更された可能性があります。</value>
+    <value>マニフェストのダイジェストが変更されている可能性があります。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>マニフェスト・ダイジェストはまだ計算されていません。</value>
+    <value>マニフェストダイジェストはまだ計算されていません。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -169,7 +169,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>エントリーポイント（EXE、JAR、Pythonスクリプトなど）は見つかりませんでした。正しいアーカイブと展開ディレクトリを選択したことを確認してください。</value>
+    <value>エントリポイント（EXE、JAR、Pythonスクリプトなど）が見つかりませんでした。正しいアーカイブと抽出先ディレクトリを選択しているかご確認ください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -178,7 +178,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>クリックしてください：</value>
+    <value>こちらをクリックしてください：</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
@@ -190,11 +190,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>HTTP/FTP URL (必須)</value>
+    <value>HTTP/FTP URL（必須）</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>とにかく保存？</value>
+    <value>それでも保存しますか？</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
@@ -207,7 +207,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>正常に署名されたファイル。</value>
+    <value>ファイルの署名に成功しました。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
@@ -227,15 +227,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>インストーラの完了を待つ</value>
+    <value>インストーラーの完了を待っています</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>MIMEタイプが違います！{0} とすべきです。</value>
+    <value>MIMEタイプが間違っています！{0} である必要があります。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>はい、インストーラEXE</value>
+    <value>はい、インストーラーEXE</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

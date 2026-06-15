@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Ontbrekende items toevoegen</value>
+    <value>Ontbrekende toevoegen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Dit pad wijst buiten het archief.</value>
+    <value>Dit pad verwijst naar een locatie buiten het archief.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -75,22 +75,22 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Is dit een installatie-EXE?</value>
+    <value>Is dit een installatieprogramma (EXE)?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Weet je zeker dat je het vastleggen wilt overslaan?
-Informatie over de desktopintegratie van de toepassing (bijv. bestandsassociaties) wordt niet aan de feed toegevoegd.</value>
+    <value>Weet u zeker dat u het vastleggen wilt overslaan?
+Informatie over de desktopintegratie van de applicatie (bijv. bestandsassociaties) wordt niet aan de feed toegevoegd.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Weet je zeker dat je verder wilt gaan zonder pictogrammen toe te voegen?
-Zero Install kan alleen een algemeen plaatshouderpictogram weergeven in de catalogus en voor eventuele snelkoppelingen voor bureaubladintegratie.</value>
+    <value>Weet u zeker dat u wilt doorgaan zonder pictogrammen toe te voegen?
+Zero Install kan dan alleen een algemeen plaatshouderpictogram weergeven in de catalogus en voor eventuele snelkoppelingen voor desktopintegratie.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Weet je zeker dat je verder wilt gaan zonder deze instellingen te voltooien?
-Je feed werkt alleen lokaal en niet online.</value>
+    <value>Weet u zeker dat u wilt doorgaan zonder deze instellingen te voltooien?
+Uw feed werkt dan alleen lokaal en niet online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -98,38 +98,38 @@ Je feed werkt alleen lokaal en niet online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Behoud
+    <value>Behouden
 De implementatie moest hetzelfde blijven</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>De manifest digest is veranderd. Wil je de bestaande vervangen?</value>
+    <value>De samenvatting van het manifest is gewijzigd. Wilt u de bestaande vervangen?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Alle andere ophaalmethoden voor deze implementatie moeten ook overeenkomen met de nieuwe digest!</value>
+    <value>Alle andere opvraagmethoden voor deze implementatie moeten ook overeenkomen met de nieuwe digest!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>Vervangen
-Ik heb de implementatie met opzet veranderd</value>
+Ik heb de implementatie bewust gewijzigd</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Verwerpen
-Niet-opgeslagen wijzigingen verwijderen</value>
+    <value>Annuleren
+Niet-opgeslagen wijzigingen annuleren</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Afbeelding downloaden voor voorbeeld...</value>
+    <value>Afbeelding wordt gedownload voor voorbeeldweergave...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Er is een manifest digest berekend voor een lege map. Controleer of je de juiste "extract" waarde hebt ingesteld voor het archief.</value>
+    <value>Er is een manifest-samenvatting berekend voor een lege map. Controleer of u de juiste "extract"-waarde voor het archief hebt ingesteld.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Feed bestanden (*.xml)|*.xml|Template bestanden (*.xml.template)|*.xml.template|Alle bestanden|*</value>
+    <value>Feedbestanden (*.xml)|*.xml|Sjabloonbestanden (*.xml.template)|*.xml.template|Alle bestanden|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -137,7 +137,7 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Windows Pictogrammenbestanden</value>
+    <value>Windows-pictogrambestanden</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
@@ -145,19 +145,19 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Mislukt bij het uitpakken van het installatieprogramma als een archief.</value>
+    <value>Het is niet gelukt om het installatieprogramma als archief uit te pakken.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Je moet een alternatieve downloadbron voor de toepassing opgeven, bijvoorbeeld een ZIP-archief. We zullen nog steeds de desktopintegratie-informatie gebruiken die is vastgelegd in het installatieprogramma!</value>
+    <value>Je moet een alternatieve downloadbron voor de applicatie opgeven, bijvoorbeeld een ZIP-archief. We blijven de desktopintegratie-informatie gebruiken die door het installatieprogramma is vastgelegd!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Manifest digest kan veranderd zijn.</value>
+    <value>Het manifest-overzicht is mogelijk gewijzigd.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Manifest digest nog niet berekend.</value>
+    <value>Manifest-overzicht nog niet berekend.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -169,16 +169,16 @@ Niet-opgeslagen wijzigingen verwijderen</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Er zijn geen invoerpunten (EXE's, JAR's, Python-scripts, enz.) gevonden. Controleer of u het juiste archief en de juiste uitpakmap hebt geselecteerd.</value>
+    <value>Er zijn geen toegangspunten (EXE's, JAR's, Python-scripts, enz.) gevonden. Zorg ervoor dat u het juiste archief en de juiste uitpakmap hebt geselecteerd.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>Nee, de toepassing zelf
-bestaat slechts uit één EXE</value>
+    <value>Nee, de applicatie zelf
+bestaat uit slechts één EXE-bestand</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Klik op:</value>
+    <value>Klik hier:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
@@ -190,7 +190,7 @@ bestaat slechts uit één EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>HTTP/FTP URL (verplicht)</value>
+    <value>HTTP/FTP-URL (verplicht)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
@@ -203,11 +203,11 @@ Wijzigingen opslaan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Wil je de wijzigingen opslaan?</value>
+    <value>Wilt u de wijzigingen opslaan?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Succesvol ondertekende bestanden.</value>
+    <value>Bestanden succesvol ondertekend.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
@@ -219,7 +219,7 @@ Wijzigingen opslaan</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Bron URL</value>
+    <value>Bron-URL</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
@@ -227,11 +227,11 @@ Wijzigingen opslaan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Wachten op voltooiing van installatieprogramma</value>
+    <value>Wachten tot het installatieprogramma klaar is</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Verkeerd MIME-type! Zou {0} moeten zijn.</value>
+    <value>Verkeerd MIME-type! Moet {0} zijn.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">

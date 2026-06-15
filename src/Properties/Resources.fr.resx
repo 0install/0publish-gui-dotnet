@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Ce chemin pointe vers l'extérieur de l'archive.</value>
+    <value>Ce chemin pointe vers un emplacement situé en dehors de l'archive.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -85,12 +85,12 @@ Les informations relatives à l'intégration de l'application au bureau (par exe
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Êtes-vous sûr de vouloir continuer sans ajouter d'icônes ?
-Zero Install ne pourra afficher qu'une icône générique dans le catalogue ainsi que pour les raccourcis d'intégration au bureau.</value>
+Zero Install ne pourra afficher qu'une icône générique par défaut dans le catalogue ainsi que pour tous les raccourcis d'intégration au bureau.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Êtes-vous sûr de vouloir continuer sans compléter ces paramètres ?
-Votre flux ne fonctionnera que localement et pas en ligne.</value>
+    <value>Êtes-vous sûr de vouloir continuer sans terminer ces réglages ?
+Votre flux ne fonctionnera qu'en local et non en ligne.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -98,8 +98,8 @@ Votre flux ne fonctionnera que localement et pas en ligne.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Garder
-La mise en œuvre devait rester la même</value>
+    <value>Conserver
+La mise en œuvre était censée rester inchangée</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
@@ -107,12 +107,12 @@ La mise en œuvre devait rester la même</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Toutes les autres méthodes de récupération de cette implémentation doivent également correspondre au nouveau condensé !</value>
+    <value>Toutes les autres méthodes de récupération pour cette implémentation doivent également correspondre au nouveau résumé !</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>Remplacer
-J'ai changé l'implémentation volontairement</value>
+J'ai modifié l'implémentation volontairement</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
@@ -125,11 +125,11 @@ Abandonner les modifications non sauvegardées</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Un condensé de manifeste a été calculé pour un répertoire vide. Vérifiez que vous avez défini la valeur "extract" correcte pour l'archive.</value>
+    <value>Un résumé du manifeste a été calculé pour un répertoire vide. Vérifiez que vous avez défini la valeur « extract » correcte pour l'archive.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Fichiers de flux (*.xml)|*.xml|Fichiers de modèles (*.xml.template)|*.xml.template|Tous les fichiers|*</value>
+    <value>Fichiers de flux (*.xml)|*.xml|Fichiers de modèle (*.xml.template)|*.xml.template|Tous les fichiers|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -149,7 +149,7 @@ Abandonner les modifications non sauvegardées</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Vous devez fournir une autre source de téléchargement pour l'application, par exemple une archive ZIP. Nous utiliserons toujours les informations relatives à l'intégration du bureau capturées à partir du programme d'installation !</value>
+    <value>Vous devez fournir une autre source de téléchargement pour l'application, par exemple une archive ZIP. Nous continuerons à utiliser les informations d'intégration au bureau récupérées depuis le programme d'installation !</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -169,12 +169,12 @@ Abandonner les modifications non sauvegardées</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Aucun point d'entrée (EXE, JAR, scripts Python, etc.) n'a été trouvé. Veuillez vous assurer que vous avez sélectionné l'archive et le répertoire d'extraction corrects.</value>
+    <value>Aucun point d'entrée (EXE, JAR, scripts Python, etc.) n'a été trouvé. Veuillez vous assurer que vous avez sélectionné la bonne archive et le bon répertoire d'extraction.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Non, l'application elle-même
-ne consiste qu'en un EXE</value>
+se compose uniquement d'un fichier EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
@@ -182,7 +182,7 @@ ne consiste qu'en un EXE</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>Fichiers d'images PNG</value>
+    <value>Fichiers image PNG</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
@@ -211,7 +211,7 @@ Enregistrer les modifications</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Signer des flux</value>
+    <value>Signature des flux</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
@@ -219,7 +219,7 @@ Enregistrer les modifications</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Source URL</value>
+    <value>URL source</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
@@ -227,7 +227,7 @@ Enregistrer les modifications</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Attente de la fin de l'installation</value>
+    <value>En attente de la fin de l'installation</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
