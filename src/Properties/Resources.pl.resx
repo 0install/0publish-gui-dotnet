@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Dodawanie brakujących elementów</value>
+    <value>Dodaj brakujące</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Ta ścieżka wskazuje poza archiwum.</value>
+    <value>Ta ścieżka wskazuje lokalizację poza archiwum.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -75,7 +75,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Czy jest to instalator EXE?</value>
+    <value>Czy to plik instalacyjny EXE?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
@@ -85,12 +85,12 @@ Informacje o integracji aplikacji z pulpitem (np. skojarzenia plików) nie zosta
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Czy na pewno chcesz kontynuować bez dodawania ikon?
-Zero Install będzie w stanie wyświetlić tylko ogólną ikonę zastępczą w katalogu, a także skróty do integracji na pulpicie.</value>
+Zero Install będzie mógł wyświetlać jedynie ogólną ikonę zastępczą w katalogu, a także w przypadku wszelkich skrótów integracji z pulpitem.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Czy na pewno chcesz kontynuować bez wprowadzania tych ustawień?
-Twój kanał będzie działał tylko lokalnie, a nie online.</value>
+    <value>Czy na pewno chcesz kontynuować bez dokończenia tych ustawień?
+Twój kanał będzie działał tylko lokalnie, a nie w Internecie.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -98,20 +98,20 @@ Twój kanał będzie działał tylko lokalnie, a nie online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Zachować
-Implementacja miała pozostać taka sama</value>
+    <value>Zachowaj
+Implementacja miała pozostać bez zmian</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Skrót manifestu uległ zmianie. Czy chcesz zastąpić istniejący?</value>
+    <value>Zmienił się skrót manifestu. Czy chcesz zastąpić istniejący?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Wszystkie inne metody pobierania dla tej implementacji również muszą być zgodne z nowym skrótem!</value>
+    <value>Wszystkie inne metody pobierania danych dla tej implementacji również muszą być zgodne z nowym skrótem!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Zastąpić
+    <value>Zamień
 Celowo zmieniłem implementację</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -125,7 +125,7 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Skrót manifestu został obliczony dla pustego katalogu. Sprawdź, czy ustawiłeś prawidłową wartość "extract" dla archiwum.</value>
+    <value>Obliczono skrót manifestu dla pustego katalogu. Sprawdź, czy dla archiwum ustawiono prawidłową wartość „extract”.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -145,19 +145,19 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Nie udało się rozpakować instalatora jako archiwum.</value>
+    <value>Nie udało się wyodrębnić instalatora jako archiwum.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Należy podać alternatywne źródło pobierania aplikacji, np. archiwum ZIP. Nadal będziemy używać informacji o integracji pulpitu przechwyconych z instalatora!</value>
+    <value>Musisz podać alternatywne źródło pobrania aplikacji, np. archiwum ZIP. Nadal będziemy korzystać z informacji o integracji z pulpitem pobranych z instalatora!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Skrót manifestu mógł ulec zmianie.</value>
+    <value>Zestawienie manifestów mogło ulec zmianie.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Skrót manifestu nie został jeszcze obliczony.</value>
+    <value>Podsumowanie manifestu nie zostało jeszcze obliczone.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -169,20 +169,20 @@ Odrzuć niezapisane zmiany</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nie znaleziono punktów wejścia (EXE, JAR, skrypty Python itp.). Upewnij się, że wybrałeś prawidłowe archiwum i katalog do rozpakowania.</value>
+    <value>Nie znaleziono żadnych plików wejściowych (EXE, JAR, skrypty Python itp.). Upewnij się, że wybrałeś właściwy plik archiwum i katalog docelowy.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Nie, sama aplikacja
-składa się tylko z jednego EXE</value>
+składa się tylko z jednego pliku EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Kliknij:</value>
+    <value>Proszę kliknąć:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>Pliki graficzne PNG</value>
+    <value>Pliki graficzne w formacie PNG</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
@@ -190,7 +190,7 @@ składa się tylko z jednego EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>Adres URL HTTP/FTP (wymagany)</value>
+    <value>Adres URL HTTP/FTP (wymagane)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
@@ -199,7 +199,7 @@ składa się tylko z jednego EXE</value>
   </data>
   <data name="SaveChanges" xml:space="preserve">
     <value>Zapisz
-Zapisywanie zmian</value>
+Zapisz zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
@@ -207,7 +207,7 @@ Zapisywanie zmian</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Pomyślnie podpisane pliki.</value>
+    <value>Pliki pomyślnie podpisane.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
@@ -219,7 +219,7 @@ Zapisywanie zmian</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Źródło URL</value>
+    <value>Adres URL źródła</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
@@ -231,7 +231,7 @@ Zapisywanie zmian</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Nieprawidłowy typ MIME! Powinno być {0}.</value>
+    <value>Nieprawidłowy typ MIME! Powinien to być {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">

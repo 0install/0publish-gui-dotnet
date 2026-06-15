@@ -63,7 +63,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
-    <value>Semua file</value>
+    <value>Semua berkas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
@@ -71,11 +71,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Masukkan kata sandi GnuPG untuk {0}:</value>
+    <value>Silakan masukkan frasa sandi GnuPG untuk {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Apakah ini merupakan EXE penginstal?</value>
+    <value>Apakah ini file EXE penginstal?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
@@ -85,12 +85,12 @@ Informasi tentang integrasi desktop aplikasi (mis. asosiasi file) tidak akan dit
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Apakah Anda yakin ingin melanjutkan tanpa menambahkan ikon?
-Zero Install hanya akan dapat menampilkan ikon placeholder generik dalam katalog serta untuk pintasan integrasi desktop.</value>
+Zero Install hanya akan dapat menampilkan ikon tempatholder umum di katalog serta untuk semua pintasan integrasi desktop.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Apakah Anda yakin ingin melanjutkan tanpa menyelesaikan pengaturan ini?
-Feed Anda hanya akan bekerja secara lokal dan tidak online.</value>
+Feed Anda hanya akan berfungsi secara lokal dan tidak online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -99,15 +99,15 @@ Feed Anda hanya akan bekerja secara lokal dan tidak online.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Pertahankan
-Implementasi seharusnya tetap sama</value>
+Implementasinya seharusnya tetap sama</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Intisari manifes telah berubah. Apakah Anda ingin mengganti yang sudah ada?</value>
+    <value>Ringkasan manifes telah berubah. Apakah Anda ingin mengganti yang sudah ada?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Semua metode pengambilan lainnya untuk implementasi ini harus sesuai dengan intisari yang baru juga!</value>
+    <value>Semua metode pengambilan data lainnya untuk implementasi ini juga harus sesuai dengan ringkasan baru!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -116,8 +116,8 @@ Saya mengubah implementasi dengan sengaja</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Buang
-Membuang perubahan yang belum disimpan</value>
+    <value>Batalkan
+Batalkan perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
@@ -125,11 +125,11 @@ Membuang perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Intisari manifes dihitung untuk direktori kosong. Periksa apakah Anda telah menetapkan nilai "ekstrak" yang benar untuk arsip.</value>
+    <value>Ringkasan manifes telah dihitung untuk direktori kosong. Pastikan Anda telah menetapkan nilai "extract" yang benar untuk arsip tersebut.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>File umpan (*.xml)|*.xml|File template (*.xml.template)|*.xml.template|Semua file|*</value>
+    <value>File feed (*.xml)|*.xml|File templat (*.xml.template)|*.xml.template|Semua file|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -137,11 +137,11 @@ Membuang perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>File Ikon Windows</value>
+    <value>Berkas ikon Windows</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Format gambar tidak didukung oleh Zero Install.</value>
+    <value>Format gambar ini tidak didukung oleh Zero Install.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
@@ -149,15 +149,15 @@ Membuang perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Anda perlu menyediakan sumber unduhan alternatif untuk aplikasi, misalnya arsip ZIP. Kami masih akan menggunakan informasi integrasi desktop yang diambil dari penginstal!</value>
+    <value>Anda perlu menyediakan sumber unduhan alternatif untuk aplikasi ini, misalnya arsip ZIP. Kami tetap akan menggunakan informasi integrasi desktop yang diambil dari penginstal!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Intisari manifes mungkin telah berubah.</value>
+    <value>Ringkasan manifes mungkin telah berubah.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Intisari manifes belum dihitung.</value>
+    <value>Ringkasan manifes belum dihitung.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -165,16 +165,16 @@ Membuang perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>Kunci baru...</value>
+    <value>Tombol baru...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Tidak ada titik masuk (EXE, JAR, skrip Python, dll.) yang ditemukan. Pastikan Anda memilih direktori arsip dan ekstrak yang benar.</value>
+    <value>Tidak ditemukan titik masuk (EXE, JAR, skrip Python, dll.). Pastikan Anda telah memilih arsip dan direktori ekstraksi yang benar.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Tidak, aplikasi itu sendiri
-hanya terdiri dari satu EXE</value>
+hanya terdiri dari satu berkas EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
@@ -182,7 +182,7 @@ hanya terdiri dari satu EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>File gambar PNG</value>
+    <value>Berkas gambar PNG</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
@@ -190,7 +190,7 @@ hanya terdiri dari satu EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>URL HTTP/FTP (wajib diisi)</value>
+    <value>URL HTTP/FTP (wajib)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
@@ -199,7 +199,7 @@ hanya terdiri dari satu EXE</value>
   </data>
   <data name="SaveChanges" xml:space="preserve">
     <value>Simpan
-Menyimpan perubahan</value>
+Simpan perubahan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
@@ -207,7 +207,7 @@ Menyimpan perubahan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>File yang berhasil ditandatangani.</value>
+    <value>File telah berhasil ditandatangani.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
@@ -227,15 +227,15 @@ Menyimpan perubahan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Menunggu penginstal selesai</value>
+    <value>Menunggu proses instalasi selesai</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Jenis MIME salah! Seharusnya {0}.</value>
+    <value>Tipe MIME salah! Harusnya {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Ya, penginstal EXE</value>
+    <value>Ya, file EXE penginstal</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

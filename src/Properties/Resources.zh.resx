@@ -67,65 +67,65 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>该路径指向存档之外。</value>
+    <value>此路径指向归档文件夹外部。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>请输入{0} 的 GnuPG 口令：</value>
+    <value>请输入{0} 的GnuPG密码短语：</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>这是安装程序 EXE 吗？</value>
+    <value>这是一个安装程序 EXE 文件吗？</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>您确定要跳过捕捉？
-应用程序的桌面集成信息（如文件关联）将不会添加到信息源中。</value>
+    <value>您确定要跳过捕获吗？
+有关应用程序桌面集成的信息（例如文件关联）将不会添加到源中。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>您确定不添加图标就继续吗？
-零安装只能在目录和桌面集成快捷方式中显示一个通用占位符图标。</value>
+    <value>您确定要在不添加图标的情况下继续吗？
+Zero Install 只能在目录中以及任何桌面集成快捷方式上显示一个通用占位图标。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>您确定不完成这些设置就继续吗？
-您的馈送只能在本地运行，不能在线运行。</value>
+    <value>您确定要在未完成这些设置的情况下继续吗？
+您的订阅源仅在本地有效，无法在线使用。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>说明</value>
+    <value>描述</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>保持
-执行方式应保持不变</value>
+    <value>保留
+该实现应保持不变</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>清单摘要已更改。您希望替换现有的摘要吗？</value>
+    <value>清单摘要已发生变更。是否要替换现有的内容？</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>该实现的所有其他检索方法也必须与新摘要相匹配！</value>
+    <value>此实现中的所有其他检索方法也必须与新的摘要匹配！</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>替换
-我故意改变了实现方式</value>
+我特意更改了实现方式</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>丢弃
-丢弃未保存的更改</value>
+    <value>放弃
+放弃未保存的更改</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>下载图像进行预览...</value>
+    <value>正在下载预览图片...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>为空目录计算了清单摘要。检查您是否为存档设置了正确的 "提取 "值。</value>
+    <value>已为一个空目录计算了清单摘要。请检查您是否为该归档文件设置了正确的“extract”值。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -137,19 +137,19 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>视窗图标文件</value>
+    <value>Windows 图标文件</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Zero Install 不支持图片格式。</value>
+    <value>Zero Install 不支持该图像格式。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>解压缩安装程序失败。</value>
+    <value>无法将安装程序提取为压缩包。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>您需要提供应用程序的其他下载源，如 ZIP 压缩包。我们仍将使用从安装程序中获取的桌面集成信息！</value>
+    <value>您需要为该应用程序提供一个替代下载源，例如 ZIP 压缩包。我们将继续使用从安装程序中捕获的桌面集成信息！</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -169,16 +169,16 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>未找到入口点（EXE、JAR、Python 脚本等）。请确保您选择了正确的存档和解压缩目录。</value>
+    <value>未找到任何入口文件（EXE、JAR、Python脚本等）。请确保您选择了正确的压缩包和解压目录。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>不，应用程序本身
-只包括一个 EXE</value>
+    <value>不，该应用程序本身
+仅包含一个 EXE 文件</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>请点击</value>
+    <value>请点击：</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
@@ -186,15 +186,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
-    <value>以字节为单位（必填）</value>
+    <value>单位：字节（必填）</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>HTTP/FTP URL（必填）</value>
+    <value>HTTP/FTP 网址（必填）</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>无论如何保存？</value>
+    <value>还是要保存？</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
@@ -203,11 +203,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>要保存更改吗？</value>
+    <value>您要保存更改吗？</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>成功签名的文件。</value>
+    <value>文件已成功签名。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
@@ -219,7 +219,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>源 URL</value>
+    <value>源网址</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
@@ -231,11 +231,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>MIME 类型错误！应为{0} 。</value>
+    <value>MIME类型错误！应为{0} 。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>是，安装程序 EXE</value>
+    <value>是的，安装程序 EXE</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

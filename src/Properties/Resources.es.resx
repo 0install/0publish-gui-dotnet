@@ -71,16 +71,16 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Introduzca la frase de contraseña GnuPG para {0}:</value>
+    <value>Introduzca la contraseña de GnuPG par {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>¿Se trata de un instalador EXE?</value>
+    <value>¿Es esto un archivo EXE de instalación?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>¿Está seguro de que desea omitir la captura?
-La información sobre la integración de la aplicación en el escritorio (por ejemplo, asociaciones de archivos) no se añadirá al feed.</value>
+    <value>¿Seguro que quieres omitir la captura?
+La información sobre la integración de la aplicación en el escritorio (por ejemplo, las asociaciones de archivos) no se añadirá al feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
@@ -89,8 +89,8 @@ Zero Install sólo podrá mostrar un icono genérico de marcador de posición en
     <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>¿Está seguro de que desea continuar sin completar estos ajustes?
-Su feed sólo funcionará localmente y no en línea.</value>
+    <value>¿Estás seguro de que quieres continuar sin completar esta configuración?
+Tu feed solo funcionará de forma local y no en línea.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -99,11 +99,11 @@ Su feed sólo funcionará localmente y no en línea.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Mantener
-Se suponía que la aplicación iba a seguir siendo la misma</value>
+Se suponía que la implementación debía permanecer igual</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>El resumen del manifiesto ha cambiado. ¿Desea sustituir el existente?</value>
+    <value>El resumen del manifiesto ha cambiado. ¿Deseas sustituir el actual?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
@@ -111,21 +111,21 @@ Se suponía que la aplicación iba a seguir siendo la misma</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Sustituir
+    <value>Reemplazar
 He cambiado la implementación a propósito</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
     <value>Descartar
-Descarta los cambios no guardados</value>
+Descartar los cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Descarga de imagen para previsualización...</value>
+    <value>Descargando imagen para vista previa...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Se ha calculado un resumen del manifiesto para un directorio vacío. Compruebe que ha establecido el valor de "extracción" correcto para el archivo.</value>
+    <value>Se ha calculado un resumen del manifiesto para un directorio vacío. Comprueba que has establecido el valor correcto de «extract» para el archivo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -141,11 +141,11 @@ Descarta los cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>El formato de imagen no es compatible con Zero Install.</value>
+    <value>Zero Install no admite este formato de imagen.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Error al extraer el instalador como archivo.</value>
+    <value>No se ha podido extraer el instalador como archivo comprimido.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
@@ -153,11 +153,11 @@ Descarta los cambios no guardados</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>El resumen del manifiesto puede haber cambiado.</value>
+    <value>Es posible que el resumen del manifiesto haya cambiado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>El resumen de manifiestos aún no se ha calculado.</value>
+    <value>El resumen del manifiesto aún no se ha calculado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -169,16 +169,16 @@ Descarta los cambios no guardados</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>No se han encontrado puntos de entrada (EXEs, JARs, scripts Python, etc.). Por favor, asegúrese de que ha seleccionado el archivo y el directorio de extracción correctos.</value>
+    <value>No se han encontrado puntos de entrada (archivos EXE, JAR, scripts de Python, etc.). Asegúrate de haber seleccionado el archivo y el directorio de extracción correctos.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>No, la aplicación en sí
-consiste sólo en un EXE</value>
+consiste únicamente en un archivo EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Haga clic:</value>
+    <value>Haga clic en:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
@@ -203,7 +203,7 @@ Guardar cambios</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>¿Desea guardar los cambios?</value>
+    <value>¿Quieres guardar los cambios?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
@@ -227,7 +227,7 @@ Guardar cambios</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Esperando a que se complete el instalador</value>
+    <value>Esperando a que finalice la instalación</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">

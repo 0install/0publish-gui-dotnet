@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Přidat chybějící</value>
+    <value>Doplnit chybějící</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -71,16 +71,16 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Zadejte prosím přístupovou frázi GnuPG pro {0}:</value>
+    <value>Zadejte prosím heslo GnuPG pro {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>Jedná se o instalační EXE?</value>
+    <value>Jedná se o instalační soubor EXE?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Jste si jisti, že chcete přeskočit zachycení?
-Informace o integraci aplikace na plochu (např. asociace souborů) nebudou do kanálu přidány.</value>
+    <value>Opravdu chcete přeskočit snímání?
+Informace o integraci aplikace do pracovní plochy (např. přiřazení souborů) nebudou do kanálu přidány.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
@@ -89,8 +89,8 @@ Zero Install bude schopen zobrazit pouze obecnou zástupnou ikonu v katalogu a t
     <comment>Manually overriden.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Opravdu chcete pokračovat bez dokončení těchto nastavení?
-Váš zdroj bude fungovat pouze lokálně, nikoli online.</value>
+    <value>Opravdu chcete pokračovat, aniž byste dokončili tato nastavení?
+Váš kanál bude fungovat pouze lokálně, nikoli online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -103,11 +103,11 @@ Implementace měla zůstat stejná</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Změnil se přehled manifestů. Přejete si nahradit ten stávající?</value>
+    <value>Souhrn manifestu se změnil. Chcete nahradit stávající?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Všechny ostatní metody načítání pro tuto implementaci musí také odpovídat novému digestu!</value>
+    <value>Všechny ostatní metody vyhledávání pro tuto implementaci musí také odpovídat novému souhrnu!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -116,16 +116,16 @@ Záměrně jsem změnil implementaci</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Vyřazení
-Odstranění neuložených změn</value>
+    <value>Zrušit
+Zrušit neuložené změny</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Stažení obrázku pro náhled...</value>
+    <value>Stahování obrázku pro náhled...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Pro prázdný adresář byl vypočten digest manifestu. Zkontrolujte, zda jste pro archiv nastavili správnou hodnotu "extract".</value>
+    <value>Byl vypočítán souhrn manifestu pro prázdný adresář. Zkontrolujte, zda jste pro archiv nastavili správnou hodnotu „extract“.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -137,31 +137,31 @@ Odstranění neuložených změn</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Soubory s ikonami systému Windows</value>
+    <value>Soubory ikon systému Windows</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Formát obrázku není podporován programem Zero Install.</value>
+    <value>Formát obrázku není podporován Zero Install.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Nepodařilo se rozbalit instalační program jako archiv.</value>
+    <value>Nepodařilo se extrahovat instalační program jako archiv.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Je třeba poskytnout alternativní zdroj pro stažení aplikace, např. archiv ZIP. Stále budeme používat informace o integraci na plochu zachycené z instalačního programu!</value>
+    <value>Musíte poskytnout alternativní zdroj ke stažení aplikace, např. archiv ZIP. Informace o integraci do pracovního prostředí získané z instalačního programu budeme i nadále používat!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Manifest digest se mohl změnit.</value>
+    <value>Souhrn manifestu se mohl změnit.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Manifest digest zatím není vypočítán.</value>
+    <value>Souhrn manifestu ještě nebyl vypočítán.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
-    <value>Jména</value>
+    <value>Názvy</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
@@ -169,12 +169,12 @@ Odstranění neuložených změn</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nebyly nalezeny žádné vstupní body (EXE, JAR, skripty Python atd.). Zkontrolujte, zda jste vybrali správný archiv a adresář pro rozbalení.</value>
+    <value>Nebyly nalezeny žádné vstupní body (soubory EXE, JAR, skripty Python atd.). Ujistěte se, že jste vybrali správný archiv a adresář pro rozbalení.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Ne, samotná aplikace
-se skládá pouze z jednoho EXE</value>
+se skládá pouze z jednoho souboru EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
@@ -182,15 +182,15 @@ se skládá pouze z jednoho EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>Soubory obrázků PNG</value>
+    <value>Soubory obrázků ve formátu PNG</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
-    <value>v bytech (povinné)</value>
+    <value>v bajtech (povinné)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>Adresa URL HTTP/FTP (povinné)</value>
+    <value>HTTP/FTP URL (povinné)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
@@ -199,11 +199,11 @@ se skládá pouze z jednoho EXE</value>
   </data>
   <data name="SaveChanges" xml:space="preserve">
     <value>Uložit
-Uložení změn</value>
+Uložit změny</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Chcete uložit změny?</value>
+    <value>Chcete změny uložit?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
@@ -219,7 +219,7 @@ Uložení změn</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>Zdrojová adresa URL</value>
+    <value>URL zdroje</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
@@ -231,11 +231,11 @@ Uložení změn</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Špatný typ MIME! Mělo by být {0}.</value>
+    <value>Nesprávný typ MIME! Měl by být {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Ano, instalační EXE</value>
+    <value>Ano, instalační soubor EXE</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>
