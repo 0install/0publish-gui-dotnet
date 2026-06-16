@@ -30,8 +30,8 @@ public sealed class EntryPointEditor : SummaryEditor<EntryPoint>
         EditorControl.Height = Height - TextBoxDescription.Bottom - 6;
 
         // High DPI support
-        AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-        AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+        AutoScaleDimensions = new SizeF(6F, 13F);
+        AutoScaleMode = AutoScaleMode.Font;
 
         ResumeLayout();
     }
