@@ -8,7 +8,7 @@ jobs:
   translate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
           show-progress: false
@@ -19,7 +19,7 @@ jobs:
         run: ./0install.sh run https://apps.0install.net/devel/transifex-cli.xml --token ${{secrets.TRANSIFEX_API_KEY}} pull --translations --mode translator --languages cs,el,es,fr,id,it,ja,ko,nl,pl,pt_PT,ro,ru,zh
 
       - name: DeepL Cache
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: '**/*.a.resx'
           key: deepl
