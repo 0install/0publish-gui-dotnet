@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Añadir lo que falta</value>
+    <value>Añadir lo que falte</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -71,15 +71,15 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Introduzca la contraseña de GnuPG par {0}:</value>
+    <value>Introduce la contraseña de GnuPG par {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>¿Es esto un archivo EXE de instalación?</value>
+    <value>¿Se trata de un archivo EXE de instalación?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>¿Seguro que quieres omitir la captura?
+    <value>¿Estás seguro de que quieres omitir la captura?
 La información sobre la integración de la aplicación en el escritorio (por ejemplo, las asociaciones de archivos) no se añadirá al feed.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -99,7 +99,7 @@ Tu feed solo funcionará de forma local y no en línea.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Mantener
-Se suponía que la implementación debía permanecer igual</value>
+Se suponía que la implementación debía seguir siendo la misma</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
@@ -121,11 +121,11 @@ Descartar los cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>Descargando imagen para vista previa...</value>
+    <value>Descargando imagen para la vista previa...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Se ha calculado un resumen del manifiesto para un directorio vacío. Comprueba que has establecido el valor correcto de «extract» para el archivo.</value>
+    <value>Se ha calculado un resumen del manifiesto para un directorio vacío. Comprueba que hayas establecido el valor correcto de «extract» para el archivo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -157,7 +157,7 @@ Descartar los cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>El resumen del manifiesto aún no se ha calculado.</value>
+    <value>Aún no se ha calculado el resumen del manifiesto.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -174,11 +174,11 @@ Descartar los cambios no guardados</value>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>No, la aplicación en sí
-consiste únicamente en un archivo EXE</value>
+consta únicamente de un archivo EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Haga clic en:</value>
+    <value>Haz clic en:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
@@ -211,7 +211,7 @@ Guardar cambios</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
-    <value>Firma de feeds</value>
+    <value>Firma de fuentes</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SizeMissing" xml:space="preserve">
@@ -227,7 +227,7 @@ Guardar cambios</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Esperando a que finalice la instalación</value>
+    <value>A la espera de que finalice la instalación</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">

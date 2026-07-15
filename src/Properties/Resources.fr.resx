@@ -129,7 +129,7 @@ Abandonner les modifications non sauvegardées</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Fichiers de flux (*.xml)|*.xml|Fichiers de modèle (*.xml.template)|*.xml.template|Tous les fichiers|*</value>
+    <value>Fichiers de flux (*.xml)|*.xml|Fichiers de modèles (*.xml.template)|*.xml.template|Tous les fichiers|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -149,7 +149,7 @@ Abandonner les modifications non sauvegardées</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Vous devez fournir une autre source de téléchargement pour l'application, par exemple une archive ZIP. Nous continuerons à utiliser les informations d'intégration au bureau récupérées depuis le programme d'installation !</value>
+    <value>Vous devez fournir une autre source de téléchargement pour l'application, par exemple une archive ZIP. Nous continuerons à utiliser les informations d'intégration au bureau récupérées à partir du programme d'installation !</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -169,7 +169,7 @@ Abandonner les modifications non sauvegardées</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Aucun point d'entrée (EXE, JAR, scripts Python, etc.) n'a été trouvé. Veuillez vous assurer que vous avez sélectionné la bonne archive et le bon répertoire d'extraction.</value>
+    <value>Aucun point d'entrée (fichiers EXE, JAR, scripts Python, etc.) n'a été trouvé. Veuillez vous assurer d'avoir sélectionné la bonne archive et le bon répertoire d'extraction.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">

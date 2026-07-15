@@ -71,7 +71,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Introduza a frase-passe do GnuPG para {0}:</value>
+    <value>Introduza a frase de passagem do GnuPG para {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
@@ -79,17 +79,17 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Tem a certeza de que deseja ignorar a captura?
+    <value>Tem a certeza de que quer ignorar a captura?
 As informações sobre a integração da aplicação no ambiente de trabalho (por exemplo, associações de ficheiros) não serão adicionadas ao feed.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Tem a certeza de que deseja continuar sem adicionar ícones?
-O Zero Install só poderá exibir um ícone genérico de espaço reservado no catálogo, bem como em quaisquer atalhos de integração no ambiente de trabalho.</value>
+    <value>Tem a certeza de que quer continuar sem adicionar ícones?
+O Zero Install só poderá apresentar um ícone genérico provisório no catálogo, bem como em quaisquer atalhos de integração no ambiente de trabalho.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Tem a certeza de que deseja continuar sem concluir estas configurações?
+    <value>Tem a certeza de que quer continuar sem concluir estas definições?
 O seu feed só funcionará localmente e não online.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -107,7 +107,7 @@ A implementação deveria permanecer a mesma</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Todos os outros métodos de recuperação para esta implementação também devem corresponder ao novo resumo!</value>
+    <value>Todos os outros métodos de recuperação para esta implementação também têm de corresponder ao novo resumo!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -121,11 +121,11 @@ Descartar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>A descarregar imagem para pré-visualização...</value>
+    <value>A descarregar a imagem para pré-visualização...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Foi calculado um resumo do manifesto para um diretório vazio. Verifique se definiu o valor correto de "extract" para o arquivo.</value>
+    <value>Foi calculado um resumo do manifesto para um diretório vazio. Verifique se definiu o valor correto para «extract» no arquivo.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -141,7 +141,7 @@ Descartar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>O formato da imagem não é suportado pelo Zero Install.</value>
+    <value>O formato de imagem não é suportado pelo Zero Install.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
@@ -149,15 +149,15 @@ Descartar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Tem de fornecer uma fonte de download alternativa para a aplicação, por exemplo, um arquivo ZIP. Continuaremos a utilizar as informações de integração no ambiente de trabalho capturadas a partir do instalador!</value>
+    <value>Tem de fornecer uma fonte de download alternativa para a aplicação, por exemplo, um arquivo ZIP. Continuaremos a utilizar as informações de integração no ambiente de trabalho recolhidas a partir do instalador!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>O resumo do manifesto pode ter sido alterado.</value>
+    <value>O resumo do manifesto pode ter sofrido alterações.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Resumo do manifesto ainda não calculado.</value>
+    <value>O resumo do manifesto ainda não foi calculado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -178,7 +178,7 @@ consiste apenas num ficheiro EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>Clique em:</value>
+    <value>Por favor, clique em:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
@@ -203,7 +203,7 @@ Guardar alterações</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Deseja guardar as alterações?</value>
+    <value>Quer guardar as alterações?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
@@ -235,7 +235,7 @@ Guardar alterações</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Sim, EXE de instalação</value>
+    <value>Sim, ficheiro EXE de instalação</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

@@ -103,11 +103,11 @@ Implementace měla zůstat stejná</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Souhrn manifestu se změnil. Chcete nahradit stávající?</value>
+    <value>Souhrn manifestu se změnil. Chcete nahradit stávající souhrn?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Všechny ostatní metody vyhledávání pro tuto implementaci musí také odpovídat novému souhrnu!</value>
+    <value>Všechny ostatní metody vyhledávání pro tuto implementaci musí rovněž odpovídat novému souhrnu!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -141,15 +141,15 @@ Zrušit neuložené změny</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Formát obrázku není podporován Zero Install.</value>
+    <value>Tento formát obrázku není podporován Zero Install.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Nepodařilo se extrahovat instalační program jako archiv.</value>
+    <value>Nepodařilo se extrahovat instalační program z archivu.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Musíte poskytnout alternativní zdroj ke stažení aplikace, např. archiv ZIP. Informace o integraci do pracovního prostředí získané z instalačního programu budeme i nadále používat!</value>
+    <value>Je třeba poskytnout alternativní zdroj ke stažení aplikace, např. archiv ZIP. Informace o integraci do pracovního prostředí získané z instalačního programu budeme i nadále používat!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -169,7 +169,7 @@ Zrušit neuložené změny</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nebyly nalezeny žádné vstupní body (soubory EXE, JAR, skripty Python atd.). Ujistěte se, že jste vybrali správný archiv a adresář pro rozbalení.</value>
+    <value>Nebyly nalezeny žádné vstupní body (soubory EXE, JAR, skripty Pythonu atd.). Ujistěte se, že jste vybrali správný archiv a adresář pro rozbalení.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
