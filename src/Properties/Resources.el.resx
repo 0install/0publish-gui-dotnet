@@ -181,7 +181,7 @@
     <comment>Manually overriden.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>Αρχεία εικόνας PNG</value>
+    <value>Αρχεία εικόνων PNG</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
@@ -193,7 +193,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Να αποθηκεύσετε ούτως ή άλλως;</value>
+    <value>Να αποθηκευτεί ούτως ή άλλως;</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">

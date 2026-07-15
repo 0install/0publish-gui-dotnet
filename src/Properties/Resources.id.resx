@@ -85,12 +85,12 @@ Informasi tentang integrasi desktop aplikasi (mis. asosiasi file) tidak akan dit
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Apakah Anda yakin ingin melanjutkan tanpa menambahkan ikon?
-Zero Install hanya akan dapat menampilkan ikon tempatholder umum di katalog serta untuk semua pintasan integrasi desktop.</value>
+Zero Install hanya akan dapat menampilkan ikon pengganti umum di katalog serta untuk semua pintasan integrasi desktop.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Apakah Anda yakin ingin melanjutkan tanpa menyelesaikan pengaturan ini?
-Feed Anda hanya akan berfungsi secara lokal dan tidak online.</value>
+Feed Anda hanya akan berfungsi secara lokal dan tidak secara online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -103,11 +103,11 @@ Implementasinya seharusnya tetap sama</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Ringkasan manifes telah berubah. Apakah Anda ingin mengganti yang sudah ada?</value>
+    <value>Ringkasan manifest telah berubah. Apakah Anda ingin mengganti yang sudah ada?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Semua metode pengambilan data lainnya untuk implementasi ini juga harus sesuai dengan ringkasan baru!</value>
+    <value>Semua metode pengambilan data lainnya untuk implementasi ini juga harus sesuai dengan ringkasan baru tersebut!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -116,7 +116,7 @@ Saya mengubah implementasi dengan sengaja</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Batalkan
+    <value>Batal
 Batalkan perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -125,7 +125,7 @@ Batalkan perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Ringkasan manifes telah dihitung untuk direktori kosong. Pastikan Anda telah menetapkan nilai "extract" yang benar untuk arsip tersebut.</value>
+    <value>Ringkasan manifest telah dihitung untuk direktori kosong. Pastikan Anda telah menetapkan nilai "extract" yang benar untuk arsip tersebut.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -137,7 +137,7 @@ Batalkan perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>Berkas ikon Windows</value>
+    <value>File ikon Windows</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
@@ -149,15 +149,15 @@ Batalkan perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Anda perlu menyediakan sumber unduhan alternatif untuk aplikasi ini, misalnya arsip ZIP. Kami tetap akan menggunakan informasi integrasi desktop yang diambil dari penginstal!</value>
+    <value>Anda perlu menyediakan sumber unduhan alternatif untuk aplikasi tersebut, misalnya arsip ZIP. Kami tetap akan menggunakan informasi integrasi desktop yang diambil dari penginstal!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Ringkasan manifes mungkin telah berubah.</value>
+    <value>Ringkasan manifest mungkin telah berubah.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Ringkasan manifes belum dihitung.</value>
+    <value>Ringkasan manifest belum dihitung.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -182,7 +182,7 @@ hanya terdiri dari satu berkas EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>Berkas gambar PNG</value>
+    <value>File gambar PNG</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">
@@ -190,7 +190,7 @@ hanya terdiri dari satu berkas EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredUrl" xml:space="preserve">
-    <value>URL HTTP/FTP (wajib)</value>
+    <value>URL HTTP/FTP (wajib diisi)</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
@@ -227,11 +227,11 @@ Simpan perubahan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Menunggu proses instalasi selesai</value>
+    <value>Menunggu proses penginstalan selesai</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Tipe MIME salah! Harusnya {0}.</value>
+    <value>Tipe MIME salah! Seharusnya {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">

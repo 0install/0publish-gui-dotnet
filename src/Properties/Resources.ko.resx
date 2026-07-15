@@ -75,7 +75,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>이 파일은 설치용 EXE 파일인가요?</value>
+    <value>이 파일은 설치 프로그램 EXE 파일인가요?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
@@ -85,7 +85,7 @@
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>아이콘을 추가하지 않고 계속 진행하시겠습니까?
-Zero Install은 카탈로그 및 모든 데스크톱 통합 바로 가기에서 일반적인 자리 표시자 아이콘만 표시할 수 있습니다.</value>
+Zero Install은 카탈로그 및 데스크톱 통합 바로 가기에서 일반적인 자리 표시자 아이콘만 표시할 수 있습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
@@ -99,7 +99,7 @@ Zero Install은 카탈로그 및 모든 데스크톱 통합 바로 가기에서 
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>유지
-구현 방식은 기존과 동일하게 유지되어야 했습니다.</value>
+구현 방식은 기존과 동일하게 유지되어야 했다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
@@ -112,7 +112,7 @@ Zero Install은 카탈로그 및 모든 데스크톱 통합 바로 가기에서 
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>바꾸기
-의도적으로 구현 방식을 변경했습니다</value>
+의도적으로 구현 방식을 변경했습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
@@ -121,11 +121,11 @@ Zero Install은 카탈로그 및 모든 데스크톱 통합 바로 가기에서 
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
-    <value>미리 보기를 위해 이미지를 다운로드 중입니다...</value>
+    <value>미리보기를 위해 이미지를 다운로드 중입니다...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>빈 디렉터리에 대해 매니페스트 다이제스트가 계산되었습니다. 아카이브에 올바른 "extract" 값이 설정되어 있는지 확인하십시오.</value>
+    <value>빈 디렉터리에 대해 매니페스트 다이제스트가 계산되었습니다. 아카이브에 대해 올바른 "extract" 값이 설정되어 있는지 확인하십시오.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -145,11 +145,11 @@ Zero Install은 카탈로그 및 모든 데스크톱 통합 바로 가기에서 
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>설치 프로그램을 아카이브로 추출하는 데 실패했습니다.</value>
+    <value>설치 프로그램을 아카이브 파일로 추출하는 데 실패했습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>응용 프로그램에 대한 대체 다운로드 소스(예: ZIP 아카이브)를 제공해야 합니다. 설치 프로그램에서 수집한 데스크톱 통합 정보는 계속 사용할 예정입니다!</value>
+    <value>애플리케이션에 대한 대체 다운로드 소스(예: ZIP 아카이브)를 제공해 주셔야 합니다. 설치 프로그램에서 수집한 데스크톱 통합 정보는 여전히 사용할 예정입니다!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -174,11 +174,11 @@ Zero Install은 카탈로그 및 모든 데스크톱 통합 바로 가기에서 
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>아니요, 애플리케이션 자체는
-단 하나의 EXE 파일로만 구성되어 있습니다</value>
+단 하나의 EXE 파일로만 구성되어 있습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
-    <value>여기를 클릭해 주세요:</value>
+    <value>다음 중 하나를 클릭해 주세요:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
@@ -207,7 +207,7 @@ Zero Install은 카탈로그 및 모든 데스크톱 통합 바로 가기에서 
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>파일 서명 완료.</value>
+    <value>파일 서명이 성공적으로 완료되었습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
@@ -219,7 +219,7 @@ Zero Install은 카탈로그 및 모든 데스크톱 통합 바로 가기에서 
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>소스 URL</value>
+    <value>출처 URL</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
@@ -227,7 +227,7 @@ Zero Install은 카탈로그 및 모든 데스크톱 통합 바로 가기에서 
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>설치 프로그램이 완료되기를 기다리고 있습니다.</value>
+    <value>설치 프로그램이 완료되기를 기다리는 중입니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
@@ -235,7 +235,7 @@ Zero Install은 카탈로그 및 모든 데스크톱 통합 바로 가기에서 
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>예, 설치 프로그램 EXE</value>
+    <value>네, 설치 프로그램 EXE 파일</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

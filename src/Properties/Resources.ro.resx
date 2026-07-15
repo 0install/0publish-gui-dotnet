@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Adăugați ceea ce lipsește</value>
+    <value>Adăugați elementele lipsă</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -80,7 +80,7 @@
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
     <value>Sunteți sigur că doriți să omiteți capturarea?
-Informațiile despre integrarea aplicației pe desktop (de exemplu, asocierile de fișiere) nu vor fi adăugate la flux.</value>
+Informațiile despre integrarea aplicației cu desktopul (de exemplu, asocierile de fișiere) nu vor fi adăugate la flux.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
@@ -89,8 +89,8 @@ Zero Install va putea afișa doar o pictogramă generică de substituție în ca
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Ești sigur că vrei să continui fără a finaliza aceste setări?
-Feed-ul tău va funcționa doar local, nu și online.</value>
+    <value>Sunteți sigur că doriți să continuați fără a finaliza aceste setări?
+Feedul dvs. va funcționa doar local, nu și online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -98,8 +98,8 @@ Feed-ul tău va funcționa doar local, nu și online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Păstrați
-Implementarea trebuia să rămână aceeași</value>
+    <value>Păstrare
+Implementarea trebuia să rămână neschimbată</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
@@ -149,11 +149,11 @@ Aruncați modificările nesalvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Trebuie să furnizați o sursă alternativă de descărcare pentru aplicație, de exemplu o arhivă ZIP. Vom folosi în continuare informațiile de integrare pe desktop capturate de la programul de instalare!</value>
+    <value>Trebuie să furnizați o sursă alternativă de descărcare pentru aplicație, de exemplu o arhivă ZIP. Vom folosi în continuare informațiile de integrare pe desktop preluate din programul de instalare!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Rezumatul manifestului s-ar putea să se fi modificat.</value>
+    <value>Este posibil ca rezumatul manifestului să se fi modificat.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
@@ -169,12 +169,12 @@ Aruncați modificările nesalvate</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nu s-au găsit puncte de intrare (EXE, JAR, scripturi Python etc.). Asigurați-vă că ați selectat arhiva și directorul de extragere corecte.</value>
+    <value>Nu s-au găsit puncte de intrare (fișiere EXE, JAR, scripturi Python etc.). Asigurați-vă că ați selectat arhiva și directorul de extragere corecte.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Nu, aplicația în sine
-constă doar dintr-un singur fișier EXE</value>
+este formată doar dintr-un singur fișier EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
@@ -194,7 +194,7 @@ constă doar dintr-un singur fișier EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Salvezi oricum?</value>
+    <value>Vrei să salvezi oricum?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">
@@ -227,7 +227,7 @@ Salvare modificări</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Așteptarea finalizării instalării</value>
+    <value>Se așteaptă finalizarea instalării</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">

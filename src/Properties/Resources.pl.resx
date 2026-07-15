@@ -80,17 +80,17 @@
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
     <value>Czy na pewno chcesz pominąć przechwytywanie?
-Informacje o integracji aplikacji z pulpitem (np. skojarzenia plików) nie zostaną dodane do kanału.</value>
+Informacje dotyczące integracji aplikacji z pulpitem (np. skojarzenia plików) nie zostaną dodane do kanału.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Czy na pewno chcesz kontynuować bez dodawania ikon?
-Zero Install będzie mógł wyświetlać jedynie ogólną ikonę zastępczą w katalogu, a także w przypadku wszelkich skrótów integracji z pulpitem.</value>
+Zero Install będzie mógł wyświetlać jedynie ogólną ikonę zastępczą w katalogu, a także w przypadku wszelkich skrótów integracyjnych na pulpicie.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Czy na pewno chcesz kontynuować bez dokończenia tych ustawień?
-Twój kanał będzie działał tylko lokalnie, a nie w Internecie.</value>
+Twój kanał będzie działał tylko lokalnie, a nie w trybie online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -99,7 +99,7 @@ Twój kanał będzie działał tylko lokalnie, a nie w Internecie.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Zachowaj
-Implementacja miała pozostać bez zmian</value>
+Realizacja miała pozostać bez zmian</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
@@ -107,11 +107,11 @@ Implementacja miała pozostać bez zmian</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Wszystkie inne metody pobierania danych dla tej implementacji również muszą być zgodne z nowym skrótem!</value>
+    <value>Wszystkie pozostałe metody pobierania danych w tej implementacji również muszą być zgodne z nowym skrótem!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Zamień
+    <value>Zastąp
 Celowo zmieniłem implementację</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -141,15 +141,15 @@ Odrzuć niezapisane zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Format obrazu nie jest obsługiwany przez Zero Install.</value>
+    <value>Ten format obrazu nie jest obsługiwany przez Zero Install.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Nie udało się wyodrębnić instalatora jako archiwum.</value>
+    <value>Nie udało się wyodrębnić instalatora z archiwum.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Musisz podać alternatywne źródło pobrania aplikacji, np. archiwum ZIP. Nadal będziemy korzystać z informacji o integracji z pulpitem pobranych z instalatora!</value>
+    <value>Należy podać alternatywne źródło pobrania aplikacji, np. archiwum ZIP. Nadal będziemy korzystać z informacji dotyczących integracji z pulpitem pobranych z instalatora!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -169,12 +169,12 @@ Odrzuć niezapisane zmiany</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nie znaleziono żadnych plików wejściowych (EXE, JAR, skrypty Python itp.). Upewnij się, że wybrałeś właściwy plik archiwum i katalog docelowy.</value>
+    <value>Nie znaleziono żadnych plików startowych (EXE, JAR, skrypty w języku Python itp.). Upewnij się, że wybrałeś właściwy plik archiwum i katalog docelowy.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Nie, sama aplikacja
-składa się tylko z jednego pliku EXE</value>
+składa się wyłącznie z jednego pliku EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
@@ -207,7 +207,7 @@ Zapisz zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Pliki pomyślnie podpisane.</value>
+    <value>Pliki zostały pomyślnie podpisane.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">
@@ -235,7 +235,7 @@ Zapisz zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Tak, instalator EXE</value>
+    <value>Tak, plik instalacyjny EXE</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>
