@@ -18,12 +18,13 @@ jobs:
 
       # Build
       - name: Build
-        run: .\build.ps1 ${{steps.gitversion.outputs.nuGetVersion}}
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v7
+        run: src\build.ps1 ${{steps.gitversion.outputs.nuGetVersion}}
+      - uses: 0install/github-actions/0template@v1
+        id: feed
         with:
-          path: 0publish-gui-dotnet-${{steps.gitversion.outputs.nuGetVersion}}.*
-          compression-level: 0
+          template: 0publish-gui-dotnet.xml.template
+          version: ${{steps.gitversion.outputs.legacySemVer}}
+          github-release: ${{github.ref_type == 'tag'}}
 
       # Release
       - name: Get tag message
@@ -43,15 +44,13 @@ jobs:
             ## Changes
             ${{steps.tag_message.outputs.message}}
           files: |
-            0publish-gui-dotnet-${{steps.gitversion.outputs.legacySemVer}}.xml
-            0publish-gui-dotnet-${{steps.gitversion.outputs.legacySemVer}}.tar.zst
+            ${{steps.feed.outputs.feed}}
+            ${{steps.feed.outputs.archive}}
 
       # Publish
-      - name: Publish feed
+      - uses: 0install/github-actions/0repo-submit@v1
         if: github.ref_type == 'tag'
-        env:
-          GH_TOKEN: ${{secrets.PERSONAL_TOKEN}}
-        run: >
-          gh workflow run --repo=0install/apps Incoming
-          -f feed_url=https://github.com/${{github.repository}}/releases/download/${{github.ref_name}}/0publish-gui-dotnet-${{steps.gitversion.outputs.nuGetVersion}}.xml
-          -f archive_url=https://github.com/${{github.repository}}/releases/download/${{github.ref_name}}/0publish-gui-dotnet-${{steps.gitversion.outputs.nuGetVersion}}.tar.zst
+        with:
+          repository: 0install/apps
+          feed-url: ${{steps.feed.outputs.feed}}
+          token: ${{secrets.PERSONAL_TOKEN}}
