@@ -99,7 +99,7 @@ Zero Install은 카탈로그 및 데스크톱 통합 바로 가기에서 일반�
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>유지
-구현 방식은 기존과 동일하게 유지되어야 했다.</value>
+구현 방식은 기존과 동일하게 유지되어야 했습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
@@ -165,7 +165,7 @@ Zero Install은 카탈로그 및 데스크톱 통합 바로 가기에서 일반�
     <comment>Automatically translated.</comment>
   </data>
   <data name="NewKey" xml:space="preserve">
-    <value>새 키...</value>
+    <value>새로운 키...</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
@@ -219,7 +219,7 @@ Zero Install은 카탈로그 및 데스크톱 통합 바로 가기에서 일반�
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>출처 URL</value>
+    <value>소스 URL</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">

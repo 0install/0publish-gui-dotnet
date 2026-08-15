@@ -129,7 +129,7 @@ Batalkan perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>File feed (*.xml)|*.xml|File templat (*.xml.template)|*.xml.template|Semua file|*</value>
+    <value>File umpan (*.xml)|*.xml|File templat (*.xml.template)|*.xml.template|Semua file|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">

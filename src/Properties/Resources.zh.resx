@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>此路径指向归档文件夹之外的位置。</value>
+    <value>此路径指向归档文件以外的位置。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -79,8 +79,8 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>您确定要跳过捕获吗？
-有关应用程序与桌面集成的信息（例如文件关联）将不会添加到信息流中。</value>
+    <value>您确定要跳过捕获操作吗？
+有关该应用程序与桌面集成的信息（例如文件关联）将不会添加到信息流中。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
@@ -90,7 +90,7 @@ Zero Install 只能在目录中以及任何桌面集成快捷方式上显示一�
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>您确定要在未完成这些设置的情况下继续吗？
-您的订阅源将仅在本地有效，无法在线使用。</value>
+您的订阅源仅在本地有效，无法在线使用。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -149,7 +149,7 @@ Zero Install 只能在目录中以及任何桌面集成快捷方式上显示一�
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>您需要为该应用程序提供一个替代下载来源，例如 ZIP 压缩包。我们将继续使用从安装程序中捕获的桌面集成信息！</value>
+    <value>您需要提供该应用程序的备用下载来源，例如 ZIP 压缩包。我们将继续使用从安装程序中捕获的桌面集成信息！</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -182,7 +182,7 @@ Zero Install 只能在目录中以及任何桌面集成快捷方式上显示一�
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>PNG 图像文件</value>
+    <value>PNG图像文件</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">

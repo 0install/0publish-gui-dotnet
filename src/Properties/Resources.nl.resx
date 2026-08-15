@@ -125,7 +125,7 @@ Niet-opgeslagen wijzigingen annuleren</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Er is een manifest-samenvatting berekend voor een lege map. Controleer of u de juiste "extract"-waarde voor het archief hebt ingesteld.</value>
+    <value>Er is een manifest-overzicht berekend voor een lege map. Controleer of u de juiste "extract"-waarde voor het archief hebt ingesteld.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -235,7 +235,7 @@ Wijzigingen opslaan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Ja, installatieprogramma (EXE)</value>
+    <value>Ja, EXE-installatieprogramma</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>
