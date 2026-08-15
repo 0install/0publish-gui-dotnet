@@ -129,7 +129,7 @@ Zero Install сможет отображать только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Файлы фидов (*.xml)|*.xml|Файлы шаблонов (*.xml.template)|*.xml.template|Все файлы|*</value>
+    <value>Файлы данных (*.xml)|*.xml|Файлы шаблонов (*.xml.template)|*.xml.template|Все файлы|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -141,7 +141,7 @@ Zero Install сможет отображать только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Этот формат изображения не поддерживается Zero Install.</value>
+    <value>Этот формат изображений не поддерживается Zero Install.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
@@ -157,7 +157,7 @@ Zero Install сможет отображать только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Дайджест манифеста ещё не рассчитан.</value>
+    <value>Дайджест манифеста еще не рассчитан.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -231,7 +231,7 @@ Zero Install сможет отображать только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Неверный тип MIME! Должен быть {0}.</value>
+    <value>Неверный тип MIME! Должно быть {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">

@@ -71,7 +71,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Introduza a frase de passagem do GnuPG para {0}:</value>
+    <value>Introduza a frase-passe do GnuPG para {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
@@ -141,7 +141,7 @@ Descartar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>O formato de imagem não é suportado pelo Zero Install.</value>
+    <value>O formato da imagem não é suportado pelo Zero Install.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
@@ -169,7 +169,7 @@ Descartar alterações não guardadas</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Não foram encontrados pontos de entrada (EXEs, JARs, scripts Python, etc.). Certifique-se de que selecionou o arquivo e o diretório de extração corretos.</value>
+    <value>Não foram encontrados pontos de entrada (ficheiros EXE, JAR, scripts Python, etc.). Certifique-se de que selecionou o arquivo e o diretório de extração corretos.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">

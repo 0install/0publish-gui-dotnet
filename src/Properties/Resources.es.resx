@@ -235,7 +235,7 @@ Guardar cambios</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Sí, instalador EXE</value>
+    <value>Sí, archivo EXE de instalación</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

@@ -103,7 +103,7 @@ Realizacja miała pozostać bez zmian</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Zmienił się skrót manifestu. Czy chcesz zastąpić istniejący?</value>
+    <value>Zmienił się skrót manifestu. Czy chcesz zastąpić dotychczasowy?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
@@ -111,7 +111,7 @@ Realizacja miała pozostać bez zmian</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Zastąp
+    <value>Zamień
 Celowo zmieniłem implementację</value>
     <comment>Automatically translated.</comment>
   </data>

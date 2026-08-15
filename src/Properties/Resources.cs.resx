@@ -112,7 +112,7 @@ Implementace měla zůstat stejná</value>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>Nahradit
-Záměrně jsem změnil implementaci</value>
+Úmyslně jsem změnil implementaci</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
@@ -145,7 +145,7 @@ Zrušit neuložené změny</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Nepodařilo se extrahovat instalační program z archivu.</value>
+    <value>Nepodařilo se extrahovat instalační program jako archiv.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
@@ -157,7 +157,7 @@ Zrušit neuložené změny</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Souhrn manifestu ještě nebyl vypočítán.</value>
+    <value>Souhrn manifestu zatím nebyl vypočítán.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
