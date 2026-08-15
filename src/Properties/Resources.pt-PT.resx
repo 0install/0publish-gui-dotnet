@@ -71,7 +71,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>Introduza a frase de passagem do GnuPG para {0}:</value>
+    <value>Introduza a frase-passe do GnuPG para {0}:</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
@@ -84,8 +84,8 @@ As informações sobre a integração da aplicação no ambiente de trabalho (po
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
-    <value>Tem a certeza de que quer continuar sem adicionar ícones?
-O Zero Install só poderá apresentar um ícone genérico provisório no catálogo, bem como em quaisquer atalhos de integração no ambiente de trabalho.</value>
+    <value>Tem a certeza de que deseja continuar sem adicionar ícones?
+O Zero Install só poderá apresentar um ícone genérico de substituição no catálogo, bem como em quaisquer atalhos de integração no ambiente de trabalho.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
@@ -145,11 +145,11 @@ Descartar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Não foi possível extrair o instalador como um arquivo.</value>
+    <value>Não foi possível extrair o instalador como um arquivo compactado.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Tem de fornecer uma fonte de download alternativa para a aplicação, por exemplo, um arquivo ZIP. Continuaremos a utilizar as informações de integração no ambiente de trabalho recolhidas a partir do instalador!</value>
+    <value>Tem de fornecer uma fonte de download alternativa para a aplicação, por exemplo, um arquivo ZIP. Continuaremos a utilizar as informações de integração no ambiente de trabalho obtidas a partir do instalador!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -169,7 +169,7 @@ Descartar alterações não guardadas</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Não foram encontrados pontos de entrada (EXEs, JARs, scripts Python, etc.). Certifique-se de que selecionou o arquivo e o diretório de extração corretos.</value>
+    <value>Não foram encontrados pontos de entrada (ficheiros EXE, JAR, scripts Python, etc.). Certifique-se de que selecionou o arquivo e o diretório de extração corretos.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">

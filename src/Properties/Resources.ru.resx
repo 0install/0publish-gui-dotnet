@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Этот путь указывает на папку, находящуюся за пределами архива.</value>
+    <value>Этот путь указывает за пределы архива.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -141,7 +141,7 @@ Zero Install сможет отображать только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Этот формат изображения не поддерживается Zero Install.</value>
+    <value>Этот формат изображений не поддерживается Zero Install.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
@@ -219,7 +219,7 @@ Zero Install сможет отображать только общий знач�
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>URL источника</value>
+    <value>URL-адрес источника</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
@@ -227,7 +227,7 @@ Zero Install сможет отображать только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Ожидание завершения работы установщика</value>
+    <value>Ожидание завершения работы программы установки</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">

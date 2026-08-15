@@ -103,7 +103,7 @@ De implementatie moest hetzelfde blijven</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>De samenvatting van het manifest is gewijzigd. Wilt u de bestaande samenvatting vervangen?</value>
+    <value>De samenvatting van het manifest is gewijzigd. Wilt u de bestaande vervangen?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
@@ -149,7 +149,7 @@ Niet-opgeslagen wijzigingen annuleren</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>U moet een alternatieve downloadbron voor de applicatie opgeven, bijvoorbeeld een ZIP-archief. We zullen nog steeds de informatie over de desktopintegratie gebruiken die uit het installatieprogramma is gehaald!</value>
+    <value>U moet een alternatieve downloadbron voor de applicatie opgeven, bijvoorbeeld een ZIP-archief. We blijven de informatie over de desktopintegratie gebruiken die door het installatieprogramma is vastgelegd!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -173,7 +173,7 @@ Niet-opgeslagen wijzigingen annuleren</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
-    <value>Nee, de applicatie zelf
+    <value>Nee, de toepassing zelf
 bestaat uit slechts één EXE-bestand</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -227,7 +227,7 @@ Wijzigingen opslaan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Wachten tot het installatieprogramma klaar is</value>
+    <value>Wachten tot de installatie is voltooid</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
@@ -235,7 +235,7 @@ Wijzigingen opslaan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">
-    <value>Ja, installatieprogramma (EXE)</value>
+    <value>Ja, EXE-installatieprogramma</value>
     <comment>Automatically translated.</comment>
   </data>
 </root>

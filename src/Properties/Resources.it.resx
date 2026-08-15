@@ -103,7 +103,7 @@ L'implementazione avrebbe dovuto rimanere invariata</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Il riepilogo del manifesto è cambiato. Vuoi sostituire quello esistente?</value>
+    <value>Il riepilogo del manifesto è stato modificato. Desideri sostituire quello esistente?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
@@ -137,7 +137,7 @@ Annulla le modifiche non salvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="IcoFiles" xml:space="preserve">
-    <value>File delle icone di Windows</value>
+    <value>File di icone di Windows</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
@@ -223,7 +223,7 @@ Salva le modifiche</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
-    <value>Sintesi</value>
+    <value>Riepilogo</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">

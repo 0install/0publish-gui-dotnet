@@ -107,7 +107,7 @@ Zero Installでは、カタログ内およびデスクトップ統合用のシ�
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>この実装におけるその他のすべての取得方法も、新しいダイジェストと一致している必要があります！</value>
+    <value>この実装におけるその他のすべての検索方法も、新しいダイジェストと一致している必要があります！</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -149,7 +149,7 @@ Zero Installでは、カタログ内およびデスクトップ統合用のシ�
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>アプリケーションの代替ダウンロードソース（例：ZIPアーカイブ）を用意する必要があります。インストーラーから取得したデスクトップ統合情報は引き続き使用します！</value>
+    <value>アプリケーションの代替ダウンロードソース（例：ZIPアーカイブなど）を用意する必要があります。インストーラーから取得したデスクトップ統合情報は引き続き使用します！</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -169,7 +169,7 @@ Zero Installでは、カタログ内およびデスクトップ統合用のシ�
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>エントリポイント（EXE、JAR、Pythonスクリプトなど）は見つかりませんでした。正しいアーカイブと抽出先ディレクトリを選択しているかご確認ください。</value>
+    <value>エントリポイント（EXE、JAR、Pythonスクリプトなど）は見つかりませんでした。正しいアーカイブと解凍先ディレクトリを選択しているかご確認ください。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -227,7 +227,7 @@ Zero Installでは、カタログ内およびデスクトップ統合用のシ�
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>インストーラーの完了を待機中</value>
+    <value>インストーラーの完了を待っています</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">

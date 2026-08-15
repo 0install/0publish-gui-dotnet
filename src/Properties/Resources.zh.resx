@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>添加缺失的内容</value>
+    <value>添加缺失内容</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -67,11 +67,11 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>此路径指向归档文件夹之外的位置。</value>
+    <value>此路径指向存档外部。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
-    <value>请输入{0} 的GnuPG密码短语：</value>
+    <value>请输入{0} 的 GnuPG 密码短语：</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
@@ -80,7 +80,7 @@
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
     <value>您确定要跳过捕获吗？
-有关应用程序与桌面集成的信息（例如文件关联）将不会添加到信息流中。</value>
+有关该应用程序与桌面集成的信息（例如文件关联）将不会添加到信息流中。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
@@ -99,7 +99,7 @@ Zero Install 只能在目录中以及任何桌面集成快捷方式上显示一�
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>保留
-该实现原本应保持不变</value>
+该实现本应保持不变</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
@@ -107,12 +107,12 @@ Zero Install 只能在目录中以及任何桌面集成快捷方式上显示一�
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>此实现中的所有其他检索方法也必须与新的摘要匹配！</value>
+    <value>此实现中所有其他检索方法也必须与新的摘要匹配！</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>替换
-我特意更改了该实现</value>
+我特意更改了该功能的实现方式</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
@@ -149,7 +149,7 @@ Zero Install 只能在目录中以及任何桌面集成快捷方式上显示一�
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>您需要为该应用程序提供一个替代下载来源，例如 ZIP 压缩包。我们将继续使用从安装程序中捕获的桌面集成信息！</value>
+    <value>您需要为该应用程序提供一个替代下载来源，例如 ZIP 压缩包。我们仍将使用从安装程序中捕获的桌面集成信息！</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -169,7 +169,7 @@ Zero Install 只能在目录中以及任何桌面集成快捷方式上显示一�
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>未找到任何入口文件（EXE、JAR、Python脚本等）。请确保您选择了正确的压缩包和解压目录。</value>
+    <value>未找到任何入口文件（EXE、JAR、Python脚本等）。请确保您选择了正确的存档文件和解压目录。</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -182,7 +182,7 @@ Zero Install 只能在目录中以及任何桌面集成快捷方式上显示一�
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>PNG 图像文件</value>
+    <value>PNG图像文件</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">

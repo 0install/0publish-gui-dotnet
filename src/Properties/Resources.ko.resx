@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>이 경로는 아카이브 외부로 연결됩니다.</value>
+    <value>이 경로는 아카이브 외부를 가리킵니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -85,7 +85,7 @@
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>아이콘을 추가하지 않고 계속 진행하시겠습니까?
-Zero Install은 카탈로그 및 데스크톱 통합 바로 가기에서 일반적인 자리 표시자 아이콘만 표시할 수 있습니다.</value>
+Zero Install은 카탈로그 및 모든 바탕화면 통합 바로가기에 일반적인 자리 표시자 아이콘만 표시할 수 있습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
@@ -117,7 +117,7 @@ Zero Install은 카탈로그 및 데스크톱 통합 바로 가기에서 일반�
   </data>
   <data name="DiscardChanges" xml:space="preserve">
     <value>취소
-저장되지 않은 변경 내용 취소</value>
+저장되지 않은 변경 사항 취소</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
@@ -141,15 +141,15 @@ Zero Install은 카탈로그 및 데스크톱 통합 바로 가기에서 일반�
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>이 이미지 형식은 Zero Install에서 지원되지 않습니다.</value>
+    <value>Zero Install에서는 해당 이미지 형식을 지원하지 않습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>설치 프로그램을 아카이브 파일로 추출하는 데 실패했습니다.</value>
+    <value>설치 프로그램을 아카이브로 추출하는 데 실패했습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>애플리케이션에 대한 대체 다운로드 소스(예: ZIP 아카이브)를 제공해 주셔야 합니다. 설치 프로그램에서 수집한 데스크톱 통합 정보는 여전히 사용할 예정입니다!</value>
+    <value>애플리케이션에 대한 대체 다운로드 소스(예: ZIP 아카이브)를 제공해야 합니다. 설치 프로그램에서 수집한 데스크톱 통합 정보는 여전히 사용할 예정입니다!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -169,7 +169,7 @@ Zero Install은 카탈로그 및 데스크톱 통합 바로 가기에서 일반�
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>실행 파일(EXE, JAR, Python 스크립트 등)이 발견되지 않았습니다. 올바른 아카이브와 추출 디렉터리를 선택했는지 확인해 주십시오.</value>
+    <value>실행 파일(EXE, JAR, Python 스크립트 등)이 발견되지 않았습니다. 올바른 아카이브와 압축 해제 디렉터리를 선택했는지 확인해 주십시오.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -219,7 +219,7 @@ Zero Install은 카탈로그 및 데스크톱 통합 바로 가기에서 일반�
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>출처 URL</value>
+    <value>소스 URL</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
