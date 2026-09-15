@@ -90,7 +90,7 @@ Zero Install bude schopen zobrazit pouze obecnou zástupnou ikonu v katalogu a t
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Opravdu chcete pokračovat, aniž byste dokončili tato nastavení?
-Váš kanál bude fungovat pouze lokálně, nikoli online.</value>
+Váš feed bude fungovat pouze lokálně, nikoli online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -103,16 +103,16 @@ Implementace měla zůstat stejná</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Souhrn manifestu se změnil. Chcete nahradit stávající souhrn?</value>
+    <value>Souhrn manifestu se změnil. Chcete nahradit stávající?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Všechny ostatní metody vyhledávání pro tuto implementaci musí rovněž odpovídat novému souhrnu!</value>
+    <value>Všechny ostatní metody načítání pro tuto implementaci musí rovněž odpovídat novému souhrnu!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>Nahradit
-Úmyslně jsem změnil implementaci</value>
+Záměrně jsem změnil implementaci</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
@@ -182,7 +182,7 @@ se skládá pouze z jednoho souboru EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>Soubory obrázků ve formátu PNG</value>
+    <value>Obrázkové soubory ve formátu PNG</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">

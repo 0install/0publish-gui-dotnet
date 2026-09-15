@@ -107,11 +107,11 @@ Realizacja miała pozostać bez zmian</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Wszystkie pozostałe metody pobierania danych w tej implementacji również muszą być zgodne z nowym skrótem!</value>
+    <value>Wszystkie inne metody pobierania danych w tej implementacji również muszą być zgodne z nowym skrótem!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Zamień
+    <value>Zastąp
 Celowo zmieniłem implementację</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -169,7 +169,7 @@ Odrzuć niezapisane zmiany</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Nie znaleziono żadnych plików startowych (EXE, JAR, skrypty w języku Python itp.). Upewnij się, że wybrałeś właściwy plik archiwum i katalog docelowy.</value>
+    <value>Nie znaleziono żadnych plików uruchamiających (EXE, JAR, skrypty w języku Python itp.). Upewnij się, że wybrałeś właściwy archiwum i katalog docelowy.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -207,7 +207,7 @@ Zapisz zmiany</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">
-    <value>Pliki zostały pomyślnie podpisane.</value>
+    <value>Pliki pomyślnie podpisane.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SigningFeeds" xml:space="preserve">

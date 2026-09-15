@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Tambahkan yang hilang</value>
+    <value>Tambahkan yang kurang</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -107,7 +107,7 @@ Implementasinya seharusnya tetap sama</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
-    <value>Semua metode pengambilan data lainnya untuk implementasi ini juga harus sesuai dengan ringkasan baru tersebut!</value>
+    <value>Semua metode pengambilan data lainnya untuk implementasi ini juga harus sesuai dengan ringkasan baru!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
@@ -125,7 +125,7 @@ Batalkan perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Ringkasan manifest telah dihitung untuk direktori kosong. Pastikan Anda telah menetapkan nilai "extract" yang benar untuk arsip tersebut.</value>
+    <value>Ringkasan manifes telah dihitung untuk direktori kosong. Pastikan Anda telah menetapkan nilai "extract" yang benar untuk arsip tersebut.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -149,7 +149,7 @@ Batalkan perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Anda perlu menyediakan sumber unduhan alternatif untuk aplikasi tersebut, misalnya arsip ZIP. Kami tetap akan menggunakan informasi integrasi desktop yang diambil dari penginstal!</value>
+    <value>Anda perlu menyediakan sumber unduhan alternatif untuk aplikasi ini, misalnya arsip ZIP. Kami tetap akan menggunakan informasi integrasi desktop yang diambil dari penginstal!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -169,7 +169,7 @@ Batalkan perubahan yang belum disimpan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoEntryPointsFound" xml:space="preserve">
-    <value>Tidak ditemukan titik masuk (EXE, JAR, skrip Python, dll.). Pastikan Anda telah memilih arsip dan direktori ekstraksi yang benar.</value>
+    <value>Tidak ditemukan titik masuk (EXE, JAR, skrip Python, dll.). Pastikan Anda telah memilih arsip dan direktori ekstrak yang benar.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
@@ -203,7 +203,7 @@ Simpan perubahan</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveQuestion" xml:space="preserve">
-    <value>Apakah Anda ingin menyimpan perubahan?</value>
+    <value>Apakah Anda ingin menyimpan perubahan tersebut?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SignedFeeds" xml:space="preserve">

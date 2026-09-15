@@ -89,7 +89,7 @@ Zero Install ne pourra afficher qu'une icône générique par défaut dans le ca
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Êtes-vous sûr de vouloir continuer sans terminer ces réglages ?
+    <value>Êtes-vous sûr de vouloir continuer sans avoir terminé ces réglages ?
 Votre flux ne fonctionnera qu'en local et non en ligne.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -149,7 +149,7 @@ Abandonner les modifications non sauvegardées</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Vous devez fournir une autre source de téléchargement pour l'application, par exemple une archive ZIP. Nous continuerons à utiliser les informations d'intégration au bureau récupérées à partir du programme d'installation !</value>
+    <value>Vous devez fournir une autre source de téléchargement pour l'application, par exemple une archive ZIP. Nous continuerons à utiliser les informations d'intégration au bureau récupérées depuis le programme d'installation !</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">

@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>Этот путь указывает на папку, находящуюся за пределами архива.</value>
+    <value>Этот путь указывает за пределы архива.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -129,7 +129,7 @@ Zero Install сможет отображать только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
-    <value>Файлы данных (*.xml)|*.xml|Файлы шаблонов (*.xml.template)|*.xml.template|Все файлы|*</value>
+    <value>Файлы фидов (*.xml)|*.xml|Файлы шаблонов (*.xml.template)|*.xml.template|Все файлы|*</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="FileSize" xml:space="preserve">
@@ -157,7 +157,7 @@ Zero Install сможет отображать только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Дайджест манифеста еще не рассчитан.</value>
+    <value>Дайджест манифеста ещё не рассчитан.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -219,7 +219,7 @@ Zero Install сможет отображать только общий знач�
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>URL источника</value>
+    <value>URL-адрес источника</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
@@ -227,11 +227,11 @@ Zero Install сможет отображать только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Ожидание завершения работы установщика</value>
+    <value>Ожидание завершения работы программы установки</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">
-    <value>Неверный тип MIME! Должно быть {0}.</value>
+    <value>Неверный тип MIME! Должен быть {0}.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="YesInstallerExe" xml:space="preserve">

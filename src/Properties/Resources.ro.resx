@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddMissing" xml:space="preserve">
-    <value>Adăugați elementele lipsă</value>
+    <value>Adăugați ceea ce lipsește</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AllFiles" xml:space="preserve">
@@ -98,7 +98,7 @@ Fluxul dvs. va funcționa doar local, nu și online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestKeep" xml:space="preserve">
-    <value>Păstrați
+    <value>Păstrare
 Implementarea trebuia să rămână neschimbată</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -112,7 +112,7 @@ Implementarea trebuia să rămână neschimbată</value>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>Înlocuire
-Am modificat implementarea în mod intenționat</value>
+Am modificat intenționat implementarea</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
@@ -145,11 +145,11 @@ Aruncați modificările nesalvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Nu s-a putut extrage programul de instalare ca arhivă.</value>
+    <value>Nu s-a putut extrage programul de instalare sub formă de arhivă.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Trebuie să furnizați o sursă alternativă de descărcare pentru aplicație, de exemplu o arhivă ZIP. Vom folosi în continuare informațiile de integrare pe desktop preluate din programul de instalare!</value>
+    <value>Trebuie să furnizați o sursă alternativă de descărcare pentru aplicație, de exemplu o arhivă ZIP. Vom folosi în continuare informațiile de integrare pe desktop capturate din programul de instalare!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -174,7 +174,7 @@ Aruncați modificările nesalvate</value>
   </data>
   <data name="NoSingleExecutable" xml:space="preserve">
     <value>Nu, aplicația în sine
-este formată doar dintr-un singur fișier EXE</value>
+constă doar dintr-un singur fișier EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PleaseClick" xml:space="preserve">
