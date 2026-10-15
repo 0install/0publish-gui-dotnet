@@ -90,7 +90,7 @@ Zero Install va putea afișa doar o pictogramă generică de substituție în ca
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Sunteți sigur că doriți să continuați fără a finaliza aceste setări?
-Fluxul dvs. va funcționa doar local, nu și online.</value>
+Feed-ul dvs. va funcționa doar local, nu și online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -145,7 +145,7 @@ Aruncați modificările nesalvate</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>Nu s-a putut extrage programul de instalare sub formă de arhivă.</value>
+    <value>Nu s-a putut extrage programul de instalare ca arhivă.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
@@ -194,7 +194,7 @@ constă doar dintr-un singur fișier EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveAnyway" xml:space="preserve">
-    <value>Doriți să salvați oricum?</value>
+    <value>Vrei să salvezi oricum?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="SaveChanges" xml:space="preserve">

@@ -99,7 +99,7 @@ Tu feed solo funcionará de forma local y no en línea.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Mantener
-Se suponía que la implementación debía seguir siendo la misma.</value>
+Se suponía que la implementación debía seguir siendo la misma</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
@@ -116,8 +116,8 @@ He cambiado la implementación a propósito</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
-    <value>Descartar
-Descartar los cambios no guardados</value>
+    <value>Deshacer
+Deshacer los cambios no guardados</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DownloadingPeviewImage" xml:space="preserve">
