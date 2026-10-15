@@ -90,7 +90,7 @@ Zero Install bude schopen zobrazit pouze obecnou zástupnou ikonu v katalogu a t
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Opravdu chcete pokračovat, aniž byste dokončili tato nastavení?
-Váš feed bude fungovat pouze lokálně, nikoli online.</value>
+Váš kanál bude fungovat pouze lokálně, nikoli online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -103,7 +103,7 @@ Implementace měla zůstat stejná</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Souhrn manifestu se změnil. Chcete nahradit stávající?</value>
+    <value>Souhrn manifestu se změnil. Chcete nahradit stávající souhrn?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
@@ -112,7 +112,7 @@ Implementace měla zůstat stejná</value>
   </data>
   <data name="DigestReplace" xml:space="preserve">
     <value>Nahradit
-Záměrně jsem změnil implementaci</value>
+Úmyslně jsem změnil implementaci</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DiscardChanges" xml:space="preserve">
@@ -157,7 +157,7 @@ Zrušit neuložené změny</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Souhrn manifestu zatím nebyl vypočítán.</value>
+    <value>Souhrn manifestu ještě nebyl vypočítán.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -182,7 +182,7 @@ se skládá pouze z jednoho souboru EXE</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="PngFiles" xml:space="preserve">
-    <value>Obrázkové soubory ve formátu PNG</value>
+    <value>Soubory obrázků ve formátu PNG</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="RequiredBytes" xml:space="preserve">

@@ -149,7 +149,7 @@ Zero Installでは、カタログ内およびデスクトップ統合用のシ�
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>アプリケーションの代替ダウンロードソース（例：ZIPアーカイブなど）を用意する必要があります。インストーラーから取得したデスクトップ統合情報は引き続き使用します！</value>
+    <value>アプリケーションの代替ダウンロードソース（例：ZIPアーカイブ）を用意する必要があります。インストーラーから取得したデスクトップ統合情報は引き続き使用します！</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
@@ -227,7 +227,7 @@ Zero Installでは、カタログ内およびデスクトップ統合用のシ�
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>インストーラーの完了を待っています</value>
+    <value>インストーラーの完了を待機中</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">

@@ -157,7 +157,7 @@ Zero Install сможет отображать только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Дайджест манифеста ещё не рассчитан.</value>
+    <value>Дайджест манифеста еще не рассчитан.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Names" xml:space="preserve">
@@ -219,7 +219,7 @@ Zero Install сможет отображать только общий знач�
     <comment>Manually overriden.</comment>
   </data>
   <data name="SourceUrl" xml:space="preserve">
-    <value>URL-адрес источника</value>
+    <value>URL источника</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
@@ -227,7 +227,7 @@ Zero Install сможет отображать только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>Ожидание завершения работы программы установки</value>
+    <value>Ожидание завершения работы установщика</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">

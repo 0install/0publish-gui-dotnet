@@ -89,7 +89,7 @@ Zero Install ne pourra afficher qu'une icône générique par défaut dans le ca
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
-    <value>Êtes-vous sûr de vouloir continuer sans avoir terminé ces réglages ?
+    <value>Êtes-vous sûr de vouloir continuer sans terminer ces réglages ?
 Votre flux ne fonctionnera qu'en local et non en ligne.</value>
     <comment>Automatically translated.</comment>
   </data>

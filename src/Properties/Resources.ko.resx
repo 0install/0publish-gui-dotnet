@@ -67,7 +67,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="ArchiveBreakoutPath" xml:space="preserve">
-    <value>이 경로는 아카이브 외부를 가리킵니다.</value>
+    <value>이 경로는 아카이브 외부로 연결됩니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskForPassphrase" xml:space="preserve">
@@ -75,7 +75,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>이 파일은 설치 프로그램 EXE 파일인가요?</value>
+    <value>이 파일은 설치용 EXE 파일인가요?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
@@ -85,7 +85,7 @@
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>아이콘을 추가하지 않고 계속 진행하시겠습니까?
-Zero Install은 카탈로그 및 모든 바탕화면 통합 바로가기에 일반적인 자리 표시자 아이콘만 표시할 수 있습니다.</value>
+Zero Install은 카탈로그 및 모든 데스크톱 통합 바로가기에 일반적인 자리 표시자 아이콘만 표시할 수 있습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
@@ -141,15 +141,15 @@ Zero Install은 카탈로그 및 모든 바탕화면 통합 바로가기에 일�
     <comment>Automatically translated.</comment>
   </data>
   <data name="ImageFormatNotSupported" xml:space="preserve">
-    <value>Zero Install에서는 해당 이미지 형식을 지원하지 않습니다.</value>
+    <value>이 이미지 형식은 Zero Install에서 지원되지 않습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerExtractFailed" xml:space="preserve">
-    <value>설치 프로그램을 아카이브로 추출하는 데 실패했습니다.</value>
+    <value>설치 프로그램을 아카이브 파일로 추출하는 데 실패했습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>애플리케이션에 대한 대체 다운로드 소스(예: ZIP 아카이브)를 제공해야 합니다. 설치 프로그램에서 수집한 데스크톱 통합 정보는 여전히 사용할 예정입니다!</value>
+    <value>애플리케이션에 대한 대체 다운로드 소스(예: ZIP 아카이브)를 제공해 주셔야 합니다. 설치 프로그램에서 수집한 데스크톱 통합 정보는 여전히 사용할 예정입니다!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
