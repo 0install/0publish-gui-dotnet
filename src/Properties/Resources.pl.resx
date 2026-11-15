@@ -90,7 +90,7 @@ Zero Install będzie mógł wyświetlać jedynie ogólną ikonę zastępczą w k
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
     <value>Czy na pewno chcesz kontynuować bez dokończenia tych ustawień?
-Twój kanał będzie działał tylko lokalnie, a nie w Internecie.</value>
+Twój kanał będzie działał tylko lokalnie, a nie w trybie online.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -111,7 +111,7 @@ Implementacja miała pozostać bez zmian</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestReplace" xml:space="preserve">
-    <value>Zamień
+    <value>Zastąp
 Celowo zmieniłem implementację</value>
     <comment>Automatically translated.</comment>
   </data>

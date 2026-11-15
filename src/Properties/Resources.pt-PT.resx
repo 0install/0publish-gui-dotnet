@@ -79,7 +79,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
-    <value>Tem a certeza de que quer ignorar a captura?
+    <value>Tem a certeza de que pretende ignorar a captura?
 As informações sobre a integração da aplicação no ambiente de trabalho (por exemplo, associações de ficheiros) não serão adicionadas ao feed.</value>
     <comment>Automatically translated.</comment>
   </data>
@@ -149,7 +149,7 @@ Descartar alterações não guardadas</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Tem de fornecer uma fonte de download alternativa para a aplicação, por exemplo, um arquivo ZIP. Continuaremos a utilizar as informações de integração no ambiente de trabalho obtidas a partir do instalador!</value>
+    <value>Tem de fornecer uma fonte de download alternativa para a aplicação, por exemplo, um ficheiro ZIP. Continuaremos a utilizar as informações de integração no ambiente de trabalho recolhidas a partir do instalador!</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">

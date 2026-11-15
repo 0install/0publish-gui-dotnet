@@ -149,7 +149,7 @@ Abandonner les modifications non sauvegardées</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="InstallerNeedAltSource" xml:space="preserve">
-    <value>Vous devez fournir une autre source de téléchargement pour l'application, par exemple une archive ZIP. Nous continuerons à utiliser les informations d'intégration au bureau récupérées depuis le programme d'installation !</value>
+    <value>Vous devez fournir une autre source de téléchargement pour l'application, par exemple une archive ZIP. Nous continuerons à utiliser les informations d'intégration au bureau récupérées à partir du programme d'installation !</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
