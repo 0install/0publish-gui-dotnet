@@ -223,8 +223,8 @@ Zero Install сможет отображать только общий знач�
     <comment>Automatically translated.</comment>
   </data>
   <data name="Summary" xml:space="preserve">
-    <value>Резюме</value>
-    <comment>Automatically translated.</comment>
+    <value>Описание</value>
+    <comment>Manually overriden.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
     <value>Ожидание завершения работы установщика</value>

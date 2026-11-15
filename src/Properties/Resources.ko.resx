@@ -75,7 +75,7 @@
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskInstallerEXE" xml:space="preserve">
-    <value>이 파일은 설치용 EXE 파일인가요?</value>
+    <value>이 파일은 설치 프로그램 EXE 파일인가요?</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipCapture" xml:space="preserve">
@@ -227,7 +227,7 @@ Zero Install은 카탈로그 및 모든 데스크톱 통합 바로가기에 일�
     <comment>Automatically translated.</comment>
   </data>
   <data name="WaitingForInstaller" xml:space="preserve">
-    <value>설치 프로그램이 완료되기를 기다리는 중입니다.</value>
+    <value>설치 프로그램이 완료되기를 기다리고 있습니다.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="WrongMimeType" xml:space="preserve">

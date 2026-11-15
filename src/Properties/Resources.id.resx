@@ -85,7 +85,7 @@ Informasi tentang integrasi desktop aplikasi (mis. asosiasi file) tidak akan dit
   </data>
   <data name="AskSkipIcon" xml:space="preserve">
     <value>Apakah Anda yakin ingin melanjutkan tanpa menambahkan ikon?
-Zero Install hanya akan dapat menampilkan ikon pengganti umum di katalog serta pada semua pintasan integrasi desktop.</value>
+Zero Install hanya akan dapat menampilkan ikon pengganti umum di katalog serta untuk semua pintasan integrasi desktop.</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="AskSkipSecurity" xml:space="preserve">
@@ -99,7 +99,7 @@ Feed Anda hanya akan berfungsi secara lokal dan tidak secara online.</value>
   </data>
   <data name="DigestKeep" xml:space="preserve">
     <value>Pertahankan
-Implementasinya seharusnya tetap sama</value>
+Penerapannya seharusnya tetap sama</value>
     <comment>Automatically translated.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">

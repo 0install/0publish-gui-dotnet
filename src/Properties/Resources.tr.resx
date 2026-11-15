@@ -103,7 +103,7 @@ Bu uyarlamanın aynı şekilde kalması gerekiyordu</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestMismatch" xml:space="preserve">
-    <value>Öge listesi dosyası değişti. Var olan dosya değiştirilsin mi?</value>
+    <value>Öge listesi karması değişti. Var olan dosya değiştirilsin mi?</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="DigestOtherImplementations" xml:space="preserve">
@@ -125,7 +125,7 @@ Kaydedilmemiş değişiklikleri yok say</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="EmptyImplementation" xml:space="preserve">
-    <value>Boş bir klasör için bir öge listesi dosyası hazırlandı. "extract" değerinin arşiv için doğru şekilde ayarlanmış olduğundan emin olun.</value>
+    <value>Boş bir klasör için bir öge listesi karması hazırlandı. "extract" değerinin arşiv için doğru şekilde ayarlanmış olduğundan emin olun.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="FileDialogFilter" xml:space="preserve">
@@ -153,11 +153,11 @@ Kaydedilmemiş değişiklikleri yok say</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestChanged" xml:space="preserve">
-    <value>Öge listesi dosyası değişmiş olabilir.</value>
+    <value>Öge listesi karması değişmiş olabilir.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="ManifestDigestMissing" xml:space="preserve">
-    <value>Öge listesi dosyası henüz hazırlanmamış.</value>
+    <value>Öge listesi karması henüz hazırlanmamış.</value>
     <comment>Manually overriden.</comment>
   </data>
   <data name="Names" xml:space="preserve">
