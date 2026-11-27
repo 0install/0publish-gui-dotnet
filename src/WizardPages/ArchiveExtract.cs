@@ -27,7 +27,7 @@ partial class NewFeedWizard
     {
         using (var handler = new DialogTaskHandler(this))
         {
-            if (FileUtils.IsBreakoutPath(listBoxExtract.Text))
+            if (Paths.IsBreakout(listBoxExtract.Text))
             {
                 e.Cancel = true;
                 Msg.Inform(this, Resources.ArchiveBreakoutPath, MsgSeverity.Error);
@@ -35,7 +35,7 @@ partial class NewFeedWizard
             }
 
             _archive.Extract = listBoxExtract.Text ?? "";
-            _feedBuilder.ImplementationDirectory = Paths.Combine(_feedBuilder.TemporaryDirectory!, _archive.Extract.ToNativePath()!);
+            _feedBuilder.ImplementationDirectory = Paths.Combine(_feedBuilder.TemporaryDirectory!, Paths.ToNative(_archive.Extract)!);
 
             try
             {
